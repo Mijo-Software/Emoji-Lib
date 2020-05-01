@@ -60,5 +60,10 @@ namespace EmojiLib
 		{
 			InitializeComponent();
 		}
+
+		private void EmojiInfoForm_Click(object sender, EventArgs e)
+		{
+			Close();
+		}
 	}
 }

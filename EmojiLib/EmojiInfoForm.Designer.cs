@@ -32,7 +32,6 @@
 			this.labelCodeDesc = new System.Windows.Forms.Label();
 			this.labelCode = new System.Windows.Forms.Label();
 			this.labelShortName = new System.Windows.Forms.Label();
-			this.pictureBoxApple = new System.Windows.Forms.PictureBox();
 			this.labelGoogleVersion = new System.Windows.Forms.Label();
 			this.labelAppleVersion = new System.Windows.Forms.Label();
 			this.labelFcebookVersion = new System.Windows.Forms.Label();
@@ -41,13 +40,14 @@
 			this.labelJoyPixelsVersion = new System.Windows.Forms.Label();
 			this.labelSamsungVersion = new System.Windows.Forms.Label();
 			this.labelDescription = new System.Windows.Forms.Label();
+			this.buttonClose = new System.Windows.Forms.Button();
+			this.pictureBoxApple = new System.Windows.Forms.PictureBox();
 			this.pictureBoxGoogle = new System.Windows.Forms.PictureBox();
 			this.pictureBoxFacebook = new System.Windows.Forms.PictureBox();
 			this.pictureBoxWindows = new System.Windows.Forms.PictureBox();
 			this.pictureBoxTwitter = new System.Windows.Forms.PictureBox();
 			this.pictureBoxJoyPixels = new System.Windows.Forms.PictureBox();
 			this.pictureBoxSamsung = new System.Windows.Forms.PictureBox();
-			this.buttonClose = new System.Windows.Forms.Button();
 			this.tableLayoutPanel.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBoxApple)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBoxGoogle)).BeginInit();
@@ -125,15 +125,6 @@
 			this.labelShortName.Size = new System.Drawing.Size(95, 20);
 			this.labelShortName.TabIndex = 0;
 			this.labelShortName.Text = "description:";
-			// 
-			// pictureBoxApple
-			// 
-			this.pictureBoxApple.Location = new System.Drawing.Point(104, 43);
-			this.pictureBoxApple.Name = "pictureBoxApple";
-			this.pictureBoxApple.Size = new System.Drawing.Size(32, 32);
-			this.pictureBoxApple.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-			this.pictureBoxApple.TabIndex = 9;
-			this.pictureBoxApple.TabStop = false;
 			// 
 			// labelGoogleVersion
 			// 
@@ -215,6 +206,25 @@
 			this.labelDescription.TabIndex = 8;
 			this.labelDescription.Text = "description";
 			// 
+			// buttonClose
+			// 
+			this.buttonClose.DialogResult = System.Windows.Forms.DialogResult.OK;
+			this.buttonClose.Location = new System.Drawing.Point(111, 334);
+			this.buttonClose.Name = "buttonClose";
+			this.buttonClose.Size = new System.Drawing.Size(75, 23);
+			this.buttonClose.TabIndex = 1;
+			this.buttonClose.Text = "&Close";
+			this.buttonClose.UseVisualStyleBackColor = true;
+			// 
+			// pictureBoxApple
+			// 
+			this.pictureBoxApple.Location = new System.Drawing.Point(104, 43);
+			this.pictureBoxApple.Name = "pictureBoxApple";
+			this.pictureBoxApple.Size = new System.Drawing.Size(32, 32);
+			this.pictureBoxApple.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.pictureBoxApple.TabIndex = 9;
+			this.pictureBoxApple.TabStop = false;
+			// 
 			// pictureBoxGoogle
 			// 
 			this.pictureBoxGoogle.Location = new System.Drawing.Point(104, 82);
@@ -268,16 +278,6 @@
 			this.pictureBoxSamsung.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
 			this.pictureBoxSamsung.TabIndex = 18;
 			this.pictureBoxSamsung.TabStop = false;
-			// 
-			// buttonClose
-			// 
-			this.buttonClose.DialogResult = System.Windows.Forms.DialogResult.OK;
-			this.buttonClose.Location = new System.Drawing.Point(111, 334);
-			this.buttonClose.Name = "buttonClose";
-			this.buttonClose.Size = new System.Drawing.Size(75, 23);
-			this.buttonClose.TabIndex = 1;
-			this.buttonClose.Text = "&Close";
-			this.buttonClose.UseVisualStyleBackColor = true;
 			// 
 			// EmojiInfoForm
 			// 

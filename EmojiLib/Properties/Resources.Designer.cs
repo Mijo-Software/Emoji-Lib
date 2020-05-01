@@ -60,6 +60,104 @@ namespace EmojiLib.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap BeamingFaceWithSmilingEyesApple {
+            get {
+                object obj = ResourceManager.GetObject("BeamingFaceWithSmilingEyesApple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap BeamingFaceWithSmilingEyesFacebook {
+            get {
+                object obj = ResourceManager.GetObject("BeamingFaceWithSmilingEyesFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap BeamingFaceWithSmilingEyesGoogle {
+            get {
+                object obj = ResourceManager.GetObject("BeamingFaceWithSmilingEyesGoogle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap BeamingFaceWithSmilingEyesJoyPixels {
+            get {
+                object obj = ResourceManager.GetObject("BeamingFaceWithSmilingEyesJoyPixels", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap BeamingFaceWithSmilingEyesSamsung {
+            get {
+                object obj = ResourceManager.GetObject("BeamingFaceWithSmilingEyesSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap BeamingFaceWithSmilingEyesTwitter {
+            get {
+                object obj = ResourceManager.GetObject("BeamingFaceWithSmilingEyesTwitter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap BeamingFaceWithSmilingEyesWindows {
+            get {
+                object obj = ResourceManager.GetObject("BeamingFaceWithSmilingEyesWindows", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap FaceWithTearsOfJoyApple {
+            get {
+                object obj = ResourceManager.GetObject("FaceWithTearsOfJoyApple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap FaceWithTearsOfJoyFacebook {
+            get {
+                object obj = ResourceManager.GetObject("FaceWithTearsOfJoyFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap FaceWithTearsOfJoyGoogle {
+            get {
+                object obj = ResourceManager.GetObject("FaceWithTearsOfJoyGoogle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap FaceWithTearsOfJoyJoyPixels {
+            get {
+                object obj = ResourceManager.GetObject("FaceWithTearsOfJoyJoyPixels", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap FaceWithTearsOfJoySamsung {
+            get {
+                object obj = ResourceManager.GetObject("FaceWithTearsOfJoySamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap FaceWithTearsOfJoyTwitter {
+            get {
+                object obj = ResourceManager.GetObject("FaceWithTearsOfJoyTwitter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap FaceWithTearsOfJoyWindows {
+            get {
+                object obj = ResourceManager.GetObject("FaceWithTearsOfJoyWindows", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap GrinningFaceApple {
             get {
                 object obj = ResourceManager.GetObject("GrinningFaceApple", resourceCulture);
@@ -203,6 +301,405 @@ namespace EmojiLib.Properties {
         internal static System.Drawing.Bitmap GrinningFaceWithSmilingEyesWindows {
             get {
                 object obj = ResourceManager.GetObject("GrinningFaceWithSmilingEyesWindows", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GrinningFaceWithSweatApple {
+            get {
+                object obj = ResourceManager.GetObject("GrinningFaceWithSweatApple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GrinningFaceWithSweatFacebook {
+            get {
+                object obj = ResourceManager.GetObject("GrinningFaceWithSweatFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GrinningFaceWithSweatGoogle {
+            get {
+                object obj = ResourceManager.GetObject("GrinningFaceWithSweatGoogle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GrinningFaceWithSweatJoyPixels {
+            get {
+                object obj = ResourceManager.GetObject("GrinningFaceWithSweatJoyPixels", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GrinningFaceWithSweatSamsung {
+            get {
+                object obj = ResourceManager.GetObject("GrinningFaceWithSweatSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GrinningFaceWithSweatTwitter {
+            get {
+                object obj = ResourceManager.GetObject("GrinningFaceWithSweatTwitter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GrinningFaceWithSweatWindows {
+            get {
+                object obj = ResourceManager.GetObject("GrinningFaceWithSweatWindows", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GrinningSquintingFaceApple {
+            get {
+                object obj = ResourceManager.GetObject("GrinningSquintingFaceApple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GrinningSquintingFaceFacebook {
+            get {
+                object obj = ResourceManager.GetObject("GrinningSquintingFaceFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GrinningSquintingFaceGoogle {
+            get {
+                object obj = ResourceManager.GetObject("GrinningSquintingFaceGoogle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GrinningSquintingFaceJoyPixels {
+            get {
+                object obj = ResourceManager.GetObject("GrinningSquintingFaceJoyPixels", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GrinningSquintingFaceSamsung {
+            get {
+                object obj = ResourceManager.GetObject("GrinningSquintingFaceSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GrinningSquintingFaceTwitter {
+            get {
+                object obj = ResourceManager.GetObject("GrinningSquintingFaceTwitter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GrinningSquintingFaceWindows {
+            get {
+                object obj = ResourceManager.GetObject("GrinningSquintingFaceWindows", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap RollingOnTheFloorLaughingApple {
+            get {
+                object obj = ResourceManager.GetObject("RollingOnTheFloorLaughingApple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap RollingOnTheFloorLaughingFacebook {
+            get {
+                object obj = ResourceManager.GetObject("RollingOnTheFloorLaughingFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap RollingOnTheFloorLaughingGoogle {
+            get {
+                object obj = ResourceManager.GetObject("RollingOnTheFloorLaughingGoogle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap RollingOnTheFloorLaughingJoyPixels {
+            get {
+                object obj = ResourceManager.GetObject("RollingOnTheFloorLaughingJoyPixels", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap RollingOnTheFloorLaughingSamsung {
+            get {
+                object obj = ResourceManager.GetObject("RollingOnTheFloorLaughingSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap RollingOnTheFloorLaughingTwitter {
+            get {
+                object obj = ResourceManager.GetObject("RollingOnTheFloorLaughingTwitter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap RollingOnTheFloorLaughingWindows {
+            get {
+                object obj = ResourceManager.GetObject("RollingOnTheFloorLaughingWindows", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Samsung {
+            get {
+                object obj = ResourceManager.GetObject("Samsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SlightlySmilingFaceApple {
+            get {
+                object obj = ResourceManager.GetObject("SlightlySmilingFaceApple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SlightlySmilingFaceFacebook {
+            get {
+                object obj = ResourceManager.GetObject("SlightlySmilingFaceFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SlightlySmilingFaceGoogle {
+            get {
+                object obj = ResourceManager.GetObject("SlightlySmilingFaceGoogle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SlightlySmilingFaceJoyPixels {
+            get {
+                object obj = ResourceManager.GetObject("SlightlySmilingFaceJoyPixels", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SlightlySmilingFaceSamsung {
+            get {
+                object obj = ResourceManager.GetObject("SlightlySmilingFaceSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SlightlySmilingFaceTwitter {
+            get {
+                object obj = ResourceManager.GetObject("SlightlySmilingFaceTwitter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SlightlySmilingFaceWindows {
+            get {
+                object obj = ResourceManager.GetObject("SlightlySmilingFaceWindows", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SmilingFaceWithHaloApple {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithHaloApple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SmilingFaceWithHaloFacebook {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithHaloFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SmilingFaceWithHaloGoogle {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithHaloGoogle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SmilingFaceWithHaloJoyPixels {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithHaloJoyPixels", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SmilingFaceWithHaloSamsung {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithHaloSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SmilingFaceWithHaloTwitter {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithHaloTwitter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SmilingFaceWithHaloWindows {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithHaloWindows", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SmilingFaceWithSmilingEyesApple {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithSmilingEyesApple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SmilingFaceWithSmilingEyesFacebook {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithSmilingEyesFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SmilingFaceWithSmilingEyesGoogle {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithSmilingEyesGoogle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SmilingFaceWithSmilingEyesJoyPixels {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithSmilingEyesJoyPixels", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SmilingFaceWithSmilingEyesSamsung {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithSmilingEyesSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SmilingFaceWithSmilingEyesTwitter {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithSmilingEyesTwitter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SmilingFaceWithSmilingEyesWindows {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithSmilingEyesWindows", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap UpsideDownFaceApple {
+            get {
+                object obj = ResourceManager.GetObject("UpsideDownFaceApple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap UpsideDownFaceFacebook {
+            get {
+                object obj = ResourceManager.GetObject("UpsideDownFaceFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap UpsideDownFaceGoogle {
+            get {
+                object obj = ResourceManager.GetObject("UpsideDownFaceGoogle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap UpsideDownFaceJoyPixels {
+            get {
+                object obj = ResourceManager.GetObject("UpsideDownFaceJoyPixels", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap UpsideDownFaceSamsung {
+            get {
+                object obj = ResourceManager.GetObject("UpsideDownFaceSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap UpsideDownFaceTwitter {
+            get {
+                object obj = ResourceManager.GetObject("UpsideDownFaceTwitter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap UpsideDownFaceWindows {
+            get {
+                object obj = ResourceManager.GetObject("UpsideDownFaceWindows", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap WinkingFaceApple {
+            get {
+                object obj = ResourceManager.GetObject("WinkingFaceApple", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap WinkingFaceFacebook {
+            get {
+                object obj = ResourceManager.GetObject("WinkingFaceFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap WinkingFaceGoogle {
+            get {
+                object obj = ResourceManager.GetObject("WinkingFaceGoogle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap WinkingFaceJoyPixels {
+            get {
+                object obj = ResourceManager.GetObject("WinkingFaceJoyPixels", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap WinkingFaceSamsung {
+            get {
+                object obj = ResourceManager.GetObject("WinkingFaceSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap WinkingFaceTwitter {
+            get {
+                object obj = ResourceManager.GetObject("WinkingFaceTwitter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap WinkingFaceWindows {
+            get {
+                object obj = ResourceManager.GetObject("WinkingFaceWindows", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
