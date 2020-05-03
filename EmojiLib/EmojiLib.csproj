@@ -77,6 +77,16 @@
     <Compile Include="EmojiInfoForm.Designer.cs">
       <DependentUpon>EmojiInfoForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FaceAffection.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FaceAffection.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FaceSmiling.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FaceSmiling.resx</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +97,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="EmojiInfoForm.resx">
       <DependentUpon>EmojiInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaceAffection.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FaceAffection.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaceSmiling.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FaceSmiling.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -113,6 +132,88 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="emoji-lib.ico" />
+    <None Include="Resources\StarStruckTwitter.png" />
+    <None Include="Resources\StarStruckSamsung.png" />
+    <None Include="Resources\StarStruckJoyPixels.png" />
+    <None Include="Resources\StarStruckGoogle.png" />
+    <None Include="Resources\StarStruckFacebook.png" />
+    <None Include="Resources\StarStruckApple.png" />
+    <None Include="Resources\SmilingFaceWithTearJoyPixels.png" />
+    <None Include="Resources\SmilingFaceWithTearGoogle.png" />
+    <None Include="Resources\SmilingFaceWithHeartsWindows.png" />
+    <None Include="Resources\SmilingFaceWithHeartsTwitter.png" />
+    <None Include="Resources\SmilingFaceWithHeartsSamsung.png" />
+    <None Include="Resources\SmilingFaceWithHeartsJoyPixels.png" />
+    <None Include="Resources\SmilingFaceWithHeartsGoogle.png" />
+    <None Include="Resources\SmilingFaceWithHeartsFacebook.png" />
+    <None Include="Resources\SmilingFaceWithHeartsApple.png" />
+    <None Include="Resources\SmilingFaceWithHeartEyesWindows.png" />
+    <None Include="Resources\SmilingFaceWithHeartEyesTwitter.png" />
+    <None Include="Resources\SmilingFaceWithHeartEyesSamsung.png" />
+    <None Include="Resources\SmilingFaceWithHeartEyesJoyPixels.png" />
+    <None Include="Resources\SmilingFaceWithHeartEyesGoogle.png" />
+    <None Include="Resources\SmilingFaceWithHeartEyesFacebook.png" />
+    <None Include="Resources\SmilingFaceWithHeartEyesApple.png" />
+    <None Include="Resources\SmilingFaceWindows.png" />
+    <None Include="Resources\SmilingFaceTwitter.png" />
+    <None Include="Resources\SmilingFaceSamsung.png" />
+    <None Include="Resources\SmilingFaceJoyPixels.png" />
+    <None Include="Resources\SmilingFaceGoogle.png" />
+    <None Include="Resources\SmilingFaceFacebook.png" />
+    <None Include="Resources\SmilingFaceApple.png" />
+    <None Include="Resources\KissingFaceWithSmilingEyesWindows.png" />
+    <None Include="Resources\KissingFaceWithSmilingEyesTwitter.png" />
+    <None Include="Resources\KissingFaceWithSmilingEyesSamsung.png" />
+    <None Include="Resources\KissingFaceWithSmilingEyesJoyPixels.png" />
+    <None Include="Resources\KissingFaceWithSmilingEyesGoogle.png" />
+    <None Include="Resources\KissingFaceWithSmilingEyesFacebook.png" />
+    <None Include="Resources\KissingFaceWithSmilingEyesApple.png" />
+    <None Include="Resources\KissingFaceWithClosedEyesWindows.png" />
+    <None Include="Resources\KissingFaceWithClosedEyesTwitter.png" />
+    <None Include="Resources\KissingFaceWithClosedEyesSamsung.png" />
+    <None Include="Resources\KissingFaceWithClosedEyesJoyPixels.png" />
+    <None Include="Resources\KissingFaceWithClosedEyesGoogle.png" />
+    <None Include="Resources\KissingFaceWithClosedEyesFacebook.png" />
+    <None Include="Resources\KissingFaceWithClosedEyesApple.png" />
+    <None Include="Resources\KissingFaceWindows.png" />
+    <None Include="Resources\KissingFaceTwitter.png" />
+    <None Include="Resources\KissingFaceSamsung.png" />
+    <None Include="Resources\KissingFaceJoyPixels.png" />
+    <None Include="Resources\KissingFaceGoogle.png" />
+    <None Include="Resources\KissingFaceFacebook.png" />
+    <None Include="Resources\KissingFaceApple.png" />
+    <None Include="Resources\StarStruckWindows.png" />
+    <None Include="Resources\FaceBlowingAKissTwitter.png" />
+    <None Include="Resources\FaceBlowingAKissSamsung.png" />
+    <None Include="Resources\FaceBlowingAKissJoyPixels.png" />
+    <None Include="Resources\FaceBlowingAKissGoogle.png" />
+    <None Include="Resources\FaceBlowingAKissFacebook.png" />
+    <None Include="Resources\FaceBlowingAKissApple.png" />
+    <None Include="Resources\FaceBlowingAKissWindows.png" />
+    <None Include="Resources\480px-No_image_available.svg.png" />
+    <None Include="Resources\logo_640.png" />
+    <None Include="Resources\GrinningFaceWithSmilingEyesWindows.png" />
+    <None Include="Resources\GrinningFaceWithSmilingEyesTwitter.png" />
+    <None Include="Resources\GrinningFaceWithSmilingEyesSamsung.png" />
+    <None Include="Resources\GrinningFaceWithSmilingEyesJoyPixels.png" />
+    <None Include="Resources\GrinningFaceWithSmilingEyesGoogle.png" />
+    <None Include="Resources\GrinningFaceWithSmilingEyesFacebook.png" />
+    <None Include="Resources\GrinningFaceWithSmilingEyesApple.png" />
+    <None Include="Resources\GrinningFaceWithBigEyesWindows.png" />
+    <None Include="Resources\GrinningFaceWithBigEyesTwitter.png" />
+    <None Include="Resources\GrinningFaceWithBigEyesSamsung.png" />
+    <None Include="Resources\GrinningFaceWithBigEyesJoyPixels.png" />
+    <None Include="Resources\GrinningFaceWithBigEyesGoogle.png" />
+    <None Include="Resources\GrinningFaceWithBigEyesFacebook.png" />
+    <None Include="Resources\GrinningFaceWithBigEyesApple.png" />
+    <None Include="Resources\GrinningFaceWindows.png" />
+    <None Include="Resources\GrinningFaceTwitter.png" />
+    <None Include="Resources\GrinningFaceSamsung.png" />
+    <None Include="Resources\GrinningFaceJoyPixels.png" />
+    <None Include="Resources\GrinningFaceGoogle.png" />
+    <None Include="Resources\GrinningFaceFacebook.png" />
+    <None Include="Resources\GrinningFaceApple.png" />
+    <None Include="Resources\GrinningFace.png" />
     <None Include="Resources\SlightlySmilingFaceSamsung.png" />
     <None Include="Resources\WinkingFaceTwitter.png" />
     <None Include="Resources\WinkingFaceSamsung.png" />
@@ -147,7 +248,6 @@
     <None Include="Resources\SlightlySmilingFaceGoogle.png" />
     <None Include="Resources\SlightlySmilingFaceFacebook.png" />
     <None Include="Resources\SlightlySmilingFaceApple.png" />
-    <None Include="Resources\Samsung.png" />
     <None Include="Resources\RollingOnTheFloorLaughingWindows.png" />
     <None Include="Resources\RollingOnTheFloorLaughingTwitter.png" />
     <None Include="Resources\RollingOnTheFloorLaughingSamsung.png" />
@@ -208,6 +308,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

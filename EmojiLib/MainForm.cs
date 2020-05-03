@@ -138,11 +138,13 @@ namespace EmojiLib
 			Close();
 		}
 
-		private void ShowEmojiInfo(string code, string shortName, Image appleVersion, Image googleVersion, Image facebookVersion, Image windowsVersion, Image twitterVersion, Image joypixelsVersion, Image samsungVersion)
+		private void ShowEmojiInfo(string code, string shortName, string group, string subGroup, object tag, Image appleVersion, Image googleVersion, Image facebookVersion, Image windowsVersion, Image twitterVersion, Image joypixelsVersion, Image samsungVersion)
 		{
 			EmojiInfoForm emojiInfo = new EmojiInfoForm();
 			emojiInfo.SetCode(code);
 			emojiInfo.SetShortName(shortName);
+			emojiInfo.SetGroup(group);
+			emojiInfo.SetSubGroup(subGroup);
 			emojiInfo.SetAppleImageVersion(appleVersion);
 			emojiInfo.SetGoogleImageVersion(googleVersion);
 			emojiInfo.SetFacebookImageVersion(facebookVersion);
@@ -155,170 +157,331 @@ namespace EmojiLib
 
 		private void ButtonGrinningFace_Click(object sender, EventArgs e)
 		{
-			ShowEmojiInfo("U+1F600", "grinning face",
-				Properties.Resources.GrinningFaceApple,
-				Properties.Resources.GrinningFaceGoogle,
-				Properties.Resources.GrinningFaceFacebook,
-				Properties.Resources.GrinningFaceWindows,
-				Properties.Resources.GrinningFaceTwitter,
-				Properties.Resources.GrinningFaceJoyPixels,
-				Properties.Resources.GrinningFaceSamsung
+			ShowEmojiInfo("U+1F600", buttonGrinningFace.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceSmiling,
+				buttonGrinningFace.Tag,
+				FaceSmiling.GrinningFaceApple,
+				FaceSmiling.GrinningFaceGoogle,
+				FaceSmiling.GrinningFaceFacebook,
+				FaceSmiling.GrinningFaceWindows,
+				FaceSmiling.GrinningFaceTwitter,
+				FaceSmiling.GrinningFaceJoyPixels,
+				FaceSmiling.GrinningFaceSamsung
 				);
 		}
 
 		private void ButtonGrinningFaceWithBigEyes_Click(object sender, EventArgs e)
 		{
-			ShowEmojiInfo("U+1F603", "grinning face with big eyes",
-				Properties.Resources.GrinningFaceWithBigEyesApple,
-				Properties.Resources.GrinningFaceWithBigEyesGoogle,
-				Properties.Resources.GrinningFaceWithBigEyesFacebook,
-				Properties.Resources.GrinningFaceWithBigEyesWindows,
-				Properties.Resources.GrinningFaceWithBigEyesTwitter,
-				Properties.Resources.GrinningFaceWithBigEyesJoyPixels,
-				Properties.Resources.GrinningFaceWithBigEyesSamsung
+			ShowEmojiInfo("U+1F603", buttonGrinningFaceWithBigEyes.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceSmiling,
+				buttonGrinningFaceWithBigEyes.Tag,
+				FaceSmiling.GrinningFaceWithBigEyesApple,
+				FaceSmiling.GrinningFaceWithBigEyesGoogle,
+				FaceSmiling.GrinningFaceWithBigEyesFacebook,
+				FaceSmiling.GrinningFaceWithBigEyesWindows,
+				FaceSmiling.GrinningFaceWithBigEyesTwitter,
+				FaceSmiling.GrinningFaceWithBigEyesJoyPixels,
+				FaceSmiling.GrinningFaceWithBigEyesSamsung
 				);
 		}
 
 		private void ButtonGrinningFaceWithSmilingEyes_Click(object sender, EventArgs e)
 		{
-			ShowEmojiInfo("U+1F604", "grinning face with smiling eyes",
-				Properties.Resources.GrinningFaceWithSmilingEyesApple,
-				Properties.Resources.GrinningFaceWithSmilingEyesGoogle,
-				Properties.Resources.GrinningFaceWithSmilingEyesFacebook,
-				Properties.Resources.GrinningFaceWithSmilingEyesWindows,
-				Properties.Resources.GrinningFaceWithSmilingEyesTwitter,
-				Properties.Resources.GrinningFaceWithSmilingEyesJoyPixels,
-				Properties.Resources.GrinningFaceWithSmilingEyesSamsung
+			ShowEmojiInfo("U+1F604", buttonGrinningFaceWithSmilingEyes.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceSmiling,
+				buttonGrinningFaceWithSmilingEyes.Tag,
+				FaceSmiling.GrinningFaceWithSmilingEyesApple,
+				FaceSmiling.GrinningFaceWithSmilingEyesGoogle,
+				FaceSmiling.GrinningFaceWithSmilingEyesFacebook,
+				FaceSmiling.GrinningFaceWithSmilingEyesWindows,
+				FaceSmiling.GrinningFaceWithSmilingEyesTwitter,
+				FaceSmiling.GrinningFaceWithSmilingEyesJoyPixels,
+				FaceSmiling.GrinningFaceWithSmilingEyesSamsung
 				);
 		}
 
 		private void ButtonBeamingFaceWithSmilingEyes_Click(object sender, EventArgs e)
 		{
-			ShowEmojiInfo("U+1F601", "beaming face with smiling eyes",
-				Properties.Resources.BeamingFaceWithSmilingEyesApple,
-				Properties.Resources.BeamingFaceWithSmilingEyesGoogle,
-				Properties.Resources.BeamingFaceWithSmilingEyesFacebook,
-				Properties.Resources.BeamingFaceWithSmilingEyesWindows,
-				Properties.Resources.BeamingFaceWithSmilingEyesTwitter,
-				Properties.Resources.BeamingFaceWithSmilingEyesJoyPixels,
-				Properties.Resources.BeamingFaceWithSmilingEyesSamsung
+			ShowEmojiInfo("U+1F601", buttonBeamingFaceWithSmilingEyes.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceSmiling,
+				buttonBeamingFaceWithSmilingEyes.Tag,
+				FaceSmiling.BeamingFaceWithSmilingEyesApple,
+				FaceSmiling.BeamingFaceWithSmilingEyesGoogle,
+				FaceSmiling.BeamingFaceWithSmilingEyesFacebook,
+				FaceSmiling.BeamingFaceWithSmilingEyesWindows,
+				FaceSmiling.BeamingFaceWithSmilingEyesTwitter,
+				FaceSmiling.BeamingFaceWithSmilingEyesJoyPixels,
+				FaceSmiling.BeamingFaceWithSmilingEyesSamsung
 				);
 		}
 
 		private void ButtonGrinningSquintingFace_Click(object sender, EventArgs e)
 		{
-			ShowEmojiInfo("U+1F606", "grinning squinting face",
-				Properties.Resources.GrinningSquintingFaceApple,
-				Properties.Resources.GrinningSquintingFaceGoogle,
-				Properties.Resources.GrinningSquintingFaceFacebook,
-				Properties.Resources.GrinningSquintingFaceWindows,
-				Properties.Resources.GrinningSquintingFaceTwitter,
-				Properties.Resources.GrinningSquintingFaceJoyPixels,
-				Properties.Resources.GrinningSquintingFaceSamsung
+			ShowEmojiInfo("U+1F606", buttonGrinningSquintingFace.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceSmiling,
+				buttonGrinningSquintingFace.Tag,
+				FaceSmiling.GrinningSquintingFaceApple,
+				FaceSmiling.GrinningSquintingFaceGoogle,
+				FaceSmiling.GrinningSquintingFaceFacebook,
+				FaceSmiling.GrinningSquintingFaceWindows,
+				FaceSmiling.GrinningSquintingFaceTwitter,
+				FaceSmiling.GrinningSquintingFaceJoyPixels,
+				FaceSmiling.GrinningSquintingFaceSamsung
 				);
 		}
 
 		private void ButtonGrinningFaceWithSweat_Click(object sender, EventArgs e)
 		{
-			ShowEmojiInfo("U+1F605", "grinning face with sweat",
-				Properties.Resources.GrinningFaceWithSweatApple,
-				Properties.Resources.GrinningFaceWithSweatGoogle,
-				Properties.Resources.GrinningFaceWithSweatFacebook,
-				Properties.Resources.GrinningFaceWithSweatWindows,
-				Properties.Resources.GrinningFaceWithSweatTwitter,
-				Properties.Resources.GrinningFaceWithSweatJoyPixels,
-				Properties.Resources.GrinningFaceWithSweatSamsung
+			ShowEmojiInfo("U+1F605", buttonGrinningFaceWithSweat.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceSmiling,
+				buttonGrinningFaceWithSweat.Tag,
+				FaceSmiling.GrinningFaceWithSweatApple,
+				FaceSmiling.GrinningFaceWithSweatGoogle,
+				FaceSmiling.GrinningFaceWithSweatFacebook,
+				FaceSmiling.GrinningFaceWithSweatWindows,
+				FaceSmiling.GrinningFaceWithSweatTwitter,
+				FaceSmiling.GrinningFaceWithSweatJoyPixels,
+				FaceSmiling.GrinningFaceWithSweatSamsung
 				);
 		}
 
 		private void ButtonRollingOnTheFloorLaughing_Click(object sender, EventArgs e)
 		{
-			ShowEmojiInfo("U+1F923", "rolling on the floor laughing",
-				Properties.Resources.RollingOnTheFloorLaughingApple,
-				Properties.Resources.RollingOnTheFloorLaughingGoogle,
-				Properties.Resources.RollingOnTheFloorLaughingFacebook,
-				Properties.Resources.RollingOnTheFloorLaughingWindows,
-				Properties.Resources.RollingOnTheFloorLaughingTwitter,
-				Properties.Resources.RollingOnTheFloorLaughingJoyPixels,
-				Properties.Resources.RollingOnTheFloorLaughingSamsung
+			ShowEmojiInfo("U+1F923", buttonRollingOnTheFloorLaughing.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceSmiling,
+				buttonRollingOnTheFloorLaughing.Tag,
+				FaceSmiling.RollingOnTheFloorLaughingApple,
+				FaceSmiling.RollingOnTheFloorLaughingGoogle,
+				FaceSmiling.RollingOnTheFloorLaughingFacebook,
+				FaceSmiling.RollingOnTheFloorLaughingWindows,
+				FaceSmiling.RollingOnTheFloorLaughingTwitter,
+				FaceSmiling.RollingOnTheFloorLaughingJoyPixels,
+				FaceSmiling.RollingOnTheFloorLaughingSamsung
 				);
 		}
 
 		private void ButtonFaceWithTearsOfJoy_Click(object sender, EventArgs e)
 		{
-			ShowEmojiInfo("U+1F602", "face with tears of joy",
-				Properties.Resources.FaceWithTearsOfJoyApple,
-				Properties.Resources.FaceWithTearsOfJoyGoogle,
-				Properties.Resources.FaceWithTearsOfJoyFacebook,
-				Properties.Resources.FaceWithTearsOfJoyWindows,
-				Properties.Resources.FaceWithTearsOfJoyTwitter,
-				Properties.Resources.FaceWithTearsOfJoyJoyPixels,
-				Properties.Resources.FaceWithTearsOfJoySamsung
+			ShowEmojiInfo("U+1F602", buttonFaceWithTearsOfJoy.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceSmiling,
+				buttonFaceWithTearsOfJoy.Tag,
+				FaceSmiling.FaceWithTearsOfJoyApple,
+				FaceSmiling.FaceWithTearsOfJoyGoogle,
+				FaceSmiling.FaceWithTearsOfJoyFacebook,
+				FaceSmiling.FaceWithTearsOfJoyWindows,
+				FaceSmiling.FaceWithTearsOfJoyTwitter,
+				FaceSmiling.FaceWithTearsOfJoyJoyPixels,
+				FaceSmiling.FaceWithTearsOfJoySamsung
 				);
 		}
 
 		private void ButtonSlightlySmilingFace_Click(object sender, EventArgs e)
 		{
-			ShowEmojiInfo("U+1F642", "slightly smiling face",
-				Properties.Resources.SlightlySmilingFaceApple,
-				Properties.Resources.SlightlySmilingFaceGoogle,
-				Properties.Resources.SlightlySmilingFaceFacebook,
-				Properties.Resources.SlightlySmilingFaceWindows,
-				Properties.Resources.SlightlySmilingFaceTwitter,
-				Properties.Resources.SlightlySmilingFaceJoyPixels,
-				Properties.Resources.SlightlySmilingFaceSamsung
+			ShowEmojiInfo("U+1F642", buttonSlightlySmilingFace.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceSmiling,
+				buttonSlightlySmilingFace.Tag,
+				FaceSmiling.SlightlySmilingFaceApple,
+				FaceSmiling.SlightlySmilingFaceGoogle,
+				FaceSmiling.SlightlySmilingFaceFacebook,
+				FaceSmiling.SlightlySmilingFaceWindows,
+				FaceSmiling.SlightlySmilingFaceTwitter,
+				FaceSmiling.SlightlySmilingFaceJoyPixels,
+				FaceSmiling.SlightlySmilingFaceSamsung
 				);
 		}
 
 		private void ButtonUpsideDownFace_Click(object sender, EventArgs e)
 		{
-			ShowEmojiInfo("U+1F643", "upside-down face",
-				Properties.Resources.UpsideDownFaceApple,
-				Properties.Resources.UpsideDownFaceGoogle,
-				Properties.Resources.UpsideDownFaceFacebook,
-				Properties.Resources.UpsideDownFaceWindows,
-				Properties.Resources.UpsideDownFaceTwitter,
-				Properties.Resources.UpsideDownFaceJoyPixels,
-				Properties.Resources.UpsideDownFaceSamsung
+			ShowEmojiInfo("U+1F643", buttonUpsideDownFace.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceSmiling,
+				buttonUpsideDownFace.Tag,
+				FaceSmiling.UpsideDownFaceApple,
+				FaceSmiling.UpsideDownFaceGoogle,
+				FaceSmiling.UpsideDownFaceFacebook,
+				FaceSmiling.UpsideDownFaceWindows,
+				FaceSmiling.UpsideDownFaceTwitter,
+				FaceSmiling.UpsideDownFaceJoyPixels,
+				FaceSmiling.UpsideDownFaceSamsung
 				);
 		}
 
 		private void ButtonWinkingFace_Click(object sender, EventArgs e)
 		{
-			ShowEmojiInfo("U+1F609", "winking face",
-				Properties.Resources.WinkingFaceApple,
-				Properties.Resources.WinkingFaceGoogle,
-				Properties.Resources.WinkingFaceFacebook,
-				Properties.Resources.WinkingFaceWindows,
-				Properties.Resources.WinkingFaceTwitter,
-				Properties.Resources.WinkingFaceJoyPixels,
-				Properties.Resources.WinkingFaceSamsung
+			ShowEmojiInfo("U+1F609", buttonWinkingFace.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceSmiling,
+				buttonWinkingFace.Tag,
+				FaceSmiling.WinkingFaceApple,
+				FaceSmiling.WinkingFaceGoogle,
+				FaceSmiling.WinkingFaceFacebook,
+				FaceSmiling.WinkingFaceWindows,
+				FaceSmiling.WinkingFaceTwitter,
+				FaceSmiling.WinkingFaceJoyPixels,
+				FaceSmiling.WinkingFaceSamsung
 				);
 		}
 
 		private void ButtonSmilingFaceWithSmilingEyes_Click(object sender, EventArgs e)
 		{
-			ShowEmojiInfo("U+1F60A", "smiling face with smiling eyes",
-				Properties.Resources.SmilingFaceWithSmilingEyesApple,
-				Properties.Resources.SmilingFaceWithSmilingEyesGoogle,
-				Properties.Resources.SmilingFaceWithSmilingEyesFacebook,
-				Properties.Resources.SmilingFaceWithSmilingEyesWindows,
-				Properties.Resources.SmilingFaceWithSmilingEyesTwitter,
-				Properties.Resources.SmilingFaceWithSmilingEyesJoyPixels,
-				Properties.Resources.SmilingFaceWithSmilingEyesSamsung
+			ShowEmojiInfo("U+1F60A", buttonSmilingFaceWithSmilingEyes.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceSmiling,
+				buttonSmilingFaceWithSmilingEyes.Tag,
+				FaceSmiling.SmilingFaceWithSmilingEyesApple,
+				FaceSmiling.SmilingFaceWithSmilingEyesGoogle,
+				FaceSmiling.SmilingFaceWithSmilingEyesFacebook,
+				FaceSmiling.SmilingFaceWithSmilingEyesWindows,
+				FaceSmiling.SmilingFaceWithSmilingEyesTwitter,
+				FaceSmiling.SmilingFaceWithSmilingEyesJoyPixels,
+				FaceSmiling.SmilingFaceWithSmilingEyesSamsung
 				);
 		}
 
 		private void ButtonSmilingFaceWithHalo_Click(object sender, EventArgs e)
 		{
-			ShowEmojiInfo("U+1F607", "smiling face with halo",
-				Properties.Resources.SmilingFaceWithHaloApple,
-				Properties.Resources.SmilingFaceWithHaloGoogle,
-				Properties.Resources.SmilingFaceWithHaloFacebook,
-				Properties.Resources.SmilingFaceWithHaloWindows,
-				Properties.Resources.SmilingFaceWithHaloTwitter,
-				Properties.Resources.SmilingFaceWithHaloJoyPixels,
-				Properties.Resources.SmilingFaceWithHaloSamsung
+			ShowEmojiInfo("U+1F607", buttonSmilingFaceWithHalo.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceSmiling,
+				buttonSmilingFaceWithHalo.Tag,
+				FaceSmiling.SmilingFaceWithHaloApple,
+				FaceSmiling.SmilingFaceWithHaloGoogle,
+				FaceSmiling.SmilingFaceWithHaloFacebook,
+				FaceSmiling.SmilingFaceWithHaloWindows,
+				FaceSmiling.SmilingFaceWithHaloTwitter,
+				FaceSmiling.SmilingFaceWithHaloJoyPixels,
+				FaceSmiling.SmilingFaceWithHaloSamsung
+				);
+		}
+
+		private void ButtonSmilingFaceWithHearts_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F970", buttonSmilingFaceWithHearts.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceAffection,
+				buttonSmilingFaceWithHearts.Tag,
+				FaceAffection.SmilingFaceWithHeartsApple,
+				FaceAffection.SmilingFaceWithHeartsGoogle,
+				FaceAffection.SmilingFaceWithHeartsFacebook,
+				FaceAffection.SmilingFaceWithHeartsWindows,
+				FaceAffection.SmilingFaceWithHeartsTwitter,
+				FaceAffection.SmilingFaceWithHeartsJoyPixels,
+				FaceAffection.SmilingFaceWithHeartsSamsung
+				);
+		}
+
+		private void ButtonSmilingFaceWithHeartEyes_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F60D", buttonSmilingFaceWithHeartEyes.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceAffection,
+				buttonSmilingFaceWithHeartEyes.Tag,
+				FaceAffection.SmilingFaceWithHeartEyesApple,
+				FaceAffection.SmilingFaceWithHeartEyesGoogle,
+				FaceAffection.SmilingFaceWithHeartEyesFacebook,
+				FaceAffection.SmilingFaceWithHeartEyesWindows,
+				FaceAffection.SmilingFaceWithHeartEyesTwitter,
+				FaceAffection.SmilingFaceWithHeartEyesJoyPixels,
+				FaceAffection.SmilingFaceWithHeartEyesSamsung
+				);
+		}
+
+		private void ButtonStarStruck_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F929", buttonStarStruck.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceAffection,
+				buttonStarStruck.Tag,
+				FaceAffection.StarStruckApple,
+				FaceAffection.StarStruckGoogle,
+				FaceAffection.StarStruckFacebook,
+				FaceAffection.StarStruckWindows,
+				FaceAffection.StarStruckTwitter,
+				FaceAffection.StarStruckJoyPixels,
+				FaceAffection.StarStruckSamsung
+				);
+		}
+
+		private void ButtonFaceBlowingAKiss_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F618", buttonFaceBlowingAKiss.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceAffection,
+				buttonFaceBlowingAKiss.Tag,
+				FaceAffection.FaceBlowingAKissApple,
+				FaceAffection.FaceBlowingAKissGoogle,
+				FaceAffection.FaceBlowingAKissFacebook,
+				FaceAffection.FaceBlowingAKissWindows,
+				FaceAffection.FaceBlowingAKissTwitter,
+				FaceAffection.FaceBlowingAKissJoyPixels,
+				FaceAffection.FaceBlowingAKissSamsung
+				);
+		}
+
+		private void ButtonKissingFace_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F617", buttonKissingFace.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceAffection,
+				buttonKissingFace.Tag,
+				FaceAffection.KissingFaceApple,
+				FaceAffection.KissingFaceGoogle,
+				FaceAffection.KissingFaceFacebook,
+				FaceAffection.KissingFaceWindows,
+				FaceAffection.KissingFaceTwitter,
+				FaceAffection.KissingFaceJoyPixels,
+				FaceAffection.KissingFaceSamsung
+				);
+		}
+
+		private void ButtonSmilingFace_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+263A", buttonSmilingFace.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceAffection,
+				buttonSmilingFace.Tag,
+				FaceAffection.SmilingFaceApple,
+				FaceAffection.SmilingFaceGoogle,
+				FaceAffection.SmilingFaceFacebook,
+				FaceAffection.SmilingFaceWindows,
+				FaceAffection.SmilingFaceTwitter,
+				FaceAffection.SmilingFaceJoyPixels,
+				FaceAffection.SmilingFaceSamsung
+				);
+		}
+
+		private void ButtonKissingFaceWithClosedEyes_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F61A", buttonKissingFaceWithClosedEyes.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceAffection,
+				buttonKissingFaceWithClosedEyes.Tag,
+				FaceAffection.KissingFaceWithClosedEyesApple,
+				FaceAffection.KissingFaceWithClosedEyesGoogle,
+				FaceAffection.KissingFaceWithClosedEyesFacebook,
+				FaceAffection.KissingFaceWithClosedEyesWindows,
+				FaceAffection.KissingFaceWithClosedEyesTwitter,
+				FaceAffection.KissingFaceWithClosedEyesJoyPixels,
+				FaceAffection.KissingFaceWithClosedEyesSamsung
+				);
+		}
+
+		private void ButtonKissingFaceWithSmilingEyes_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F619", buttonKissingFaceWithSmilingEyes.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceAffection,
+				buttonKissingFaceWithSmilingEyes.Tag,
+				FaceAffection.KissingFaceWithSmilingEyesApple,
+				FaceAffection.KissingFaceWithSmilingEyesGoogle,
+				FaceAffection.KissingFaceWithSmilingEyesFacebook,
+				FaceAffection.KissingFaceWithSmilingEyesWindows,
+				FaceAffection.KissingFaceWithSmilingEyesTwitter,
+				FaceAffection.KissingFaceWithSmilingEyesJoyPixels,
+				FaceAffection.KissingFaceWithSmilingEyesSamsung
+				);
+		}
+
+		private void ButtonSmilingFaceWithTear_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F972", buttonSmilingFaceWithTear.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceAffection,
+				buttonSmilingFaceWithTear.Tag,
+				null,
+				FaceAffection.SmilingFaceWithTearGoogle,
+				null,
+				null,
+				null,
+				FaceAffection.SmilingFaceWithTearJoyPixels,
+				null
 				);
 		}
 	}
