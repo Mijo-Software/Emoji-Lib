@@ -87,6 +87,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FaceSmiling.resx</DependentUpon>
     </Compile>
+    <Compile Include="FaceTongue.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FaceTongue.resx</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +111,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FaceSmiling.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaceTongue.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FaceTongue.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -132,6 +141,48 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="emoji-lib.ico" />
+    <None Include="Resources\ZanyFaceTwitter.png" />
+    <None Include="Resources\ZanyFaceSamsung.png" />
+    <None Include="Resources\ZanyFaceJoyPixels.png" />
+    <None Include="Resources\ZanyFaceGoogle.png" />
+    <None Include="Resources\ZanyFaceFacebook.png" />
+    <None Include="Resources\ZanyFaceApple.png" />
+    <None Include="Resources\WinkingFaceWithTongueWindows.png" />
+    <None Include="Resources\WinkingFaceWithTongueTwitter.png" />
+    <None Include="Resources\WinkingFaceWithTongueSamsung.png" />
+    <None Include="Resources\WinkingFaceWithTongueJoyPixels.png" />
+    <None Include="Resources\WinkingFaceWithTongueGoogle.png" />
+    <None Include="Resources\WinkingFaceWithTongueFacebook.png" />
+    <None Include="Resources\WinkingFaceWithTongueApple.png" />
+    <None Include="Resources\SquintingFaceWithTongueWindows.png" />
+    <None Include="Resources\SquintingFaceWithTongueTwitter.png" />
+    <None Include="Resources\SquintingFaceWithTongueSamsung.png" />
+    <None Include="Resources\SquintingFaceWithTongueJoyPixels.png" />
+    <None Include="Resources\SquintingFaceWithTongueGoogle.png" />
+    <None Include="Resources\SquintingFaceWithTongueFacebook.png" />
+    <None Include="Resources\SquintingFaceWithTongueApple.png" />
+    <None Include="Resources\MoneyMouthFaceWindows.png" />
+    <None Include="Resources\MoneyMouthFaceTwitter.png" />
+    <None Include="Resources\MoneyMouthFaceSamsung.png" />
+    <None Include="Resources\MoneyMouthFaceJoyPixels.png" />
+    <None Include="Resources\MoneyMouthFaceGoogle.png" />
+    <None Include="Resources\MoneyMouthFaceFacebook.png" />
+    <None Include="Resources\MoneyMouthFaceApple.png" />
+    <None Include="Resources\FaceWithTongueWindows.png" />
+    <None Include="Resources\FaceWithTongueTwitter.png" />
+    <None Include="Resources\FaceWithTongueSamsung.png" />
+    <None Include="Resources\FaceWithTongueJoyPixels.png" />
+    <None Include="Resources\FaceWithTongueGoogle.png" />
+    <None Include="Resources\FaceWithTongueFacebook.png" />
+    <None Include="Resources\FaceWithTongueApple.png" />
+    <None Include="Resources\FaceSavoringFoodWindows.png" />
+    <None Include="Resources\FaceSavoringFoodTwitter.png" />
+    <None Include="Resources\FaceSavoringFoodSamsung.png" />
+    <None Include="Resources\FaceSavoringFoodJoyPixels.png" />
+    <None Include="Resources\FaceSavoringFoodGoogle.png" />
+    <None Include="Resources\FaceSavoringFoodFacebook.png" />
+    <None Include="Resources\FaceSavoringFoodApple.png" />
+    <None Include="Resources\ZanyFaceWindows.png" />
     <None Include="Resources\StarStruckTwitter.png" />
     <None Include="Resources\StarStruckSamsung.png" />
     <None Include="Resources\StarStruckJoyPixels.png" />

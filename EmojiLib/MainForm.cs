@@ -133,11 +133,6 @@ namespace EmojiLib
 
 		#endregion
 
-		private void Exit_Click(object sender, EventArgs e)
-		{
-			Close();
-		}
-
 		private void ShowEmojiInfo(string code, string shortName, string group, string subGroup, object tag, Image appleVersion, Image googleVersion, Image facebookVersion, Image windowsVersion, Image twitterVersion, Image joypixelsVersion, Image samsungVersion)
 		{
 			EmojiInfoForm emojiInfo = new EmojiInfoForm();
@@ -153,6 +148,11 @@ namespace EmojiLib
 			emojiInfo.SetJoyPixelsImageVersion(joypixelsVersion);
 			emojiInfo.SetSamsungImageVersion(samsungVersion);
 			emojiInfo.ShowDialog();
+		}
+
+		private void Exit_Click(object sender, EventArgs e)
+		{
+			Close();
 		}
 
 		private void ButtonGrinningFace_Click(object sender, EventArgs e)
@@ -482,6 +482,96 @@ namespace EmojiLib
 				null,
 				FaceAffection.SmilingFaceWithTearJoyPixels,
 				null
+				);
+		}
+
+		private void ButtonFaceSavoringFood_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F60B", buttonFaceSavoringFood.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceTongue,
+				buttonFaceSavoringFood.Tag,
+				FaceTongue.FaceSavoringFoodApple,
+				FaceTongue.FaceSavoringFoodGoogle,
+				FaceTongue.FaceSavoringFoodFacebook,
+				FaceTongue.FaceSavoringFoodWindows,
+				FaceTongue.FaceSavoringFoodTwitter,
+				FaceTongue.FaceSavoringFoodJoyPixels,
+				FaceTongue.FaceSavoringFoodSamsung
+				);
+		}
+
+		private void ButtonFaceWithTongue_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F61B", buttonFaceWithTongue.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceTongue,
+				buttonFaceWithTongue.Tag,
+				FaceTongue.FaceWithTongueApple,
+				FaceTongue.FaceWithTongueGoogle,
+				FaceTongue.FaceWithTongueFacebook,
+				FaceTongue.FaceWithTongueWindows,
+				FaceTongue.FaceWithTongueTwitter,
+				FaceTongue.FaceWithTongueJoyPixels,
+				FaceTongue.FaceWithTongueSamsung
+				);
+		}
+
+		private void ButtonWinkingFaceWithTongue_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F61C", buttonWinkingFaceWithTongue.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceTongue,
+				buttonWinkingFaceWithTongue.Tag,
+				FaceTongue.WinkingFaceWithTongueApple,
+				FaceTongue.WinkingFaceWithTongueGoogle,
+				FaceTongue.WinkingFaceWithTongueFacebook,
+				FaceTongue.WinkingFaceWithTongueWindows,
+				FaceTongue.WinkingFaceWithTongueTwitter,
+				FaceTongue.WinkingFaceWithTongueJoyPixels,
+				FaceTongue.WinkingFaceWithTongueSamsung
+				);
+		}
+
+		private void ButtonZanyFace_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F92A", buttonZanyFace.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceTongue,
+				buttonZanyFace.Tag,
+				FaceTongue.ZanyFaceApple,
+				FaceTongue.ZanyFaceGoogle,
+				FaceTongue.ZanyFaceFacebook,
+				FaceTongue.ZanyFaceWindows,
+				FaceTongue.ZanyFaceTwitter,
+				FaceTongue.ZanyFaceJoyPixels,
+				FaceTongue.ZanyFaceSamsung
+				);
+		}
+
+		private void ButtonSquintingFaceWithTongue_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F61D", buttonSquintingFaceWithTongue.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceTongue,
+				buttonSquintingFaceWithTongue.Tag,
+				FaceTongue.SquintingFaceWithTongueApple,
+				FaceTongue.SquintingFaceWithTongueGoogle,
+				FaceTongue.SquintingFaceWithTongueFacebook,
+				FaceTongue.SquintingFaceWithTongueWindows,
+				FaceTongue.SquintingFaceWithTongueTwitter,
+				FaceTongue.SquintingFaceWithTongueJoyPixels,
+				FaceTongue.SquintingFaceWithTongueSamsung
+				);
+		}
+
+		private void ButtonMoneyMouthFace_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F911", buttonMoneyMouthFace.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceTongue,
+				buttonMoneyMouthFace.Tag,
+				FaceTongue.MoneyMouthFaceApple,
+				FaceTongue.MoneyMouthFaceGoogle,
+				FaceTongue.MoneyMouthFaceFacebook,
+				FaceTongue.MoneyMouthFaceWindows,
+				FaceTongue.MoneyMouthFaceTwitter,
+				FaceTongue.MoneyMouthFaceJoyPixels,
+				FaceTongue.MoneyMouthFaceSamsung
 				);
 		}
 	}
