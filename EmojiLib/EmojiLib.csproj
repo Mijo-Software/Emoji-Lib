@@ -82,6 +82,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FaceAffection.resx</DependentUpon>
     </Compile>
+    <Compile Include="FaceHand.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FaceHand.resx</DependentUpon>
+    </Compile>
     <Compile Include="FaceSmiling.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -106,6 +111,10 @@
     <EmbeddedResource Include="FaceAffection.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FaceAffection.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaceHand.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FaceHand.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="FaceSmiling.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -141,6 +150,34 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="emoji-lib.ico" />
+    <None Include="Resources\ThinkingFaceTwitter.png" />
+    <None Include="Resources\ThinkingFaceSamsung.png" />
+    <None Include="Resources\ThinkingFaceJoyPixels.png" />
+    <None Include="Resources\ThinkingFaceGoogle.png" />
+    <None Include="Resources\ThinkingFaceFacebook.png" />
+    <None Include="Resources\ThinkingFaceApple.png" />
+    <None Include="Resources\ShushingFaceWindows.png" />
+    <None Include="Resources\ShushingFaceTwitter.png" />
+    <None Include="Resources\ShushingFaceSamsung.png" />
+    <None Include="Resources\ShushingFaceJoyPixels.png" />
+    <None Include="Resources\ShushingFaceGoogle.png" />
+    <None Include="Resources\ShushingFaceFacebook.png" />
+    <None Include="Resources\ShushingFaceApple.png" />
+    <None Include="Resources\HuggingFaceWindows.png" />
+    <None Include="Resources\HuggingFaceTwitter.png" />
+    <None Include="Resources\HuggingFaceSamsung.png" />
+    <None Include="Resources\HuggingFaceJoyPixels.png" />
+    <None Include="Resources\HuggingFaceGoogle.png" />
+    <None Include="Resources\HuggingFaceFacebook.png" />
+    <None Include="Resources\HuggingFaceApple.png" />
+    <None Include="Resources\FaceWithHandOverMouthWindows.png" />
+    <None Include="Resources\FaceWithHandOverMouthTwitter.png" />
+    <None Include="Resources\FaceWithHandOverMouthSamsung.png" />
+    <None Include="Resources\FaceWithHandOverMouthJoyPixels.png" />
+    <None Include="Resources\FaceWithHandOverMouthGoogle.png" />
+    <None Include="Resources\FaceWithHandOverMouthFacebook.png" />
+    <None Include="Resources\FaceWithHandOverMouthApple.png" />
+    <None Include="Resources\ThinkingFaceWindows.png" />
     <None Include="Resources\ZanyFaceTwitter.png" />
     <None Include="Resources\ZanyFaceSamsung.png" />
     <None Include="Resources\ZanyFaceJoyPixels.png" />
