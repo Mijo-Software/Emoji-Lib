@@ -78,6 +78,15 @@ namespace EmojiLib.Properties {
             }
         }
         
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die face-tongue ähnelt.
+        /// </summary>
+        internal static string faceTongue {
+            get {
+                return ResourceManager.GetString("faceTongue", resourceCulture);
+            }
+        }
+        
         internal static System.Drawing.Bitmap logo_640 {
             get {
                 object obj = ResourceManager.GetObject("logo_640", resourceCulture);

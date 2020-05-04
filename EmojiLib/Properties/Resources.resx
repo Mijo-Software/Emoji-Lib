@@ -133,4 +133,7 @@
   <data name="smileysAndEmotion" xml:space="preserve">
     <value>smileys &amp; emotion</value>
   </data>
+  <data name="faceTongue" xml:space="preserve">
+    <value>face-tongue</value>
+  </data>
 </root>
