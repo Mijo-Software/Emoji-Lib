@@ -136,4 +136,7 @@
   <data name="faceTongue" xml:space="preserve">
     <value>face-tongue</value>
   </data>
+  <data name="faceHand" xml:space="preserve">
+    <value>face-hand</value>
+  </data>
 </root>
