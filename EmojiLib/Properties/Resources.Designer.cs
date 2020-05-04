@@ -70,6 +70,15 @@ namespace EmojiLib.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die face-hand ähnelt.
+        /// </summary>
+        internal static string faceHand {
+            get {
+                return ResourceManager.GetString("faceHand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die face-smiling ähnelt.
         /// </summary>
         internal static string faceSmiling {
