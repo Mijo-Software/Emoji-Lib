@@ -61,6 +61,10 @@
 			this.buttonZanyFace = new System.Windows.Forms.Button();
 			this.buttonSquintingFaceWithTongue = new System.Windows.Forms.Button();
 			this.buttonMoneyMouthFace = new System.Windows.Forms.Button();
+			this.buttonHuggingFace = new System.Windows.Forms.Button();
+			this.buttonFaceWithHandOverMouth = new System.Windows.Forms.Button();
+			this.buttonShushingFace = new System.Windows.Forms.Button();
+			this.buttonThinkingFace = new System.Windows.Forms.Button();
 			this.statusStrip = new System.Windows.Forms.StatusStrip();
 			this.labelInformation = new System.Windows.Forms.ToolStripStatusLabel();
 			this.toolStripContainer = new System.Windows.Forms.ToolStripContainer();
@@ -75,6 +79,7 @@
 			this.toolStripContainer.ContentPanel.SuspendLayout();
 			this.toolStripContainer.TopToolStripPanel.SuspendLayout();
 			this.toolStripContainer.SuspendLayout();
+			this.menuStrip.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// tabControlEmojis
@@ -132,6 +137,10 @@
 			this.flowLayoutPanel.Controls.Add(this.buttonZanyFace);
 			this.flowLayoutPanel.Controls.Add(this.buttonSquintingFaceWithTongue);
 			this.flowLayoutPanel.Controls.Add(this.buttonMoneyMouthFace);
+			this.flowLayoutPanel.Controls.Add(this.buttonHuggingFace);
+			this.flowLayoutPanel.Controls.Add(this.buttonFaceWithHandOverMouth);
+			this.flowLayoutPanel.Controls.Add(this.buttonShushingFace);
+			this.flowLayoutPanel.Controls.Add(this.buttonThinkingFace);
 			this.flowLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.flowLayoutPanel.Location = new System.Drawing.Point(3, 3);
 			this.flowLayoutPanel.Name = "flowLayoutPanel";
@@ -866,6 +875,110 @@
 			this.buttonMoneyMouthFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
 			this.buttonMoneyMouthFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
+			// buttonHuggingFace
+			// 
+			this.buttonHuggingFace.AccessibleDescription = "hugging face";
+			this.buttonHuggingFace.AccessibleName = "hugging face";
+			this.buttonHuggingFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonHuggingFace.BackgroundImage = global::EmojiLib.FaceHand.HuggingFaceGoogle;
+			this.buttonHuggingFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonHuggingFace.FlatAppearance.BorderSize = 0;
+			this.buttonHuggingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonHuggingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonHuggingFace.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonFace;
+			this.buttonHuggingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonHuggingFace.Location = new System.Drawing.Point(128, 64);
+			this.buttonHuggingFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonHuggingFace.Name = "buttonHuggingFace";
+			this.buttonHuggingFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonHuggingFace.TabIndex = 28;
+			this.buttonHuggingFace.Tag = "🤗";
+			this.toolTip.SetToolTip(this.buttonHuggingFace, "hugging face");
+			this.buttonHuggingFace.UseVisualStyleBackColor = true;
+			this.buttonHuggingFace.Click += new System.EventHandler(this.ButtonHuggingFace_Click);
+			this.buttonHuggingFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHuggingFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonHuggingFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHuggingFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonFaceWithHandOverMouth
+			// 
+			this.buttonFaceWithHandOverMouth.AccessibleDescription = "face with hand over mouth";
+			this.buttonFaceWithHandOverMouth.AccessibleName = "face with hand over mouth";
+			this.buttonFaceWithHandOverMouth.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonFaceWithHandOverMouth.BackgroundImage = global::EmojiLib.FaceHand.FaceWithHandOverMouthGoogle;
+			this.buttonFaceWithHandOverMouth.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonFaceWithHandOverMouth.FlatAppearance.BorderSize = 0;
+			this.buttonFaceWithHandOverMouth.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonFaceWithHandOverMouth.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonFaceWithHandOverMouth.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonFace;
+			this.buttonFaceWithHandOverMouth.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonFaceWithHandOverMouth.Location = new System.Drawing.Point(160, 64);
+			this.buttonFaceWithHandOverMouth.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonFaceWithHandOverMouth.Name = "buttonFaceWithHandOverMouth";
+			this.buttonFaceWithHandOverMouth.Size = new System.Drawing.Size(32, 32);
+			this.buttonFaceWithHandOverMouth.TabIndex = 29;
+			this.buttonFaceWithHandOverMouth.Tag = "🤭";
+			this.toolTip.SetToolTip(this.buttonFaceWithHandOverMouth, "face with hand over mouth");
+			this.buttonFaceWithHandOverMouth.UseVisualStyleBackColor = true;
+			this.buttonFaceWithHandOverMouth.Click += new System.EventHandler(this.ButtonFaceWithHandOverMouth_Click);
+			this.buttonFaceWithHandOverMouth.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceWithHandOverMouth.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonFaceWithHandOverMouth.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceWithHandOverMouth.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonShushingFace
+			// 
+			this.buttonShushingFace.AccessibleDescription = "shushing face";
+			this.buttonShushingFace.AccessibleName = "shushing face";
+			this.buttonShushingFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonShushingFace.BackgroundImage = global::EmojiLib.FaceHand.ShushingFaceGoogle;
+			this.buttonShushingFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonShushingFace.FlatAppearance.BorderSize = 0;
+			this.buttonShushingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonShushingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonShushingFace.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonFace;
+			this.buttonShushingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonShushingFace.Location = new System.Drawing.Point(192, 64);
+			this.buttonShushingFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonShushingFace.Name = "buttonShushingFace";
+			this.buttonShushingFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonShushingFace.TabIndex = 30;
+			this.buttonShushingFace.Tag = "🤫";
+			this.toolTip.SetToolTip(this.buttonShushingFace, "shushing face");
+			this.buttonShushingFace.UseVisualStyleBackColor = true;
+			this.buttonShushingFace.Click += new System.EventHandler(this.ButtonShushingFace_Click);
+			this.buttonShushingFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonShushingFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonShushingFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonShushingFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonThinkingFace
+			// 
+			this.buttonThinkingFace.AccessibleDescription = "thinking face";
+			this.buttonThinkingFace.AccessibleName = "thinking face";
+			this.buttonThinkingFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonThinkingFace.BackgroundImage = global::EmojiLib.FaceHand.ThinkingFaceGoogle;
+			this.buttonThinkingFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonThinkingFace.FlatAppearance.BorderSize = 0;
+			this.buttonThinkingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonThinkingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonThinkingFace.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ButtonFace;
+			this.buttonThinkingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonThinkingFace.Location = new System.Drawing.Point(224, 64);
+			this.buttonThinkingFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonThinkingFace.Name = "buttonThinkingFace";
+			this.buttonThinkingFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonThinkingFace.TabIndex = 31;
+			this.buttonThinkingFace.Tag = "🤔";
+			this.toolTip.SetToolTip(this.buttonThinkingFace, "thinking face");
+			this.buttonThinkingFace.UseVisualStyleBackColor = true;
+			this.buttonThinkingFace.Click += new System.EventHandler(this.ButtonThinkingFace_Click);
+			this.buttonThinkingFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonThinkingFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonThinkingFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonThinkingFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
 			// statusStrip
 			// 
 			this.statusStrip.Dock = System.Windows.Forms.DockStyle.None;
@@ -909,6 +1022,8 @@
 			// menuStrip
 			// 
 			this.menuStrip.Dock = System.Windows.Forms.DockStyle.None;
+			this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItemFile});
 			this.menuStrip.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip.Name = "menuStrip";
 			this.menuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
@@ -958,6 +1073,8 @@
 			this.toolStripContainer.TopToolStripPanel.PerformLayout();
 			this.toolStripContainer.ResumeLayout(false);
 			this.toolStripContainer.PerformLayout();
+			this.menuStrip.ResumeLayout(false);
+			this.menuStrip.PerformLayout();
 			this.ResumeLayout(false);
 
 		}
@@ -969,8 +1086,6 @@
 		private System.Windows.Forms.StatusStrip statusStrip;
 		private System.Windows.Forms.ToolStripContainer toolStripContainer;
 		private System.Windows.Forms.MenuStrip menuStrip;
-		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemFile;
-		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemExit;
 		private System.Windows.Forms.Button buttonGrinningFace;
 		private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel;
 		private System.Windows.Forms.Button buttonGrinningFaceWithBigEyes;
@@ -1002,6 +1117,12 @@
 		private System.Windows.Forms.Button buttonZanyFace;
 		private System.Windows.Forms.Button buttonSquintingFaceWithTongue;
 		private System.Windows.Forms.Button buttonMoneyMouthFace;
+		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemFile;
+		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemExit;
+		private System.Windows.Forms.Button buttonHuggingFace;
+		private System.Windows.Forms.Button buttonFaceWithHandOverMouth;
+		private System.Windows.Forms.Button buttonShushingFace;
+		private System.Windows.Forms.Button buttonThinkingFace;
 	}
 }
 

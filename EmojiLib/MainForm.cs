@@ -574,5 +574,65 @@ namespace EmojiLib
 				FaceTongue.MoneyMouthFaceSamsung
 				);
 		}
+
+		private void ButtonHuggingFace_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F917", buttonHuggingFace.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceHand,
+				buttonHuggingFace.Tag,
+				FaceHand.HuggingFaceApple,
+				FaceHand.HuggingFaceGoogle,
+				FaceHand.HuggingFaceFacebook,
+				FaceHand.HuggingFaceWindows,
+				FaceHand.HuggingFaceTwitter,
+				FaceHand.HuggingFaceJoyPixels,
+				FaceHand.HuggingFaceSamsung
+				);
+		}
+
+		private void ButtonFaceWithHandOverMouth_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F92D", buttonFaceWithHandOverMouth.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceHand,
+				buttonFaceWithHandOverMouth.Tag,
+				FaceHand.FaceWithHandOverMouthApple,
+				FaceHand.FaceWithHandOverMouthGoogle,
+				FaceHand.FaceWithHandOverMouthFacebook,
+				FaceHand.FaceWithHandOverMouthWindows,
+				FaceHand.FaceWithHandOverMouthTwitter,
+				FaceHand.FaceWithHandOverMouthJoyPixels,
+				FaceHand.FaceWithHandOverMouthSamsung
+				);
+		}
+
+		private void ButtonShushingFace_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F92B", buttonShushingFace.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceHand,
+				buttonShushingFace.Tag,
+				FaceHand.ShushingFaceApple,
+				FaceHand.ShushingFaceGoogle,
+				FaceHand.ShushingFaceFacebook,
+				FaceHand.ShushingFaceWindows,
+				FaceHand.ShushingFaceTwitter,
+				FaceHand.ShushingFaceJoyPixels,
+				FaceHand.ShushingFaceSamsung
+				);
+		}
+
+		private void ButtonThinkingFace_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo("U+1F914", buttonThinkingFace.AccessibleName,
+				Properties.Resources.smileysAndEmotion, Properties.Resources.faceHand,
+				buttonThinkingFace.Tag,
+				FaceHand.ThinkingFaceApple,
+				FaceHand.ThinkingFaceGoogle,
+				FaceHand.ThinkingFaceFacebook,
+				FaceHand.ThinkingFaceWindows,
+				FaceHand.ThinkingFaceTwitter,
+				FaceHand.ThinkingFaceJoyPixels,
+				FaceHand.ThinkingFaceSamsung
+				);
+		}
 	}
 }
