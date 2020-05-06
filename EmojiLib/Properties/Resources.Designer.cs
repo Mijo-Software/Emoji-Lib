@@ -79,6 +79,15 @@ namespace EmojiLib.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die face-neutral-skeptical ähnelt.
+        /// </summary>
+        internal static string faceNeutralSkeptical {
+            get {
+                return ResourceManager.GetString("faceNeutralSkeptical", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die face-smiling ähnelt.
         /// </summary>
         internal static string faceSmiling {
@@ -93,6 +102,62 @@ namespace EmojiLib.Properties {
         internal static string faceTongue {
             get {
                 return ResourceManager.GetString("faceTongue", resourceCulture);
+            }
+        }
+        
+        internal static System.Drawing.Bitmap fatcow_book {
+            get {
+                object obj = ResourceManager.GetObject("fatcow_book", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap fatcow_clipboard_paste {
+            get {
+                object obj = ResourceManager.GetObject("fatcow_clipboard_paste", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap fatcow_door {
+            get {
+                object obj = ResourceManager.GetObject("fatcow_door", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap fatcow_information {
+            get {
+                object obj = ResourceManager.GetObject("fatcow_information", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap fugue_book {
+            get {
+                object obj = ResourceManager.GetObject("fugue_book", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap fugue_clipboard_paste {
+            get {
+                object obj = ResourceManager.GetObject("fugue_clipboard_paste", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap fugue_door {
+            get {
+                object obj = ResourceManager.GetObject("fugue_door", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap fugue_information {
+            get {
+                object obj = ResourceManager.GetObject("fugue_information", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

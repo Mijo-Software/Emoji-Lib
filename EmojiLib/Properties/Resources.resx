@@ -117,26 +117,53 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="smileysAndEmotion" xml:space="preserve">
+    <value>smileys &amp; emotion</value>
+  </data>
+  <data name="faceNeutralSkeptical" xml:space="preserve">
+    <value>face-neutral-skeptical</value>
+  </data>
+  <data name="faceTongue" xml:space="preserve">
+    <value>face-tongue</value>
+  </data>
   <data name="faceAffection" xml:space="preserve">
     <value>face-affection</value>
   </data>
-  <data name="faceSmiling" xml:space="preserve">
-    <value>face-smiling</value>
+  <data name="faceHand" xml:space="preserve">
+    <value>face-hand</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="logo_640" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo_640.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="faceSmiling" xml:space="preserve">
+    <value>face-smiling</value>
+  </data>
   <data name="NoImageAvailable" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\480px-No_image_available.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="smileysAndEmotion" xml:space="preserve">
-    <value>smileys &amp; emotion</value>
+  <data name="fugue_clipboard_paste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fugue_clipboard_paste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="faceTongue" xml:space="preserve">
-    <value>face-tongue</value>
+  <data name="fatcow_book" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fatcow_book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="faceHand" xml:space="preserve">
-    <value>face-hand</value>
+  <data name="fatcow_clipboard_paste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fatcow_clipboard_paste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fugue_book" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fugue_book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fatcow_door" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fatcow_door.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fatcow_information" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fatcow_information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fugue_door" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fugue_door.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fugue_information" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fugue_information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
