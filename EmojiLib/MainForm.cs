@@ -1111,5 +1111,110 @@ namespace EmojiLib
 					FaceNeutralSkeptical.LyingFaceSamsung);
 			}
 		}
+
+		private void ButtonRelievedFace_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonRelievedFace.Tag.ToString());
+			}
+			else
+			{
+				ShowEmojiInfo("U+1F60C", buttonRelievedFace.AccessibleName,
+					Properties.Resources.smileysAndEmotion, Properties.Resources.faceSleepy,
+					buttonRelievedFace.Tag,
+					FaceSleepy.RelievedFaceApple,
+					FaceSleepy.RelievedFaceGoogle,
+					FaceSleepy.RelievedFaceFacebook,
+					FaceSleepy.RelievedFaceWindows,
+					FaceSleepy.RelievedFaceTwitter,
+					FaceSleepy.RelievedFaceJoyPixels,
+					FaceSleepy.RelievedFaceSamsung);
+			}
+		}
+
+		private void ButtonPensiveFace_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonPensiveFace.Tag.ToString());
+			}
+			else
+			{
+				ShowEmojiInfo("U+1F614", buttonPensiveFace.AccessibleName,
+					Properties.Resources.smileysAndEmotion, Properties.Resources.faceSleepy,
+					buttonPensiveFace.Tag,
+					FaceSleepy.PensiveFaceApple,
+					FaceSleepy.PensiveFaceGoogle,
+					FaceSleepy.PensiveFaceFacebook,
+					FaceSleepy.PensiveFaceWindows,
+					FaceSleepy.PensiveFaceTwitter,
+					FaceSleepy.PensiveFaceJoyPixels,
+					FaceSleepy.PensiveFaceSamsung);
+			}
+		}
+
+		private void ButtonSleepyFace_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonSleepyFace.Tag.ToString());
+			}
+			else
+			{
+				ShowEmojiInfo("U+1F62A", buttonSleepyFace.AccessibleName,
+					Properties.Resources.smileysAndEmotion, Properties.Resources.faceSleepy,
+					buttonSleepyFace.Tag,
+					FaceSleepy.SleepyFaceApple,
+					FaceSleepy.SleepyFaceGoogle,
+					FaceSleepy.SleepyFaceFacebook,
+					FaceSleepy.SleepyFaceWindows,
+					FaceSleepy.SleepyFaceTwitter,
+					FaceSleepy.SleepyFaceJoyPixels,
+					FaceSleepy.SleepyFaceSamsung);
+			}
+		}
+
+		private void ButtonDroolingFace_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonDroolingFace.Tag.ToString());
+			}
+			else
+			{
+				ShowEmojiInfo("U+1F924", buttonDroolingFace.AccessibleName,
+					Properties.Resources.smileysAndEmotion, Properties.Resources.faceSleepy,
+					buttonDroolingFace.Tag,
+					FaceSleepy.DroolingFaceApple,
+					FaceSleepy.DroolingFaceGoogle,
+					FaceSleepy.DroolingFaceFacebook,
+					FaceSleepy.DroolingFaceWindows,
+					FaceSleepy.DroolingFaceTwitter,
+					FaceSleepy.DroolingFaceJoyPixels,
+					FaceSleepy.DroolingFaceSamsung);
+			}
+		}
+
+		private void ButtonSleepingFace_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonSleepingFace.Tag.ToString());
+			}
+			else
+			{
+				ShowEmojiInfo("U+1F634", buttonSleepingFace.AccessibleName,
+					Properties.Resources.smileysAndEmotion, Properties.Resources.faceSleepy,
+					buttonSleepingFace.Tag,
+					FaceSleepy.SleepingFaceApple,
+					FaceSleepy.SleepingFaceGoogle,
+					FaceSleepy.SleepingFaceFacebook,
+					FaceSleepy.SleepingFaceWindows,
+					FaceSleepy.SleepingFaceTwitter,
+					FaceSleepy.SleepingFaceJoyPixels,
+					FaceSleepy.SleepingFaceSamsung);
+			}
+		}
 	}
 }
