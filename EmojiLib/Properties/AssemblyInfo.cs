@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
 // die mit einer Assembly verknüpft sind.
 [assembly: AssemblyTitle("Emoji Lib")]
-[assembly: AssemblyDescription("Emoji Library")]
+[assembly: AssemblyDescription("Emoji Lib is an emoji picker and a library about several image versions of other emoji sets.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Mijo Software")]
+[assembly: AssemblyCompany("Mijo Software (https://mijo-software.de)")]
 [assembly: AssemblyProduct("Emoji Lib")]
 [assembly: AssemblyCopyright("Copyright © Mijo Software 2020")]
 [assembly: AssemblyTrademark("Emoji Lib")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // Sie können alle Werte angeben oder die standardmäßigen Build- und Revisionsnummern 
 // übernehmen, indem Sie "*" eingeben:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.2.2.5")]
-[assembly: AssemblyFileVersion("0.2.2.5")]
+[assembly: AssemblyVersion("0.3.0.6")]
+[assembly: AssemblyFileVersion("0.3.0.6")]
