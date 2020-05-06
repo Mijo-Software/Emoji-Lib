@@ -88,6 +88,15 @@ namespace EmojiLib.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die face-sleepy ähnelt.
+        /// </summary>
+        internal static string faceSleepy {
+            get {
+                return ResourceManager.GetString("faceSleepy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die face-smiling ähnelt.
         /// </summary>
         internal static string faceSmiling {
