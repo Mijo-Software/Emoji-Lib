@@ -98,6 +98,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FaceNeutralSkeptical.resx</DependentUpon>
     </Compile>
+    <Compile Include="FaceSleepy.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FaceSleepy.resx</DependentUpon>
+    </Compile>
     <Compile Include="FaceSmiling.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -135,6 +140,10 @@
       <LastGenOutput>FaceNeutralSkeptical.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="FaceSleepy.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FaceSleepy.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="FaceSmiling.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FaceSmiling.Designer.cs</LastGenOutput>
@@ -169,6 +178,41 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="emoji-lib.ico" />
+    <None Include="Resources\SleepyFaceTwitter.png" />
+    <None Include="Resources\SleepyFaceSamsung.png" />
+    <None Include="Resources\SleepyFaceJoyPixels.png" />
+    <None Include="Resources\SleepyFaceGoogle.png" />
+    <None Include="Resources\SleepyFaceFacebook.png" />
+    <None Include="Resources\SleepyFaceApple.png" />
+    <None Include="Resources\SleepingFaceWindows.png" />
+    <None Include="Resources\SleepingFaceTwitter.png" />
+    <None Include="Resources\SleepingFaceSamsung.png" />
+    <None Include="Resources\SleepingFaceJoyPixels.png" />
+    <None Include="Resources\SleepingFaceGoogle.png" />
+    <None Include="Resources\SleepingFaceFacebook.png" />
+    <None Include="Resources\SleepingFaceApple.png" />
+    <None Include="Resources\RelievedFaceWindows.png" />
+    <None Include="Resources\RelievedFaceTwitter.png" />
+    <None Include="Resources\RelievedFaceSamsung.png" />
+    <None Include="Resources\RelievedFaceJoyPixels.png" />
+    <None Include="Resources\RelievedFaceGoogle.png" />
+    <None Include="Resources\RelievedFaceFacebook.png" />
+    <None Include="Resources\RelievedFaceApple.png" />
+    <None Include="Resources\PensiveFaceWindows.png" />
+    <None Include="Resources\PensiveFaceTwitter.png" />
+    <None Include="Resources\PensiveFaceSamsung.png" />
+    <None Include="Resources\PensiveFaceJoyPixels.png" />
+    <None Include="Resources\PensiveFaceGoogle.png" />
+    <None Include="Resources\PensiveFaceFacebook.png" />
+    <None Include="Resources\PensiveFaceApple.png" />
+    <None Include="Resources\DroolingFaceWindows.png" />
+    <None Include="Resources\DroolingFaceTwitter.png" />
+    <None Include="Resources\DroolingFaceSamsung.png" />
+    <None Include="Resources\DroolingFaceJoyPixels.png" />
+    <None Include="Resources\DroolingFaceGoogle.png" />
+    <None Include="Resources\DroolingFaceFacebook.png" />
+    <None Include="Resources\DroolingFaceApple.png" />
+    <None Include="Resources\SleepyFaceWindows.png" />
     <None Include="Resources\fugue_door.png" />
     <None Include="Resources\fatcow_information.png" />
     <None Include="Resources\fatcow_door.png" />

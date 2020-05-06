@@ -75,6 +75,11 @@
 			this.buttonFaceWithRollingEyes = new System.Windows.Forms.Button();
 			this.buttonGrimacingFace = new System.Windows.Forms.Button();
 			this.buttonLyingFace = new System.Windows.Forms.Button();
+			this.buttonRelievedFace = new System.Windows.Forms.Button();
+			this.buttonPensiveFace = new System.Windows.Forms.Button();
+			this.buttonSleepyFace = new System.Windows.Forms.Button();
+			this.buttonDroolingFace = new System.Windows.Forms.Button();
+			this.buttonSleepingFace = new System.Windows.Forms.Button();
 			this.statusStrip = new System.Windows.Forms.StatusStrip();
 			this.labelInformation = new System.Windows.Forms.ToolStripStatusLabel();
 			this.labelCopiedStatus = new System.Windows.Forms.ToolStripStatusLabel();
@@ -174,6 +179,11 @@
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonFaceWithRollingEyes);
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonGrimacingFace);
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonLyingFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonRelievedFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonPensiveFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSleepyFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonDroolingFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSleepingFace);
 			this.flowLayoutPanelSmileys.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.flowLayoutPanelSmileys.Location = new System.Drawing.Point(3, 3);
 			this.flowLayoutPanelSmileys.Name = "flowLayoutPanelSmileys";
@@ -1230,6 +1240,131 @@
 			this.buttonLyingFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
 			this.buttonLyingFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
+			// buttonRelievedFace
+			// 
+			this.buttonRelievedFace.AccessibleDescription = "relieved face";
+			this.buttonRelievedFace.AccessibleName = "relieved face";
+			this.buttonRelievedFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonRelievedFace.BackgroundImage = global::EmojiLib.FaceSleepy.RelievedFaceGoogle;
+			this.buttonRelievedFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonRelievedFace.FlatAppearance.BorderSize = 0;
+			this.buttonRelievedFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonRelievedFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonRelievedFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonRelievedFace.Location = new System.Drawing.Point(192, 96);
+			this.buttonRelievedFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonRelievedFace.Name = "buttonRelievedFace";
+			this.buttonRelievedFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonRelievedFace.TabIndex = 43;
+			this.buttonRelievedFace.Tag = "😌";
+			this.toolTip.SetToolTip(this.buttonRelievedFace, "relieved face");
+			this.buttonRelievedFace.UseVisualStyleBackColor = true;
+			this.buttonRelievedFace.Click += new System.EventHandler(this.ButtonRelievedFace_Click);
+			this.buttonRelievedFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonRelievedFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonRelievedFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonRelievedFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonPensiveFace
+			// 
+			this.buttonPensiveFace.AccessibleDescription = "pensive face";
+			this.buttonPensiveFace.AccessibleName = "pensive face";
+			this.buttonPensiveFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonPensiveFace.BackgroundImage = global::EmojiLib.FaceSleepy.PensiveFaceGoogle;
+			this.buttonPensiveFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonPensiveFace.FlatAppearance.BorderSize = 0;
+			this.buttonPensiveFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonPensiveFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonPensiveFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonPensiveFace.Location = new System.Drawing.Point(224, 96);
+			this.buttonPensiveFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonPensiveFace.Name = "buttonPensiveFace";
+			this.buttonPensiveFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonPensiveFace.TabIndex = 44;
+			this.buttonPensiveFace.Tag = "😔";
+			this.toolTip.SetToolTip(this.buttonPensiveFace, "pensive face");
+			this.buttonPensiveFace.UseVisualStyleBackColor = true;
+			this.buttonPensiveFace.Click += new System.EventHandler(this.ButtonPensiveFace_Click);
+			this.buttonPensiveFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonPensiveFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonPensiveFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonPensiveFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonSleepyFace
+			// 
+			this.buttonSleepyFace.AccessibleDescription = "sleepy face";
+			this.buttonSleepyFace.AccessibleName = "sleepy face";
+			this.buttonSleepyFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonSleepyFace.BackgroundImage = global::EmojiLib.FaceSleepy.SleepyFaceGoogle;
+			this.buttonSleepyFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonSleepyFace.FlatAppearance.BorderSize = 0;
+			this.buttonSleepyFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonSleepyFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonSleepyFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonSleepyFace.Location = new System.Drawing.Point(256, 96);
+			this.buttonSleepyFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonSleepyFace.Name = "buttonSleepyFace";
+			this.buttonSleepyFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonSleepyFace.TabIndex = 45;
+			this.buttonSleepyFace.Tag = "😪";
+			this.toolTip.SetToolTip(this.buttonSleepyFace, "sleepy face");
+			this.buttonSleepyFace.UseVisualStyleBackColor = true;
+			this.buttonSleepyFace.Click += new System.EventHandler(this.ButtonSleepyFace_Click);
+			this.buttonSleepyFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSleepyFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonSleepyFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSleepyFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonDroolingFace
+			// 
+			this.buttonDroolingFace.AccessibleDescription = "drooling face";
+			this.buttonDroolingFace.AccessibleName = "drooling face";
+			this.buttonDroolingFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonDroolingFace.BackgroundImage = global::EmojiLib.FaceSleepy.DroolingFaceGoogle;
+			this.buttonDroolingFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonDroolingFace.FlatAppearance.BorderSize = 0;
+			this.buttonDroolingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonDroolingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonDroolingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonDroolingFace.Location = new System.Drawing.Point(288, 96);
+			this.buttonDroolingFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonDroolingFace.Name = "buttonDroolingFace";
+			this.buttonDroolingFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonDroolingFace.TabIndex = 46;
+			this.buttonDroolingFace.Tag = "🤤";
+			this.toolTip.SetToolTip(this.buttonDroolingFace, "drooling face");
+			this.buttonDroolingFace.UseVisualStyleBackColor = true;
+			this.buttonDroolingFace.Click += new System.EventHandler(this.ButtonDroolingFace_Click);
+			this.buttonDroolingFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonDroolingFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonDroolingFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonDroolingFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonSleepingFace
+			// 
+			this.buttonSleepingFace.AccessibleDescription = "sleeping face";
+			this.buttonSleepingFace.AccessibleName = "sleeping face";
+			this.buttonSleepingFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonSleepingFace.BackgroundImage = global::EmojiLib.FaceSleepy.SleepingFaceGoogle;
+			this.buttonSleepingFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonSleepingFace.FlatAppearance.BorderSize = 0;
+			this.buttonSleepingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonSleepingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonSleepingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonSleepingFace.Location = new System.Drawing.Point(320, 96);
+			this.buttonSleepingFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonSleepingFace.Name = "buttonSleepingFace";
+			this.buttonSleepingFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonSleepingFace.TabIndex = 47;
+			this.buttonSleepingFace.Tag = "😴";
+			this.toolTip.SetToolTip(this.buttonSleepingFace, "sleeping face");
+			this.buttonSleepingFace.UseVisualStyleBackColor = true;
+			this.buttonSleepingFace.Click += new System.EventHandler(this.ButtonSleepingFace_Click);
+			this.buttonSleepingFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSleepingFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonSleepingFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSleepingFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
 			// statusStrip
 			// 
 			this.statusStrip.Dock = System.Windows.Forms.DockStyle.None;
@@ -1313,7 +1448,7 @@
 			// 
 			this.toolStripMenuItemAboutBox.Image = global::EmojiLib.Properties.Resources.fatcow_information;
 			this.toolStripMenuItemAboutBox.Name = "toolStripMenuItemAboutBox";
-			this.toolStripMenuItemAboutBox.Size = new System.Drawing.Size(152, 22);
+			this.toolStripMenuItemAboutBox.Size = new System.Drawing.Size(115, 22);
 			this.toolStripMenuItemAboutBox.Text = "&About...";
 			this.toolStripMenuItemAboutBox.Click += new System.EventHandler(this.toolStripMenuItemAboutBox_Click);
 			// 
@@ -1322,7 +1457,7 @@
 			this.toolStripMenuItemExit.AutoToolTip = true;
 			this.toolStripMenuItemExit.Image = global::EmojiLib.Properties.Resources.fatcow_door;
 			this.toolStripMenuItemExit.Name = "toolStripMenuItemExit";
-			this.toolStripMenuItemExit.Size = new System.Drawing.Size(152, 22);
+			this.toolStripMenuItemExit.Size = new System.Drawing.Size(115, 22);
 			this.toolStripMenuItemExit.Text = "&Exit";
 			this.toolStripMenuItemExit.Click += new System.EventHandler(this.Exit_Click);
 			// 
@@ -1516,6 +1651,11 @@
 		private System.Windows.Forms.ToolStripButton buttonEmojiSize24;
 		private System.Windows.Forms.ToolStripButton buttonEmojiSize32;
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemAboutBox;
+		private System.Windows.Forms.Button buttonRelievedFace;
+		private System.Windows.Forms.Button buttonPensiveFace;
+		private System.Windows.Forms.Button buttonSleepyFace;
+		private System.Windows.Forms.Button buttonDroolingFace;
+		private System.Windows.Forms.Button buttonSleepingFace;
 	}
 }
 
