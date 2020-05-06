@@ -33,6 +33,10 @@
 			this.labelCode = new System.Windows.Forms.Label();
 			this.labelShortName = new System.Windows.Forms.Label();
 			this.labelShortNameDesc = new System.Windows.Forms.Label();
+			this.labelGroup = new System.Windows.Forms.Label();
+			this.labelGroupDesc = new System.Windows.Forms.Label();
+			this.labelSubGroup = new System.Windows.Forms.Label();
+			this.labelSubGroupDesc = new System.Windows.Forms.Label();
 			this.labelGoogleVersion = new System.Windows.Forms.Label();
 			this.labelAppleVersion = new System.Windows.Forms.Label();
 			this.labelFacebookVersion = new System.Windows.Forms.Label();
@@ -52,10 +56,6 @@
 			this.groupBoxMetadata = new System.Windows.Forms.GroupBox();
 			this.groupBoxImageVersions = new System.Windows.Forms.GroupBox();
 			this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
-			this.labelGroup = new System.Windows.Forms.Label();
-			this.labelGroupDesc = new System.Windows.Forms.Label();
-			this.labelSubGroup = new System.Windows.Forms.Label();
-			this.labelSubGroupDesc = new System.Windows.Forms.Label();
 			this.tableLayoutPanelMetadata.SuspendLayout();
 			this.tableLayoutPanelImageVersions.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBoxApple)).BeginInit();
@@ -132,6 +132,47 @@
 			this.labelShortNameDesc.Size = new System.Drawing.Size(285, 13);
 			this.labelShortNameDesc.TabIndex = 8;
 			this.labelShortNameDesc.Text = "description";
+			// 
+			// labelGroup
+			// 
+			this.labelGroup.AutoSize = true;
+			this.labelGroup.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.labelGroup.Location = new System.Drawing.Point(3, 26);
+			this.labelGroup.Name = "labelGroup";
+			this.labelGroup.Size = new System.Drawing.Size(63, 13);
+			this.labelGroup.TabIndex = 13;
+			this.labelGroup.Text = "Group:";
+			// 
+			// labelGroupDesc
+			// 
+			this.labelGroupDesc.AutoSize = true;
+			this.labelGroupDesc.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.labelGroupDesc.Location = new System.Drawing.Point(72, 26);
+			this.labelGroupDesc.Name = "labelGroupDesc";
+			this.labelGroupDesc.Size = new System.Drawing.Size(285, 13);
+			this.labelGroupDesc.TabIndex = 14;
+			this.labelGroupDesc.Text = "group";
+			this.labelGroupDesc.UseMnemonic = false;
+			// 
+			// labelSubGroup
+			// 
+			this.labelSubGroup.AutoSize = true;
+			this.labelSubGroup.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.labelSubGroup.Location = new System.Drawing.Point(3, 39);
+			this.labelSubGroup.Name = "labelSubGroup";
+			this.labelSubGroup.Size = new System.Drawing.Size(63, 14);
+			this.labelSubGroup.TabIndex = 15;
+			this.labelSubGroup.Text = "Subgroup:";
+			// 
+			// labelSubGroupDesc
+			// 
+			this.labelSubGroupDesc.AutoSize = true;
+			this.labelSubGroupDesc.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.labelSubGroupDesc.Location = new System.Drawing.Point(72, 39);
+			this.labelSubGroupDesc.Name = "labelSubGroupDesc";
+			this.labelSubGroupDesc.Size = new System.Drawing.Size(285, 14);
+			this.labelSubGroupDesc.TabIndex = 16;
+			this.labelSubGroupDesc.Text = "sub group";
 			// 
 			// labelGoogleVersion
 			// 
@@ -367,47 +408,6 @@
 			this.saveFileDialog.Filter = "PNG|*.png";
 			this.saveFileDialog.SupportMultiDottedExtensions = true;
 			// 
-			// labelGroup
-			// 
-			this.labelGroup.AutoSize = true;
-			this.labelGroup.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.labelGroup.Location = new System.Drawing.Point(3, 26);
-			this.labelGroup.Name = "labelGroup";
-			this.labelGroup.Size = new System.Drawing.Size(63, 13);
-			this.labelGroup.TabIndex = 13;
-			this.labelGroup.Text = "Group:";
-			// 
-			// labelGroupDesc
-			// 
-			this.labelGroupDesc.AutoSize = true;
-			this.labelGroupDesc.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.labelGroupDesc.Location = new System.Drawing.Point(72, 26);
-			this.labelGroupDesc.Name = "labelGroupDesc";
-			this.labelGroupDesc.Size = new System.Drawing.Size(285, 13);
-			this.labelGroupDesc.TabIndex = 14;
-			this.labelGroupDesc.Text = "group";
-			this.labelGroupDesc.UseMnemonic = false;
-			// 
-			// labelSubGroup
-			// 
-			this.labelSubGroup.AutoSize = true;
-			this.labelSubGroup.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.labelSubGroup.Location = new System.Drawing.Point(3, 39);
-			this.labelSubGroup.Name = "labelSubGroup";
-			this.labelSubGroup.Size = new System.Drawing.Size(63, 14);
-			this.labelSubGroup.TabIndex = 15;
-			this.labelSubGroup.Text = "Subgroup:";
-			// 
-			// labelSubGroupDesc
-			// 
-			this.labelSubGroupDesc.AutoSize = true;
-			this.labelSubGroupDesc.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.labelSubGroupDesc.Location = new System.Drawing.Point(72, 39);
-			this.labelSubGroupDesc.Name = "labelSubGroupDesc";
-			this.labelSubGroupDesc.Size = new System.Drawing.Size(285, 14);
-			this.labelSubGroupDesc.TabIndex = 16;
-			this.labelSubGroupDesc.Text = "sub group";
-			// 
 			// EmojiInfoForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -416,7 +416,7 @@
 			this.Controls.Add(this.groupBoxImageVersions);
 			this.Controls.Add(this.groupBoxMetadata);
 			this.Controls.Add(this.buttonClose);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.MaximizeBox = false;
 			this.MinimizeBox = false;
 			this.Name = "EmojiInfoForm";

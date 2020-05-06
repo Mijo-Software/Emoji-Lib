@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ExpressionlessFaceApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ExpressionlessFaceApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpressionlessFaceFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ExpressionlessFaceFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpressionlessFaceGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ExpressionlessFaceGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpressionlessFaceJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ExpressionlessFaceJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpressionlessFaceSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ExpressionlessFaceSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpressionlessFaceTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ExpressionlessFaceTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpressionlessFaceWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ExpressionlessFaceWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithoutMouthApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithoutMouthApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithoutMouthFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithoutMouthFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithoutMouthGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithoutMouthGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithoutMouthJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithoutMouthJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithoutMouthSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithoutMouthSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithoutMouthTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithoutMouthTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithoutMouthWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithoutMouthWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithRaisedEyebrowApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithRaisedEyebrowApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithRaisedEyebrowFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithRaisedEyebrowFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithRaisedEyebrowGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithRaisedEyebrowGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithRaisedEyebrowJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithRaisedEyebrowJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithRaisedEyebrowSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithRaisedEyebrowSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithRaisedEyebrowTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithRaisedEyebrowTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithRaisedEyebrowWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithRaisedEyebrowWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithRollingEyesApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithRollingEyesApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithRollingEyesFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithRollingEyesFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithRollingEyesGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithRollingEyesGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithRollingEyesJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithRollingEyesJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithRollingEyesSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithRollingEyesSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithRollingEyesTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithRollingEyesTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithRollingEyesWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithRollingEyesWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrimacingFaceApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrimacingFaceApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrimacingFaceFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrimacingFaceFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrimacingFaceGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrimacingFaceGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrimacingFaceJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrimacingFaceJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrimacingFaceSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrimacingFaceSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrimacingFaceTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrimacingFaceTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrimacingFaceWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrimacingFaceWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LyingFaceApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LyingFaceApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LyingFaceFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LyingFaceFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LyingFaceGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LyingFaceGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LyingFaceJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LyingFaceJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LyingFaceSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LyingFaceSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LyingFaceTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LyingFaceTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LyingFaceWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LyingFaceWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NeutralFaceApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\NeutralFaceApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NeutralFaceFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\NeutralFaceFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NeutralFaceGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\NeutralFaceGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NeutralFaceJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\NeutralFaceJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NeutralFaceSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\NeutralFaceSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NeutralFaceTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\NeutralFaceTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NeutralFaceWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\NeutralFaceWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmirkingFaceApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SmirkingFaceApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmirkingFaceFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SmirkingFaceFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmirkingFaceGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SmirkingFaceGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmirkingFaceJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SmirkingFaceJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmirkingFaceSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SmirkingFaceSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmirkingFaceTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SmirkingFaceTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmirkingFaceWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SmirkingFaceWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnamusedFaceApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UnamusedFaceApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnamusedFaceFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UnamusedFaceFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnamusedFaceGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UnamusedFaceGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnamusedFaceJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UnamusedFaceJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnamusedFaceSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UnamusedFaceSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnamusedFaceTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UnamusedFaceTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnamusedFaceWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\UnamusedFaceWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZipperMouthFaceApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZipperMouthFaceApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZipperMouthFaceFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZipperMouthFaceFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZipperMouthFaceGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZipperMouthFaceGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZipperMouthFaceJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZipperMouthFaceJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZipperMouthFaceSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZipperMouthFaceSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZipperMouthFaceTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZipperMouthFaceTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZipperMouthFaceWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZipperMouthFaceWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

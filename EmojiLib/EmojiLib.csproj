@@ -71,6 +71,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBoxForm.Designer.cs">
+      <DependentUpon>AboutBoxForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="EmojiInfoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>FaceHand.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FaceNeutralSkeptical.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FaceNeutralSkeptical.resx</DependentUpon>
     </Compile>
     <Compile Include="FaceSmiling.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -105,6 +116,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBoxForm.resx">
+      <DependentUpon>AboutBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmojiInfoForm.resx">
       <DependentUpon>EmojiInfoForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,6 +129,11 @@
     <EmbeddedResource Include="FaceHand.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FaceHand.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaceNeutralSkeptical.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FaceNeutralSkeptical.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="FaceSmiling.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -150,6 +169,84 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="emoji-lib.ico" />
+    <None Include="Resources\fugue_door.png" />
+    <None Include="Resources\fatcow_information.png" />
+    <None Include="Resources\fatcow_door.png" />
+    <None Include="Resources\fugue_information.png" />
+    <None Include="Resources\fugue_book.png" />
+    <None Include="Resources\fatcow_clipboard_paste.png" />
+    <None Include="Resources\fatcow_book.png" />
+    <None Include="Resources\fugue_clipboard_paste.png" />
+    <None Include="Resources\ZipperMouthFaceTwitter.png" />
+    <None Include="Resources\ZipperMouthFaceSamsung.png" />
+    <None Include="Resources\ZipperMouthFaceJoyPixels.png" />
+    <None Include="Resources\ZipperMouthFaceGoogle.png" />
+    <None Include="Resources\ZipperMouthFaceFacebook.png" />
+    <None Include="Resources\ZipperMouthFaceApple.png" />
+    <None Include="Resources\UnamusedFaceWindows.png" />
+    <None Include="Resources\UnamusedFaceTwitter.png" />
+    <None Include="Resources\UnamusedFaceSamsung.png" />
+    <None Include="Resources\UnamusedFaceJoyPixels.png" />
+    <None Include="Resources\UnamusedFaceGoogle.png" />
+    <None Include="Resources\UnamusedFaceFacebook.png" />
+    <None Include="Resources\UnamusedFaceApple.png" />
+    <None Include="Resources\SmirkingFaceWindows.png" />
+    <None Include="Resources\SmirkingFaceTwitter.png" />
+    <None Include="Resources\SmirkingFaceSamsung.png" />
+    <None Include="Resources\SmirkingFaceJoyPixels.png" />
+    <None Include="Resources\SmirkingFaceGoogle.png" />
+    <None Include="Resources\SmirkingFaceFacebook.png" />
+    <None Include="Resources\SmirkingFaceApple.png" />
+    <None Include="Resources\NeutralFaceWindows.png" />
+    <None Include="Resources\NeutralFaceTwitter.png" />
+    <None Include="Resources\NeutralFaceSamsung.png" />
+    <None Include="Resources\NeutralFaceJoyPixels.png" />
+    <None Include="Resources\NeutralFaceGoogle.png" />
+    <None Include="Resources\NeutralFaceFacebook.png" />
+    <None Include="Resources\NeutralFaceApple.png" />
+    <None Include="Resources\LyingFaceWindows.png" />
+    <None Include="Resources\LyingFaceTwitter.png" />
+    <None Include="Resources\LyingFaceSamsung.png" />
+    <None Include="Resources\LyingFaceJoyPixels.png" />
+    <None Include="Resources\LyingFaceGoogle.png" />
+    <None Include="Resources\LyingFaceFacebook.png" />
+    <None Include="Resources\LyingFaceApple.png" />
+    <None Include="Resources\GrimacinFaceWindows.png" />
+    <None Include="Resources\GrimacinFaceTwitter.png" />
+    <None Include="Resources\GrimacinFaceSamsung.png" />
+    <None Include="Resources\GrimacinFaceJoyPixels.png" />
+    <None Include="Resources\GrimacinFaceGoogle.png" />
+    <None Include="Resources\GrimacinFaceFacebook.png" />
+    <None Include="Resources\GrimacinFaceApple.png" />
+    <None Include="Resources\FaceWithRollingEyesWindows.png" />
+    <None Include="Resources\FaceWithRollingEyesTwitter.png" />
+    <None Include="Resources\FaceWithRollingEyesSamsung.png" />
+    <None Include="Resources\FaceWithRollingEyesJoyPixels.png" />
+    <None Include="Resources\FaceWithRollingEyesGoogle.png" />
+    <None Include="Resources\FaceWithRollingEyesFacebook.png" />
+    <None Include="Resources\FaceWithRollingEyesApple.png" />
+    <None Include="Resources\FaceWithRaisedEyebrowWindows.png" />
+    <None Include="Resources\FaceWithRaisedEyebrowTwitter.png" />
+    <None Include="Resources\FaceWithRaisedEyebrowSamsung.png" />
+    <None Include="Resources\FaceWithRaisedEyebrowJoyPixels.png" />
+    <None Include="Resources\FaceWithRaisedEyebrowGoogle.png" />
+    <None Include="Resources\FaceWithRaisedEyebrowFacebook.png" />
+    <None Include="Resources\FaceWithRaisedEyebrowApple.png" />
+    <None Include="Resources\FaceWithoutMouthWindows.png" />
+    <None Include="Resources\FaceWithoutMouthTwitter.png" />
+    <None Include="Resources\FaceWithoutMouthSamsung.png" />
+    <None Include="Resources\FaceWithoutMouthJoyPixels.png" />
+    <None Include="Resources\FaceWithoutMouthGoogle.png" />
+    <None Include="Resources\FaceWithoutMouthFacebook.png" />
+    <None Include="Resources\FaceWithoutMouthApple.png" />
+    <None Include="Resources\ExpressionlessFaceWindows.png" />
+    <None Include="Resources\ExpressionlessFaceTwitter.png" />
+    <None Include="Resources\ExpressionlessFaceSamsung.png" />
+    <None Include="Resources\ExpressionlessFaceJoyPixels.png" />
+    <None Include="Resources\ExpressionlessFaceGoogle.png" />
+    <None Include="Resources\ExpressionlessFaceFacebook.png" />
+    <None Include="Resources\ExpressionlessFaceApple.png" />
+    <None Include="Resources\ZipperMouthFaceWindows.png" />
     <None Include="Resources\ThinkingFaceTwitter.png" />
     <None Include="Resources\ThinkingFaceSamsung.png" />
     <None Include="Resources\ThinkingFaceJoyPixels.png" />
