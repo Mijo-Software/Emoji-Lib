@@ -154,6 +154,9 @@
   <data name="fugue_book" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fugue_book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="faceSleepy" xml:space="preserve">
+    <value>face-sleepy</value>
+  </data>
   <data name="fatcow_door" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fatcow_door.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
