@@ -114,6 +114,15 @@ namespace EmojiLib.Properties {
             }
         }
         
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die face-unwell ähnelt.
+        /// </summary>
+        internal static string faceUnwell {
+            get {
+                return ResourceManager.GetString("faceUnwell", resourceCulture);
+            }
+        }
+        
         internal static System.Drawing.Bitmap fatcow_book {
             get {
                 object obj = ResourceManager.GetObject("fatcow_book", resourceCulture);
