@@ -88,10 +88,20 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FaceAffection.resx</DependentUpon>
     </Compile>
+    <Compile Include="FaceGlasses.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FaceGlasses.resx</DependentUpon>
+    </Compile>
     <Compile Include="FaceHand.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>FaceHand.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FaceHat.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FaceHat.resx</DependentUpon>
     </Compile>
     <Compile Include="FaceNeutralSkeptical.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -136,9 +146,17 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FaceAffection.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="FaceGlasses.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FaceGlasses.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="FaceHand.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FaceHand.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaceHat.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FaceHat.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="FaceNeutralSkeptical.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -187,6 +205,43 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="emoji-lib.ico" />
+    <None Include="Resources\SmilingFaceWithSunglassesTwitter.png" />
+    <None Include="Resources\SmilingFaceWithSunglassesSamsung.png" />
+    <None Include="Resources\SmilingFaceWithSunglassesJoyPixels.png" />
+    <None Include="Resources\SmilingFaceWithSunglassesGoogle.png" />
+    <None Include="Resources\SmilingFaceWithSunglassesFacebook.png" />
+    <None Include="Resources\SmilingFaceWithSunglassesApple.png" />
+    <None Include="Resources\NerdFaceWindows.png" />
+    <None Include="Resources\NerdFaceTwitter.png" />
+    <None Include="Resources\NerdFaceSamsung.png" />
+    <None Include="Resources\NerdFaceJoyPixels.png" />
+    <None Include="Resources\NerdFaceGoogle.png" />
+    <None Include="Resources\NerdFaceFacebook.png" />
+    <None Include="Resources\NerdFaceApple.png" />
+    <None Include="Resources\FaceWithMonocleWindows.png" />
+    <None Include="Resources\FaceWithMonocleTwitter.png" />
+    <None Include="Resources\FaceWithMonocleSamsung.png" />
+    <None Include="Resources\FaceWithMonocleJoyPixels.png" />
+    <None Include="Resources\FaceWithMonocleGoogle.png" />
+    <None Include="Resources\FaceWithMonocleFacebook.png" />
+    <None Include="Resources\FaceWithMonocleApple.png" />
+    <None Include="Resources\SmilingFaceWithSunglassesWindows.png" />
+    <None Include="Resources\PartyingFaceTwitter.png" />
+    <None Include="Resources\PartyingFaceSamsung.png" />
+    <None Include="Resources\PartyingFaceJoyPixels.png" />
+    <None Include="Resources\PartyingFaceGoogle.png" />
+    <None Include="Resources\PartyingFaceFacebook.png" />
+    <None Include="Resources\PartyingFaceApple.png" />
+    <None Include="Resources\DisguisedFaceJoyPixels.png" />
+    <None Include="Resources\DisguisedFaceGoogle.png" />
+    <None Include="Resources\CowboyHatFaceWindows.png" />
+    <None Include="Resources\CowboyHatFaceTwitter.png" />
+    <None Include="Resources\CowboyHatFaceSamsung.png" />
+    <None Include="Resources\CowboyHatFaceJoyPixels.png" />
+    <None Include="Resources\CowboyHatFaceGoogle.png" />
+    <None Include="Resources\CowboyHatFaceFacebook.png" />
+    <None Include="Resources\CowboyHatFaceApple.png" />
+    <None Include="Resources\PartyingFaceWindows.png" />
     <None Include="Resources\DizzyFaceTwitter.png" />
     <None Include="Resources\WoozyFaceTwitter.png" />
     <None Include="Resources\WoozyFaceSamsung.png" />

@@ -81,6 +81,22 @@
 			this.buttonDroolingFace = new System.Windows.Forms.Button();
 			this.buttonSleepingFace = new System.Windows.Forms.Button();
 			this.buttonFaceWithMedicalMask = new System.Windows.Forms.Button();
+			this.buttonFaceWithThermometer = new System.Windows.Forms.Button();
+			this.buttonFaceWithHeadBandage = new System.Windows.Forms.Button();
+			this.buttonNauseatedFace = new System.Windows.Forms.Button();
+			this.buttonFaceVomiting = new System.Windows.Forms.Button();
+			this.buttonSneezingFace = new System.Windows.Forms.Button();
+			this.buttonHotFace = new System.Windows.Forms.Button();
+			this.buttonColdFace = new System.Windows.Forms.Button();
+			this.buttonWoozyFace = new System.Windows.Forms.Button();
+			this.buttonDizzyFace = new System.Windows.Forms.Button();
+			this.buttonExplodingHead = new System.Windows.Forms.Button();
+			this.buttonCowboyHatFace = new System.Windows.Forms.Button();
+			this.buttonPartyingFace = new System.Windows.Forms.Button();
+			this.buttonDisguisedFace = new System.Windows.Forms.Button();
+			this.buttonSmilingFaceWithSunglasses = new System.Windows.Forms.Button();
+			this.buttonNerdFace = new System.Windows.Forms.Button();
+			this.buttonFaceWithMonocle = new System.Windows.Forms.Button();
 			this.statusStrip = new System.Windows.Forms.StatusStrip();
 			this.labelInformation = new System.Windows.Forms.ToolStripStatusLabel();
 			this.labelCopiedStatus = new System.Windows.Forms.ToolStripStatusLabel();
@@ -99,16 +115,6 @@
 			this.buttonEmojiSize24 = new System.Windows.Forms.ToolStripButton();
 			this.buttonEmojiSize32 = new System.Windows.Forms.ToolStripButton();
 			this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-			this.buttonFaceWithThermometer = new System.Windows.Forms.Button();
-			this.buttonFaceWithHeadBandage = new System.Windows.Forms.Button();
-			this.buttonNauseatedFace = new System.Windows.Forms.Button();
-			this.buttonFaceVomiting = new System.Windows.Forms.Button();
-			this.buttonSneezingFace = new System.Windows.Forms.Button();
-			this.buttonHotFace = new System.Windows.Forms.Button();
-			this.buttonColdFace = new System.Windows.Forms.Button();
-			this.buttonWoozyFace = new System.Windows.Forms.Button();
-			this.buttonDizzyFace = new System.Windows.Forms.Button();
-			this.buttonExplodingHead = new System.Windows.Forms.Button();
 			this.tabControlEmojis.SuspendLayout();
 			this.tabPageSmileys.SuspendLayout();
 			this.flowLayoutPanelSmileys.SuspendLayout();
@@ -206,6 +212,12 @@
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonWoozyFace);
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonDizzyFace);
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonExplodingHead);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonCowboyHatFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonPartyingFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonDisguisedFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSmilingFaceWithSunglasses);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonNerdFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonFaceWithMonocle);
 			this.flowLayoutPanelSmileys.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.flowLayoutPanelSmileys.Location = new System.Drawing.Point(3, 3);
 			this.flowLayoutPanelSmileys.Name = "flowLayoutPanelSmileys";
@@ -1412,193 +1424,6 @@
 			this.buttonFaceWithMedicalMask.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
 			this.buttonFaceWithMedicalMask.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
-			// statusStrip
-			// 
-			this.statusStrip.Dock = System.Windows.Forms.DockStyle.None;
-			this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.labelInformation,
-            this.labelCopiedStatus});
-			this.statusStrip.Location = new System.Drawing.Point(0, 0);
-			this.statusStrip.Name = "statusStrip";
-			this.statusStrip.ShowItemToolTips = true;
-			this.statusStrip.Size = new System.Drawing.Size(404, 22);
-			this.statusStrip.TabIndex = 1;
-			this.statusStrip.TabStop = true;
-			this.statusStrip.Text = "statusStrip";
-			// 
-			// labelInformation
-			// 
-			this.labelInformation.AutoToolTip = true;
-			this.labelInformation.Name = "labelInformation";
-			this.labelInformation.Size = new System.Drawing.Size(61, 17);
-			this.labelInformation.Text = "information";
-			// 
-			// labelCopiedStatus
-			// 
-			this.labelCopiedStatus.AutoToolTip = true;
-			this.labelCopiedStatus.Image = global::EmojiLib.Properties.Resources.fatcow_clipboard_paste;
-			this.labelCopiedStatus.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.labelCopiedStatus.Name = "labelCopiedStatus";
-			this.labelCopiedStatus.Size = new System.Drawing.Size(328, 17);
-			this.labelCopiedStatus.Spring = true;
-			this.labelCopiedStatus.Text = "Copied";
-			this.labelCopiedStatus.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// toolStripContainer
-			// 
-			// 
-			// toolStripContainer.BottomToolStripPanel
-			// 
-			this.toolStripContainer.BottomToolStripPanel.Controls.Add(this.statusStrip);
-			// 
-			// toolStripContainer.ContentPanel
-			// 
-			this.toolStripContainer.ContentPanel.Controls.Add(this.tabControlEmojis);
-			this.toolStripContainer.ContentPanel.Size = new System.Drawing.Size(404, 288);
-			this.toolStripContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.toolStripContainer.Location = new System.Drawing.Point(0, 0);
-			this.toolStripContainer.Name = "toolStripContainer";
-			this.toolStripContainer.Size = new System.Drawing.Size(404, 359);
-			this.toolStripContainer.TabIndex = 2;
-			this.toolStripContainer.Text = "toolStripContainer";
-			// 
-			// toolStripContainer.TopToolStripPanel
-			// 
-			this.toolStripContainer.TopToolStripPanel.Controls.Add(this.menuStrip);
-			this.toolStripContainer.TopToolStripPanel.Controls.Add(this.toolStrip);
-			this.toolStripContainer.TopToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			// 
-			// menuStrip
-			// 
-			this.menuStrip.Dock = System.Windows.Forms.DockStyle.None;
-			this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItemFile});
-			this.menuStrip.Location = new System.Drawing.Point(0, 0);
-			this.menuStrip.Name = "menuStrip";
-			this.menuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.menuStrip.ShowItemToolTips = true;
-			this.menuStrip.Size = new System.Drawing.Size(404, 24);
-			this.menuStrip.TabIndex = 0;
-			this.menuStrip.Text = "menuStrip";
-			// 
-			// toolStripMenuItemFile
-			// 
-			this.toolStripMenuItemFile.AutoToolTip = true;
-			this.toolStripMenuItemFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItemAboutBox,
-            this.toolStripMenuItemExit});
-			this.toolStripMenuItemFile.Name = "toolStripMenuItemFile";
-			this.toolStripMenuItemFile.Size = new System.Drawing.Size(35, 20);
-			this.toolStripMenuItemFile.Text = "&File";
-			// 
-			// toolStripMenuItemAboutBox
-			// 
-			this.toolStripMenuItemAboutBox.Image = global::EmojiLib.Properties.Resources.fatcow_information;
-			this.toolStripMenuItemAboutBox.Name = "toolStripMenuItemAboutBox";
-			this.toolStripMenuItemAboutBox.Size = new System.Drawing.Size(115, 22);
-			this.toolStripMenuItemAboutBox.Text = "&About...";
-			this.toolStripMenuItemAboutBox.Click += new System.EventHandler(this.toolStripMenuItemAboutBox_Click);
-			// 
-			// toolStripMenuItemExit
-			// 
-			this.toolStripMenuItemExit.AutoToolTip = true;
-			this.toolStripMenuItemExit.Image = global::EmojiLib.Properties.Resources.fatcow_door;
-			this.toolStripMenuItemExit.Name = "toolStripMenuItemExit";
-			this.toolStripMenuItemExit.Size = new System.Drawing.Size(115, 22);
-			this.toolStripMenuItemExit.Text = "&Exit";
-			this.toolStripMenuItemExit.Click += new System.EventHandler(this.Exit_Click);
-			// 
-			// toolStrip
-			// 
-			this.toolStrip.Dock = System.Windows.Forms.DockStyle.None;
-			this.toolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.labelWorkMode,
-            this.buttonPickerMode,
-            this.buttonLibraryMode,
-            this.toolStripSeparator1,
-            this.labelEmojiSize,
-            this.buttonEmojiSize16,
-            this.buttonEmojiSize24,
-            this.buttonEmojiSize32});
-			this.toolStrip.Location = new System.Drawing.Point(0, 24);
-			this.toolStrip.Name = "toolStrip";
-			this.toolStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.toolStrip.Size = new System.Drawing.Size(404, 25);
-			this.toolStrip.Stretch = true;
-			this.toolStrip.TabIndex = 1;
-			this.toolStrip.TabStop = true;
-			// 
-			// labelWorkMode
-			// 
-			this.labelWorkMode.Name = "labelWorkMode";
-			this.labelWorkMode.Size = new System.Drawing.Size(63, 22);
-			this.labelWorkMode.Text = "work mode:";
-			// 
-			// buttonPickerMode
-			// 
-			this.buttonPickerMode.Checked = true;
-			this.buttonPickerMode.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.buttonPickerMode.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.buttonPickerMode.Image = global::EmojiLib.Properties.Resources.fatcow_clipboard_paste;
-			this.buttonPickerMode.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.buttonPickerMode.Name = "buttonPickerMode";
-			this.buttonPickerMode.Size = new System.Drawing.Size(23, 22);
-			this.buttonPickerMode.Text = "picker mode";
-			this.buttonPickerMode.Click += new System.EventHandler(this.ButtonSetPickerMode_Click);
-			// 
-			// buttonLibraryMode
-			// 
-			this.buttonLibraryMode.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.buttonLibraryMode.Image = global::EmojiLib.Properties.Resources.fatcow_book;
-			this.buttonLibraryMode.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.buttonLibraryMode.Name = "buttonLibraryMode";
-			this.buttonLibraryMode.Size = new System.Drawing.Size(23, 22);
-			this.buttonLibraryMode.Text = "library mode";
-			this.buttonLibraryMode.Click += new System.EventHandler(this.ButtonSetLibraryMode_Click);
-			// 
-			// toolStripSeparator1
-			// 
-			this.toolStripSeparator1.Name = "toolStripSeparator1";
-			this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-			// 
-			// labelEmojiSize
-			// 
-			this.labelEmojiSize.Name = "labelEmojiSize";
-			this.labelEmojiSize.Size = new System.Drawing.Size(57, 22);
-			this.labelEmojiSize.Text = "emoji size:";
-			// 
-			// buttonEmojiSize16
-			// 
-			this.buttonEmojiSize16.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-			this.buttonEmojiSize16.Image = ((System.Drawing.Image)(resources.GetObject("buttonEmojiSize16.Image")));
-			this.buttonEmojiSize16.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.buttonEmojiSize16.Name = "buttonEmojiSize16";
-			this.buttonEmojiSize16.Size = new System.Drawing.Size(35, 22);
-			this.buttonEmojiSize16.Text = "16px";
-			this.buttonEmojiSize16.Click += new System.EventHandler(this.ButtonEmojiSize16_Click);
-			// 
-			// buttonEmojiSize24
-			// 
-			this.buttonEmojiSize24.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-			this.buttonEmojiSize24.Image = ((System.Drawing.Image)(resources.GetObject("buttonEmojiSize24.Image")));
-			this.buttonEmojiSize24.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.buttonEmojiSize24.Name = "buttonEmojiSize24";
-			this.buttonEmojiSize24.Size = new System.Drawing.Size(35, 22);
-			this.buttonEmojiSize24.Text = "24px";
-			this.buttonEmojiSize24.Click += new System.EventHandler(this.ButtonEmojiSize24_Click);
-			// 
-			// buttonEmojiSize32
-			// 
-			this.buttonEmojiSize32.Checked = true;
-			this.buttonEmojiSize32.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.buttonEmojiSize32.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-			this.buttonEmojiSize32.Image = ((System.Drawing.Image)(resources.GetObject("buttonEmojiSize32.Image")));
-			this.buttonEmojiSize32.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.buttonEmojiSize32.Name = "buttonEmojiSize32";
-			this.buttonEmojiSize32.Size = new System.Drawing.Size(35, 22);
-			this.buttonEmojiSize32.Text = "32px";
-			this.buttonEmojiSize32.Click += new System.EventHandler(this.ButtonEmojiSize32_Click);
-			// 
 			// buttonFaceWithThermometer
 			// 
 			this.buttonFaceWithThermometer.AccessibleDescription = "face with thermometer";
@@ -1849,6 +1674,343 @@
 			this.buttonExplodingHead.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
 			this.buttonExplodingHead.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
+			// buttonCowboyHatFace
+			// 
+			this.buttonCowboyHatFace.AccessibleDescription = "cowboy hat face";
+			this.buttonCowboyHatFace.AccessibleName = "cowboy hat face";
+			this.buttonCowboyHatFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonCowboyHatFace.BackgroundImage = global::EmojiLib.FaceHat.CowboyHatFaceGoogle;
+			this.buttonCowboyHatFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonCowboyHatFace.FlatAppearance.BorderSize = 0;
+			this.buttonCowboyHatFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonCowboyHatFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonCowboyHatFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonCowboyHatFace.Location = new System.Drawing.Point(320, 128);
+			this.buttonCowboyHatFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonCowboyHatFace.Name = "buttonCowboyHatFace";
+			this.buttonCowboyHatFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonCowboyHatFace.TabIndex = 59;
+			this.buttonCowboyHatFace.Tag = "🤠";
+			this.toolTip.SetToolTip(this.buttonCowboyHatFace, "cowboy hat face");
+			this.buttonCowboyHatFace.UseVisualStyleBackColor = true;
+			this.buttonCowboyHatFace.Click += new System.EventHandler(this.ButtonCowboyHatFace_Click);
+			this.buttonCowboyHatFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonCowboyHatFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonCowboyHatFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonCowboyHatFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonPartyingFace
+			// 
+			this.buttonPartyingFace.AccessibleDescription = "partying face";
+			this.buttonPartyingFace.AccessibleName = "partying face";
+			this.buttonPartyingFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonPartyingFace.BackgroundImage = global::EmojiLib.FaceHat.PartyingFaceGoogle;
+			this.buttonPartyingFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonPartyingFace.FlatAppearance.BorderSize = 0;
+			this.buttonPartyingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonPartyingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonPartyingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonPartyingFace.Location = new System.Drawing.Point(352, 128);
+			this.buttonPartyingFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonPartyingFace.Name = "buttonPartyingFace";
+			this.buttonPartyingFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonPartyingFace.TabIndex = 60;
+			this.buttonPartyingFace.Tag = "🥳";
+			this.toolTip.SetToolTip(this.buttonPartyingFace, "partying face");
+			this.buttonPartyingFace.UseVisualStyleBackColor = true;
+			this.buttonPartyingFace.Click += new System.EventHandler(this.ButtonPartyingFace_Click);
+			this.buttonPartyingFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonPartyingFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonPartyingFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonPartyingFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonDisguisedFace
+			// 
+			this.buttonDisguisedFace.AccessibleDescription = "disguised face";
+			this.buttonDisguisedFace.AccessibleName = "disguised face";
+			this.buttonDisguisedFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonDisguisedFace.BackgroundImage = global::EmojiLib.FaceHat.DisguisedFaceGoogle;
+			this.buttonDisguisedFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonDisguisedFace.FlatAppearance.BorderSize = 0;
+			this.buttonDisguisedFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonDisguisedFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonDisguisedFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonDisguisedFace.Location = new System.Drawing.Point(0, 160);
+			this.buttonDisguisedFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonDisguisedFace.Name = "buttonDisguisedFace";
+			this.buttonDisguisedFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonDisguisedFace.TabIndex = 61;
+			this.buttonDisguisedFace.Tag = "🥸";
+			this.toolTip.SetToolTip(this.buttonDisguisedFace, "disguised face");
+			this.buttonDisguisedFace.UseVisualStyleBackColor = true;
+			this.buttonDisguisedFace.Click += new System.EventHandler(this.ButtonDisguisedFace_Click);
+			this.buttonDisguisedFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonDisguisedFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonDisguisedFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonDisguisedFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonSmilingFaceWithSunglasses
+			// 
+			this.buttonSmilingFaceWithSunglasses.AccessibleDescription = "smiling face with sunglasses";
+			this.buttonSmilingFaceWithSunglasses.AccessibleName = "smiling face with sunglasses";
+			this.buttonSmilingFaceWithSunglasses.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonSmilingFaceWithSunglasses.BackgroundImage = global::EmojiLib.FaceGlasses.SmilingFaceWithSunglassesGoogle;
+			this.buttonSmilingFaceWithSunglasses.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonSmilingFaceWithSunglasses.FlatAppearance.BorderSize = 0;
+			this.buttonSmilingFaceWithSunglasses.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonSmilingFaceWithSunglasses.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonSmilingFaceWithSunglasses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonSmilingFaceWithSunglasses.Location = new System.Drawing.Point(32, 160);
+			this.buttonSmilingFaceWithSunglasses.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonSmilingFaceWithSunglasses.Name = "buttonSmilingFaceWithSunglasses";
+			this.buttonSmilingFaceWithSunglasses.Size = new System.Drawing.Size(32, 32);
+			this.buttonSmilingFaceWithSunglasses.TabIndex = 62;
+			this.buttonSmilingFaceWithSunglasses.Tag = "😎";
+			this.toolTip.SetToolTip(this.buttonSmilingFaceWithSunglasses, "smiling face with sunglasses");
+			this.buttonSmilingFaceWithSunglasses.UseVisualStyleBackColor = true;
+			this.buttonSmilingFaceWithSunglasses.Click += new System.EventHandler(this.ButtonSmilingFaceWithSunglasses_Click);
+			this.buttonSmilingFaceWithSunglasses.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSmilingFaceWithSunglasses.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonSmilingFaceWithSunglasses.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSmilingFaceWithSunglasses.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonNerdFace
+			// 
+			this.buttonNerdFace.AccessibleDescription = "nerd face";
+			this.buttonNerdFace.AccessibleName = "nerd face";
+			this.buttonNerdFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonNerdFace.BackgroundImage = global::EmojiLib.FaceGlasses.NerdFaceGoogle;
+			this.buttonNerdFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonNerdFace.FlatAppearance.BorderSize = 0;
+			this.buttonNerdFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonNerdFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonNerdFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonNerdFace.Location = new System.Drawing.Point(64, 160);
+			this.buttonNerdFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonNerdFace.Name = "buttonNerdFace";
+			this.buttonNerdFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonNerdFace.TabIndex = 63;
+			this.buttonNerdFace.Tag = "🤓";
+			this.toolTip.SetToolTip(this.buttonNerdFace, "nerd face");
+			this.buttonNerdFace.UseVisualStyleBackColor = true;
+			this.buttonNerdFace.Click += new System.EventHandler(this.ButtonNerdFace_Click);
+			this.buttonNerdFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonNerdFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonNerdFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonNerdFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonFaceWithMonocle
+			// 
+			this.buttonFaceWithMonocle.AccessibleDescription = "face with monocle";
+			this.buttonFaceWithMonocle.AccessibleName = "face with monocle";
+			this.buttonFaceWithMonocle.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonFaceWithMonocle.BackgroundImage = global::EmojiLib.FaceGlasses.FaceWithMonocleGoogle;
+			this.buttonFaceWithMonocle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonFaceWithMonocle.FlatAppearance.BorderSize = 0;
+			this.buttonFaceWithMonocle.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonFaceWithMonocle.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonFaceWithMonocle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonFaceWithMonocle.Location = new System.Drawing.Point(96, 160);
+			this.buttonFaceWithMonocle.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonFaceWithMonocle.Name = "buttonFaceWithMonocle";
+			this.buttonFaceWithMonocle.Size = new System.Drawing.Size(32, 32);
+			this.buttonFaceWithMonocle.TabIndex = 64;
+			this.buttonFaceWithMonocle.Tag = "🧐";
+			this.toolTip.SetToolTip(this.buttonFaceWithMonocle, "face with monocle");
+			this.buttonFaceWithMonocle.UseVisualStyleBackColor = true;
+			this.buttonFaceWithMonocle.Click += new System.EventHandler(this.ButtonFaceWithMonocle_Click);
+			this.buttonFaceWithMonocle.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceWithMonocle.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonFaceWithMonocle.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceWithMonocle.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// statusStrip
+			// 
+			this.statusStrip.Dock = System.Windows.Forms.DockStyle.None;
+			this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.labelInformation,
+            this.labelCopiedStatus});
+			this.statusStrip.Location = new System.Drawing.Point(0, 0);
+			this.statusStrip.Name = "statusStrip";
+			this.statusStrip.ShowItemToolTips = true;
+			this.statusStrip.Size = new System.Drawing.Size(404, 22);
+			this.statusStrip.TabIndex = 1;
+			this.statusStrip.TabStop = true;
+			this.statusStrip.Text = "statusStrip";
+			// 
+			// labelInformation
+			// 
+			this.labelInformation.AutoToolTip = true;
+			this.labelInformation.Name = "labelInformation";
+			this.labelInformation.Size = new System.Drawing.Size(61, 17);
+			this.labelInformation.Text = "information";
+			// 
+			// labelCopiedStatus
+			// 
+			this.labelCopiedStatus.AutoToolTip = true;
+			this.labelCopiedStatus.Image = global::EmojiLib.Properties.Resources.fatcow_clipboard_paste;
+			this.labelCopiedStatus.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.labelCopiedStatus.Name = "labelCopiedStatus";
+			this.labelCopiedStatus.Size = new System.Drawing.Size(328, 17);
+			this.labelCopiedStatus.Spring = true;
+			this.labelCopiedStatus.Text = "Copied";
+			this.labelCopiedStatus.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// toolStripContainer
+			// 
+			// 
+			// toolStripContainer.BottomToolStripPanel
+			// 
+			this.toolStripContainer.BottomToolStripPanel.Controls.Add(this.statusStrip);
+			// 
+			// toolStripContainer.ContentPanel
+			// 
+			this.toolStripContainer.ContentPanel.Controls.Add(this.tabControlEmojis);
+			this.toolStripContainer.ContentPanel.Size = new System.Drawing.Size(404, 288);
+			this.toolStripContainer.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.toolStripContainer.Location = new System.Drawing.Point(0, 0);
+			this.toolStripContainer.Name = "toolStripContainer";
+			this.toolStripContainer.Size = new System.Drawing.Size(404, 359);
+			this.toolStripContainer.TabIndex = 2;
+			this.toolStripContainer.Text = "toolStripContainer";
+			// 
+			// toolStripContainer.TopToolStripPanel
+			// 
+			this.toolStripContainer.TopToolStripPanel.Controls.Add(this.menuStrip);
+			this.toolStripContainer.TopToolStripPanel.Controls.Add(this.toolStrip);
+			this.toolStripContainer.TopToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			// 
+			// menuStrip
+			// 
+			this.menuStrip.Dock = System.Windows.Forms.DockStyle.None;
+			this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItemFile});
+			this.menuStrip.Location = new System.Drawing.Point(0, 0);
+			this.menuStrip.Name = "menuStrip";
+			this.menuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.menuStrip.ShowItemToolTips = true;
+			this.menuStrip.Size = new System.Drawing.Size(404, 24);
+			this.menuStrip.TabIndex = 0;
+			this.menuStrip.Text = "menuStrip";
+			// 
+			// toolStripMenuItemFile
+			// 
+			this.toolStripMenuItemFile.AutoToolTip = true;
+			this.toolStripMenuItemFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItemAboutBox,
+            this.toolStripMenuItemExit});
+			this.toolStripMenuItemFile.Name = "toolStripMenuItemFile";
+			this.toolStripMenuItemFile.Size = new System.Drawing.Size(35, 20);
+			this.toolStripMenuItemFile.Text = "&File";
+			// 
+			// toolStripMenuItemAboutBox
+			// 
+			this.toolStripMenuItemAboutBox.Image = global::EmojiLib.Properties.Resources.fatcow_information;
+			this.toolStripMenuItemAboutBox.Name = "toolStripMenuItemAboutBox";
+			this.toolStripMenuItemAboutBox.Size = new System.Drawing.Size(115, 22);
+			this.toolStripMenuItemAboutBox.Text = "&About...";
+			this.toolStripMenuItemAboutBox.Click += new System.EventHandler(this.toolStripMenuItemAboutBox_Click);
+			// 
+			// toolStripMenuItemExit
+			// 
+			this.toolStripMenuItemExit.AutoToolTip = true;
+			this.toolStripMenuItemExit.Image = global::EmojiLib.Properties.Resources.fatcow_door;
+			this.toolStripMenuItemExit.Name = "toolStripMenuItemExit";
+			this.toolStripMenuItemExit.Size = new System.Drawing.Size(115, 22);
+			this.toolStripMenuItemExit.Text = "&Exit";
+			this.toolStripMenuItemExit.Click += new System.EventHandler(this.Exit_Click);
+			// 
+			// toolStrip
+			// 
+			this.toolStrip.Dock = System.Windows.Forms.DockStyle.None;
+			this.toolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.labelWorkMode,
+            this.buttonPickerMode,
+            this.buttonLibraryMode,
+            this.toolStripSeparator1,
+            this.labelEmojiSize,
+            this.buttonEmojiSize16,
+            this.buttonEmojiSize24,
+            this.buttonEmojiSize32});
+			this.toolStrip.Location = new System.Drawing.Point(0, 24);
+			this.toolStrip.Name = "toolStrip";
+			this.toolStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStrip.Size = new System.Drawing.Size(404, 25);
+			this.toolStrip.Stretch = true;
+			this.toolStrip.TabIndex = 1;
+			this.toolStrip.TabStop = true;
+			// 
+			// labelWorkMode
+			// 
+			this.labelWorkMode.Name = "labelWorkMode";
+			this.labelWorkMode.Size = new System.Drawing.Size(63, 22);
+			this.labelWorkMode.Text = "work mode:";
+			// 
+			// buttonPickerMode
+			// 
+			this.buttonPickerMode.Checked = true;
+			this.buttonPickerMode.CheckState = System.Windows.Forms.CheckState.Checked;
+			this.buttonPickerMode.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonPickerMode.Image = global::EmojiLib.Properties.Resources.fatcow_clipboard_paste;
+			this.buttonPickerMode.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonPickerMode.Name = "buttonPickerMode";
+			this.buttonPickerMode.Size = new System.Drawing.Size(23, 22);
+			this.buttonPickerMode.Text = "picker mode";
+			this.buttonPickerMode.Click += new System.EventHandler(this.ButtonSetPickerMode_Click);
+			// 
+			// buttonLibraryMode
+			// 
+			this.buttonLibraryMode.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonLibraryMode.Image = global::EmojiLib.Properties.Resources.fatcow_book;
+			this.buttonLibraryMode.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonLibraryMode.Name = "buttonLibraryMode";
+			this.buttonLibraryMode.Size = new System.Drawing.Size(23, 22);
+			this.buttonLibraryMode.Text = "library mode";
+			this.buttonLibraryMode.Click += new System.EventHandler(this.ButtonSetLibraryMode_Click);
+			// 
+			// toolStripSeparator1
+			// 
+			this.toolStripSeparator1.Name = "toolStripSeparator1";
+			this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+			// 
+			// labelEmojiSize
+			// 
+			this.labelEmojiSize.Name = "labelEmojiSize";
+			this.labelEmojiSize.Size = new System.Drawing.Size(57, 22);
+			this.labelEmojiSize.Text = "emoji size:";
+			// 
+			// buttonEmojiSize16
+			// 
+			this.buttonEmojiSize16.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+			this.buttonEmojiSize16.Image = ((System.Drawing.Image)(resources.GetObject("buttonEmojiSize16.Image")));
+			this.buttonEmojiSize16.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonEmojiSize16.Name = "buttonEmojiSize16";
+			this.buttonEmojiSize16.Size = new System.Drawing.Size(35, 22);
+			this.buttonEmojiSize16.Text = "16px";
+			this.buttonEmojiSize16.Click += new System.EventHandler(this.ButtonEmojiSize16_Click);
+			// 
+			// buttonEmojiSize24
+			// 
+			this.buttonEmojiSize24.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+			this.buttonEmojiSize24.Image = ((System.Drawing.Image)(resources.GetObject("buttonEmojiSize24.Image")));
+			this.buttonEmojiSize24.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonEmojiSize24.Name = "buttonEmojiSize24";
+			this.buttonEmojiSize24.Size = new System.Drawing.Size(35, 22);
+			this.buttonEmojiSize24.Text = "24px";
+			this.buttonEmojiSize24.Click += new System.EventHandler(this.ButtonEmojiSize24_Click);
+			// 
+			// buttonEmojiSize32
+			// 
+			this.buttonEmojiSize32.Checked = true;
+			this.buttonEmojiSize32.CheckState = System.Windows.Forms.CheckState.Checked;
+			this.buttonEmojiSize32.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+			this.buttonEmojiSize32.Image = ((System.Drawing.Image)(resources.GetObject("buttonEmojiSize32.Image")));
+			this.buttonEmojiSize32.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonEmojiSize32.Name = "buttonEmojiSize32";
+			this.buttonEmojiSize32.Size = new System.Drawing.Size(35, 22);
+			this.buttonEmojiSize32.Text = "32px";
+			this.buttonEmojiSize32.Click += new System.EventHandler(this.ButtonEmojiSize32_Click);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1964,6 +2126,12 @@
 		private System.Windows.Forms.Button buttonWoozyFace;
 		private System.Windows.Forms.Button buttonDizzyFace;
 		private System.Windows.Forms.Button buttonExplodingHead;
+		private System.Windows.Forms.Button buttonCowboyHatFace;
+		private System.Windows.Forms.Button buttonPartyingFace;
+		private System.Windows.Forms.Button buttonDisguisedFace;
+		private System.Windows.Forms.Button buttonSmilingFaceWithSunglasses;
+		private System.Windows.Forms.Button buttonNerdFace;
+		private System.Windows.Forms.Button buttonFaceWithMonocle;
 	}
 }
 

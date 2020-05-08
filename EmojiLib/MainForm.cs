@@ -1447,5 +1447,131 @@ namespace EmojiLib
 					FaceUnwell.ExplodingHeadSamsung);
 			}
 		}
+
+		private void ButtonCowboyHatFace_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonCowboyHatFace.Tag.ToString());
+			}
+			else
+			{
+				ShowEmojiInfo("U+1F920", buttonCowboyHatFace.AccessibleName,
+					Properties.Resources.smileysAndEmotion, Properties.Resources.faceHat,
+					buttonCowboyHatFace.Tag,
+					FaceHat.CowboyHatFaceApple,
+					FaceHat.CowboyHatFaceGoogle,
+					FaceHat.CowboyHatFaceFacebook,
+					FaceHat.CowboyHatFaceWindows,
+					FaceHat.CowboyHatFaceTwitter,
+					FaceHat.CowboyHatFaceJoyPixels,
+					FaceHat.CowboyHatFaceSamsung);
+			}
+		}
+
+		private void ButtonPartyingFace_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonPartyingFace.Tag.ToString());
+			}
+			else
+			{
+				ShowEmojiInfo("U+1F973", buttonPartyingFace.AccessibleName,
+					Properties.Resources.smileysAndEmotion, Properties.Resources.faceHat,
+					buttonPartyingFace.Tag,
+					FaceHat.PartyingFaceApple,
+					FaceHat.PartyingFaceGoogle,
+					FaceHat.PartyingFaceFacebook,
+					FaceHat.PartyingFaceWindows,
+					FaceHat.PartyingFaceTwitter,
+					FaceHat.PartyingFaceJoyPixels,
+					FaceHat.PartyingFaceSamsung);
+			}
+		}
+
+		private void ButtonDisguisedFace_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonDisguisedFace.Tag.ToString());
+			}
+			else
+			{
+				ShowEmojiInfo("U+1F978", buttonDisguisedFace.AccessibleName,
+					Properties.Resources.smileysAndEmotion, Properties.Resources.faceGlasses,
+					buttonDisguisedFace.Tag,
+					null,
+					FaceHat.DisguisedFaceGoogle,
+					null,
+					null,
+					null,
+					FaceHat.DisguisedFaceJoyPixels,
+					null);
+			}
+		}
+
+		private void ButtonSmilingFaceWithSunglasses_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonSmilingFaceWithSunglasses.Tag.ToString());
+			}
+			else
+			{
+				ShowEmojiInfo("U+1F60E", buttonSmilingFaceWithSunglasses.AccessibleName,
+					Properties.Resources.smileysAndEmotion, Properties.Resources.faceGlasses,
+					buttonSmilingFaceWithSunglasses.Tag,
+					FaceGlasses.SmilingFaceWithSunglassesApple,
+					FaceGlasses.SmilingFaceWithSunglassesGoogle,
+					FaceGlasses.SmilingFaceWithSunglassesFacebook,
+					FaceGlasses.SmilingFaceWithSunglassesWindows,
+					FaceGlasses.SmilingFaceWithSunglassesTwitter,
+					FaceGlasses.SmilingFaceWithSunglassesJoyPixels,
+					FaceGlasses.SmilingFaceWithSunglassesSamsung);
+			}
+		}
+
+		private void ButtonNerdFace_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonNerdFace.Tag.ToString());
+			}
+			else
+			{
+				ShowEmojiInfo("U+1F913", buttonNerdFace.AccessibleName,
+					Properties.Resources.smileysAndEmotion, Properties.Resources.faceGlasses,
+					buttonNerdFace.Tag,
+					FaceGlasses.NerdFaceApple,
+					FaceGlasses.NerdFaceGoogle,
+					FaceGlasses.NerdFaceFacebook,
+					FaceGlasses.NerdFaceWindows,
+					FaceGlasses.NerdFaceTwitter,
+					FaceGlasses.NerdFaceJoyPixels,
+					FaceGlasses.NerdFaceSamsung);
+			}
+		}
+
+		private void ButtonFaceWithMonocle_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonFaceWithMonocle.Tag.ToString());
+			}
+			else
+			{
+				ShowEmojiInfo("U+1F9D0", buttonFaceWithMonocle.AccessibleName,
+					Properties.Resources.smileysAndEmotion, Properties.Resources.faceGlasses,
+					buttonFaceWithMonocle.Tag,
+					FaceGlasses.FaceWithMonocleApple,
+					FaceGlasses.FaceWithMonocleGoogle,
+					FaceGlasses.FaceWithMonocleFacebook,
+					FaceGlasses.FaceWithMonocleWindows,
+					FaceGlasses.FaceWithMonocleTwitter,
+					FaceGlasses.FaceWithMonocleJoyPixels,
+					FaceGlasses.FaceWithMonocleSamsung);
+			}
+		}
 	}
 }
