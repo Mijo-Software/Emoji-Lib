@@ -70,11 +70,29 @@ namespace EmojiLib.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die face-glasses ähnelt.
+        /// </summary>
+        internal static string faceGlasses {
+            get {
+                return ResourceManager.GetString("faceGlasses", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die face-hand ähnelt.
         /// </summary>
         internal static string faceHand {
             get {
                 return ResourceManager.GetString("faceHand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die face-hat ähnelt.
+        /// </summary>
+        internal static string faceHat {
+            get {
+                return ResourceManager.GetString("faceHat", resourceCulture);
             }
         }
         
