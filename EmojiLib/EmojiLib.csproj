@@ -113,6 +113,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FaceTongue.resx</DependentUpon>
     </Compile>
+    <Compile Include="FaceUnwell.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FaceUnwell.resx</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,6 +158,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FaceTongue.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="FaceUnwell.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FaceUnwell.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -178,6 +187,83 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="emoji-lib.ico" />
+    <None Include="Resources\DizzyFaceTwitter.png" />
+    <None Include="Resources\WoozyFaceTwitter.png" />
+    <None Include="Resources\WoozyFaceSamsung.png" />
+    <None Include="Resources\WoozyFaceJoyPixels.png" />
+    <None Include="Resources\WoozyFaceGoogle.png" />
+    <None Include="Resources\WoozyFaceFacebook.png" />
+    <None Include="Resources\WoozyFaceApple.png" />
+    <None Include="Resources\SneezingFaceWindows.png" />
+    <None Include="Resources\SneezingFaceTwitter.png" />
+    <None Include="Resources\SneezingFaceSamsung.png" />
+    <None Include="Resources\SneezingFaceJoyPixels.png" />
+    <None Include="Resources\SneezingFaceGoogle.png" />
+    <None Include="Resources\SneezingFaceFacebook.png" />
+    <None Include="Resources\SneezingFaceApple.png" />
+    <None Include="Resources\NauseatedFaceWindows.png" />
+    <None Include="Resources\NauseatedFaceTwitter.png" />
+    <None Include="Resources\NauseatedFaceSamsung.png" />
+    <None Include="Resources\NauseatedFaceJoyPixels.png" />
+    <None Include="Resources\NauseatedFaceGoogle.png" />
+    <None Include="Resources\NauseatedFaceFacebook.png" />
+    <None Include="Resources\NauseatedFaceApple.png" />
+    <None Include="Resources\HotFaceWindows.png" />
+    <None Include="Resources\HotFaceTwitter.png" />
+    <None Include="Resources\HotFaceSamsung.png" />
+    <None Include="Resources\HotFaceJoyPixels.png" />
+    <None Include="Resources\HotFaceGoogle.png" />
+    <None Include="Resources\HotFaceFacebook.png" />
+    <None Include="Resources\HotFaceApple.png" />
+    <None Include="Resources\FaceWithThermometerWindows.png" />
+    <None Include="Resources\FaceWithThermometerTwitter.png" />
+    <None Include="Resources\FaceWithThermometerSamsung.png" />
+    <None Include="Resources\FaceWithThermometerJoyPixels.png" />
+    <None Include="Resources\FaceWithThermometerGoogle.png" />
+    <None Include="Resources\FaceWithThermometerFacebook.png" />
+    <None Include="Resources\FaceWithThermometerApple.png" />
+    <None Include="Resources\FaceWithMedicalMaskWindows.png" />
+    <None Include="Resources\FaceWithMedicalMaskTwitter.png" />
+    <None Include="Resources\FaceWithMedicalMaskSamsung.png" />
+    <None Include="Resources\FaceWithMedicalMaskJoyPixels.png" />
+    <None Include="Resources\FaceWithMedicalMaskGoogle.png" />
+    <None Include="Resources\FaceWithMedicalMaskFacebook.png" />
+    <None Include="Resources\FaceWithMedicalMaskApple.png" />
+    <None Include="Resources\FaceWithHeadBandageWindows.png" />
+    <None Include="Resources\FaceWithHeadBandageTwitter.png" />
+    <None Include="Resources\FaceWithHeadBandageSamsung.png" />
+    <None Include="Resources\FaceWithHeadBandageJoyPixels.png" />
+    <None Include="Resources\FaceWithHeadBandageGoogle.png" />
+    <None Include="Resources\FaceWithHeadBandageFacebook.png" />
+    <None Include="Resources\FaceWithHeadBandageApple.png" />
+    <None Include="Resources\FaceVomitingWindows.png" />
+    <None Include="Resources\FaceVomitingTwitter.png" />
+    <None Include="Resources\FaceVomitingSamsung.png" />
+    <None Include="Resources\FaceVomitingJoyPixels.png" />
+    <None Include="Resources\FaceVomitingGoogle.png" />
+    <None Include="Resources\FaceVomitingFacebook.png" />
+    <None Include="Resources\FaceVomitingApple.png" />
+    <None Include="Resources\ExplodingHeadWindows.png" />
+    <None Include="Resources\ExplodingHeadTwitter.png" />
+    <None Include="Resources\ExplodingHeadSamsung.png" />
+    <None Include="Resources\ExplodingHeadJoyPixels.png" />
+    <None Include="Resources\ExplodingHeadGoogle.png" />
+    <None Include="Resources\ExplodingHeadFacebook.png" />
+    <None Include="Resources\ExplodingHeadApple.png" />
+    <None Include="Resources\DizzyFaceWindows.png" />
+    <None Include="Resources\DizzyFaceSamsung.png" />
+    <None Include="Resources\DizzyFaceJoyPixels.png" />
+    <None Include="Resources\DizzyFaceGoogle.png" />
+    <None Include="Resources\DizzyFaceFacebook.png" />
+    <None Include="Resources\DizzyFaceApple.png" />
+    <None Include="Resources\ColdFaceWindows.png" />
+    <None Include="Resources\ColdFaceTwitter.png" />
+    <None Include="Resources\ColdFaceSamsung.png" />
+    <None Include="Resources\ColdFaceJoyPixels.png" />
+    <None Include="Resources\ColdFaceGoogle.png" />
+    <None Include="Resources\ColdFaceFacebook.png" />
+    <None Include="Resources\ColdFaceApple.png" />
+    <None Include="Resources\WoozyFaceWindows.png" />
     <None Include="Resources\SleepyFaceTwitter.png" />
     <None Include="Resources\SleepyFaceSamsung.png" />
     <None Include="Resources\SleepyFaceJoyPixels.png" />

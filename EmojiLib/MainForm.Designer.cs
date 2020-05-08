@@ -80,6 +80,7 @@
 			this.buttonSleepyFace = new System.Windows.Forms.Button();
 			this.buttonDroolingFace = new System.Windows.Forms.Button();
 			this.buttonSleepingFace = new System.Windows.Forms.Button();
+			this.buttonFaceWithMedicalMask = new System.Windows.Forms.Button();
 			this.statusStrip = new System.Windows.Forms.StatusStrip();
 			this.labelInformation = new System.Windows.Forms.ToolStripStatusLabel();
 			this.labelCopiedStatus = new System.Windows.Forms.ToolStripStatusLabel();
@@ -98,6 +99,16 @@
 			this.buttonEmojiSize24 = new System.Windows.Forms.ToolStripButton();
 			this.buttonEmojiSize32 = new System.Windows.Forms.ToolStripButton();
 			this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+			this.buttonFaceWithThermometer = new System.Windows.Forms.Button();
+			this.buttonFaceWithHeadBandage = new System.Windows.Forms.Button();
+			this.buttonNauseatedFace = new System.Windows.Forms.Button();
+			this.buttonFaceVomiting = new System.Windows.Forms.Button();
+			this.buttonSneezingFace = new System.Windows.Forms.Button();
+			this.buttonHotFace = new System.Windows.Forms.Button();
+			this.buttonColdFace = new System.Windows.Forms.Button();
+			this.buttonWoozyFace = new System.Windows.Forms.Button();
+			this.buttonDizzyFace = new System.Windows.Forms.Button();
+			this.buttonExplodingHead = new System.Windows.Forms.Button();
 			this.tabControlEmojis.SuspendLayout();
 			this.tabPageSmileys.SuspendLayout();
 			this.flowLayoutPanelSmileys.SuspendLayout();
@@ -184,6 +195,17 @@
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSleepyFace);
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonDroolingFace);
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSleepingFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonFaceWithMedicalMask);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonFaceWithThermometer);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonFaceWithHeadBandage);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonNauseatedFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonFaceVomiting);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSneezingFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonHotFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonColdFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonWoozyFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonDizzyFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonExplodingHead);
 			this.flowLayoutPanelSmileys.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.flowLayoutPanelSmileys.Location = new System.Drawing.Point(3, 3);
 			this.flowLayoutPanelSmileys.Name = "flowLayoutPanelSmileys";
@@ -1365,6 +1387,31 @@
 			this.buttonSleepingFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
 			this.buttonSleepingFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
+			// buttonFaceWithMedicalMask
+			// 
+			this.buttonFaceWithMedicalMask.AccessibleDescription = "face with medical mask";
+			this.buttonFaceWithMedicalMask.AccessibleName = "face with medical mask";
+			this.buttonFaceWithMedicalMask.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonFaceWithMedicalMask.BackgroundImage = global::EmojiLib.FaceUnwell.FaceWithMedicalMaskGoogle;
+			this.buttonFaceWithMedicalMask.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonFaceWithMedicalMask.FlatAppearance.BorderSize = 0;
+			this.buttonFaceWithMedicalMask.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonFaceWithMedicalMask.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonFaceWithMedicalMask.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonFaceWithMedicalMask.Location = new System.Drawing.Point(352, 96);
+			this.buttonFaceWithMedicalMask.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonFaceWithMedicalMask.Name = "buttonFaceWithMedicalMask";
+			this.buttonFaceWithMedicalMask.Size = new System.Drawing.Size(32, 32);
+			this.buttonFaceWithMedicalMask.TabIndex = 48;
+			this.buttonFaceWithMedicalMask.Tag = "😷";
+			this.toolTip.SetToolTip(this.buttonFaceWithMedicalMask, "face with medical mask");
+			this.buttonFaceWithMedicalMask.UseVisualStyleBackColor = true;
+			this.buttonFaceWithMedicalMask.Click += new System.EventHandler(this.ButtonFaceWithMedicalMask_Click);
+			this.buttonFaceWithMedicalMask.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceWithMedicalMask.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonFaceWithMedicalMask.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceWithMedicalMask.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
 			// statusStrip
 			// 
 			this.statusStrip.Dock = System.Windows.Forms.DockStyle.None;
@@ -1552,6 +1599,256 @@
 			this.buttonEmojiSize32.Text = "32px";
 			this.buttonEmojiSize32.Click += new System.EventHandler(this.ButtonEmojiSize32_Click);
 			// 
+			// buttonFaceWithThermometer
+			// 
+			this.buttonFaceWithThermometer.AccessibleDescription = "face with thermometer";
+			this.buttonFaceWithThermometer.AccessibleName = "face with thermometer";
+			this.buttonFaceWithThermometer.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonFaceWithThermometer.BackgroundImage = global::EmojiLib.FaceUnwell.FaceWithThermometerGoogle;
+			this.buttonFaceWithThermometer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonFaceWithThermometer.FlatAppearance.BorderSize = 0;
+			this.buttonFaceWithThermometer.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonFaceWithThermometer.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonFaceWithThermometer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonFaceWithThermometer.Location = new System.Drawing.Point(0, 128);
+			this.buttonFaceWithThermometer.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonFaceWithThermometer.Name = "buttonFaceWithThermometer";
+			this.buttonFaceWithThermometer.Size = new System.Drawing.Size(32, 32);
+			this.buttonFaceWithThermometer.TabIndex = 49;
+			this.buttonFaceWithThermometer.Tag = "🤒";
+			this.toolTip.SetToolTip(this.buttonFaceWithThermometer, "face with thermometer");
+			this.buttonFaceWithThermometer.UseVisualStyleBackColor = true;
+			this.buttonFaceWithThermometer.Click += new System.EventHandler(this.ButtonFaceWithThermometer_Click);
+			this.buttonFaceWithThermometer.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceWithThermometer.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonFaceWithThermometer.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceWithThermometer.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonFaceWithHeadBandage
+			// 
+			this.buttonFaceWithHeadBandage.AccessibleDescription = "face with head-bandage";
+			this.buttonFaceWithHeadBandage.AccessibleName = "face with head-bandage";
+			this.buttonFaceWithHeadBandage.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonFaceWithHeadBandage.BackgroundImage = global::EmojiLib.FaceUnwell.FaceWithHeadBandageGoogle;
+			this.buttonFaceWithHeadBandage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonFaceWithHeadBandage.FlatAppearance.BorderSize = 0;
+			this.buttonFaceWithHeadBandage.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonFaceWithHeadBandage.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonFaceWithHeadBandage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonFaceWithHeadBandage.Location = new System.Drawing.Point(32, 128);
+			this.buttonFaceWithHeadBandage.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonFaceWithHeadBandage.Name = "buttonFaceWithHeadBandage";
+			this.buttonFaceWithHeadBandage.Size = new System.Drawing.Size(32, 32);
+			this.buttonFaceWithHeadBandage.TabIndex = 50;
+			this.buttonFaceWithHeadBandage.Tag = "🤕";
+			this.toolTip.SetToolTip(this.buttonFaceWithHeadBandage, "face with head-bandage");
+			this.buttonFaceWithHeadBandage.UseVisualStyleBackColor = true;
+			this.buttonFaceWithHeadBandage.Click += new System.EventHandler(this.ButtonFaceWithHeadBandage_Click);
+			this.buttonFaceWithHeadBandage.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceWithHeadBandage.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonFaceWithHeadBandage.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceWithHeadBandage.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonNauseatedFace
+			// 
+			this.buttonNauseatedFace.AccessibleDescription = "nauseated face";
+			this.buttonNauseatedFace.AccessibleName = "nauseated face";
+			this.buttonNauseatedFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonNauseatedFace.BackgroundImage = global::EmojiLib.FaceUnwell.NauseatedFaceGoogle;
+			this.buttonNauseatedFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonNauseatedFace.FlatAppearance.BorderSize = 0;
+			this.buttonNauseatedFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonNauseatedFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonNauseatedFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonNauseatedFace.Location = new System.Drawing.Point(64, 128);
+			this.buttonNauseatedFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonNauseatedFace.Name = "buttonNauseatedFace";
+			this.buttonNauseatedFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonNauseatedFace.TabIndex = 51;
+			this.buttonNauseatedFace.Tag = "🤢";
+			this.toolTip.SetToolTip(this.buttonNauseatedFace, "nauseated face");
+			this.buttonNauseatedFace.UseVisualStyleBackColor = true;
+			this.buttonNauseatedFace.Click += new System.EventHandler(this.ButtonNauseatedFace_Click);
+			this.buttonNauseatedFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonNauseatedFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonNauseatedFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonNauseatedFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonFaceVomiting
+			// 
+			this.buttonFaceVomiting.AccessibleDescription = "face vomiting";
+			this.buttonFaceVomiting.AccessibleName = "face vomiting";
+			this.buttonFaceVomiting.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonFaceVomiting.BackgroundImage = global::EmojiLib.FaceUnwell.FaceVomitingGoogle;
+			this.buttonFaceVomiting.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonFaceVomiting.FlatAppearance.BorderSize = 0;
+			this.buttonFaceVomiting.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonFaceVomiting.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonFaceVomiting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonFaceVomiting.Location = new System.Drawing.Point(96, 128);
+			this.buttonFaceVomiting.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonFaceVomiting.Name = "buttonFaceVomiting";
+			this.buttonFaceVomiting.Size = new System.Drawing.Size(32, 32);
+			this.buttonFaceVomiting.TabIndex = 52;
+			this.buttonFaceVomiting.Tag = "🤮";
+			this.toolTip.SetToolTip(this.buttonFaceVomiting, "face vomiting");
+			this.buttonFaceVomiting.UseVisualStyleBackColor = true;
+			this.buttonFaceVomiting.Click += new System.EventHandler(this.ButtonFaceVomiting_Click);
+			this.buttonFaceVomiting.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceVomiting.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonFaceVomiting.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceVomiting.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonSneezingFace
+			// 
+			this.buttonSneezingFace.AccessibleDescription = "sneezing face";
+			this.buttonSneezingFace.AccessibleName = "sneezing face";
+			this.buttonSneezingFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonSneezingFace.BackgroundImage = global::EmojiLib.FaceUnwell.SneezingFaceGoogle;
+			this.buttonSneezingFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonSneezingFace.FlatAppearance.BorderSize = 0;
+			this.buttonSneezingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonSneezingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonSneezingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonSneezingFace.Location = new System.Drawing.Point(128, 128);
+			this.buttonSneezingFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonSneezingFace.Name = "buttonSneezingFace";
+			this.buttonSneezingFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonSneezingFace.TabIndex = 53;
+			this.buttonSneezingFace.Tag = "🤧";
+			this.toolTip.SetToolTip(this.buttonSneezingFace, "sneezing face");
+			this.buttonSneezingFace.UseVisualStyleBackColor = true;
+			this.buttonSneezingFace.Click += new System.EventHandler(this.ButtonSneezingFace_Click);
+			this.buttonSneezingFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSneezingFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonSneezingFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSneezingFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonHotFace
+			// 
+			this.buttonHotFace.AccessibleDescription = "hot face";
+			this.buttonHotFace.AccessibleName = "hot face";
+			this.buttonHotFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonHotFace.BackgroundImage = global::EmojiLib.FaceUnwell.HotFaceGoogle;
+			this.buttonHotFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonHotFace.FlatAppearance.BorderSize = 0;
+			this.buttonHotFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonHotFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonHotFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonHotFace.Location = new System.Drawing.Point(160, 128);
+			this.buttonHotFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonHotFace.Name = "buttonHotFace";
+			this.buttonHotFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonHotFace.TabIndex = 54;
+			this.buttonHotFace.Tag = "🥵";
+			this.toolTip.SetToolTip(this.buttonHotFace, "hot face");
+			this.buttonHotFace.UseVisualStyleBackColor = true;
+			this.buttonHotFace.Click += new System.EventHandler(this.ButtonHotFace_Click);
+			this.buttonHotFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHotFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonHotFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHotFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonColdFace
+			// 
+			this.buttonColdFace.AccessibleDescription = "cold face";
+			this.buttonColdFace.AccessibleName = "cold face";
+			this.buttonColdFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonColdFace.BackgroundImage = global::EmojiLib.FaceUnwell.ColdFaceGoogle;
+			this.buttonColdFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonColdFace.FlatAppearance.BorderSize = 0;
+			this.buttonColdFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonColdFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonColdFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonColdFace.Location = new System.Drawing.Point(192, 128);
+			this.buttonColdFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonColdFace.Name = "buttonColdFace";
+			this.buttonColdFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonColdFace.TabIndex = 55;
+			this.buttonColdFace.Tag = "🥶";
+			this.toolTip.SetToolTip(this.buttonColdFace, "cold face");
+			this.buttonColdFace.UseVisualStyleBackColor = true;
+			this.buttonColdFace.Click += new System.EventHandler(this.ButtonColdFace_Click);
+			this.buttonColdFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonColdFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonColdFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonColdFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonWoozyFace
+			// 
+			this.buttonWoozyFace.AccessibleDescription = "woozy face";
+			this.buttonWoozyFace.AccessibleName = "woozy face";
+			this.buttonWoozyFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonWoozyFace.BackgroundImage = global::EmojiLib.FaceUnwell.WoozyFaceGoogle;
+			this.buttonWoozyFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonWoozyFace.FlatAppearance.BorderSize = 0;
+			this.buttonWoozyFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonWoozyFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonWoozyFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonWoozyFace.Location = new System.Drawing.Point(224, 128);
+			this.buttonWoozyFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonWoozyFace.Name = "buttonWoozyFace";
+			this.buttonWoozyFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonWoozyFace.TabIndex = 56;
+			this.buttonWoozyFace.Tag = "🥴";
+			this.toolTip.SetToolTip(this.buttonWoozyFace, "woozy face");
+			this.buttonWoozyFace.UseVisualStyleBackColor = true;
+			this.buttonWoozyFace.Click += new System.EventHandler(this.ButtonWoozyFace_Click);
+			this.buttonWoozyFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonWoozyFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonWoozyFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonWoozyFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonDizzyFace
+			// 
+			this.buttonDizzyFace.AccessibleDescription = "dizzy face";
+			this.buttonDizzyFace.AccessibleName = "dizzy face";
+			this.buttonDizzyFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonDizzyFace.BackgroundImage = global::EmojiLib.FaceUnwell.DizzyFaceGoogle;
+			this.buttonDizzyFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonDizzyFace.FlatAppearance.BorderSize = 0;
+			this.buttonDizzyFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonDizzyFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonDizzyFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonDizzyFace.Location = new System.Drawing.Point(256, 128);
+			this.buttonDizzyFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonDizzyFace.Name = "buttonDizzyFace";
+			this.buttonDizzyFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonDizzyFace.TabIndex = 57;
+			this.buttonDizzyFace.Tag = "😵";
+			this.toolTip.SetToolTip(this.buttonDizzyFace, "dizzy face");
+			this.buttonDizzyFace.UseVisualStyleBackColor = true;
+			this.buttonDizzyFace.Click += new System.EventHandler(this.ButtonDizzyFace_Click);
+			this.buttonDizzyFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonDizzyFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonDizzyFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonDizzyFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonExplodingHead
+			// 
+			this.buttonExplodingHead.AccessibleDescription = "exploding head";
+			this.buttonExplodingHead.AccessibleName = "exploding head";
+			this.buttonExplodingHead.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonExplodingHead.BackgroundImage = global::EmojiLib.FaceUnwell.ExplodingHeadGoogle;
+			this.buttonExplodingHead.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonExplodingHead.FlatAppearance.BorderSize = 0;
+			this.buttonExplodingHead.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonExplodingHead.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonExplodingHead.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonExplodingHead.Location = new System.Drawing.Point(288, 128);
+			this.buttonExplodingHead.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonExplodingHead.Name = "buttonExplodingHead";
+			this.buttonExplodingHead.Size = new System.Drawing.Size(32, 32);
+			this.buttonExplodingHead.TabIndex = 58;
+			this.buttonExplodingHead.Tag = "🤯";
+			this.toolTip.SetToolTip(this.buttonExplodingHead, "exploding head");
+			this.buttonExplodingHead.UseVisualStyleBackColor = true;
+			this.buttonExplodingHead.Click += new System.EventHandler(this.ButtonExplodingHead_Click);
+			this.buttonExplodingHead.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonExplodingHead.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonExplodingHead.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonExplodingHead.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1656,6 +1953,17 @@
 		private System.Windows.Forms.Button buttonSleepyFace;
 		private System.Windows.Forms.Button buttonDroolingFace;
 		private System.Windows.Forms.Button buttonSleepingFace;
+		private System.Windows.Forms.Button buttonFaceWithMedicalMask;
+		private System.Windows.Forms.Button buttonFaceWithThermometer;
+		private System.Windows.Forms.Button buttonFaceWithHeadBandage;
+		private System.Windows.Forms.Button buttonNauseatedFace;
+		private System.Windows.Forms.Button buttonFaceVomiting;
+		private System.Windows.Forms.Button buttonSneezingFace;
+		private System.Windows.Forms.Button buttonHotFace;
+		private System.Windows.Forms.Button buttonColdFace;
+		private System.Windows.Forms.Button buttonWoozyFace;
+		private System.Windows.Forms.Button buttonDizzyFace;
+		private System.Windows.Forms.Button buttonExplodingHead;
 	}
 }
 
