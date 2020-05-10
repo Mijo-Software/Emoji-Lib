@@ -88,6 +88,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FaceAffection.resx</DependentUpon>
     </Compile>
+    <Compile Include="FaceConcerned.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FaceConcerned.resx</DependentUpon>
+    </Compile>
     <Compile Include="FaceGlasses.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -145,6 +150,10 @@
     <EmbeddedResource Include="FaceAffection.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FaceAffection.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaceConcerned.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FaceConcerned.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="FaceGlasses.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -205,6 +214,178 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="emoji-lib.ico" />
+    <None Include="Resources\fatcow_bin.png" />
+    <None Include="Resources\fugue_bin.png" />
+    <None Include="Resources\YawningFaceTwitter.png" />
+    <None Include="Resources\YawningFaceSamsung.png" />
+    <None Include="Resources\YawningFaceJoyPixels.png" />
+    <None Include="Resources\YawningFaceGoogle.png" />
+    <None Include="Resources\YawningFaceFacebook.png" />
+    <None Include="Resources\YawningFaceApple.png" />
+    <None Include="Resources\WorriedFaceWindows.png" />
+    <None Include="Resources\WorriedFaceTwitter.png" />
+    <None Include="Resources\WorriedFaceSamsung.png" />
+    <None Include="Resources\WorriedFaceJoyPixels.png" />
+    <None Include="Resources\WorriedFaceGoogle.png" />
+    <None Include="Resources\WorriedFaceFacebook.png" />
+    <None Include="Resources\WorriedFaceApple.png" />
+    <None Include="Resources\WearyFaceWindows.png" />
+    <None Include="Resources\WearyFaceTwitter.png" />
+    <None Include="Resources\WearyFaceSamsung.png" />
+    <None Include="Resources\WearyFaceJoyPixels.png" />
+    <None Include="Resources\WearyFaceGoogle.png" />
+    <None Include="Resources\WearyFaceFacebook.png" />
+    <None Include="Resources\WearyFaceApple.png" />
+    <None Include="Resources\TiredFaceWindows.png" />
+    <None Include="Resources\TiredFaceTwitter.png" />
+    <None Include="Resources\TiredFaceSamsung.png" />
+    <None Include="Resources\TiredFaceJoyPixels.png" />
+    <None Include="Resources\TiredFaceGoogle.png" />
+    <None Include="Resources\TiredFaceFacebook.png" />
+    <None Include="Resources\TiredFaceApple.png" />
+    <None Include="Resources\SlightlyFrowningFaceWindows.png" />
+    <None Include="Resources\SlightlyFrowningFaceTwitter.png" />
+    <None Include="Resources\SlightlyFrowningFaceSamsung.png" />
+    <None Include="Resources\SlightlyFrowningFaceJoyPixels.png" />
+    <None Include="Resources\SlightlyFrowningFaceGoogle.png" />
+    <None Include="Resources\SlightlyFrowningFaceFacebook.png" />
+    <None Include="Resources\SlightlyFrowningFaceApple.png" />
+    <None Include="Resources\SadButRelievedFaceWindows.png" />
+    <None Include="Resources\SadButRelievedFaceTwitter.png" />
+    <None Include="Resources\SadButRelievedFaceSamsung.png" />
+    <None Include="Resources\SadButRelievedFaceJoyPixels.png" />
+    <None Include="Resources\SadButRelievedFaceGoogle.png" />
+    <None Include="Resources\SadButRelievedFaceFacebook.png" />
+    <None Include="Resources\SadButRelievedFaceApple.png" />
+    <None Include="Resources\PleadingFaceWindows.png" />
+    <None Include="Resources\PleadingFaceTwitter.png" />
+    <None Include="Resources\PleadingFaceSamsung.png" />
+    <None Include="Resources\PleadingFaceJoyPixels.png" />
+    <None Include="Resources\PleadingFaceGoogle.png" />
+    <None Include="Resources\PleadingFaceFacebook.png" />
+    <None Include="Resources\PleadingFaceApple.png" />
+    <None Include="Resources\PerseveringFaceWindows.png" />
+    <None Include="Resources\PerseveringFaceTwitter.png" />
+    <None Include="Resources\PerseveringFaceSamsung.png" />
+    <None Include="Resources\PerseveringFaceJoyPixels.png" />
+    <None Include="Resources\PerseveringFaceGoogle.png" />
+    <None Include="Resources\PerseveringFaceFacebook.png" />
+    <None Include="Resources\PerseveringFaceApple.png" />
+    <None Include="Resources\LoudlyCryingFaceWindows.png" />
+    <None Include="Resources\LoudlyCryingFaceTwitter.png" />
+    <None Include="Resources\LoudlyCryingFaceSamsung.png" />
+    <None Include="Resources\LoudlyCryingFaceJoyPixels.png" />
+    <None Include="Resources\LoudlyCryingFaceGoogle.png" />
+    <None Include="Resources\LoudlyCryingFaceFacebook.png" />
+    <None Include="Resources\LoudlyCryingFaceApple.png" />
+    <None Include="Resources\HushedFaceWindows.png" />
+    <None Include="Resources\HushedFaceTwitter.png" />
+    <None Include="Resources\HushedFaceSamsung.png" />
+    <None Include="Resources\HushedFaceJoyPixels.png" />
+    <None Include="Resources\HushedFaceGoogle.png" />
+    <None Include="Resources\HushedFaceFacebook.png" />
+    <None Include="Resources\HushedFaceApple.png" />
+    <None Include="Resources\YawningFaceWindows.png" />
+    <None Include="Resources\FrowningFaceWithOpenMouthTwitter.png" />
+    <None Include="Resources\FrowningFaceWithOpenMouthSamsung.png" />
+    <None Include="Resources\FrowningFaceWithOpenMouthJoyPixels.png" />
+    <None Include="Resources\FrowningFaceWithOpenMouthGoogle.png" />
+    <None Include="Resources\FrowningFaceWithOpenMouthFacebook.png" />
+    <None Include="Resources\FrowningFaceWithOpenMouthApple.png" />
+    <None Include="Resources\FrowningFaceWindows.png" />
+    <None Include="Resources\FrowningFaceTwitter.png" />
+    <None Include="Resources\FrowningFaceSamsung.png" />
+    <None Include="Resources\FrowningFaceJoyPixels.png" />
+    <None Include="Resources\FrowningFaceGoogle.png" />
+    <None Include="Resources\FrowningFaceFacebook.png" />
+    <None Include="Resources\FrowningFaceApple.png" />
+    <None Include="Resources\FlushedFaceWindows.png" />
+    <None Include="Resources\FlushedFaceTwitter.png" />
+    <None Include="Resources\FlushedFaceSamsung.png" />
+    <None Include="Resources\FlushedFaceJoyPixels.png" />
+    <None Include="Resources\FlushedFaceGoogle.png" />
+    <None Include="Resources\FlushedFaceFacebook.png" />
+    <None Include="Resources\FlushedFaceApple.png" />
+    <None Include="Resources\FearfulFaceWindows.png" />
+    <None Include="Resources\FearfulFaceTwitter.png" />
+    <None Include="Resources\FearfulFaceSamsung.png" />
+    <None Include="Resources\FearfulFaceJoyPixels.png" />
+    <None Include="Resources\FearfulFaceGoogle.png" />
+    <None Include="Resources\FearfulFaceFacebook.png" />
+    <None Include="Resources\FearfulFaceApple.png" />
+    <None Include="Resources\FaceWithOpenMouthWindows.png" />
+    <None Include="Resources\FaceWithOpenMouthTwitter.png" />
+    <None Include="Resources\FaceWithOpenMouthSamsung.png" />
+    <None Include="Resources\FaceWithOpenMouthJoyPixels.png" />
+    <None Include="Resources\FaceWithOpenMouthGoogle.png" />
+    <None Include="Resources\FaceWithOpenMouthFacebook.png" />
+    <None Include="Resources\FaceWithOpenMouthApple.png" />
+    <None Include="Resources\FaceScreamingInFearWindows.png" />
+    <None Include="Resources\FaceScreamingInFearTwitter.png" />
+    <None Include="Resources\FaceScreamingInFearSamsung.png" />
+    <None Include="Resources\FaceScreamingInFearJoyPixels.png" />
+    <None Include="Resources\FaceScreamingInFearGoogle.png" />
+    <None Include="Resources\FaceScreamingInFearFacebook.png" />
+    <None Include="Resources\FaceScreamingInFearApple.png" />
+    <None Include="Resources\DowncastFaceWiithSweatWindows.png" />
+    <None Include="Resources\DowncastFaceWiithSweatTwitter.png" />
+    <None Include="Resources\DowncastFaceWiithSweatSamsung.png" />
+    <None Include="Resources\DowncastFaceWiithSweatJoyPixels.png" />
+    <None Include="Resources\DowncastFaceWiithSweatGoogle.png" />
+    <None Include="Resources\DowncastFaceWiithSweatFacebook.png" />
+    <None Include="Resources\DowncastFaceWiithSweatApple.png" />
+    <None Include="Resources\DisappointedFaceWindows.png" />
+    <None Include="Resources\DisappointedFaceTwitter.png" />
+    <None Include="Resources\DisappointedFaceSamsung.png" />
+    <None Include="Resources\DisappointedFaceJoyPixels.png" />
+    <None Include="Resources\DisappointedFaceGoogle.png" />
+    <None Include="Resources\DisappointedFaceFacebook.png" />
+    <None Include="Resources\DisappointedFaceApple.png" />
+    <None Include="Resources\CryingFaceWindows.png" />
+    <None Include="Resources\CryingFaceTwitter.png" />
+    <None Include="Resources\CryingFaceSamsung.png" />
+    <None Include="Resources\CryingFaceJoyPixels.png" />
+    <None Include="Resources\CryingFaceGoogle.png" />
+    <None Include="Resources\CryingFaceFacebook.png" />
+    <None Include="Resources\CryingFaceApple.png" />
+    <None Include="Resources\ConfusedFaceWindows.png" />
+    <None Include="Resources\ConfusedFaceTwitter.png" />
+    <None Include="Resources\ConfusedFaceSamsung.png" />
+    <None Include="Resources\ConfusedFaceJoyPixels.png" />
+    <None Include="Resources\ConfusedFaceGoogle.png" />
+    <None Include="Resources\ConfusedFaceFacebook.png" />
+    <None Include="Resources\ConfusedFaceApple.png" />
+    <None Include="Resources\ConfoundedFaceWindows.png" />
+    <None Include="Resources\ConfoundedFaceTwitter.png" />
+    <None Include="Resources\ConfoundedFaceSamsung.png" />
+    <None Include="Resources\ConfoundedFaceJoyPixels.png" />
+    <None Include="Resources\ConfoundedFaceGoogle.png" />
+    <None Include="Resources\ConfoundedFaceFacebook.png" />
+    <None Include="Resources\ConfoundedFaceApple.png" />
+    <None Include="Resources\AstonishedFaceWindows.png" />
+    <None Include="Resources\AstonishedFaceTwitter.png" />
+    <None Include="Resources\AstonishedFaceSamsung.png" />
+    <None Include="Resources\AstonishedFaceJoyPixels.png" />
+    <None Include="Resources\AstonishedFaceGoogle.png" />
+    <None Include="Resources\AstonishedFaceFacebook.png" />
+    <None Include="Resources\AstonishedFaceApple.png" />
+    <None Include="Resources\AnxiousFaceWithSweatWindows.png" />
+    <None Include="Resources\AnxiousFaceWithSweatTwitter.png" />
+    <None Include="Resources\AnxiousFaceWithSweatSamsung.png" />
+    <None Include="Resources\AnxiousFaceWithSweatJoyPixels.png" />
+    <None Include="Resources\AnxiousFaceWithSweatGoogle.png" />
+    <None Include="Resources\AnxiousFaceWithSweatFacebook.png" />
+    <None Include="Resources\AnxiousFaceWithSweatApple.png" />
+    <None Include="Resources\AnguishedFaceWindows.png" />
+    <None Include="Resources\AnguishedFaceTwitter.png" />
+    <None Include="Resources\AnguishedFaceSamsung.png" />
+    <None Include="Resources\AnguishedFaceJoyPixels.png" />
+    <None Include="Resources\AnguishedFaceGoogle.png" />
+    <None Include="Resources\AnguishedFaceFacebook.png" />
+    <None Include="Resources\AnguishedFaceApple.png" />
+    <None Include="Resources\FrowningFaceWithOpenMouthWindows.png" />
+    <None Include="Resources\fatcow_find.png" />
+    <None Include="Resources\fugue_find.png" />
     <None Include="Resources\SmilingFaceWithSunglassesTwitter.png" />
     <None Include="Resources\SmilingFaceWithSunglassesSamsung.png" />
     <None Include="Resources\SmilingFaceWithSunglassesJoyPixels.png" />
