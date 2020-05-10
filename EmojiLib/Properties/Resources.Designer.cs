@@ -61,11 +61,29 @@ namespace EmojiLib.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Error ähnelt.
+        /// </summary>
+        internal static string errorTitle {
+            get {
+                return ResourceManager.GetString("errorTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die face-affection ähnelt.
         /// </summary>
         internal static string faceAffection {
             get {
                 return ResourceManager.GetString("faceAffection", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die face-concerned ähnelt.
+        /// </summary>
+        internal static string faceConcerned {
+            get {
+                return ResourceManager.GetString("faceConcerned", resourceCulture);
             }
         }
         
@@ -141,6 +159,13 @@ namespace EmojiLib.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap fatcow_bin {
+            get {
+                object obj = ResourceManager.GetObject("fatcow_bin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap fatcow_book {
             get {
                 object obj = ResourceManager.GetObject("fatcow_book", resourceCulture);
@@ -162,9 +187,23 @@ namespace EmojiLib.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap fatcow_find {
+            get {
+                object obj = ResourceManager.GetObject("fatcow_find", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap fatcow_information {
             get {
                 object obj = ResourceManager.GetObject("fatcow_information", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap fugue_bin {
+            get {
+                object obj = ResourceManager.GetObject("fugue_bin", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,6 +225,13 @@ namespace EmojiLib.Properties {
         internal static System.Drawing.Bitmap fugue_door {
             get {
                 object obj = ResourceManager.GetObject("fugue_door", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap fugue_find {
+            get {
+                object obj = ResourceManager.GetObject("fugue_find", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -212,11 +258,47 @@ namespace EmojiLib.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Nothing found! ähnelt.
+        /// </summary>
+        internal static string nothingFound {
+            get {
+                return ResourceManager.GetString("nothingFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Please enter a search term! ähnelt.
+        /// </summary>
+        internal static string pleaseEnterASearchTerm {
+            get {
+                return ResourceManager.GetString("pleaseEnterASearchTerm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die smileys &amp; emotion ähnelt.
         /// </summary>
         internal static string smileysAndEmotion {
             get {
                 return ResourceManager.GetString("smileysAndEmotion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Something went wrong! ähnelt.
+        /// </summary>
+        internal static string somethingWentWrong {
+            get {
+                return ResourceManager.GetString("somethingWentWrong", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Warning ähnelt.
+        /// </summary>
+        internal static string warningTitle {
+            get {
+                return ResourceManager.GetString("warningTitle", resourceCulture);
             }
         }
     }
