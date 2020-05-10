@@ -74,6 +74,13 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap FaceBlowingAKissGmail {
+            get {
+                object obj = ResourceManager.GetObject("FaceBlowingAKissGmail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap FaceBlowingAKissGoogle {
             get {
                 object obj = ResourceManager.GetObject("FaceBlowingAKissGoogle", resourceCulture);
@@ -88,9 +95,23 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap FaceBlowingAKissKddi {
+            get {
+                object obj = ResourceManager.GetObject("FaceBlowingAKissKddi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap FaceBlowingAKissSamsung {
             get {
                 object obj = ResourceManager.GetObject("FaceBlowingAKissSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap FaceBlowingAKissSoftbank {
+            get {
+                object obj = ResourceManager.GetObject("FaceBlowingAKissSoftbank", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -172,6 +193,13 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap KissingFaceWithClosedEyesGmail {
+            get {
+                object obj = ResourceManager.GetObject("KissingFaceWithClosedEyesGmail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap KissingFaceWithClosedEyesGoogle {
             get {
                 object obj = ResourceManager.GetObject("KissingFaceWithClosedEyesGoogle", resourceCulture);
@@ -186,9 +214,23 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap KissingFaceWithClosedEyesKddi {
+            get {
+                object obj = ResourceManager.GetObject("KissingFaceWithClosedEyesKddi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap KissingFaceWithClosedEyesSamsung {
             get {
                 object obj = ResourceManager.GetObject("KissingFaceWithClosedEyesSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap KissingFaceWithClosedEyesSoftbank {
+            get {
+                object obj = ResourceManager.GetObject("KissingFaceWithClosedEyesSoftbank", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -270,6 +312,13 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap SmilingFaceGmail {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceGmail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap SmilingFaceGoogle {
             get {
                 object obj = ResourceManager.GetObject("SmilingFaceGoogle", resourceCulture);
@@ -284,9 +333,23 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap SmilingFaceKddi {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceKddi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap SmilingFaceSamsung {
             get {
                 object obj = ResourceManager.GetObject("SmilingFaceSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SmilingFaceSoftbank {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceSoftbank", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -312,9 +375,23 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap SmilingFaceWithHeartEyesDocomo {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithHeartEyesDocomo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap SmilingFaceWithHeartEyesFacebook {
             get {
                 object obj = ResourceManager.GetObject("SmilingFaceWithHeartEyesFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SmilingFaceWithHeartEyesGmail {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithHeartEyesGmail", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -333,9 +410,23 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap SmilingFaceWithHeartEyesKddi {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithHeartEyesKddi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap SmilingFaceWithHeartEyesSamsung {
             get {
                 object obj = ResourceManager.GetObject("SmilingFaceWithHeartEyesSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SmilingFaceWithHeartEyesSoftbank {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithHeartEyesSoftbank", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

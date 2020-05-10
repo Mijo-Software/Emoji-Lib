@@ -142,14 +142,23 @@
   <data name="DizzyFaceApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\DizzyFaceApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="DizzyFaceDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DizzyFaceDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="DizzyFaceFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\DizzyFaceFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DizzyFaceGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DizzyFaceGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DizzyFaceGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\DizzyFaceGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DizzyFaceJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\DizzyFaceJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DizzyFaceKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DizzyFaceKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DizzyFaceSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\DizzyFaceSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,14 +238,23 @@
   <data name="FaceWithMedicalMaskFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\FaceWithMedicalMaskFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FaceWithMedicalMaskGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithMedicalMaskGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="FaceWithMedicalMaskGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\FaceWithMedicalMaskGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FaceWithMedicalMaskJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\FaceWithMedicalMaskJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FaceWithMedicalMaskKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithMedicalMaskKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="FaceWithMedicalMaskSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\FaceWithMedicalMaskSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithMedicalMaskSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithMedicalMaskSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FaceWithMedicalMaskTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\FaceWithMedicalMaskTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

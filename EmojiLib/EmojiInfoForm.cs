@@ -71,6 +71,26 @@ namespace EmojiLib
 			pictureBoxSamsung.Image = image;
 		}
 
+		public void SetGmailImageVersion(Image image)
+		{
+			pictureBoxGmail.Image = image;
+		}
+
+		public void SetDocomoImageVersion(Image image)
+		{
+			pictureBoxDocomo.Image = image;
+		}
+
+		public void SetKddiImageVersion(Image image)
+		{
+			pictureBoxKddi.Image = image;
+		}
+
+		public void SetSoftbankImageVersion(Image image)
+		{
+			pictureBoxSoftbank.Image = image;
+		}
+
 		public EmojiInfoForm()
 		{
 			InitializeComponent();
@@ -144,6 +164,42 @@ namespace EmojiLib
 			}
 		}
 
+		private void PictureBoxGmail_MouseEnter(object sender, EventArgs e)
+		{
+			if (pictureBoxGmail.Image != null)
+			{
+				labelGmailVersion.ForeColor = SystemColors.Highlight;
+				pictureBoxGmail.Cursor = Cursors.Hand;
+			}
+		}
+
+		private void PictureBoxDocomo_MouseEnter(object sender, EventArgs e)
+		{
+			if (pictureBoxDocomo.Image != null)
+			{
+				labelDocomoVersion.ForeColor = SystemColors.Highlight;
+				pictureBoxDocomo.Cursor = Cursors.Hand;
+			}
+		}
+
+		private void PictureBoxKddi_MouseEnter(object sender, EventArgs e)
+		{
+			if (pictureBoxKddi.Image != null)
+			{
+				labelKddiVersion.ForeColor = SystemColors.Highlight;
+				pictureBoxKddi.Cursor = Cursors.Hand;
+			}
+		}
+
+		private void PictureBoxSoftbank_MouseEnter(object sender, EventArgs e)
+		{
+			if (pictureBoxSoftbank.Image != null)
+			{
+				labelSoftbankVersion.ForeColor = SystemColors.Highlight;
+				pictureBoxSoftbank.Cursor = Cursors.Hand;
+			}
+		}
+
 		private void PictureBoxApple_MouseLeave(object sender, EventArgs e)
 		{
 			labelAppleVersion.ForeColor = SystemColors.ControlText;
@@ -184,6 +240,30 @@ namespace EmojiLib
 		{
 			labelSamsungVersion.ForeColor = SystemColors.ControlText;
 			pictureBoxSamsung.Cursor = Cursors.Default;
+		}
+
+		private void PictureBoxGmail_MouseLeave(object sender, EventArgs e)
+		{
+			labelGmailVersion.ForeColor = SystemColors.ControlText;
+			pictureBoxGmail.Cursor = Cursors.Default;
+		}
+
+		private void PictureBoxDocomo_MouseLeave(object sender, EventArgs e)
+		{
+			labelDocomoVersion.ForeColor = SystemColors.ControlText;
+			pictureBoxDocomo.Cursor = Cursors.Default;
+		}
+
+		private void PictureBoxKddi_MouseLeave(object sender, EventArgs e)
+		{
+			labelKddiVersion.ForeColor = SystemColors.ControlText;
+			pictureBoxKddi.Cursor = Cursors.Default;
+		}
+
+		private void PictureBoxSoftbank_MouseLeave(object sender, EventArgs e)
+		{
+			labelSoftbankVersion.ForeColor = SystemColors.ControlText;
+			pictureBoxSoftbank.Cursor = Cursors.Default;
 		}
 
 		private void PictureBoxApple_Click(object sender, EventArgs e)
@@ -259,6 +339,50 @@ namespace EmojiLib
 				if (saveFileDialog.ShowDialog() == DialogResult.OK)
 				{
 					pictureBoxSamsung.Image.Save(saveFileDialog.FileName);
+				}
+			}
+		}
+
+		private void PictureBoxGmail_Click(object sender, EventArgs e)
+		{
+			if (pictureBoxGmail.Image != null)
+			{
+				if (saveFileDialog.ShowDialog() == DialogResult.OK)
+				{
+					pictureBoxGmail.Image.Save(saveFileDialog.FileName);
+				}
+			}
+		}
+
+		private void PictureBoxDocomo_Click(object sender, EventArgs e)
+		{
+			if (pictureBoxDocomo.Image != null)
+			{
+				if (saveFileDialog.ShowDialog() == DialogResult.OK)
+				{
+					pictureBoxDocomo.Image.Save(saveFileDialog.FileName);
+				}
+			}
+		}
+
+		private void PictureBoxKddi_Click(object sender, EventArgs e)
+		{
+			if (pictureBoxKddi.Image != null)
+			{
+				if (saveFileDialog.ShowDialog() == DialogResult.OK)
+				{
+					pictureBoxKddi.Image.Save(saveFileDialog.FileName);
+				}
+			}
+		}
+
+		private void PictureBoxSoftbank_Click(object sender, EventArgs e)
+		{
+			if (pictureBoxSoftbank.Image != null)
+			{
+				if (saveFileDialog.ShowDialog() == DialogResult.OK)
+				{
+					pictureBoxSoftbank.Image.Save(saveFileDialog.FileName);
 				}
 			}
 		}

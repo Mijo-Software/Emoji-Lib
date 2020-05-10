@@ -142,8 +142,14 @@
   <data name="PensiveFaceApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PensiveFaceApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PensiveFaceDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PensiveFaceDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PensiveFaceFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PensiveFaceFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PensiveFaceGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PensiveFaceGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PensiveFaceGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PensiveFaceGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,8 +157,14 @@
   <data name="PensiveFaceJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PensiveFaceJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PensiveFaceKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PensiveFaceKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PensiveFaceSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PensiveFaceSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PensiveFaceSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PensiveFaceSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PensiveFaceTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PensiveFaceTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,6 +193,18 @@
   <data name="RelievedFaceWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\RelievedFaceWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="RrelievedFaceDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RrelievedFaceDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RrelievedFaceGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RrelievedFaceGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RrelievedFaceKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RrelievedFaceKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RrelievedFaceSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RrelievedFaceSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SleepingFaceApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\SleepingFaceApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -208,14 +232,23 @@
   <data name="SleepyFaceFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\SleepyFaceFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SleepyFaceGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SleepyFaceGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SleepyFaceGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\SleepyFaceGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SleepyFaceJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\SleepyFaceJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SleepyFaceKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SleepyFaceKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SleepyFaceSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\SleepyFaceSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SleepyFaceSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SleepyFaceSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SleepyFaceTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\SleepyFaceTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

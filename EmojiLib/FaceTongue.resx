@@ -187,6 +187,9 @@
   <data name="SquintingFaceWithTongueFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\SquintingFaceWithTongueFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SquintingFaceWithTongueGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SquintingFaceWithTongueGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SquintingFaceWithTongueGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\SquintingFaceWithTongueGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -195,6 +198,9 @@
   </data>
   <data name="SquintingFaceWithTongueSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\SquintingFaceWithTongueSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SquintingFaceWithTongueSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SquintingFaceWithTongueSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SquintingFaceWithTongueTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\SquintingFaceWithTongueTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,8 +211,14 @@
   <data name="WinkingFaceWithTongueApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\WinkingFaceWithTongueApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="WinkingFaceWithTongueDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WinkingFaceWithTongueDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="WinkingFaceWithTongueFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\WinkingFaceWithTongueFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WinkingFaceWithTongueGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WinkingFaceWithTongueGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WinkingFaceWithTongueGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\WinkingFaceWithTongueGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,8 +226,14 @@
   <data name="WinkingFaceWithTongueJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\WinkingFaceWithTongueJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="WinkingFaceWithTongueKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WinkingFaceWithTongueKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="WinkingFaceWithTongueSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\WinkingFaceWithTongueSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WinkingFaceWithTongueSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WinkingFaceWithTongueSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="WinkingFaceWithTongueTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\WinkingFaceWithTongueTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

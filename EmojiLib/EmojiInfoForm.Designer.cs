@@ -46,6 +46,14 @@
 			this.labelSamsungVersion = new System.Windows.Forms.Label();
 			this.buttonClose = new System.Windows.Forms.Button();
 			this.tableLayoutPanelImageVersions = new System.Windows.Forms.TableLayoutPanel();
+			this.pictureBoxSoftbank = new System.Windows.Forms.PictureBox();
+			this.pictureBoxKddi = new System.Windows.Forms.PictureBox();
+			this.pictureBoxDocomo = new System.Windows.Forms.PictureBox();
+			this.pictureBoxGmail = new System.Windows.Forms.PictureBox();
+			this.labelSoftbankVersion = new System.Windows.Forms.Label();
+			this.labelKddiVersion = new System.Windows.Forms.Label();
+			this.labelDocomoVersion = new System.Windows.Forms.Label();
+			this.labelGmailVersion = new System.Windows.Forms.Label();
 			this.pictureBoxApple = new System.Windows.Forms.PictureBox();
 			this.pictureBoxSamsung = new System.Windows.Forms.PictureBox();
 			this.pictureBoxJoyPixels = new System.Windows.Forms.PictureBox();
@@ -58,6 +66,10 @@
 			this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
 			this.tableLayoutPanelMetadata.SuspendLayout();
 			this.tableLayoutPanelImageVersions.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBoxSoftbank)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBoxKddi)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBoxDocomo)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBoxGmail)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBoxApple)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBoxSamsung)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBoxJoyPixels)).BeginInit();
@@ -254,7 +266,7 @@
 			// buttonClose
 			// 
 			this.buttonClose.DialogResult = System.Windows.Forms.DialogResult.OK;
-			this.buttonClose.Location = new System.Drawing.Point(158, 180);
+			this.buttonClose.Location = new System.Drawing.Point(158, 241);
 			this.buttonClose.Name = "buttonClose";
 			this.buttonClose.Size = new System.Drawing.Size(75, 23);
 			this.buttonClose.TabIndex = 1;
@@ -271,6 +283,14 @@
 			this.tableLayoutPanelImageVersions.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
 			this.tableLayoutPanelImageVersions.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
 			this.tableLayoutPanelImageVersions.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+			this.tableLayoutPanelImageVersions.Controls.Add(this.pictureBoxSoftbank, 3, 3);
+			this.tableLayoutPanelImageVersions.Controls.Add(this.pictureBoxKddi, 2, 3);
+			this.tableLayoutPanelImageVersions.Controls.Add(this.pictureBoxDocomo, 1, 3);
+			this.tableLayoutPanelImageVersions.Controls.Add(this.pictureBoxGmail, 0, 3);
+			this.tableLayoutPanelImageVersions.Controls.Add(this.labelSoftbankVersion, 3, 2);
+			this.tableLayoutPanelImageVersions.Controls.Add(this.labelKddiVersion, 2, 2);
+			this.tableLayoutPanelImageVersions.Controls.Add(this.labelDocomoVersion, 1, 2);
+			this.tableLayoutPanelImageVersions.Controls.Add(this.labelGmailVersion, 0, 2);
 			this.tableLayoutPanelImageVersions.Controls.Add(this.labelAppleVersion, 0, 0);
 			this.tableLayoutPanelImageVersions.Controls.Add(this.labelGoogleVersion, 1, 0);
 			this.tableLayoutPanelImageVersions.Controls.Add(this.labelFacebookVersion, 2, 0);
@@ -288,14 +308,113 @@
 			this.tableLayoutPanelImageVersions.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.tableLayoutPanelImageVersions.Location = new System.Drawing.Point(3, 16);
 			this.tableLayoutPanelImageVersions.Name = "tableLayoutPanelImageVersions";
-			this.tableLayoutPanelImageVersions.RowCount = 2;
+			this.tableLayoutPanelImageVersions.RowCount = 4;
 			this.tableLayoutPanelImageVersions.RowStyles.Add(new System.Windows.Forms.RowStyle());
 			this.tableLayoutPanelImageVersions.RowStyles.Add(new System.Windows.Forms.RowStyle());
-			this.tableLayoutPanelImageVersions.Size = new System.Drawing.Size(360, 65);
+			this.tableLayoutPanelImageVersions.RowStyles.Add(new System.Windows.Forms.RowStyle());
+			this.tableLayoutPanelImageVersions.RowStyles.Add(new System.Windows.Forms.RowStyle());
+			this.tableLayoutPanelImageVersions.Size = new System.Drawing.Size(360, 126);
 			this.tableLayoutPanelImageVersions.TabIndex = 2;
+			// 
+			// pictureBoxSoftbank
+			// 
+			this.pictureBoxSoftbank.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.pictureBoxSoftbank.Location = new System.Drawing.Point(155, 77);
+			this.pictureBoxSoftbank.Name = "pictureBoxSoftbank";
+			this.pictureBoxSoftbank.Size = new System.Drawing.Size(44, 44);
+			this.pictureBoxSoftbank.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.pictureBoxSoftbank.TabIndex = 30;
+			this.pictureBoxSoftbank.TabStop = false;
+			this.pictureBoxSoftbank.Click += new System.EventHandler(this.PictureBoxSoftbank_Click);
+			this.pictureBoxSoftbank.MouseEnter += new System.EventHandler(this.PictureBoxSoftbank_MouseEnter);
+			this.pictureBoxSoftbank.MouseLeave += new System.EventHandler(this.PictureBoxSoftbank_MouseLeave);
+			// 
+			// pictureBoxKddi
+			// 
+			this.pictureBoxKddi.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.pictureBoxKddi.Location = new System.Drawing.Point(103, 77);
+			this.pictureBoxKddi.Name = "pictureBoxKddi";
+			this.pictureBoxKddi.Size = new System.Drawing.Size(44, 44);
+			this.pictureBoxKddi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.pictureBoxKddi.TabIndex = 29;
+			this.pictureBoxKddi.TabStop = false;
+			this.pictureBoxKddi.Click += new System.EventHandler(this.PictureBoxKddi_Click);
+			this.pictureBoxKddi.MouseEnter += new System.EventHandler(this.PictureBoxKddi_MouseEnter);
+			this.pictureBoxKddi.MouseLeave += new System.EventHandler(this.PictureBoxKddi_MouseLeave);
+			// 
+			// pictureBoxDocomo
+			// 
+			this.pictureBoxDocomo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.pictureBoxDocomo.Location = new System.Drawing.Point(53, 77);
+			this.pictureBoxDocomo.Name = "pictureBoxDocomo";
+			this.pictureBoxDocomo.Size = new System.Drawing.Size(44, 44);
+			this.pictureBoxDocomo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.pictureBoxDocomo.TabIndex = 28;
+			this.pictureBoxDocomo.TabStop = false;
+			this.pictureBoxDocomo.Click += new System.EventHandler(this.PictureBoxDocomo_Click);
+			this.pictureBoxDocomo.MouseEnter += new System.EventHandler(this.PictureBoxDocomo_MouseEnter);
+			this.pictureBoxDocomo.MouseLeave += new System.EventHandler(this.PictureBoxDocomo_MouseLeave);
+			// 
+			// pictureBoxGmail
+			// 
+			this.pictureBoxGmail.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.pictureBoxGmail.Location = new System.Drawing.Point(3, 77);
+			this.pictureBoxGmail.Name = "pictureBoxGmail";
+			this.pictureBoxGmail.Size = new System.Drawing.Size(44, 44);
+			this.pictureBoxGmail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+			this.pictureBoxGmail.TabIndex = 27;
+			this.pictureBoxGmail.TabStop = false;
+			this.pictureBoxGmail.Click += new System.EventHandler(this.PictureBoxGmail_Click);
+			this.pictureBoxGmail.MouseEnter += new System.EventHandler(this.PictureBoxGmail_MouseEnter);
+			this.pictureBoxGmail.MouseLeave += new System.EventHandler(this.PictureBoxGmail_MouseLeave);
+			// 
+			// labelSoftbankVersion
+			// 
+			this.labelSoftbankVersion.AutoSize = true;
+			this.labelSoftbankVersion.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.labelSoftbankVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.labelSoftbankVersion.Location = new System.Drawing.Point(155, 62);
+			this.labelSoftbankVersion.Name = "labelSoftbankVersion";
+			this.labelSoftbankVersion.Size = new System.Drawing.Size(44, 12);
+			this.labelSoftbankVersion.TabIndex = 23;
+			this.labelSoftbankVersion.Text = "SoftBank";
+			// 
+			// labelKddiVersion
+			// 
+			this.labelKddiVersion.AutoSize = true;
+			this.labelKddiVersion.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.labelKddiVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.labelKddiVersion.Location = new System.Drawing.Point(103, 62);
+			this.labelKddiVersion.Name = "labelKddiVersion";
+			this.labelKddiVersion.Size = new System.Drawing.Size(46, 12);
+			this.labelKddiVersion.TabIndex = 22;
+			this.labelKddiVersion.Text = "KDDI";
+			// 
+			// labelDocomoVersion
+			// 
+			this.labelDocomoVersion.AutoSize = true;
+			this.labelDocomoVersion.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.labelDocomoVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.labelDocomoVersion.Location = new System.Drawing.Point(53, 62);
+			this.labelDocomoVersion.Name = "labelDocomoVersion";
+			this.labelDocomoVersion.Size = new System.Drawing.Size(44, 12);
+			this.labelDocomoVersion.TabIndex = 21;
+			this.labelDocomoVersion.Text = "Docomo";
+			// 
+			// labelGmailVersion
+			// 
+			this.labelGmailVersion.AutoSize = true;
+			this.labelGmailVersion.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.labelGmailVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.labelGmailVersion.Location = new System.Drawing.Point(3, 62);
+			this.labelGmailVersion.Name = "labelGmailVersion";
+			this.labelGmailVersion.Size = new System.Drawing.Size(44, 12);
+			this.labelGmailVersion.TabIndex = 20;
+			this.labelGmailVersion.Text = "GMail";
 			// 
 			// pictureBoxApple
 			// 
+			this.pictureBoxApple.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.pictureBoxApple.Location = new System.Drawing.Point(3, 15);
 			this.pictureBoxApple.Name = "pictureBoxApple";
 			this.pictureBoxApple.Size = new System.Drawing.Size(44, 44);
@@ -308,6 +427,7 @@
 			// 
 			// pictureBoxSamsung
 			// 
+			this.pictureBoxSamsung.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.pictureBoxSamsung.Location = new System.Drawing.Point(308, 15);
 			this.pictureBoxSamsung.Name = "pictureBoxSamsung";
 			this.pictureBoxSamsung.Size = new System.Drawing.Size(44, 44);
@@ -320,6 +440,7 @@
 			// 
 			// pictureBoxJoyPixels
 			// 
+			this.pictureBoxJoyPixels.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.pictureBoxJoyPixels.Location = new System.Drawing.Point(255, 15);
 			this.pictureBoxJoyPixels.Name = "pictureBoxJoyPixels";
 			this.pictureBoxJoyPixels.Size = new System.Drawing.Size(44, 44);
@@ -332,6 +453,7 @@
 			// 
 			// pictureBoxTwitter
 			// 
+			this.pictureBoxTwitter.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.pictureBoxTwitter.Location = new System.Drawing.Point(205, 15);
 			this.pictureBoxTwitter.Name = "pictureBoxTwitter";
 			this.pictureBoxTwitter.Size = new System.Drawing.Size(44, 44);
@@ -344,6 +466,7 @@
 			// 
 			// pictureBoxWindows
 			// 
+			this.pictureBoxWindows.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.pictureBoxWindows.Location = new System.Drawing.Point(155, 15);
 			this.pictureBoxWindows.Name = "pictureBoxWindows";
 			this.pictureBoxWindows.Size = new System.Drawing.Size(44, 44);
@@ -356,6 +479,7 @@
 			// 
 			// pictureBoxFacebook
 			// 
+			this.pictureBoxFacebook.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.pictureBoxFacebook.Location = new System.Drawing.Point(103, 15);
 			this.pictureBoxFacebook.Name = "pictureBoxFacebook";
 			this.pictureBoxFacebook.Size = new System.Drawing.Size(44, 44);
@@ -368,6 +492,7 @@
 			// 
 			// pictureBoxGoogle
 			// 
+			this.pictureBoxGoogle.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.pictureBoxGoogle.Location = new System.Drawing.Point(53, 15);
 			this.pictureBoxGoogle.Name = "pictureBoxGoogle";
 			this.pictureBoxGoogle.Size = new System.Drawing.Size(44, 44);
@@ -397,7 +522,7 @@
 			this.groupBoxImageVersions.Controls.Add(this.tableLayoutPanelImageVersions);
 			this.groupBoxImageVersions.Location = new System.Drawing.Point(12, 90);
 			this.groupBoxImageVersions.Name = "groupBoxImageVersions";
-			this.groupBoxImageVersions.Size = new System.Drawing.Size(366, 84);
+			this.groupBoxImageVersions.Size = new System.Drawing.Size(366, 145);
 			this.groupBoxImageVersions.TabIndex = 4;
 			this.groupBoxImageVersions.TabStop = false;
 			this.groupBoxImageVersions.Text = "&Image version";
@@ -412,7 +537,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(390, 211);
+			this.ClientSize = new System.Drawing.Size(390, 273);
 			this.Controls.Add(this.groupBoxImageVersions);
 			this.Controls.Add(this.groupBoxMetadata);
 			this.Controls.Add(this.buttonClose);
@@ -428,6 +553,10 @@
 			this.tableLayoutPanelMetadata.PerformLayout();
 			this.tableLayoutPanelImageVersions.ResumeLayout(false);
 			this.tableLayoutPanelImageVersions.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBoxSoftbank)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBoxKddi)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBoxDocomo)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBoxGmail)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBoxApple)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBoxSamsung)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBoxJoyPixels)).EndInit();
@@ -471,5 +600,13 @@
 		private System.Windows.Forms.Label labelGroupDesc;
 		private System.Windows.Forms.Label labelSubGroup;
 		private System.Windows.Forms.Label labelSubGroupDesc;
+		private System.Windows.Forms.PictureBox pictureBoxSoftbank;
+		private System.Windows.Forms.PictureBox pictureBoxKddi;
+		private System.Windows.Forms.PictureBox pictureBoxDocomo;
+		private System.Windows.Forms.PictureBox pictureBoxGmail;
+		private System.Windows.Forms.Label labelSoftbankVersion;
+		private System.Windows.Forms.Label labelKddiVersion;
+		private System.Windows.Forms.Label labelDocomoVersion;
+		private System.Windows.Forms.Label labelGmailVersion;
 	}
 }
