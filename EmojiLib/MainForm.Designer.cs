@@ -97,15 +97,45 @@
 			this.buttonSmilingFaceWithSunglasses = new System.Windows.Forms.Button();
 			this.buttonNerdFace = new System.Windows.Forms.Button();
 			this.buttonFaceWithMonocle = new System.Windows.Forms.Button();
+			this.buttonConfusedFace = new System.Windows.Forms.Button();
+			this.buttonWorriedFace = new System.Windows.Forms.Button();
+			this.buttonSlightlyFrowningFace = new System.Windows.Forms.Button();
+			this.buttonFrowningFace = new System.Windows.Forms.Button();
+			this.buttonFaceWithOpenMouth = new System.Windows.Forms.Button();
+			this.buttonHushedFace = new System.Windows.Forms.Button();
+			this.buttonAstonishedFace = new System.Windows.Forms.Button();
+			this.buttonFlushedFace = new System.Windows.Forms.Button();
+			this.buttonPleadingFace = new System.Windows.Forms.Button();
+			this.buttonFrowningFaceWithOpenMouth = new System.Windows.Forms.Button();
+			this.buttonAnguishedFace = new System.Windows.Forms.Button();
+			this.buttonFearfulFace = new System.Windows.Forms.Button();
+			this.buttonAnxiousFaceWithSweat = new System.Windows.Forms.Button();
+			this.buttonSadButRelievedFace = new System.Windows.Forms.Button();
+			this.buttonCryingFace = new System.Windows.Forms.Button();
+			this.buttonLoudlyCryingFace = new System.Windows.Forms.Button();
+			this.buttonFaceScreamingInFear = new System.Windows.Forms.Button();
+			this.buttonConfoundedFace = new System.Windows.Forms.Button();
+			this.buttonPerseveringFace = new System.Windows.Forms.Button();
+			this.buttonDisappointedFace = new System.Windows.Forms.Button();
+			this.buttonDowncastFaceWithSweat = new System.Windows.Forms.Button();
+			this.buttonWearyFace = new System.Windows.Forms.Button();
+			this.buttonTiredFace = new System.Windows.Forms.Button();
+			this.buttonYawningFace = new System.Windows.Forms.Button();
+			this.tabPageSearch = new System.Windows.Forms.TabPage();
+			this.flowLayoutPanelSearchResult = new System.Windows.Forms.FlowLayoutPanel();
 			this.statusStrip = new System.Windows.Forms.StatusStrip();
 			this.labelInformation = new System.Windows.Forms.ToolStripStatusLabel();
 			this.labelCopiedStatus = new System.Windows.Forms.ToolStripStatusLabel();
-			this.toolStripContainer = new System.Windows.Forms.ToolStripContainer();
+			this.toolStripProgressBar = new System.Windows.Forms.ToolStripProgressBar();
+			this.toolStripContainerMain = new System.Windows.Forms.ToolStripContainer();
 			this.menuStrip = new System.Windows.Forms.MenuStrip();
 			this.toolStripMenuItemFile = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripMenuItemAboutBox = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripMenuItemExit = new System.Windows.Forms.ToolStripMenuItem();
-			this.toolStrip = new System.Windows.Forms.ToolStrip();
+			this.toolStripMenuItemGoto = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItemSmileys = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItemSearch = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMain = new System.Windows.Forms.ToolStrip();
 			this.labelWorkMode = new System.Windows.Forms.ToolStripLabel();
 			this.buttonPickerMode = new System.Windows.Forms.ToolStripButton();
 			this.buttonLibraryMode = new System.Windows.Forms.ToolStripButton();
@@ -114,41 +144,64 @@
 			this.buttonEmojiSize16 = new System.Windows.Forms.ToolStripButton();
 			this.buttonEmojiSize24 = new System.Windows.Forms.ToolStripButton();
 			this.buttonEmojiSize32 = new System.Windows.Forms.ToolStripButton();
+			this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+			this.toolStripButtonSearch = new System.Windows.Forms.ToolStripButton();
 			this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+			this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
+			this.toolStripContainerSearch = new System.Windows.Forms.ToolStripContainer();
+			this.toolStripSearch = new System.Windows.Forms.ToolStrip();
+			this.labelSearchTerm = new System.Windows.Forms.ToolStripLabel();
+			this.textBoxSearch = new System.Windows.Forms.ToolStripTextBox();
+			this.toolStripButtonFind = new System.Windows.Forms.ToolStripButton();
+			this.toolStripButtonClearAll = new System.Windows.Forms.ToolStripButton();
 			this.tabControlEmojis.SuspendLayout();
 			this.tabPageSmileys.SuspendLayout();
 			this.flowLayoutPanelSmileys.SuspendLayout();
+			this.tabPageSearch.SuspendLayout();
 			this.statusStrip.SuspendLayout();
-			this.toolStripContainer.BottomToolStripPanel.SuspendLayout();
-			this.toolStripContainer.ContentPanel.SuspendLayout();
-			this.toolStripContainer.TopToolStripPanel.SuspendLayout();
-			this.toolStripContainer.SuspendLayout();
+			this.toolStripContainerMain.BottomToolStripPanel.SuspendLayout();
+			this.toolStripContainerMain.ContentPanel.SuspendLayout();
+			this.toolStripContainerMain.TopToolStripPanel.SuspendLayout();
+			this.toolStripContainerMain.SuspendLayout();
 			this.menuStrip.SuspendLayout();
-			this.toolStrip.SuspendLayout();
+			this.toolStripMain.SuspendLayout();
+			this.toolStripContainerSearch.ContentPanel.SuspendLayout();
+			this.toolStripContainerSearch.TopToolStripPanel.SuspendLayout();
+			this.toolStripContainerSearch.SuspendLayout();
+			this.toolStripSearch.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// tabControlEmojis
 			// 
 			this.tabControlEmojis.Controls.Add(this.tabPageSmileys);
+			this.tabControlEmojis.Controls.Add(this.tabPageSearch);
 			this.tabControlEmojis.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.tabControlEmojis.Location = new System.Drawing.Point(0, 0);
 			this.tabControlEmojis.Name = "tabControlEmojis";
 			this.tabControlEmojis.SelectedIndex = 0;
 			this.tabControlEmojis.ShowToolTips = true;
-			this.tabControlEmojis.Size = new System.Drawing.Size(404, 288);
+			this.tabControlEmojis.Size = new System.Drawing.Size(472, 315);
 			this.tabControlEmojis.TabIndex = 0;
 			// 
 			// tabPageSmileys
 			// 
+			this.tabPageSmileys.AccessibleDescription = "smileys & emotion";
+			this.tabPageSmileys.AccessibleName = "smileys & emotion";
 			this.tabPageSmileys.AutoScroll = true;
 			this.tabPageSmileys.Controls.Add(this.flowLayoutPanelSmileys);
 			this.tabPageSmileys.Location = new System.Drawing.Point(4, 22);
 			this.tabPageSmileys.Name = "tabPageSmileys";
 			this.tabPageSmileys.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPageSmileys.Size = new System.Drawing.Size(396, 262);
+			this.tabPageSmileys.Size = new System.Drawing.Size(464, 289);
 			this.tabPageSmileys.TabIndex = 0;
 			this.tabPageSmileys.Text = "Smileys & Emotion";
+			this.toolTip.SetToolTip(this.tabPageSmileys, "smileys & emotion");
+			this.tabPageSmileys.ToolTipText = "smileys & emotion";
 			this.tabPageSmileys.UseVisualStyleBackColor = true;
+			this.tabPageSmileys.Enter += new System.EventHandler(this.TabPageSmileys_Enter);
+			this.tabPageSmileys.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.tabPageSmileys.MouseEnter += new System.EventHandler(this.TabPageSmileys_Enter);
+			this.tabPageSmileys.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
 			// flowLayoutPanelSmileys
 			// 
@@ -218,10 +271,34 @@
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSmilingFaceWithSunglasses);
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonNerdFace);
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonFaceWithMonocle);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonConfusedFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonWorriedFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSlightlyFrowningFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonFrowningFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonFaceWithOpenMouth);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonHushedFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonAstonishedFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonFlushedFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonPleadingFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonFrowningFaceWithOpenMouth);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonAnguishedFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonFearfulFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonAnxiousFaceWithSweat);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSadButRelievedFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonCryingFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonLoudlyCryingFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonFaceScreamingInFear);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonConfoundedFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonPerseveringFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonDisappointedFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonDowncastFaceWithSweat);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonWearyFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonTiredFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonYawningFace);
 			this.flowLayoutPanelSmileys.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.flowLayoutPanelSmileys.Location = new System.Drawing.Point(3, 3);
 			this.flowLayoutPanelSmileys.Name = "flowLayoutPanelSmileys";
-			this.flowLayoutPanelSmileys.Size = new System.Drawing.Size(390, 256);
+			this.flowLayoutPanelSmileys.Size = new System.Drawing.Size(458, 283);
 			this.flowLayoutPanelSmileys.TabIndex = 1;
 			this.flowLayoutPanelSmileys.TabStop = true;
 			// 
@@ -536,7 +613,7 @@
 			this.buttonSmilingFaceWithHalo.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonSmilingFaceWithHalo.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonSmilingFaceWithHalo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonSmilingFaceWithHalo.Location = new System.Drawing.Point(0, 32);
+			this.buttonSmilingFaceWithHalo.Location = new System.Drawing.Point(384, 0);
 			this.buttonSmilingFaceWithHalo.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonSmilingFaceWithHalo.Name = "buttonSmilingFaceWithHalo";
 			this.buttonSmilingFaceWithHalo.Size = new System.Drawing.Size(32, 32);
@@ -561,7 +638,7 @@
 			this.buttonSmilingFaceWithHearts.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonSmilingFaceWithHearts.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonSmilingFaceWithHearts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonSmilingFaceWithHearts.Location = new System.Drawing.Point(32, 32);
+			this.buttonSmilingFaceWithHearts.Location = new System.Drawing.Point(416, 0);
 			this.buttonSmilingFaceWithHearts.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonSmilingFaceWithHearts.Name = "buttonSmilingFaceWithHearts";
 			this.buttonSmilingFaceWithHearts.Size = new System.Drawing.Size(32, 32);
@@ -586,7 +663,7 @@
 			this.buttonSmilingFaceWithHeartEyes.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonSmilingFaceWithHeartEyes.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonSmilingFaceWithHeartEyes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonSmilingFaceWithHeartEyes.Location = new System.Drawing.Point(64, 32);
+			this.buttonSmilingFaceWithHeartEyes.Location = new System.Drawing.Point(0, 32);
 			this.buttonSmilingFaceWithHeartEyes.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonSmilingFaceWithHeartEyes.Name = "buttonSmilingFaceWithHeartEyes";
 			this.buttonSmilingFaceWithHeartEyes.Size = new System.Drawing.Size(32, 32);
@@ -610,7 +687,7 @@
 			this.buttonStarStruck.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonStarStruck.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonStarStruck.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonStarStruck.Location = new System.Drawing.Point(96, 32);
+			this.buttonStarStruck.Location = new System.Drawing.Point(32, 32);
 			this.buttonStarStruck.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonStarStruck.Name = "buttonStarStruck";
 			this.buttonStarStruck.Size = new System.Drawing.Size(32, 32);
@@ -635,7 +712,7 @@
 			this.buttonFaceBlowingAKiss.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonFaceBlowingAKiss.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonFaceBlowingAKiss.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonFaceBlowingAKiss.Location = new System.Drawing.Point(128, 32);
+			this.buttonFaceBlowingAKiss.Location = new System.Drawing.Point(64, 32);
 			this.buttonFaceBlowingAKiss.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonFaceBlowingAKiss.Name = "buttonFaceBlowingAKiss";
 			this.buttonFaceBlowingAKiss.Size = new System.Drawing.Size(32, 32);
@@ -660,7 +737,7 @@
 			this.buttonKissingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonKissingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonKissingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonKissingFace.Location = new System.Drawing.Point(160, 32);
+			this.buttonKissingFace.Location = new System.Drawing.Point(96, 32);
 			this.buttonKissingFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonKissingFace.Name = "buttonKissingFace";
 			this.buttonKissingFace.Size = new System.Drawing.Size(32, 32);
@@ -685,7 +762,7 @@
 			this.buttonSmilingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonSmilingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonSmilingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonSmilingFace.Location = new System.Drawing.Point(192, 32);
+			this.buttonSmilingFace.Location = new System.Drawing.Point(128, 32);
 			this.buttonSmilingFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonSmilingFace.Name = "buttonSmilingFace";
 			this.buttonSmilingFace.Size = new System.Drawing.Size(32, 32);
@@ -710,7 +787,7 @@
 			this.buttonKissingFaceWithClosedEyes.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonKissingFaceWithClosedEyes.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonKissingFaceWithClosedEyes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonKissingFaceWithClosedEyes.Location = new System.Drawing.Point(224, 32);
+			this.buttonKissingFaceWithClosedEyes.Location = new System.Drawing.Point(160, 32);
 			this.buttonKissingFaceWithClosedEyes.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonKissingFaceWithClosedEyes.Name = "buttonKissingFaceWithClosedEyes";
 			this.buttonKissingFaceWithClosedEyes.Size = new System.Drawing.Size(32, 32);
@@ -735,7 +812,7 @@
 			this.buttonKissingFaceWithSmilingEyes.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonKissingFaceWithSmilingEyes.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonKissingFaceWithSmilingEyes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonKissingFaceWithSmilingEyes.Location = new System.Drawing.Point(256, 32);
+			this.buttonKissingFaceWithSmilingEyes.Location = new System.Drawing.Point(192, 32);
 			this.buttonKissingFaceWithSmilingEyes.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonKissingFaceWithSmilingEyes.Name = "buttonKissingFaceWithSmilingEyes";
 			this.buttonKissingFaceWithSmilingEyes.Size = new System.Drawing.Size(32, 32);
@@ -760,7 +837,7 @@
 			this.buttonSmilingFaceWithTear.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonSmilingFaceWithTear.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonSmilingFaceWithTear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonSmilingFaceWithTear.Location = new System.Drawing.Point(288, 32);
+			this.buttonSmilingFaceWithTear.Location = new System.Drawing.Point(224, 32);
 			this.buttonSmilingFaceWithTear.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonSmilingFaceWithTear.Name = "buttonSmilingFaceWithTear";
 			this.buttonSmilingFaceWithTear.Size = new System.Drawing.Size(32, 32);
@@ -785,7 +862,7 @@
 			this.buttonFaceSavoringFood.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonFaceSavoringFood.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonFaceSavoringFood.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonFaceSavoringFood.Location = new System.Drawing.Point(320, 32);
+			this.buttonFaceSavoringFood.Location = new System.Drawing.Point(256, 32);
 			this.buttonFaceSavoringFood.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonFaceSavoringFood.Name = "buttonFaceSavoringFood";
 			this.buttonFaceSavoringFood.Size = new System.Drawing.Size(32, 32);
@@ -810,7 +887,7 @@
 			this.buttonFaceWithTongue.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonFaceWithTongue.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonFaceWithTongue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonFaceWithTongue.Location = new System.Drawing.Point(352, 32);
+			this.buttonFaceWithTongue.Location = new System.Drawing.Point(288, 32);
 			this.buttonFaceWithTongue.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonFaceWithTongue.Name = "buttonFaceWithTongue";
 			this.buttonFaceWithTongue.Size = new System.Drawing.Size(32, 32);
@@ -835,7 +912,7 @@
 			this.buttonWinkingFaceWithTongue.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonWinkingFaceWithTongue.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonWinkingFaceWithTongue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonWinkingFaceWithTongue.Location = new System.Drawing.Point(0, 64);
+			this.buttonWinkingFaceWithTongue.Location = new System.Drawing.Point(320, 32);
 			this.buttonWinkingFaceWithTongue.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonWinkingFaceWithTongue.Name = "buttonWinkingFaceWithTongue";
 			this.buttonWinkingFaceWithTongue.Size = new System.Drawing.Size(32, 32);
@@ -860,7 +937,7 @@
 			this.buttonZanyFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonZanyFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonZanyFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonZanyFace.Location = new System.Drawing.Point(32, 64);
+			this.buttonZanyFace.Location = new System.Drawing.Point(352, 32);
 			this.buttonZanyFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonZanyFace.Name = "buttonZanyFace";
 			this.buttonZanyFace.Size = new System.Drawing.Size(32, 32);
@@ -885,7 +962,7 @@
 			this.buttonSquintingFaceWithTongue.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonSquintingFaceWithTongue.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonSquintingFaceWithTongue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonSquintingFaceWithTongue.Location = new System.Drawing.Point(64, 64);
+			this.buttonSquintingFaceWithTongue.Location = new System.Drawing.Point(384, 32);
 			this.buttonSquintingFaceWithTongue.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonSquintingFaceWithTongue.Name = "buttonSquintingFaceWithTongue";
 			this.buttonSquintingFaceWithTongue.Size = new System.Drawing.Size(32, 32);
@@ -910,7 +987,7 @@
 			this.buttonMoneyMouthFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonMoneyMouthFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonMoneyMouthFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonMoneyMouthFace.Location = new System.Drawing.Point(96, 64);
+			this.buttonMoneyMouthFace.Location = new System.Drawing.Point(416, 32);
 			this.buttonMoneyMouthFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonMoneyMouthFace.Name = "buttonMoneyMouthFace";
 			this.buttonMoneyMouthFace.Size = new System.Drawing.Size(32, 32);
@@ -935,7 +1012,7 @@
 			this.buttonHuggingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonHuggingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonHuggingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonHuggingFace.Location = new System.Drawing.Point(128, 64);
+			this.buttonHuggingFace.Location = new System.Drawing.Point(0, 64);
 			this.buttonHuggingFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonHuggingFace.Name = "buttonHuggingFace";
 			this.buttonHuggingFace.Size = new System.Drawing.Size(32, 32);
@@ -960,7 +1037,7 @@
 			this.buttonFaceWithHandOverMouth.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonFaceWithHandOverMouth.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonFaceWithHandOverMouth.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonFaceWithHandOverMouth.Location = new System.Drawing.Point(160, 64);
+			this.buttonFaceWithHandOverMouth.Location = new System.Drawing.Point(32, 64);
 			this.buttonFaceWithHandOverMouth.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonFaceWithHandOverMouth.Name = "buttonFaceWithHandOverMouth";
 			this.buttonFaceWithHandOverMouth.Size = new System.Drawing.Size(32, 32);
@@ -985,7 +1062,7 @@
 			this.buttonShushingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonShushingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonShushingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonShushingFace.Location = new System.Drawing.Point(192, 64);
+			this.buttonShushingFace.Location = new System.Drawing.Point(64, 64);
 			this.buttonShushingFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonShushingFace.Name = "buttonShushingFace";
 			this.buttonShushingFace.Size = new System.Drawing.Size(32, 32);
@@ -1010,7 +1087,7 @@
 			this.buttonThinkingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonThinkingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonThinkingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonThinkingFace.Location = new System.Drawing.Point(224, 64);
+			this.buttonThinkingFace.Location = new System.Drawing.Point(96, 64);
 			this.buttonThinkingFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonThinkingFace.Name = "buttonThinkingFace";
 			this.buttonThinkingFace.Size = new System.Drawing.Size(32, 32);
@@ -1035,7 +1112,7 @@
 			this.buttonZipperMouthFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonZipperMouthFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonZipperMouthFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonZipperMouthFace.Location = new System.Drawing.Point(256, 64);
+			this.buttonZipperMouthFace.Location = new System.Drawing.Point(128, 64);
 			this.buttonZipperMouthFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonZipperMouthFace.Name = "buttonZipperMouthFace";
 			this.buttonZipperMouthFace.Size = new System.Drawing.Size(32, 32);
@@ -1060,7 +1137,7 @@
 			this.buttonFaceWithRaisedEyebrow.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonFaceWithRaisedEyebrow.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonFaceWithRaisedEyebrow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonFaceWithRaisedEyebrow.Location = new System.Drawing.Point(288, 64);
+			this.buttonFaceWithRaisedEyebrow.Location = new System.Drawing.Point(160, 64);
 			this.buttonFaceWithRaisedEyebrow.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonFaceWithRaisedEyebrow.Name = "buttonFaceWithRaisedEyebrow";
 			this.buttonFaceWithRaisedEyebrow.Size = new System.Drawing.Size(32, 32);
@@ -1085,7 +1162,7 @@
 			this.buttonNeutralFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonNeutralFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonNeutralFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonNeutralFace.Location = new System.Drawing.Point(320, 64);
+			this.buttonNeutralFace.Location = new System.Drawing.Point(192, 64);
 			this.buttonNeutralFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonNeutralFace.Name = "buttonNeutralFace";
 			this.buttonNeutralFace.Size = new System.Drawing.Size(32, 32);
@@ -1110,7 +1187,7 @@
 			this.buttonExpressionlessFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonExpressionlessFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonExpressionlessFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonExpressionlessFace.Location = new System.Drawing.Point(352, 64);
+			this.buttonExpressionlessFace.Location = new System.Drawing.Point(224, 64);
 			this.buttonExpressionlessFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonExpressionlessFace.Name = "buttonExpressionlessFace";
 			this.buttonExpressionlessFace.Size = new System.Drawing.Size(32, 32);
@@ -1135,7 +1212,7 @@
 			this.buttonFaceWithoutMouth.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonFaceWithoutMouth.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonFaceWithoutMouth.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonFaceWithoutMouth.Location = new System.Drawing.Point(0, 96);
+			this.buttonFaceWithoutMouth.Location = new System.Drawing.Point(256, 64);
 			this.buttonFaceWithoutMouth.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonFaceWithoutMouth.Name = "buttonFaceWithoutMouth";
 			this.buttonFaceWithoutMouth.Size = new System.Drawing.Size(32, 32);
@@ -1160,7 +1237,7 @@
 			this.buttonSmirkingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonSmirkingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonSmirkingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonSmirkingFace.Location = new System.Drawing.Point(32, 96);
+			this.buttonSmirkingFace.Location = new System.Drawing.Point(288, 64);
 			this.buttonSmirkingFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonSmirkingFace.Name = "buttonSmirkingFace";
 			this.buttonSmirkingFace.Size = new System.Drawing.Size(32, 32);
@@ -1185,7 +1262,7 @@
 			this.buttonUnamusedFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonUnamusedFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonUnamusedFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonUnamusedFace.Location = new System.Drawing.Point(64, 96);
+			this.buttonUnamusedFace.Location = new System.Drawing.Point(320, 64);
 			this.buttonUnamusedFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonUnamusedFace.Name = "buttonUnamusedFace";
 			this.buttonUnamusedFace.Size = new System.Drawing.Size(32, 32);
@@ -1210,7 +1287,7 @@
 			this.buttonFaceWithRollingEyes.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonFaceWithRollingEyes.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonFaceWithRollingEyes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonFaceWithRollingEyes.Location = new System.Drawing.Point(96, 96);
+			this.buttonFaceWithRollingEyes.Location = new System.Drawing.Point(352, 64);
 			this.buttonFaceWithRollingEyes.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonFaceWithRollingEyes.Name = "buttonFaceWithRollingEyes";
 			this.buttonFaceWithRollingEyes.Size = new System.Drawing.Size(32, 32);
@@ -1235,7 +1312,7 @@
 			this.buttonGrimacingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonGrimacingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonGrimacingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonGrimacingFace.Location = new System.Drawing.Point(128, 96);
+			this.buttonGrimacingFace.Location = new System.Drawing.Point(384, 64);
 			this.buttonGrimacingFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonGrimacingFace.Name = "buttonGrimacingFace";
 			this.buttonGrimacingFace.Size = new System.Drawing.Size(32, 32);
@@ -1260,7 +1337,7 @@
 			this.buttonLyingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonLyingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonLyingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonLyingFace.Location = new System.Drawing.Point(160, 96);
+			this.buttonLyingFace.Location = new System.Drawing.Point(416, 64);
 			this.buttonLyingFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonLyingFace.Name = "buttonLyingFace";
 			this.buttonLyingFace.Size = new System.Drawing.Size(32, 32);
@@ -1285,7 +1362,7 @@
 			this.buttonRelievedFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonRelievedFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonRelievedFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonRelievedFace.Location = new System.Drawing.Point(192, 96);
+			this.buttonRelievedFace.Location = new System.Drawing.Point(0, 96);
 			this.buttonRelievedFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonRelievedFace.Name = "buttonRelievedFace";
 			this.buttonRelievedFace.Size = new System.Drawing.Size(32, 32);
@@ -1310,7 +1387,7 @@
 			this.buttonPensiveFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonPensiveFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonPensiveFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonPensiveFace.Location = new System.Drawing.Point(224, 96);
+			this.buttonPensiveFace.Location = new System.Drawing.Point(32, 96);
 			this.buttonPensiveFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonPensiveFace.Name = "buttonPensiveFace";
 			this.buttonPensiveFace.Size = new System.Drawing.Size(32, 32);
@@ -1335,7 +1412,7 @@
 			this.buttonSleepyFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonSleepyFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonSleepyFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonSleepyFace.Location = new System.Drawing.Point(256, 96);
+			this.buttonSleepyFace.Location = new System.Drawing.Point(64, 96);
 			this.buttonSleepyFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonSleepyFace.Name = "buttonSleepyFace";
 			this.buttonSleepyFace.Size = new System.Drawing.Size(32, 32);
@@ -1360,7 +1437,7 @@
 			this.buttonDroolingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonDroolingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonDroolingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonDroolingFace.Location = new System.Drawing.Point(288, 96);
+			this.buttonDroolingFace.Location = new System.Drawing.Point(96, 96);
 			this.buttonDroolingFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonDroolingFace.Name = "buttonDroolingFace";
 			this.buttonDroolingFace.Size = new System.Drawing.Size(32, 32);
@@ -1385,7 +1462,7 @@
 			this.buttonSleepingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonSleepingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonSleepingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonSleepingFace.Location = new System.Drawing.Point(320, 96);
+			this.buttonSleepingFace.Location = new System.Drawing.Point(128, 96);
 			this.buttonSleepingFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonSleepingFace.Name = "buttonSleepingFace";
 			this.buttonSleepingFace.Size = new System.Drawing.Size(32, 32);
@@ -1410,7 +1487,7 @@
 			this.buttonFaceWithMedicalMask.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonFaceWithMedicalMask.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonFaceWithMedicalMask.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonFaceWithMedicalMask.Location = new System.Drawing.Point(352, 96);
+			this.buttonFaceWithMedicalMask.Location = new System.Drawing.Point(160, 96);
 			this.buttonFaceWithMedicalMask.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonFaceWithMedicalMask.Name = "buttonFaceWithMedicalMask";
 			this.buttonFaceWithMedicalMask.Size = new System.Drawing.Size(32, 32);
@@ -1435,7 +1512,7 @@
 			this.buttonFaceWithThermometer.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonFaceWithThermometer.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonFaceWithThermometer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonFaceWithThermometer.Location = new System.Drawing.Point(0, 128);
+			this.buttonFaceWithThermometer.Location = new System.Drawing.Point(192, 96);
 			this.buttonFaceWithThermometer.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonFaceWithThermometer.Name = "buttonFaceWithThermometer";
 			this.buttonFaceWithThermometer.Size = new System.Drawing.Size(32, 32);
@@ -1460,7 +1537,7 @@
 			this.buttonFaceWithHeadBandage.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonFaceWithHeadBandage.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonFaceWithHeadBandage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonFaceWithHeadBandage.Location = new System.Drawing.Point(32, 128);
+			this.buttonFaceWithHeadBandage.Location = new System.Drawing.Point(224, 96);
 			this.buttonFaceWithHeadBandage.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonFaceWithHeadBandage.Name = "buttonFaceWithHeadBandage";
 			this.buttonFaceWithHeadBandage.Size = new System.Drawing.Size(32, 32);
@@ -1485,7 +1562,7 @@
 			this.buttonNauseatedFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonNauseatedFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonNauseatedFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonNauseatedFace.Location = new System.Drawing.Point(64, 128);
+			this.buttonNauseatedFace.Location = new System.Drawing.Point(256, 96);
 			this.buttonNauseatedFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonNauseatedFace.Name = "buttonNauseatedFace";
 			this.buttonNauseatedFace.Size = new System.Drawing.Size(32, 32);
@@ -1510,7 +1587,7 @@
 			this.buttonFaceVomiting.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonFaceVomiting.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonFaceVomiting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonFaceVomiting.Location = new System.Drawing.Point(96, 128);
+			this.buttonFaceVomiting.Location = new System.Drawing.Point(288, 96);
 			this.buttonFaceVomiting.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonFaceVomiting.Name = "buttonFaceVomiting";
 			this.buttonFaceVomiting.Size = new System.Drawing.Size(32, 32);
@@ -1535,7 +1612,7 @@
 			this.buttonSneezingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonSneezingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonSneezingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonSneezingFace.Location = new System.Drawing.Point(128, 128);
+			this.buttonSneezingFace.Location = new System.Drawing.Point(320, 96);
 			this.buttonSneezingFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonSneezingFace.Name = "buttonSneezingFace";
 			this.buttonSneezingFace.Size = new System.Drawing.Size(32, 32);
@@ -1560,7 +1637,7 @@
 			this.buttonHotFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonHotFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonHotFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonHotFace.Location = new System.Drawing.Point(160, 128);
+			this.buttonHotFace.Location = new System.Drawing.Point(352, 96);
 			this.buttonHotFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonHotFace.Name = "buttonHotFace";
 			this.buttonHotFace.Size = new System.Drawing.Size(32, 32);
@@ -1585,7 +1662,7 @@
 			this.buttonColdFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonColdFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonColdFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonColdFace.Location = new System.Drawing.Point(192, 128);
+			this.buttonColdFace.Location = new System.Drawing.Point(384, 96);
 			this.buttonColdFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonColdFace.Name = "buttonColdFace";
 			this.buttonColdFace.Size = new System.Drawing.Size(32, 32);
@@ -1610,7 +1687,7 @@
 			this.buttonWoozyFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonWoozyFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonWoozyFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonWoozyFace.Location = new System.Drawing.Point(224, 128);
+			this.buttonWoozyFace.Location = new System.Drawing.Point(416, 96);
 			this.buttonWoozyFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonWoozyFace.Name = "buttonWoozyFace";
 			this.buttonWoozyFace.Size = new System.Drawing.Size(32, 32);
@@ -1635,7 +1712,7 @@
 			this.buttonDizzyFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonDizzyFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonDizzyFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonDizzyFace.Location = new System.Drawing.Point(256, 128);
+			this.buttonDizzyFace.Location = new System.Drawing.Point(0, 128);
 			this.buttonDizzyFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonDizzyFace.Name = "buttonDizzyFace";
 			this.buttonDizzyFace.Size = new System.Drawing.Size(32, 32);
@@ -1660,7 +1737,7 @@
 			this.buttonExplodingHead.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonExplodingHead.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonExplodingHead.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonExplodingHead.Location = new System.Drawing.Point(288, 128);
+			this.buttonExplodingHead.Location = new System.Drawing.Point(32, 128);
 			this.buttonExplodingHead.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonExplodingHead.Name = "buttonExplodingHead";
 			this.buttonExplodingHead.Size = new System.Drawing.Size(32, 32);
@@ -1685,7 +1762,7 @@
 			this.buttonCowboyHatFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonCowboyHatFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonCowboyHatFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonCowboyHatFace.Location = new System.Drawing.Point(320, 128);
+			this.buttonCowboyHatFace.Location = new System.Drawing.Point(64, 128);
 			this.buttonCowboyHatFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonCowboyHatFace.Name = "buttonCowboyHatFace";
 			this.buttonCowboyHatFace.Size = new System.Drawing.Size(32, 32);
@@ -1710,7 +1787,7 @@
 			this.buttonPartyingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonPartyingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonPartyingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonPartyingFace.Location = new System.Drawing.Point(352, 128);
+			this.buttonPartyingFace.Location = new System.Drawing.Point(96, 128);
 			this.buttonPartyingFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonPartyingFace.Name = "buttonPartyingFace";
 			this.buttonPartyingFace.Size = new System.Drawing.Size(32, 32);
@@ -1735,7 +1812,7 @@
 			this.buttonDisguisedFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonDisguisedFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonDisguisedFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonDisguisedFace.Location = new System.Drawing.Point(0, 160);
+			this.buttonDisguisedFace.Location = new System.Drawing.Point(128, 128);
 			this.buttonDisguisedFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonDisguisedFace.Name = "buttonDisguisedFace";
 			this.buttonDisguisedFace.Size = new System.Drawing.Size(32, 32);
@@ -1760,7 +1837,7 @@
 			this.buttonSmilingFaceWithSunglasses.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonSmilingFaceWithSunglasses.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonSmilingFaceWithSunglasses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonSmilingFaceWithSunglasses.Location = new System.Drawing.Point(32, 160);
+			this.buttonSmilingFaceWithSunglasses.Location = new System.Drawing.Point(160, 128);
 			this.buttonSmilingFaceWithSunglasses.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonSmilingFaceWithSunglasses.Name = "buttonSmilingFaceWithSunglasses";
 			this.buttonSmilingFaceWithSunglasses.Size = new System.Drawing.Size(32, 32);
@@ -1785,7 +1862,7 @@
 			this.buttonNerdFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonNerdFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonNerdFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonNerdFace.Location = new System.Drawing.Point(64, 160);
+			this.buttonNerdFace.Location = new System.Drawing.Point(192, 128);
 			this.buttonNerdFace.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonNerdFace.Name = "buttonNerdFace";
 			this.buttonNerdFace.Size = new System.Drawing.Size(32, 32);
@@ -1810,7 +1887,7 @@
 			this.buttonFaceWithMonocle.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
 			this.buttonFaceWithMonocle.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
 			this.buttonFaceWithMonocle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonFaceWithMonocle.Location = new System.Drawing.Point(96, 160);
+			this.buttonFaceWithMonocle.Location = new System.Drawing.Point(224, 128);
 			this.buttonFaceWithMonocle.Margin = new System.Windows.Forms.Padding(0);
 			this.buttonFaceWithMonocle.Name = "buttonFaceWithMonocle";
 			this.buttonFaceWithMonocle.Size = new System.Drawing.Size(32, 32);
@@ -1824,16 +1901,646 @@
 			this.buttonFaceWithMonocle.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
 			this.buttonFaceWithMonocle.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
+			// buttonConfusedFace
+			// 
+			this.buttonConfusedFace.AccessibleDescription = "confused face";
+			this.buttonConfusedFace.AccessibleName = "confused face";
+			this.buttonConfusedFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonConfusedFace.BackgroundImage = global::EmojiLib.FaceConcerned.ConfusedFaceGoogle;
+			this.buttonConfusedFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonConfusedFace.FlatAppearance.BorderSize = 0;
+			this.buttonConfusedFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonConfusedFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonConfusedFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonConfusedFace.Location = new System.Drawing.Point(256, 128);
+			this.buttonConfusedFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonConfusedFace.Name = "buttonConfusedFace";
+			this.buttonConfusedFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonConfusedFace.TabIndex = 65;
+			this.buttonConfusedFace.Tag = "😕";
+			this.toolTip.SetToolTip(this.buttonConfusedFace, "confused face");
+			this.buttonConfusedFace.UseVisualStyleBackColor = true;
+			this.buttonConfusedFace.Click += new System.EventHandler(this.ButtonConfusedFace_Click);
+			this.buttonConfusedFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonConfusedFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonConfusedFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonConfusedFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonWorriedFace
+			// 
+			this.buttonWorriedFace.AccessibleDescription = "worried face";
+			this.buttonWorriedFace.AccessibleName = "worried face";
+			this.buttonWorriedFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonWorriedFace.BackgroundImage = global::EmojiLib.FaceConcerned.WorriedFaceGoogle;
+			this.buttonWorriedFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonWorriedFace.FlatAppearance.BorderSize = 0;
+			this.buttonWorriedFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonWorriedFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonWorriedFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonWorriedFace.Location = new System.Drawing.Point(288, 128);
+			this.buttonWorriedFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonWorriedFace.Name = "buttonWorriedFace";
+			this.buttonWorriedFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonWorriedFace.TabIndex = 66;
+			this.buttonWorriedFace.Tag = "😟";
+			this.toolTip.SetToolTip(this.buttonWorriedFace, "worried face");
+			this.buttonWorriedFace.UseVisualStyleBackColor = true;
+			this.buttonWorriedFace.Click += new System.EventHandler(this.ButtonWorriedFace_Click);
+			this.buttonWorriedFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonWorriedFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonWorriedFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonWorriedFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonSlightlyFrowningFace
+			// 
+			this.buttonSlightlyFrowningFace.AccessibleDescription = "slightly frowning face";
+			this.buttonSlightlyFrowningFace.AccessibleName = "slightly frowning face";
+			this.buttonSlightlyFrowningFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonSlightlyFrowningFace.BackgroundImage = global::EmojiLib.FaceConcerned.SlightlyFrowningFaceGoogle;
+			this.buttonSlightlyFrowningFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonSlightlyFrowningFace.FlatAppearance.BorderSize = 0;
+			this.buttonSlightlyFrowningFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonSlightlyFrowningFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonSlightlyFrowningFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonSlightlyFrowningFace.Location = new System.Drawing.Point(320, 128);
+			this.buttonSlightlyFrowningFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonSlightlyFrowningFace.Name = "buttonSlightlyFrowningFace";
+			this.buttonSlightlyFrowningFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonSlightlyFrowningFace.TabIndex = 67;
+			this.buttonSlightlyFrowningFace.Tag = "🙁";
+			this.toolTip.SetToolTip(this.buttonSlightlyFrowningFace, "slightly frowning face");
+			this.buttonSlightlyFrowningFace.UseVisualStyleBackColor = true;
+			this.buttonSlightlyFrowningFace.Click += new System.EventHandler(this.ButtonSlightlyFrowningFace_Click);
+			this.buttonSlightlyFrowningFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSlightlyFrowningFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonSlightlyFrowningFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSlightlyFrowningFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonFrowningFace
+			// 
+			this.buttonFrowningFace.AccessibleDescription = "frowning face";
+			this.buttonFrowningFace.AccessibleName = "frowning face";
+			this.buttonFrowningFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonFrowningFace.BackgroundImage = global::EmojiLib.FaceConcerned.FrowningFaceGoogle;
+			this.buttonFrowningFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonFrowningFace.FlatAppearance.BorderSize = 0;
+			this.buttonFrowningFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonFrowningFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonFrowningFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonFrowningFace.Location = new System.Drawing.Point(352, 128);
+			this.buttonFrowningFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonFrowningFace.Name = "buttonFrowningFace";
+			this.buttonFrowningFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonFrowningFace.TabIndex = 68;
+			this.buttonFrowningFace.Tag = "☹";
+			this.toolTip.SetToolTip(this.buttonFrowningFace, "frowning face");
+			this.buttonFrowningFace.UseVisualStyleBackColor = true;
+			this.buttonFrowningFace.Click += new System.EventHandler(this.ButtonFrowningFace_Click);
+			this.buttonFrowningFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFrowningFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonFrowningFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFrowningFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonFaceWithOpenMouth
+			// 
+			this.buttonFaceWithOpenMouth.AccessibleDescription = "face with open mouth";
+			this.buttonFaceWithOpenMouth.AccessibleName = "face with open mouth";
+			this.buttonFaceWithOpenMouth.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonFaceWithOpenMouth.BackgroundImage = global::EmojiLib.FaceConcerned.FaceWithOpenMouthGoogle;
+			this.buttonFaceWithOpenMouth.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonFaceWithOpenMouth.FlatAppearance.BorderSize = 0;
+			this.buttonFaceWithOpenMouth.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonFaceWithOpenMouth.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonFaceWithOpenMouth.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonFaceWithOpenMouth.Location = new System.Drawing.Point(384, 128);
+			this.buttonFaceWithOpenMouth.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonFaceWithOpenMouth.Name = "buttonFaceWithOpenMouth";
+			this.buttonFaceWithOpenMouth.Size = new System.Drawing.Size(32, 32);
+			this.buttonFaceWithOpenMouth.TabIndex = 69;
+			this.buttonFaceWithOpenMouth.Tag = "😮";
+			this.toolTip.SetToolTip(this.buttonFaceWithOpenMouth, "face with open mouth");
+			this.buttonFaceWithOpenMouth.UseVisualStyleBackColor = true;
+			this.buttonFaceWithOpenMouth.Click += new System.EventHandler(this.ButtonFaceWithOpenMouth_Click);
+			this.buttonFaceWithOpenMouth.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceWithOpenMouth.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonFaceWithOpenMouth.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceWithOpenMouth.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonHushedFace
+			// 
+			this.buttonHushedFace.AccessibleDescription = "hushed face";
+			this.buttonHushedFace.AccessibleName = "hushed face";
+			this.buttonHushedFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonHushedFace.BackgroundImage = global::EmojiLib.FaceConcerned.HushedFaceGoogle;
+			this.buttonHushedFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonHushedFace.FlatAppearance.BorderSize = 0;
+			this.buttonHushedFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonHushedFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonHushedFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonHushedFace.Location = new System.Drawing.Point(416, 128);
+			this.buttonHushedFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonHushedFace.Name = "buttonHushedFace";
+			this.buttonHushedFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonHushedFace.TabIndex = 70;
+			this.buttonHushedFace.Tag = "😯";
+			this.toolTip.SetToolTip(this.buttonHushedFace, "hushed face");
+			this.buttonHushedFace.UseVisualStyleBackColor = true;
+			this.buttonHushedFace.Click += new System.EventHandler(this.ButtonHushedFace_Click);
+			this.buttonHushedFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHushedFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonHushedFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHushedFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonAstonishedFace
+			// 
+			this.buttonAstonishedFace.AccessibleDescription = "astonished face";
+			this.buttonAstonishedFace.AccessibleName = "astonished face";
+			this.buttonAstonishedFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonAstonishedFace.BackgroundImage = global::EmojiLib.FaceConcerned.AstonishedFaceGoogle;
+			this.buttonAstonishedFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonAstonishedFace.FlatAppearance.BorderSize = 0;
+			this.buttonAstonishedFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonAstonishedFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonAstonishedFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonAstonishedFace.Location = new System.Drawing.Point(0, 160);
+			this.buttonAstonishedFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonAstonishedFace.Name = "buttonAstonishedFace";
+			this.buttonAstonishedFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonAstonishedFace.TabIndex = 71;
+			this.buttonAstonishedFace.Tag = "😲";
+			this.toolTip.SetToolTip(this.buttonAstonishedFace, "astonished face");
+			this.buttonAstonishedFace.UseVisualStyleBackColor = true;
+			this.buttonAstonishedFace.Click += new System.EventHandler(this.ButtonAstonishedFace_Click);
+			this.buttonAstonishedFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonAstonishedFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonAstonishedFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonAstonishedFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonFlushedFace
+			// 
+			this.buttonFlushedFace.AccessibleDescription = "flushed face";
+			this.buttonFlushedFace.AccessibleName = "flushed face";
+			this.buttonFlushedFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonFlushedFace.BackgroundImage = global::EmojiLib.FaceConcerned.FlushedFaceGoogle;
+			this.buttonFlushedFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonFlushedFace.FlatAppearance.BorderSize = 0;
+			this.buttonFlushedFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonFlushedFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonFlushedFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonFlushedFace.Location = new System.Drawing.Point(32, 160);
+			this.buttonFlushedFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonFlushedFace.Name = "buttonFlushedFace";
+			this.buttonFlushedFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonFlushedFace.TabIndex = 72;
+			this.buttonFlushedFace.Tag = "😳";
+			this.toolTip.SetToolTip(this.buttonFlushedFace, "flushed face");
+			this.buttonFlushedFace.UseVisualStyleBackColor = true;
+			this.buttonFlushedFace.Click += new System.EventHandler(this.ButtonFlushedFace_Click);
+			this.buttonFlushedFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFlushedFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonFlushedFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFlushedFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonPleadingFace
+			// 
+			this.buttonPleadingFace.AccessibleDescription = "pleading face";
+			this.buttonPleadingFace.AccessibleName = "pleading face";
+			this.buttonPleadingFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonPleadingFace.BackgroundImage = global::EmojiLib.FaceConcerned.PleadingFaceGoogle;
+			this.buttonPleadingFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonPleadingFace.FlatAppearance.BorderSize = 0;
+			this.buttonPleadingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonPleadingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonPleadingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonPleadingFace.Location = new System.Drawing.Point(64, 160);
+			this.buttonPleadingFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonPleadingFace.Name = "buttonPleadingFace";
+			this.buttonPleadingFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonPleadingFace.TabIndex = 73;
+			this.buttonPleadingFace.Tag = "🥺";
+			this.toolTip.SetToolTip(this.buttonPleadingFace, "pleading face");
+			this.buttonPleadingFace.UseVisualStyleBackColor = true;
+			this.buttonPleadingFace.Click += new System.EventHandler(this.ButtonPleadingFace_Click);
+			this.buttonPleadingFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonPleadingFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonPleadingFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonPleadingFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonFrowningFaceWithOpenMouth
+			// 
+			this.buttonFrowningFaceWithOpenMouth.AccessibleDescription = "frowning face with open mouth";
+			this.buttonFrowningFaceWithOpenMouth.AccessibleName = "frowning face with open mouth";
+			this.buttonFrowningFaceWithOpenMouth.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonFrowningFaceWithOpenMouth.BackgroundImage = global::EmojiLib.FaceConcerned.FrowningFaceWithOpenMouthGoogle;
+			this.buttonFrowningFaceWithOpenMouth.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonFrowningFaceWithOpenMouth.FlatAppearance.BorderSize = 0;
+			this.buttonFrowningFaceWithOpenMouth.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonFrowningFaceWithOpenMouth.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonFrowningFaceWithOpenMouth.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonFrowningFaceWithOpenMouth.Location = new System.Drawing.Point(96, 160);
+			this.buttonFrowningFaceWithOpenMouth.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonFrowningFaceWithOpenMouth.Name = "buttonFrowningFaceWithOpenMouth";
+			this.buttonFrowningFaceWithOpenMouth.Size = new System.Drawing.Size(32, 32);
+			this.buttonFrowningFaceWithOpenMouth.TabIndex = 74;
+			this.buttonFrowningFaceWithOpenMouth.Tag = "😦";
+			this.toolTip.SetToolTip(this.buttonFrowningFaceWithOpenMouth, "frowning face with open mouth");
+			this.buttonFrowningFaceWithOpenMouth.UseVisualStyleBackColor = true;
+			this.buttonFrowningFaceWithOpenMouth.Click += new System.EventHandler(this.ButtonFrowningFaceWithOpenMouth_Click);
+			this.buttonFrowningFaceWithOpenMouth.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFrowningFaceWithOpenMouth.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonFrowningFaceWithOpenMouth.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFrowningFaceWithOpenMouth.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonAnguishedFace
+			// 
+			this.buttonAnguishedFace.AccessibleDescription = "anguished face";
+			this.buttonAnguishedFace.AccessibleName = "anguished face";
+			this.buttonAnguishedFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonAnguishedFace.BackgroundImage = global::EmojiLib.FaceConcerned.AnguishedFaceGoogle;
+			this.buttonAnguishedFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonAnguishedFace.FlatAppearance.BorderSize = 0;
+			this.buttonAnguishedFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonAnguishedFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonAnguishedFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonAnguishedFace.Location = new System.Drawing.Point(128, 160);
+			this.buttonAnguishedFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonAnguishedFace.Name = "buttonAnguishedFace";
+			this.buttonAnguishedFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonAnguishedFace.TabIndex = 75;
+			this.buttonAnguishedFace.Tag = "😧";
+			this.toolTip.SetToolTip(this.buttonAnguishedFace, "anguished face");
+			this.buttonAnguishedFace.UseVisualStyleBackColor = true;
+			this.buttonAnguishedFace.Click += new System.EventHandler(this.ButtonAnguishedFace_Click);
+			this.buttonAnguishedFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonAnguishedFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonAnguishedFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonAnguishedFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonFearfulFace
+			// 
+			this.buttonFearfulFace.AccessibleDescription = "fearful face";
+			this.buttonFearfulFace.AccessibleName = "fearful face";
+			this.buttonFearfulFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonFearfulFace.BackgroundImage = global::EmojiLib.FaceConcerned.FearfulFaceGoogle;
+			this.buttonFearfulFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonFearfulFace.FlatAppearance.BorderSize = 0;
+			this.buttonFearfulFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonFearfulFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonFearfulFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonFearfulFace.Location = new System.Drawing.Point(160, 160);
+			this.buttonFearfulFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonFearfulFace.Name = "buttonFearfulFace";
+			this.buttonFearfulFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonFearfulFace.TabIndex = 76;
+			this.buttonFearfulFace.Tag = "😨";
+			this.toolTip.SetToolTip(this.buttonFearfulFace, "fearful face");
+			this.buttonFearfulFace.UseVisualStyleBackColor = true;
+			this.buttonFearfulFace.Click += new System.EventHandler(this.ButtonFearfulFace_Click);
+			this.buttonFearfulFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFearfulFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonFearfulFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFearfulFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonAnxiousFaceWithSweat
+			// 
+			this.buttonAnxiousFaceWithSweat.AccessibleDescription = "anxious face with sweat";
+			this.buttonAnxiousFaceWithSweat.AccessibleName = "anxious face with sweat";
+			this.buttonAnxiousFaceWithSweat.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonAnxiousFaceWithSweat.BackgroundImage = global::EmojiLib.FaceConcerned.AnxiousFaceWithSweatGoogle;
+			this.buttonAnxiousFaceWithSweat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonAnxiousFaceWithSweat.FlatAppearance.BorderSize = 0;
+			this.buttonAnxiousFaceWithSweat.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonAnxiousFaceWithSweat.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonAnxiousFaceWithSweat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonAnxiousFaceWithSweat.Location = new System.Drawing.Point(192, 160);
+			this.buttonAnxiousFaceWithSweat.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonAnxiousFaceWithSweat.Name = "buttonAnxiousFaceWithSweat";
+			this.buttonAnxiousFaceWithSweat.Size = new System.Drawing.Size(32, 32);
+			this.buttonAnxiousFaceWithSweat.TabIndex = 77;
+			this.buttonAnxiousFaceWithSweat.Tag = "😰";
+			this.toolTip.SetToolTip(this.buttonAnxiousFaceWithSweat, "anxious face with sweat");
+			this.buttonAnxiousFaceWithSweat.UseVisualStyleBackColor = true;
+			this.buttonAnxiousFaceWithSweat.Click += new System.EventHandler(this.ButtonAnxiousFaceWithSweat_Click);
+			this.buttonAnxiousFaceWithSweat.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonAnxiousFaceWithSweat.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonAnxiousFaceWithSweat.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonAnxiousFaceWithSweat.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonSadButRelievedFace
+			// 
+			this.buttonSadButRelievedFace.AccessibleDescription = "sad but relieved face";
+			this.buttonSadButRelievedFace.AccessibleName = "sad but relieved face";
+			this.buttonSadButRelievedFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonSadButRelievedFace.BackgroundImage = global::EmojiLib.FaceConcerned.SadButRelievedFaceGoogle;
+			this.buttonSadButRelievedFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonSadButRelievedFace.FlatAppearance.BorderSize = 0;
+			this.buttonSadButRelievedFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonSadButRelievedFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonSadButRelievedFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonSadButRelievedFace.Location = new System.Drawing.Point(224, 160);
+			this.buttonSadButRelievedFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonSadButRelievedFace.Name = "buttonSadButRelievedFace";
+			this.buttonSadButRelievedFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonSadButRelievedFace.TabIndex = 78;
+			this.buttonSadButRelievedFace.Tag = "😥";
+			this.toolTip.SetToolTip(this.buttonSadButRelievedFace, "sad but relieved face");
+			this.buttonSadButRelievedFace.UseVisualStyleBackColor = true;
+			this.buttonSadButRelievedFace.Click += new System.EventHandler(this.ButtonSadButRelievedFace_Click);
+			this.buttonSadButRelievedFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSadButRelievedFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonSadButRelievedFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSadButRelievedFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonCryingFace
+			// 
+			this.buttonCryingFace.AccessibleDescription = "crying face";
+			this.buttonCryingFace.AccessibleName = "crying face";
+			this.buttonCryingFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonCryingFace.BackgroundImage = global::EmojiLib.FaceConcerned.CryingFaceGoogle;
+			this.buttonCryingFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonCryingFace.FlatAppearance.BorderSize = 0;
+			this.buttonCryingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonCryingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonCryingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonCryingFace.Location = new System.Drawing.Point(256, 160);
+			this.buttonCryingFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonCryingFace.Name = "buttonCryingFace";
+			this.buttonCryingFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonCryingFace.TabIndex = 79;
+			this.buttonCryingFace.Tag = "😢";
+			this.toolTip.SetToolTip(this.buttonCryingFace, "crying face");
+			this.buttonCryingFace.UseVisualStyleBackColor = true;
+			this.buttonCryingFace.Click += new System.EventHandler(this.ButtonCryingFace_Click);
+			this.buttonCryingFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonCryingFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonCryingFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonCryingFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonLoudlyCryingFace
+			// 
+			this.buttonLoudlyCryingFace.AccessibleDescription = "loudly crying face";
+			this.buttonLoudlyCryingFace.AccessibleName = "loudly crying face";
+			this.buttonLoudlyCryingFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonLoudlyCryingFace.BackgroundImage = global::EmojiLib.FaceConcerned.LoudlyCryingFaceGoogle;
+			this.buttonLoudlyCryingFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonLoudlyCryingFace.FlatAppearance.BorderSize = 0;
+			this.buttonLoudlyCryingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonLoudlyCryingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonLoudlyCryingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonLoudlyCryingFace.Location = new System.Drawing.Point(288, 160);
+			this.buttonLoudlyCryingFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonLoudlyCryingFace.Name = "buttonLoudlyCryingFace";
+			this.buttonLoudlyCryingFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonLoudlyCryingFace.TabIndex = 80;
+			this.buttonLoudlyCryingFace.Tag = "😭";
+			this.toolTip.SetToolTip(this.buttonLoudlyCryingFace, "loudly crying face");
+			this.buttonLoudlyCryingFace.UseVisualStyleBackColor = true;
+			this.buttonLoudlyCryingFace.Click += new System.EventHandler(this.ButtonLoudlyCryingFace_Click);
+			this.buttonLoudlyCryingFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonLoudlyCryingFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonLoudlyCryingFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonLoudlyCryingFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonFaceScreamingInFear
+			// 
+			this.buttonFaceScreamingInFear.AccessibleDescription = "face screaming in fear";
+			this.buttonFaceScreamingInFear.AccessibleName = "face screaming in fear";
+			this.buttonFaceScreamingInFear.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonFaceScreamingInFear.BackgroundImage = global::EmojiLib.FaceConcerned.FaceScreamingInFearGoogle;
+			this.buttonFaceScreamingInFear.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonFaceScreamingInFear.FlatAppearance.BorderSize = 0;
+			this.buttonFaceScreamingInFear.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonFaceScreamingInFear.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonFaceScreamingInFear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonFaceScreamingInFear.Location = new System.Drawing.Point(320, 160);
+			this.buttonFaceScreamingInFear.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonFaceScreamingInFear.Name = "buttonFaceScreamingInFear";
+			this.buttonFaceScreamingInFear.Size = new System.Drawing.Size(32, 32);
+			this.buttonFaceScreamingInFear.TabIndex = 81;
+			this.buttonFaceScreamingInFear.Tag = "😱";
+			this.toolTip.SetToolTip(this.buttonFaceScreamingInFear, "face screaming in fear");
+			this.buttonFaceScreamingInFear.UseVisualStyleBackColor = true;
+			this.buttonFaceScreamingInFear.Click += new System.EventHandler(this.ButtonFaceScreamingInFear_Click);
+			this.buttonFaceScreamingInFear.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceScreamingInFear.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonFaceScreamingInFear.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceScreamingInFear.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonConfoundedFace
+			// 
+			this.buttonConfoundedFace.AccessibleDescription = "confounded face";
+			this.buttonConfoundedFace.AccessibleName = "confounded face";
+			this.buttonConfoundedFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonConfoundedFace.BackgroundImage = global::EmojiLib.FaceConcerned.ConfoundedFaceGoogle;
+			this.buttonConfoundedFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonConfoundedFace.FlatAppearance.BorderSize = 0;
+			this.buttonConfoundedFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonConfoundedFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonConfoundedFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonConfoundedFace.Location = new System.Drawing.Point(352, 160);
+			this.buttonConfoundedFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonConfoundedFace.Name = "buttonConfoundedFace";
+			this.buttonConfoundedFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonConfoundedFace.TabIndex = 82;
+			this.buttonConfoundedFace.Tag = "😖";
+			this.toolTip.SetToolTip(this.buttonConfoundedFace, "confounded face");
+			this.buttonConfoundedFace.UseVisualStyleBackColor = true;
+			this.buttonConfoundedFace.Click += new System.EventHandler(this.ButtonConfoundedFace_Click);
+			this.buttonConfoundedFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonConfoundedFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonConfoundedFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonConfoundedFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonPerseveringFace
+			// 
+			this.buttonPerseveringFace.AccessibleDescription = "persevering face";
+			this.buttonPerseveringFace.AccessibleName = "persevering face";
+			this.buttonPerseveringFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonPerseveringFace.BackgroundImage = global::EmojiLib.FaceConcerned.PerseveringFaceGoogle;
+			this.buttonPerseveringFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonPerseveringFace.FlatAppearance.BorderSize = 0;
+			this.buttonPerseveringFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonPerseveringFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonPerseveringFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonPerseveringFace.Location = new System.Drawing.Point(384, 160);
+			this.buttonPerseveringFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonPerseveringFace.Name = "buttonPerseveringFace";
+			this.buttonPerseveringFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonPerseveringFace.TabIndex = 83;
+			this.buttonPerseveringFace.Tag = "😣";
+			this.toolTip.SetToolTip(this.buttonPerseveringFace, "persevering face");
+			this.buttonPerseveringFace.UseVisualStyleBackColor = true;
+			this.buttonPerseveringFace.Click += new System.EventHandler(this.ButtonPerseveringFace_Click);
+			this.buttonPerseveringFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonPerseveringFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonPerseveringFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonPerseveringFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonDisappointedFace
+			// 
+			this.buttonDisappointedFace.AccessibleDescription = "disappointed face";
+			this.buttonDisappointedFace.AccessibleName = "disappointed face";
+			this.buttonDisappointedFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonDisappointedFace.BackgroundImage = global::EmojiLib.FaceConcerned.DisappointedFaceGoogle;
+			this.buttonDisappointedFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonDisappointedFace.FlatAppearance.BorderSize = 0;
+			this.buttonDisappointedFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonDisappointedFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonDisappointedFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonDisappointedFace.Location = new System.Drawing.Point(416, 160);
+			this.buttonDisappointedFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonDisappointedFace.Name = "buttonDisappointedFace";
+			this.buttonDisappointedFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonDisappointedFace.TabIndex = 84;
+			this.buttonDisappointedFace.Tag = "😞";
+			this.toolTip.SetToolTip(this.buttonDisappointedFace, "disappointed face");
+			this.buttonDisappointedFace.UseVisualStyleBackColor = true;
+			this.buttonDisappointedFace.Click += new System.EventHandler(this.ButtonDisappointedFace_Click);
+			this.buttonDisappointedFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonDisappointedFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonDisappointedFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonDisappointedFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonDowncastFaceWithSweat
+			// 
+			this.buttonDowncastFaceWithSweat.AccessibleDescription = "downcast face with sweat";
+			this.buttonDowncastFaceWithSweat.AccessibleName = "downcast face with sweat";
+			this.buttonDowncastFaceWithSweat.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonDowncastFaceWithSweat.BackgroundImage = global::EmojiLib.FaceConcerned.DowncastFaceWithSweatGoogle;
+			this.buttonDowncastFaceWithSweat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonDowncastFaceWithSweat.FlatAppearance.BorderSize = 0;
+			this.buttonDowncastFaceWithSweat.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonDowncastFaceWithSweat.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonDowncastFaceWithSweat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonDowncastFaceWithSweat.Location = new System.Drawing.Point(0, 192);
+			this.buttonDowncastFaceWithSweat.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonDowncastFaceWithSweat.Name = "buttonDowncastFaceWithSweat";
+			this.buttonDowncastFaceWithSweat.Size = new System.Drawing.Size(32, 32);
+			this.buttonDowncastFaceWithSweat.TabIndex = 85;
+			this.buttonDowncastFaceWithSweat.Tag = "😓";
+			this.toolTip.SetToolTip(this.buttonDowncastFaceWithSweat, "downcast face with sweat");
+			this.buttonDowncastFaceWithSweat.UseVisualStyleBackColor = true;
+			this.buttonDowncastFaceWithSweat.Click += new System.EventHandler(this.ButtonDowncastFaceWithSweat_Click);
+			this.buttonDowncastFaceWithSweat.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonDowncastFaceWithSweat.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonDowncastFaceWithSweat.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonDowncastFaceWithSweat.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonWearyFace
+			// 
+			this.buttonWearyFace.AccessibleDescription = "weary face";
+			this.buttonWearyFace.AccessibleName = "weary face";
+			this.buttonWearyFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonWearyFace.BackgroundImage = global::EmojiLib.FaceConcerned.WearyFaceGoogle;
+			this.buttonWearyFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonWearyFace.FlatAppearance.BorderSize = 0;
+			this.buttonWearyFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonWearyFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonWearyFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonWearyFace.Location = new System.Drawing.Point(32, 192);
+			this.buttonWearyFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonWearyFace.Name = "buttonWearyFace";
+			this.buttonWearyFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonWearyFace.TabIndex = 86;
+			this.buttonWearyFace.Tag = "😩";
+			this.toolTip.SetToolTip(this.buttonWearyFace, "weary face");
+			this.buttonWearyFace.UseVisualStyleBackColor = true;
+			this.buttonWearyFace.Click += new System.EventHandler(this.ButtonWearyFace_Click);
+			this.buttonWearyFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonWearyFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonWearyFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonWearyFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonTiredFace
+			// 
+			this.buttonTiredFace.AccessibleDescription = "tired face";
+			this.buttonTiredFace.AccessibleName = "tired face";
+			this.buttonTiredFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonTiredFace.BackgroundImage = global::EmojiLib.FaceConcerned.TiredFaceGoogle;
+			this.buttonTiredFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonTiredFace.FlatAppearance.BorderSize = 0;
+			this.buttonTiredFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonTiredFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonTiredFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonTiredFace.Location = new System.Drawing.Point(64, 192);
+			this.buttonTiredFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonTiredFace.Name = "buttonTiredFace";
+			this.buttonTiredFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonTiredFace.TabIndex = 87;
+			this.buttonTiredFace.Tag = "😫";
+			this.toolTip.SetToolTip(this.buttonTiredFace, "tired face");
+			this.buttonTiredFace.UseVisualStyleBackColor = true;
+			this.buttonTiredFace.Click += new System.EventHandler(this.ButtonTiredFace_Click);
+			this.buttonTiredFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonTiredFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonTiredFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonTiredFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonYawningFace
+			// 
+			this.buttonYawningFace.AccessibleDescription = "yawning face";
+			this.buttonYawningFace.AccessibleName = "yawning face";
+			this.buttonYawningFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonYawningFace.BackgroundImage = global::EmojiLib.FaceConcerned.YawningFaceGoogle;
+			this.buttonYawningFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonYawningFace.FlatAppearance.BorderSize = 0;
+			this.buttonYawningFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonYawningFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonYawningFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonYawningFace.Location = new System.Drawing.Point(96, 192);
+			this.buttonYawningFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonYawningFace.Name = "buttonYawningFace";
+			this.buttonYawningFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonYawningFace.TabIndex = 88;
+			this.buttonYawningFace.Tag = "🥱";
+			this.toolTip.SetToolTip(this.buttonYawningFace, "yawning face");
+			this.buttonYawningFace.UseVisualStyleBackColor = true;
+			this.buttonYawningFace.Click += new System.EventHandler(this.ButtonYawningFace_Click);
+			this.buttonYawningFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonYawningFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonYawningFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonYawningFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// tabPageSearch
+			// 
+			this.tabPageSearch.AccessibleDescription = "search";
+			this.tabPageSearch.AccessibleName = "search";
+			this.tabPageSearch.AutoScroll = true;
+			this.tabPageSearch.Controls.Add(this.toolStripContainerSearch);
+			this.tabPageSearch.Location = new System.Drawing.Point(4, 22);
+			this.tabPageSearch.Name = "tabPageSearch";
+			this.tabPageSearch.Size = new System.Drawing.Size(464, 289);
+			this.tabPageSearch.TabIndex = 1;
+			this.tabPageSearch.Text = "Search";
+			this.toolTip.SetToolTip(this.tabPageSearch, "search");
+			this.tabPageSearch.ToolTipText = "search";
+			this.tabPageSearch.UseVisualStyleBackColor = true;
+			this.tabPageSearch.Enter += new System.EventHandler(this.TabPageSearch_Enter);
+			this.tabPageSearch.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.tabPageSearch.MouseEnter += new System.EventHandler(this.TabPageSearch_Enter);
+			this.tabPageSearch.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// flowLayoutPanelSearchResult
+			// 
+			this.flowLayoutPanelSearchResult.AutoScroll = true;
+			this.flowLayoutPanelSearchResult.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.flowLayoutPanelSearchResult.Location = new System.Drawing.Point(0, 0);
+			this.flowLayoutPanelSearchResult.Name = "flowLayoutPanelSearchResult";
+			this.flowLayoutPanelSearchResult.Size = new System.Drawing.Size(464, 264);
+			this.flowLayoutPanelSearchResult.TabIndex = 2;
+			this.flowLayoutPanelSearchResult.TabStop = true;
+			// 
 			// statusStrip
 			// 
 			this.statusStrip.Dock = System.Windows.Forms.DockStyle.None;
 			this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.labelInformation,
-            this.labelCopiedStatus});
+            this.labelCopiedStatus,
+            this.toolStripProgressBar});
 			this.statusStrip.Location = new System.Drawing.Point(0, 0);
 			this.statusStrip.Name = "statusStrip";
 			this.statusStrip.ShowItemToolTips = true;
-			this.statusStrip.Size = new System.Drawing.Size(404, 22);
+			this.statusStrip.Size = new System.Drawing.Size(472, 22);
 			this.statusStrip.TabIndex = 1;
 			this.statusStrip.TabStop = true;
 			this.statusStrip.Text = "statusStrip";
@@ -1851,50 +2558,71 @@
 			this.labelCopiedStatus.Image = global::EmojiLib.Properties.Resources.fatcow_clipboard_paste;
 			this.labelCopiedStatus.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
 			this.labelCopiedStatus.Name = "labelCopiedStatus";
-			this.labelCopiedStatus.Size = new System.Drawing.Size(328, 17);
+			this.labelCopiedStatus.Size = new System.Drawing.Size(294, 17);
 			this.labelCopiedStatus.Spring = true;
 			this.labelCopiedStatus.Text = "Copied";
 			this.labelCopiedStatus.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
-			// toolStripContainer
+			// toolStripProgressBar
+			// 
+			this.toolStripProgressBar.AutoToolTip = true;
+			this.toolStripProgressBar.MarqueeAnimationSpeed = 25;
+			this.toolStripProgressBar.Name = "toolStripProgressBar";
+			this.toolStripProgressBar.Size = new System.Drawing.Size(100, 16);
+			this.toolStripProgressBar.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
+			this.toolStripProgressBar.ToolTipText = "Loading...";
+			// 
+			// toolStripContainerMain
 			// 
 			// 
-			// toolStripContainer.BottomToolStripPanel
+			// toolStripContainerMain.BottomToolStripPanel
 			// 
-			this.toolStripContainer.BottomToolStripPanel.Controls.Add(this.statusStrip);
+			this.toolStripContainerMain.BottomToolStripPanel.Controls.Add(this.statusStrip);
+			this.toolStripContainerMain.BottomToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
 			// 
-			// toolStripContainer.ContentPanel
+			// toolStripContainerMain.ContentPanel
 			// 
-			this.toolStripContainer.ContentPanel.Controls.Add(this.tabControlEmojis);
-			this.toolStripContainer.ContentPanel.Size = new System.Drawing.Size(404, 288);
-			this.toolStripContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.toolStripContainer.Location = new System.Drawing.Point(0, 0);
-			this.toolStripContainer.Name = "toolStripContainer";
-			this.toolStripContainer.Size = new System.Drawing.Size(404, 359);
-			this.toolStripContainer.TabIndex = 2;
-			this.toolStripContainer.Text = "toolStripContainer";
+			this.toolStripContainerMain.ContentPanel.Controls.Add(this.tabControlEmojis);
+			this.toolStripContainerMain.ContentPanel.Size = new System.Drawing.Size(472, 315);
+			this.toolStripContainerMain.Dock = System.Windows.Forms.DockStyle.Fill;
 			// 
-			// toolStripContainer.TopToolStripPanel
+			// toolStripContainerMain.LeftToolStripPanel
 			// 
-			this.toolStripContainer.TopToolStripPanel.Controls.Add(this.menuStrip);
-			this.toolStripContainer.TopToolStripPanel.Controls.Add(this.toolStrip);
-			this.toolStripContainer.TopToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripContainerMain.LeftToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripContainerMain.Location = new System.Drawing.Point(0, 0);
+			this.toolStripContainerMain.Name = "toolStripContainerMain";
+			// 
+			// toolStripContainerMain.RightToolStripPanel
+			// 
+			this.toolStripContainerMain.RightToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripContainerMain.Size = new System.Drawing.Size(472, 386);
+			this.toolStripContainerMain.TabIndex = 2;
+			this.toolStripContainerMain.Text = "toolStripContainer";
+			// 
+			// toolStripContainerMain.TopToolStripPanel
+			// 
+			this.toolStripContainerMain.TopToolStripPanel.Controls.Add(this.menuStrip);
+			this.toolStripContainerMain.TopToolStripPanel.Controls.Add(this.toolStripMain);
+			this.toolStripContainerMain.TopToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
 			// 
 			// menuStrip
 			// 
 			this.menuStrip.Dock = System.Windows.Forms.DockStyle.None;
 			this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItemFile});
+            this.toolStripMenuItemFile,
+            this.toolStripMenuItemGoto});
 			this.menuStrip.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip.Name = "menuStrip";
 			this.menuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
 			this.menuStrip.ShowItemToolTips = true;
-			this.menuStrip.Size = new System.Drawing.Size(404, 24);
+			this.menuStrip.Size = new System.Drawing.Size(472, 24);
 			this.menuStrip.TabIndex = 0;
 			this.menuStrip.Text = "menuStrip";
 			// 
 			// toolStripMenuItemFile
 			// 
+			this.toolStripMenuItemFile.AccessibleDescription = "File";
+			this.toolStripMenuItemFile.AccessibleName = "File";
 			this.toolStripMenuItemFile.AutoToolTip = true;
 			this.toolStripMenuItemFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItemAboutBox,
@@ -1905,25 +2633,64 @@
 			// 
 			// toolStripMenuItemAboutBox
 			// 
+			this.toolStripMenuItemAboutBox.AccessibleDescription = "About";
+			this.toolStripMenuItemAboutBox.AccessibleName = "About";
 			this.toolStripMenuItemAboutBox.Image = global::EmojiLib.Properties.Resources.fatcow_information;
 			this.toolStripMenuItemAboutBox.Name = "toolStripMenuItemAboutBox";
-			this.toolStripMenuItemAboutBox.Size = new System.Drawing.Size(115, 22);
-			this.toolStripMenuItemAboutBox.Text = "&About...";
-			this.toolStripMenuItemAboutBox.Click += new System.EventHandler(this.toolStripMenuItemAboutBox_Click);
+			this.toolStripMenuItemAboutBox.Size = new System.Drawing.Size(103, 22);
+			this.toolStripMenuItemAboutBox.Text = "&About";
+			this.toolStripMenuItemAboutBox.Click += new System.EventHandler(this.ShowAboutBox_Click);
 			// 
 			// toolStripMenuItemExit
 			// 
+			this.toolStripMenuItemExit.AccessibleDescription = "Exit";
+			this.toolStripMenuItemExit.AccessibleName = "Exit";
 			this.toolStripMenuItemExit.AutoToolTip = true;
 			this.toolStripMenuItemExit.Image = global::EmojiLib.Properties.Resources.fatcow_door;
 			this.toolStripMenuItemExit.Name = "toolStripMenuItemExit";
-			this.toolStripMenuItemExit.Size = new System.Drawing.Size(115, 22);
+			this.toolStripMenuItemExit.Size = new System.Drawing.Size(103, 22);
 			this.toolStripMenuItemExit.Text = "&Exit";
 			this.toolStripMenuItemExit.Click += new System.EventHandler(this.Exit_Click);
 			// 
-			// toolStrip
+			// toolStripMenuItemGoto
 			// 
-			this.toolStrip.Dock = System.Windows.Forms.DockStyle.None;
-			this.toolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+			this.toolStripMenuItemGoto.AccessibleDescription = "Got to";
+			this.toolStripMenuItemGoto.AccessibleName = "Got to";
+			this.toolStripMenuItemGoto.AutoToolTip = true;
+			this.toolStripMenuItemGoto.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItemSmileys,
+            this.toolStripMenuItemSearch});
+			this.toolStripMenuItemGoto.Name = "toolStripMenuItemGoto";
+			this.toolStripMenuItemGoto.Size = new System.Drawing.Size(45, 20);
+			this.toolStripMenuItemGoto.Text = "&Go to";
+			// 
+			// toolStripMenuItemSmileys
+			// 
+			this.toolStripMenuItemSmileys.AccessibleDescription = "smileys & emotion";
+			this.toolStripMenuItemSmileys.AccessibleName = "smileys & emotion";
+			this.toolStripMenuItemSmileys.AutoToolTip = true;
+			this.toolStripMenuItemSmileys.Checked = true;
+			this.toolStripMenuItemSmileys.CheckState = System.Windows.Forms.CheckState.Checked;
+			this.toolStripMenuItemSmileys.Name = "toolStripMenuItemSmileys";
+			this.toolStripMenuItemSmileys.Size = new System.Drawing.Size(160, 22);
+			this.toolStripMenuItemSmileys.Text = "&Smileys && Emotion";
+			this.toolStripMenuItemSmileys.ToolTipText = "Smileys & Emotion";
+			this.toolStripMenuItemSmileys.Click += new System.EventHandler(this.GotoTabSmileys_Click);
+			// 
+			// toolStripMenuItemSearch
+			// 
+			this.toolStripMenuItemSearch.AccessibleDescription = "search";
+			this.toolStripMenuItemSearch.AccessibleName = "search";
+			this.toolStripMenuItemSearch.AutoToolTip = true;
+			this.toolStripMenuItemSearch.Name = "toolStripMenuItemSearch";
+			this.toolStripMenuItemSearch.Size = new System.Drawing.Size(160, 22);
+			this.toolStripMenuItemSearch.Text = "Searc&h";
+			this.toolStripMenuItemSearch.Click += new System.EventHandler(this.GotoTabSearch_Click);
+			// 
+			// toolStripMain
+			// 
+			this.toolStripMain.Dock = System.Windows.Forms.DockStyle.None;
+			this.toolStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.labelWorkMode,
             this.buttonPickerMode,
             this.buttonLibraryMode,
@@ -1931,20 +2698,22 @@
             this.labelEmojiSize,
             this.buttonEmojiSize16,
             this.buttonEmojiSize24,
-            this.buttonEmojiSize32});
-			this.toolStrip.Location = new System.Drawing.Point(0, 24);
-			this.toolStrip.Name = "toolStrip";
-			this.toolStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.toolStrip.Size = new System.Drawing.Size(404, 25);
-			this.toolStrip.Stretch = true;
-			this.toolStrip.TabIndex = 1;
-			this.toolStrip.TabStop = true;
+            this.buttonEmojiSize32,
+            this.toolStripSeparator2,
+            this.toolStripButtonSearch});
+			this.toolStripMain.Location = new System.Drawing.Point(0, 24);
+			this.toolStripMain.Name = "toolStripMain";
+			this.toolStripMain.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripMain.Size = new System.Drawing.Size(472, 25);
+			this.toolStripMain.Stretch = true;
+			this.toolStripMain.TabIndex = 1;
+			this.toolStripMain.TabStop = true;
 			// 
 			// labelWorkMode
 			// 
 			this.labelWorkMode.Name = "labelWorkMode";
-			this.labelWorkMode.Size = new System.Drawing.Size(63, 22);
-			this.labelWorkMode.Text = "work mode:";
+			this.labelWorkMode.Size = new System.Drawing.Size(65, 22);
+			this.labelWorkMode.Text = "Work Mode:";
 			// 
 			// buttonPickerMode
 			// 
@@ -1976,8 +2745,8 @@
 			// labelEmojiSize
 			// 
 			this.labelEmojiSize.Name = "labelEmojiSize";
-			this.labelEmojiSize.Size = new System.Drawing.Size(57, 22);
-			this.labelEmojiSize.Text = "emoji size:";
+			this.labelEmojiSize.Size = new System.Drawing.Size(58, 22);
+			this.labelEmojiSize.Text = "Emoji Size:";
 			// 
 			// buttonEmojiSize16
 			// 
@@ -2011,16 +2780,112 @@
 			this.buttonEmojiSize32.Text = "32px";
 			this.buttonEmojiSize32.Click += new System.EventHandler(this.ButtonEmojiSize32_Click);
 			// 
+			// toolStripSeparator2
+			// 
+			this.toolStripSeparator2.Name = "toolStripSeparator2";
+			this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+			// 
+			// toolStripButtonSearch
+			// 
+			this.toolStripButtonSearch.CheckOnClick = true;
+			this.toolStripButtonSearch.Image = global::EmojiLib.Properties.Resources.fatcow_find;
+			this.toolStripButtonSearch.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.toolStripButtonSearch.Name = "toolStripButtonSearch";
+			this.toolStripButtonSearch.Size = new System.Drawing.Size(60, 22);
+			this.toolStripButtonSearch.Text = "Search";
+			this.toolStripButtonSearch.Click += new System.EventHandler(this.Search_Click);
+			// 
+			// notifyIcon
+			// 
+			this.notifyIcon.Visible = true;
+			// 
+			// toolStripContainerSearch
+			// 
+			// 
+			// toolStripContainerSearch.BottomToolStripPanel
+			// 
+			this.toolStripContainerSearch.BottomToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			// 
+			// toolStripContainerSearch.ContentPanel
+			// 
+			this.toolStripContainerSearch.ContentPanel.Controls.Add(this.flowLayoutPanelSearchResult);
+			this.toolStripContainerSearch.ContentPanel.Size = new System.Drawing.Size(464, 264);
+			this.toolStripContainerSearch.Dock = System.Windows.Forms.DockStyle.Fill;
+			// 
+			// toolStripContainerSearch.LeftToolStripPanel
+			// 
+			this.toolStripContainerSearch.LeftToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripContainerSearch.Location = new System.Drawing.Point(0, 0);
+			this.toolStripContainerSearch.Name = "toolStripContainerSearch";
+			// 
+			// toolStripContainerSearch.RightToolStripPanel
+			// 
+			this.toolStripContainerSearch.RightToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripContainerSearch.Size = new System.Drawing.Size(464, 289);
+			this.toolStripContainerSearch.TabIndex = 3;
+			this.toolStripContainerSearch.Text = "toolStripContainer1";
+			// 
+			// toolStripContainerSearch.TopToolStripPanel
+			// 
+			this.toolStripContainerSearch.TopToolStripPanel.Controls.Add(this.toolStripSearch);
+			this.toolStripContainerSearch.TopToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			// 
+			// toolStripSearch
+			// 
+			this.toolStripSearch.Dock = System.Windows.Forms.DockStyle.None;
+			this.toolStripSearch.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.labelSearchTerm,
+            this.textBoxSearch,
+            this.toolStripButtonFind,
+            this.toolStripButtonClearAll});
+			this.toolStripSearch.Location = new System.Drawing.Point(0, 0);
+			this.toolStripSearch.Name = "toolStripSearch";
+			this.toolStripSearch.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripSearch.Size = new System.Drawing.Size(464, 25);
+			this.toolStripSearch.Stretch = true;
+			this.toolStripSearch.TabIndex = 0;
+			// 
+			// labelSearchTerm
+			// 
+			this.labelSearchTerm.AutoToolTip = true;
+			this.labelSearchTerm.Name = "labelSearchTerm";
+			this.labelSearchTerm.Size = new System.Drawing.Size(69, 22);
+			this.labelSearchTerm.Text = "Search &term:";
+			this.labelSearchTerm.ToolTipText = "Search term";
+			// 
+			// textBoxSearch
+			// 
+			this.textBoxSearch.AutoToolTip = true;
+			this.textBoxSearch.Name = "textBoxSearch";
+			this.textBoxSearch.Size = new System.Drawing.Size(100, 25);
+			// 
+			// toolStripButtonFind
+			// 
+			this.toolStripButtonFind.Image = global::EmojiLib.Properties.Resources.fatcow_find;
+			this.toolStripButtonFind.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.toolStripButtonFind.Name = "toolStripButtonFind";
+			this.toolStripButtonFind.Size = new System.Drawing.Size(47, 22);
+			this.toolStripButtonFind.Text = "Fi&nd";
+			this.toolStripButtonFind.Click += new System.EventHandler(this.ButtonSearch_Click);
+			// 
+			// toolStripButtonClearAll
+			// 
+			this.toolStripButtonClearAll.Image = global::EmojiLib.Properties.Resources.fatcow_bin;
+			this.toolStripButtonClearAll.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.toolStripButtonClearAll.Name = "toolStripButtonClearAll";
+			this.toolStripButtonClearAll.Size = new System.Drawing.Size(65, 22);
+			this.toolStripButtonClearAll.Text = "&Clear all";
+			this.toolStripButtonClearAll.Click += new System.EventHandler(this.ButtonClearAll_Click);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(404, 359);
-			this.Controls.Add(this.toolStripContainer);
+			this.ClientSize = new System.Drawing.Size(472, 386);
+			this.Controls.Add(this.toolStripContainerMain);
 			this.DoubleBuffered = true;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MainMenuStrip = this.menuStrip;
-			this.MaximizeBox = false;
 			this.Name = "MainForm";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Emoji Lib";
@@ -2028,19 +2893,27 @@
 			this.tabControlEmojis.ResumeLayout(false);
 			this.tabPageSmileys.ResumeLayout(false);
 			this.flowLayoutPanelSmileys.ResumeLayout(false);
+			this.tabPageSearch.ResumeLayout(false);
 			this.statusStrip.ResumeLayout(false);
 			this.statusStrip.PerformLayout();
-			this.toolStripContainer.BottomToolStripPanel.ResumeLayout(false);
-			this.toolStripContainer.BottomToolStripPanel.PerformLayout();
-			this.toolStripContainer.ContentPanel.ResumeLayout(false);
-			this.toolStripContainer.TopToolStripPanel.ResumeLayout(false);
-			this.toolStripContainer.TopToolStripPanel.PerformLayout();
-			this.toolStripContainer.ResumeLayout(false);
-			this.toolStripContainer.PerformLayout();
+			this.toolStripContainerMain.BottomToolStripPanel.ResumeLayout(false);
+			this.toolStripContainerMain.BottomToolStripPanel.PerformLayout();
+			this.toolStripContainerMain.ContentPanel.ResumeLayout(false);
+			this.toolStripContainerMain.TopToolStripPanel.ResumeLayout(false);
+			this.toolStripContainerMain.TopToolStripPanel.PerformLayout();
+			this.toolStripContainerMain.ResumeLayout(false);
+			this.toolStripContainerMain.PerformLayout();
 			this.menuStrip.ResumeLayout(false);
 			this.menuStrip.PerformLayout();
-			this.toolStrip.ResumeLayout(false);
-			this.toolStrip.PerformLayout();
+			this.toolStripMain.ResumeLayout(false);
+			this.toolStripMain.PerformLayout();
+			this.toolStripContainerSearch.ContentPanel.ResumeLayout(false);
+			this.toolStripContainerSearch.TopToolStripPanel.ResumeLayout(false);
+			this.toolStripContainerSearch.TopToolStripPanel.PerformLayout();
+			this.toolStripContainerSearch.ResumeLayout(false);
+			this.toolStripContainerSearch.PerformLayout();
+			this.toolStripSearch.ResumeLayout(false);
+			this.toolStripSearch.PerformLayout();
 			this.ResumeLayout(false);
 
 		}
@@ -2050,7 +2923,7 @@
 		private System.Windows.Forms.TabControl tabControlEmojis;
 		private System.Windows.Forms.TabPage tabPageSmileys;
 		private System.Windows.Forms.StatusStrip statusStrip;
-		private System.Windows.Forms.ToolStripContainer toolStripContainer;
+		private System.Windows.Forms.ToolStripContainer toolStripContainerMain;
 		private System.Windows.Forms.MenuStrip menuStrip;
 		private System.Windows.Forms.Button buttonGrinningFace;
 		private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelSmileys;
@@ -2098,7 +2971,7 @@
 		private System.Windows.Forms.Button buttonFaceWithRollingEyes;
 		private System.Windows.Forms.Button buttonGrimacingFace;
 		private System.Windows.Forms.Button buttonLyingFace;
-		private System.Windows.Forms.ToolStrip toolStrip;
+		private System.Windows.Forms.ToolStrip toolStripMain;
 		private System.Windows.Forms.ToolStripButton buttonPickerMode;
 		private System.Windows.Forms.ToolStripLabel labelWorkMode;
 		private System.Windows.Forms.ToolStripButton buttonLibraryMode;
@@ -2132,6 +3005,45 @@
 		private System.Windows.Forms.Button buttonSmilingFaceWithSunglasses;
 		private System.Windows.Forms.Button buttonNerdFace;
 		private System.Windows.Forms.Button buttonFaceWithMonocle;
+		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemGoto;
+		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemSmileys;
+		private System.Windows.Forms.TabPage tabPageSearch;
+		private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+		private System.Windows.Forms.ToolStripButton toolStripButtonSearch;
+		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemSearch;
+		private System.Windows.Forms.Button buttonConfusedFace;
+		private System.Windows.Forms.Button buttonWorriedFace;
+		private System.Windows.Forms.Button buttonSlightlyFrowningFace;
+		private System.Windows.Forms.Button buttonFrowningFace;
+		private System.Windows.Forms.Button buttonFaceWithOpenMouth;
+		private System.Windows.Forms.Button buttonHushedFace;
+		private System.Windows.Forms.Button buttonAstonishedFace;
+		private System.Windows.Forms.Button buttonFlushedFace;
+		private System.Windows.Forms.Button buttonPleadingFace;
+		private System.Windows.Forms.Button buttonFrowningFaceWithOpenMouth;
+		private System.Windows.Forms.Button buttonAnguishedFace;
+		private System.Windows.Forms.Button buttonFearfulFace;
+		private System.Windows.Forms.Button buttonAnxiousFaceWithSweat;
+		private System.Windows.Forms.Button buttonSadButRelievedFace;
+		private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar;
+		private System.Windows.Forms.Button buttonCryingFace;
+		private System.Windows.Forms.Button buttonLoudlyCryingFace;
+		private System.Windows.Forms.Button buttonFaceScreamingInFear;
+		private System.Windows.Forms.Button buttonConfoundedFace;
+		private System.Windows.Forms.Button buttonPerseveringFace;
+		private System.Windows.Forms.Button buttonDisappointedFace;
+		private System.Windows.Forms.Button buttonDowncastFaceWithSweat;
+		private System.Windows.Forms.Button buttonWearyFace;
+		private System.Windows.Forms.Button buttonTiredFace;
+		private System.Windows.Forms.Button buttonYawningFace;
+		private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelSearchResult;
+		private System.Windows.Forms.NotifyIcon notifyIcon;
+		private System.Windows.Forms.ToolStripContainer toolStripContainerSearch;
+		private System.Windows.Forms.ToolStrip toolStripSearch;
+		private System.Windows.Forms.ToolStripLabel labelSearchTerm;
+		private System.Windows.Forms.ToolStripTextBox textBoxSearch;
+		private System.Windows.Forms.ToolStripButton toolStripButtonFind;
+		private System.Windows.Forms.ToolStripButton toolStripButtonClearAll;
 	}
 }
 
