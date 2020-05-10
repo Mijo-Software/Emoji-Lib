@@ -199,6 +199,9 @@
   <data name="errorTitle" xml:space="preserve">
     <value>Error</value>
   </data>
+  <data name="faceNegative" xml:space="preserve">
+    <value>face-negative</value>
+  </data>
   <data name="nothingFound" xml:space="preserve">
     <value>Nothing found!</value>
   </data>

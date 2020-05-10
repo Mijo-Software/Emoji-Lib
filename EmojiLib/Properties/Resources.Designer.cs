@@ -115,6 +115,15 @@ namespace EmojiLib.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die face-negative ähnelt.
+        /// </summary>
+        internal static string faceNegative {
+            get {
+                return ResourceManager.GetString("faceNegative", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die face-neutral-skeptical ähnelt.
         /// </summary>
         internal static string faceNeutralSkeptical {
