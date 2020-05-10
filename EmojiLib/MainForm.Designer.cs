@@ -121,8 +121,22 @@
 			this.buttonWearyFace = new System.Windows.Forms.Button();
 			this.buttonTiredFace = new System.Windows.Forms.Button();
 			this.buttonYawningFace = new System.Windows.Forms.Button();
+			this.buttonFaceWithSteamFromNose = new System.Windows.Forms.Button();
+			this.buttonPoutingFace = new System.Windows.Forms.Button();
+			this.buttonAngryFace = new System.Windows.Forms.Button();
+			this.buttonFaceWithSymbolsOnMouth = new System.Windows.Forms.Button();
+			this.buttonSmilingFaceWithHorns = new System.Windows.Forms.Button();
+			this.buttonAngryFaceWithHorns = new System.Windows.Forms.Button();
+			this.buttonSkull = new System.Windows.Forms.Button();
+			this.buttonSkullAndCrossbones = new System.Windows.Forms.Button();
 			this.tabPageSearch = new System.Windows.Forms.TabPage();
+			this.toolStripContainerSearch = new System.Windows.Forms.ToolStripContainer();
 			this.flowLayoutPanelSearchResult = new System.Windows.Forms.FlowLayoutPanel();
+			this.toolStripSearch = new System.Windows.Forms.ToolStrip();
+			this.labelSearchTerm = new System.Windows.Forms.ToolStripLabel();
+			this.textBoxSearch = new System.Windows.Forms.ToolStripTextBox();
+			this.toolStripButtonFind = new System.Windows.Forms.ToolStripButton();
+			this.toolStripButtonClearAll = new System.Windows.Forms.ToolStripButton();
 			this.statusStrip = new System.Windows.Forms.StatusStrip();
 			this.labelInformation = new System.Windows.Forms.ToolStripStatusLabel();
 			this.labelCopiedStatus = new System.Windows.Forms.ToolStripStatusLabel();
@@ -148,16 +162,14 @@
 			this.toolStripButtonSearch = new System.Windows.Forms.ToolStripButton();
 			this.toolTip = new System.Windows.Forms.ToolTip(this.components);
 			this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
-			this.toolStripContainerSearch = new System.Windows.Forms.ToolStripContainer();
-			this.toolStripSearch = new System.Windows.Forms.ToolStrip();
-			this.labelSearchTerm = new System.Windows.Forms.ToolStripLabel();
-			this.textBoxSearch = new System.Windows.Forms.ToolStripTextBox();
-			this.toolStripButtonFind = new System.Windows.Forms.ToolStripButton();
-			this.toolStripButtonClearAll = new System.Windows.Forms.ToolStripButton();
 			this.tabControlEmojis.SuspendLayout();
 			this.tabPageSmileys.SuspendLayout();
 			this.flowLayoutPanelSmileys.SuspendLayout();
 			this.tabPageSearch.SuspendLayout();
+			this.toolStripContainerSearch.ContentPanel.SuspendLayout();
+			this.toolStripContainerSearch.TopToolStripPanel.SuspendLayout();
+			this.toolStripContainerSearch.SuspendLayout();
+			this.toolStripSearch.SuspendLayout();
 			this.statusStrip.SuspendLayout();
 			this.toolStripContainerMain.BottomToolStripPanel.SuspendLayout();
 			this.toolStripContainerMain.ContentPanel.SuspendLayout();
@@ -165,10 +177,6 @@
 			this.toolStripContainerMain.SuspendLayout();
 			this.menuStrip.SuspendLayout();
 			this.toolStripMain.SuspendLayout();
-			this.toolStripContainerSearch.ContentPanel.SuspendLayout();
-			this.toolStripContainerSearch.TopToolStripPanel.SuspendLayout();
-			this.toolStripContainerSearch.SuspendLayout();
-			this.toolStripSearch.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// tabControlEmojis
@@ -295,6 +303,14 @@
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonWearyFace);
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonTiredFace);
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonYawningFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonFaceWithSteamFromNose);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonPoutingFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonAngryFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonFaceWithSymbolsOnMouth);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSmilingFaceWithHorns);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonAngryFaceWithHorns);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSkull);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSkullAndCrossbones);
 			this.flowLayoutPanelSmileys.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.flowLayoutPanelSmileys.Location = new System.Drawing.Point(3, 3);
 			this.flowLayoutPanelSmileys.Name = "flowLayoutPanelSmileys";
@@ -2501,6 +2517,206 @@
 			this.buttonYawningFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
 			this.buttonYawningFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
+			// buttonFaceWithSteamFromNose
+			// 
+			this.buttonFaceWithSteamFromNose.AccessibleDescription = "face with steam from nose";
+			this.buttonFaceWithSteamFromNose.AccessibleName = "face with steam from nose";
+			this.buttonFaceWithSteamFromNose.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonFaceWithSteamFromNose.BackgroundImage = global::EmojiLib.FaceNegative.FaceWithSteamFromNoseGoogle;
+			this.buttonFaceWithSteamFromNose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonFaceWithSteamFromNose.FlatAppearance.BorderSize = 0;
+			this.buttonFaceWithSteamFromNose.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonFaceWithSteamFromNose.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonFaceWithSteamFromNose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonFaceWithSteamFromNose.Location = new System.Drawing.Point(128, 192);
+			this.buttonFaceWithSteamFromNose.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonFaceWithSteamFromNose.Name = "buttonFaceWithSteamFromNose";
+			this.buttonFaceWithSteamFromNose.Size = new System.Drawing.Size(32, 32);
+			this.buttonFaceWithSteamFromNose.TabIndex = 89;
+			this.buttonFaceWithSteamFromNose.Tag = "😤";
+			this.toolTip.SetToolTip(this.buttonFaceWithSteamFromNose, "face with steam from nose");
+			this.buttonFaceWithSteamFromNose.UseVisualStyleBackColor = true;
+			this.buttonFaceWithSteamFromNose.Click += new System.EventHandler(this.ButtonFaceWithSteamFromNose_Click);
+			this.buttonFaceWithSteamFromNose.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceWithSteamFromNose.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonFaceWithSteamFromNose.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceWithSteamFromNose.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonPoutingFace
+			// 
+			this.buttonPoutingFace.AccessibleDescription = "pouting face";
+			this.buttonPoutingFace.AccessibleName = "pouting face";
+			this.buttonPoutingFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonPoutingFace.BackgroundImage = global::EmojiLib.FaceNegative.PoutingFaceGoogle;
+			this.buttonPoutingFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonPoutingFace.FlatAppearance.BorderSize = 0;
+			this.buttonPoutingFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonPoutingFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonPoutingFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonPoutingFace.Location = new System.Drawing.Point(160, 192);
+			this.buttonPoutingFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonPoutingFace.Name = "buttonPoutingFace";
+			this.buttonPoutingFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonPoutingFace.TabIndex = 90;
+			this.buttonPoutingFace.Tag = "😡";
+			this.toolTip.SetToolTip(this.buttonPoutingFace, "pouting face");
+			this.buttonPoutingFace.UseVisualStyleBackColor = true;
+			this.buttonPoutingFace.Click += new System.EventHandler(this.ButtonPoutingFace_Click);
+			this.buttonPoutingFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonPoutingFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonPoutingFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonPoutingFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonAngryFace
+			// 
+			this.buttonAngryFace.AccessibleDescription = "angry face";
+			this.buttonAngryFace.AccessibleName = "angry face";
+			this.buttonAngryFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonAngryFace.BackgroundImage = global::EmojiLib.FaceNegative.AngryFaceGoogle;
+			this.buttonAngryFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonAngryFace.FlatAppearance.BorderSize = 0;
+			this.buttonAngryFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonAngryFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonAngryFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonAngryFace.Location = new System.Drawing.Point(192, 192);
+			this.buttonAngryFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonAngryFace.Name = "buttonAngryFace";
+			this.buttonAngryFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonAngryFace.TabIndex = 91;
+			this.buttonAngryFace.Tag = "😠";
+			this.toolTip.SetToolTip(this.buttonAngryFace, "angry face");
+			this.buttonAngryFace.UseVisualStyleBackColor = true;
+			this.buttonAngryFace.Click += new System.EventHandler(this.ButtonAngryFace_Click);
+			this.buttonAngryFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonAngryFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonAngryFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonAngryFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonFaceWithSymbolsOnMouth
+			// 
+			this.buttonFaceWithSymbolsOnMouth.AccessibleDescription = "face with symbols on mouth";
+			this.buttonFaceWithSymbolsOnMouth.AccessibleName = "face with symbols on mouth";
+			this.buttonFaceWithSymbolsOnMouth.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonFaceWithSymbolsOnMouth.BackgroundImage = global::EmojiLib.FaceNegative.FaceWithSymbolsOnMouthGoogle;
+			this.buttonFaceWithSymbolsOnMouth.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonFaceWithSymbolsOnMouth.FlatAppearance.BorderSize = 0;
+			this.buttonFaceWithSymbolsOnMouth.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonFaceWithSymbolsOnMouth.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonFaceWithSymbolsOnMouth.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonFaceWithSymbolsOnMouth.Location = new System.Drawing.Point(224, 192);
+			this.buttonFaceWithSymbolsOnMouth.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonFaceWithSymbolsOnMouth.Name = "buttonFaceWithSymbolsOnMouth";
+			this.buttonFaceWithSymbolsOnMouth.Size = new System.Drawing.Size(32, 32);
+			this.buttonFaceWithSymbolsOnMouth.TabIndex = 92;
+			this.buttonFaceWithSymbolsOnMouth.Tag = "🤬";
+			this.toolTip.SetToolTip(this.buttonFaceWithSymbolsOnMouth, "face with symbols on mouth");
+			this.buttonFaceWithSymbolsOnMouth.UseVisualStyleBackColor = true;
+			this.buttonFaceWithSymbolsOnMouth.Click += new System.EventHandler(this.ButtonFaceWithSymbolsOnMouth_Click);
+			this.buttonFaceWithSymbolsOnMouth.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceWithSymbolsOnMouth.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonFaceWithSymbolsOnMouth.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonFaceWithSymbolsOnMouth.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonSmilingFaceWithHorns
+			// 
+			this.buttonSmilingFaceWithHorns.AccessibleDescription = "smiling face with horns";
+			this.buttonSmilingFaceWithHorns.AccessibleName = "smiling face with horns";
+			this.buttonSmilingFaceWithHorns.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonSmilingFaceWithHorns.BackgroundImage = global::EmojiLib.FaceNegative.SmilingFaceWithHornsGoogle;
+			this.buttonSmilingFaceWithHorns.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonSmilingFaceWithHorns.FlatAppearance.BorderSize = 0;
+			this.buttonSmilingFaceWithHorns.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonSmilingFaceWithHorns.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonSmilingFaceWithHorns.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonSmilingFaceWithHorns.Location = new System.Drawing.Point(256, 192);
+			this.buttonSmilingFaceWithHorns.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonSmilingFaceWithHorns.Name = "buttonSmilingFaceWithHorns";
+			this.buttonSmilingFaceWithHorns.Size = new System.Drawing.Size(32, 32);
+			this.buttonSmilingFaceWithHorns.TabIndex = 93;
+			this.buttonSmilingFaceWithHorns.Tag = "😈";
+			this.toolTip.SetToolTip(this.buttonSmilingFaceWithHorns, "smiling face with horns");
+			this.buttonSmilingFaceWithHorns.UseVisualStyleBackColor = true;
+			this.buttonSmilingFaceWithHorns.Click += new System.EventHandler(this.ButtonSmilingFaceWithHorns_Click);
+			this.buttonSmilingFaceWithHorns.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSmilingFaceWithHorns.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonSmilingFaceWithHorns.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSmilingFaceWithHorns.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonAngryFaceWithHorns
+			// 
+			this.buttonAngryFaceWithHorns.AccessibleDescription = "angry face with horns";
+			this.buttonAngryFaceWithHorns.AccessibleName = "angry face with horns";
+			this.buttonAngryFaceWithHorns.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonAngryFaceWithHorns.BackgroundImage = global::EmojiLib.FaceNegative.AngryFaceWithHornsGoogle;
+			this.buttonAngryFaceWithHorns.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonAngryFaceWithHorns.FlatAppearance.BorderSize = 0;
+			this.buttonAngryFaceWithHorns.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonAngryFaceWithHorns.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonAngryFaceWithHorns.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonAngryFaceWithHorns.Location = new System.Drawing.Point(288, 192);
+			this.buttonAngryFaceWithHorns.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonAngryFaceWithHorns.Name = "buttonAngryFaceWithHorns";
+			this.buttonAngryFaceWithHorns.Size = new System.Drawing.Size(32, 32);
+			this.buttonAngryFaceWithHorns.TabIndex = 94;
+			this.buttonAngryFaceWithHorns.Tag = "👿";
+			this.toolTip.SetToolTip(this.buttonAngryFaceWithHorns, "angry face with horns");
+			this.buttonAngryFaceWithHorns.UseVisualStyleBackColor = true;
+			this.buttonAngryFaceWithHorns.Click += new System.EventHandler(this.ButtonAngryFaceWithHorns_Click);
+			this.buttonAngryFaceWithHorns.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonAngryFaceWithHorns.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonAngryFaceWithHorns.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonAngryFaceWithHorns.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonSkull
+			// 
+			this.buttonSkull.AccessibleDescription = "skull";
+			this.buttonSkull.AccessibleName = "skull";
+			this.buttonSkull.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonSkull.BackgroundImage = global::EmojiLib.FaceNegative.SkullGoogle;
+			this.buttonSkull.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonSkull.FlatAppearance.BorderSize = 0;
+			this.buttonSkull.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonSkull.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonSkull.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonSkull.Location = new System.Drawing.Point(320, 192);
+			this.buttonSkull.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonSkull.Name = "buttonSkull";
+			this.buttonSkull.Size = new System.Drawing.Size(32, 32);
+			this.buttonSkull.TabIndex = 95;
+			this.buttonSkull.Tag = "💀";
+			this.toolTip.SetToolTip(this.buttonSkull, "skull");
+			this.buttonSkull.UseVisualStyleBackColor = true;
+			this.buttonSkull.Click += new System.EventHandler(this.ButtonSkull_Click);
+			this.buttonSkull.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSkull.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonSkull.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSkull.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonSkullAndCrossbones
+			// 
+			this.buttonSkullAndCrossbones.AccessibleDescription = "skull and crossbones";
+			this.buttonSkullAndCrossbones.AccessibleName = "skull and crossbones";
+			this.buttonSkullAndCrossbones.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonSkullAndCrossbones.BackgroundImage = global::EmojiLib.FaceNegative.SkullAndCrossbonesGoogle;
+			this.buttonSkullAndCrossbones.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonSkullAndCrossbones.FlatAppearance.BorderSize = 0;
+			this.buttonSkullAndCrossbones.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonSkullAndCrossbones.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonSkullAndCrossbones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonSkullAndCrossbones.Location = new System.Drawing.Point(352, 192);
+			this.buttonSkullAndCrossbones.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonSkullAndCrossbones.Name = "buttonSkullAndCrossbones";
+			this.buttonSkullAndCrossbones.Size = new System.Drawing.Size(32, 32);
+			this.buttonSkullAndCrossbones.TabIndex = 96;
+			this.buttonSkullAndCrossbones.Tag = "☠";
+			this.toolTip.SetToolTip(this.buttonSkullAndCrossbones, "skull and crossbones");
+			this.buttonSkullAndCrossbones.UseVisualStyleBackColor = true;
+			this.buttonSkullAndCrossbones.Click += new System.EventHandler(this.ButtonSkullAndCrossbones_Click);
+			this.buttonSkullAndCrossbones.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSkullAndCrossbones.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonSkullAndCrossbones.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSkullAndCrossbones.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
 			// tabPageSearch
 			// 
 			this.tabPageSearch.AccessibleDescription = "search";
@@ -2520,6 +2736,37 @@
 			this.tabPageSearch.MouseEnter += new System.EventHandler(this.TabPageSearch_Enter);
 			this.tabPageSearch.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
+			// toolStripContainerSearch
+			// 
+			// 
+			// toolStripContainerSearch.BottomToolStripPanel
+			// 
+			this.toolStripContainerSearch.BottomToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			// 
+			// toolStripContainerSearch.ContentPanel
+			// 
+			this.toolStripContainerSearch.ContentPanel.Controls.Add(this.flowLayoutPanelSearchResult);
+			this.toolStripContainerSearch.ContentPanel.Size = new System.Drawing.Size(464, 264);
+			this.toolStripContainerSearch.Dock = System.Windows.Forms.DockStyle.Fill;
+			// 
+			// toolStripContainerSearch.LeftToolStripPanel
+			// 
+			this.toolStripContainerSearch.LeftToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripContainerSearch.Location = new System.Drawing.Point(0, 0);
+			this.toolStripContainerSearch.Name = "toolStripContainerSearch";
+			// 
+			// toolStripContainerSearch.RightToolStripPanel
+			// 
+			this.toolStripContainerSearch.RightToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripContainerSearch.Size = new System.Drawing.Size(464, 289);
+			this.toolStripContainerSearch.TabIndex = 3;
+			this.toolStripContainerSearch.Text = "toolStripContainer1";
+			// 
+			// toolStripContainerSearch.TopToolStripPanel
+			// 
+			this.toolStripContainerSearch.TopToolStripPanel.Controls.Add(this.toolStripSearch);
+			this.toolStripContainerSearch.TopToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			// 
 			// flowLayoutPanelSearchResult
 			// 
 			this.flowLayoutPanelSearchResult.AutoScroll = true;
@@ -2529,6 +2776,53 @@
 			this.flowLayoutPanelSearchResult.Size = new System.Drawing.Size(464, 264);
 			this.flowLayoutPanelSearchResult.TabIndex = 2;
 			this.flowLayoutPanelSearchResult.TabStop = true;
+			// 
+			// toolStripSearch
+			// 
+			this.toolStripSearch.Dock = System.Windows.Forms.DockStyle.None;
+			this.toolStripSearch.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.labelSearchTerm,
+            this.textBoxSearch,
+            this.toolStripButtonFind,
+            this.toolStripButtonClearAll});
+			this.toolStripSearch.Location = new System.Drawing.Point(0, 0);
+			this.toolStripSearch.Name = "toolStripSearch";
+			this.toolStripSearch.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripSearch.Size = new System.Drawing.Size(464, 25);
+			this.toolStripSearch.Stretch = true;
+			this.toolStripSearch.TabIndex = 0;
+			// 
+			// labelSearchTerm
+			// 
+			this.labelSearchTerm.AutoToolTip = true;
+			this.labelSearchTerm.Name = "labelSearchTerm";
+			this.labelSearchTerm.Size = new System.Drawing.Size(69, 22);
+			this.labelSearchTerm.Text = "Search &term:";
+			this.labelSearchTerm.ToolTipText = "Search term";
+			// 
+			// textBoxSearch
+			// 
+			this.textBoxSearch.AutoToolTip = true;
+			this.textBoxSearch.Name = "textBoxSearch";
+			this.textBoxSearch.Size = new System.Drawing.Size(100, 25);
+			// 
+			// toolStripButtonFind
+			// 
+			this.toolStripButtonFind.Image = global::EmojiLib.Properties.Resources.fatcow_find;
+			this.toolStripButtonFind.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.toolStripButtonFind.Name = "toolStripButtonFind";
+			this.toolStripButtonFind.Size = new System.Drawing.Size(47, 22);
+			this.toolStripButtonFind.Text = "Fi&nd";
+			this.toolStripButtonFind.Click += new System.EventHandler(this.ButtonSearch_Click);
+			// 
+			// toolStripButtonClearAll
+			// 
+			this.toolStripButtonClearAll.Image = global::EmojiLib.Properties.Resources.fatcow_bin;
+			this.toolStripButtonClearAll.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.toolStripButtonClearAll.Name = "toolStripButtonClearAll";
+			this.toolStripButtonClearAll.Size = new System.Drawing.Size(65, 22);
+			this.toolStripButtonClearAll.Text = "&Clear all";
+			this.toolStripButtonClearAll.Click += new System.EventHandler(this.ButtonClearAll_Click);
 			// 
 			// statusStrip
 			// 
@@ -2799,84 +3093,6 @@
 			// 
 			this.notifyIcon.Visible = true;
 			// 
-			// toolStripContainerSearch
-			// 
-			// 
-			// toolStripContainerSearch.BottomToolStripPanel
-			// 
-			this.toolStripContainerSearch.BottomToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			// 
-			// toolStripContainerSearch.ContentPanel
-			// 
-			this.toolStripContainerSearch.ContentPanel.Controls.Add(this.flowLayoutPanelSearchResult);
-			this.toolStripContainerSearch.ContentPanel.Size = new System.Drawing.Size(464, 264);
-			this.toolStripContainerSearch.Dock = System.Windows.Forms.DockStyle.Fill;
-			// 
-			// toolStripContainerSearch.LeftToolStripPanel
-			// 
-			this.toolStripContainerSearch.LeftToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.toolStripContainerSearch.Location = new System.Drawing.Point(0, 0);
-			this.toolStripContainerSearch.Name = "toolStripContainerSearch";
-			// 
-			// toolStripContainerSearch.RightToolStripPanel
-			// 
-			this.toolStripContainerSearch.RightToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.toolStripContainerSearch.Size = new System.Drawing.Size(464, 289);
-			this.toolStripContainerSearch.TabIndex = 3;
-			this.toolStripContainerSearch.Text = "toolStripContainer1";
-			// 
-			// toolStripContainerSearch.TopToolStripPanel
-			// 
-			this.toolStripContainerSearch.TopToolStripPanel.Controls.Add(this.toolStripSearch);
-			this.toolStripContainerSearch.TopToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			// 
-			// toolStripSearch
-			// 
-			this.toolStripSearch.Dock = System.Windows.Forms.DockStyle.None;
-			this.toolStripSearch.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.labelSearchTerm,
-            this.textBoxSearch,
-            this.toolStripButtonFind,
-            this.toolStripButtonClearAll});
-			this.toolStripSearch.Location = new System.Drawing.Point(0, 0);
-			this.toolStripSearch.Name = "toolStripSearch";
-			this.toolStripSearch.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.toolStripSearch.Size = new System.Drawing.Size(464, 25);
-			this.toolStripSearch.Stretch = true;
-			this.toolStripSearch.TabIndex = 0;
-			// 
-			// labelSearchTerm
-			// 
-			this.labelSearchTerm.AutoToolTip = true;
-			this.labelSearchTerm.Name = "labelSearchTerm";
-			this.labelSearchTerm.Size = new System.Drawing.Size(69, 22);
-			this.labelSearchTerm.Text = "Search &term:";
-			this.labelSearchTerm.ToolTipText = "Search term";
-			// 
-			// textBoxSearch
-			// 
-			this.textBoxSearch.AutoToolTip = true;
-			this.textBoxSearch.Name = "textBoxSearch";
-			this.textBoxSearch.Size = new System.Drawing.Size(100, 25);
-			// 
-			// toolStripButtonFind
-			// 
-			this.toolStripButtonFind.Image = global::EmojiLib.Properties.Resources.fatcow_find;
-			this.toolStripButtonFind.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.toolStripButtonFind.Name = "toolStripButtonFind";
-			this.toolStripButtonFind.Size = new System.Drawing.Size(47, 22);
-			this.toolStripButtonFind.Text = "Fi&nd";
-			this.toolStripButtonFind.Click += new System.EventHandler(this.ButtonSearch_Click);
-			// 
-			// toolStripButtonClearAll
-			// 
-			this.toolStripButtonClearAll.Image = global::EmojiLib.Properties.Resources.fatcow_bin;
-			this.toolStripButtonClearAll.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.toolStripButtonClearAll.Name = "toolStripButtonClearAll";
-			this.toolStripButtonClearAll.Size = new System.Drawing.Size(65, 22);
-			this.toolStripButtonClearAll.Text = "&Clear all";
-			this.toolStripButtonClearAll.Click += new System.EventHandler(this.ButtonClearAll_Click);
-			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2894,6 +3110,13 @@
 			this.tabPageSmileys.ResumeLayout(false);
 			this.flowLayoutPanelSmileys.ResumeLayout(false);
 			this.tabPageSearch.ResumeLayout(false);
+			this.toolStripContainerSearch.ContentPanel.ResumeLayout(false);
+			this.toolStripContainerSearch.TopToolStripPanel.ResumeLayout(false);
+			this.toolStripContainerSearch.TopToolStripPanel.PerformLayout();
+			this.toolStripContainerSearch.ResumeLayout(false);
+			this.toolStripContainerSearch.PerformLayout();
+			this.toolStripSearch.ResumeLayout(false);
+			this.toolStripSearch.PerformLayout();
 			this.statusStrip.ResumeLayout(false);
 			this.statusStrip.PerformLayout();
 			this.toolStripContainerMain.BottomToolStripPanel.ResumeLayout(false);
@@ -2907,13 +3130,6 @@
 			this.menuStrip.PerformLayout();
 			this.toolStripMain.ResumeLayout(false);
 			this.toolStripMain.PerformLayout();
-			this.toolStripContainerSearch.ContentPanel.ResumeLayout(false);
-			this.toolStripContainerSearch.TopToolStripPanel.ResumeLayout(false);
-			this.toolStripContainerSearch.TopToolStripPanel.PerformLayout();
-			this.toolStripContainerSearch.ResumeLayout(false);
-			this.toolStripContainerSearch.PerformLayout();
-			this.toolStripSearch.ResumeLayout(false);
-			this.toolStripSearch.PerformLayout();
 			this.ResumeLayout(false);
 
 		}
@@ -3044,6 +3260,14 @@
 		private System.Windows.Forms.ToolStripTextBox textBoxSearch;
 		private System.Windows.Forms.ToolStripButton toolStripButtonFind;
 		private System.Windows.Forms.ToolStripButton toolStripButtonClearAll;
+		private System.Windows.Forms.Button buttonFaceWithSteamFromNose;
+		private System.Windows.Forms.Button buttonPoutingFace;
+		private System.Windows.Forms.Button buttonAngryFace;
+		private System.Windows.Forms.Button buttonFaceWithSymbolsOnMouth;
+		private System.Windows.Forms.Button buttonSmilingFaceWithHorns;
+		private System.Windows.Forms.Button buttonAngryFaceWithHorns;
+		private System.Windows.Forms.Button buttonSkull;
+		private System.Windows.Forms.Button buttonSkullAndCrossbones;
 	}
 }
 

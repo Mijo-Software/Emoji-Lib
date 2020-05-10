@@ -108,6 +108,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FaceHat.resx</DependentUpon>
     </Compile>
+    <Compile Include="FaceNegative.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FaceNegative.resx</DependentUpon>
+    </Compile>
     <Compile Include="FaceNeutralSkeptical.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -167,6 +172,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FaceHat.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="FaceNegative.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FaceNegative.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="FaceNeutralSkeptical.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FaceNeutralSkeptical.Designer.cs</LastGenOutput>
@@ -214,6 +223,62 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="emoji-lib.ico" />
+    <None Include="Resources\SkullTwitter.png" />
+    <None Include="Resources\SmilingFaceWithHornsTwitter.png" />
+    <None Include="Resources\SmilingFaceWithHornsSamsung.png" />
+    <None Include="Resources\SmilingFaceWithHornsJoyPixels.png" />
+    <None Include="Resources\SmilingFaceWithHornsGoogle.png" />
+    <None Include="Resources\SmilingFaceWithHornsFacebook.png" />
+    <None Include="Resources\SmilingFaceWithHornsApple.png" />
+    <None Include="Resources\SkullWindows.png" />
+    <None Include="Resources\SkullSamsung.png" />
+    <None Include="Resources\SkullJoyPixels.png" />
+    <None Include="Resources\SkullGoogle.png" />
+    <None Include="Resources\SkullFacebook.png" />
+    <None Include="Resources\SkullApple.png" />
+    <None Include="Resources\SkullAndCrossbonesWindows.png" />
+    <None Include="Resources\SkullAndCrossbonesTwitter.png" />
+    <None Include="Resources\SkullAndCrossbonesSamsung.png" />
+    <None Include="Resources\SkullAndCrossbonesJoyPixels.png" />
+    <None Include="Resources\SkullAndCrossbonesGoogle.png" />
+    <None Include="Resources\SkullAndCrossbonesFacebook.png" />
+    <None Include="Resources\SkullAndCrossbonesApple.png" />
+    <None Include="Resources\PoutingFaceWindows.png" />
+    <None Include="Resources\PoutingFaceTwitter.png" />
+    <None Include="Resources\PoutingFaceSamsung.png" />
+    <None Include="Resources\PoutingFaceJoyPixels.png" />
+    <None Include="Resources\PoutingFaceGoogle.png" />
+    <None Include="Resources\PoutingFaceFacebook.png" />
+    <None Include="Resources\PoutingFaceApple.png" />
+    <None Include="Resources\FaceWithSymbolsOnMouthWindows.png" />
+    <None Include="Resources\FaceWithSymbolsOnMouthTwitter.png" />
+    <None Include="Resources\FaceWithSymbolsOnMouthSamsung.png" />
+    <None Include="Resources\FaceWithSymbolsOnMouthJoyPixels.png" />
+    <None Include="Resources\FaceWithSymbolsOnMouthGoogle.png" />
+    <None Include="Resources\FaceWithSymbolsOnMouthFacebook.png" />
+    <None Include="Resources\FaceWithSymbolsOnMouthApple.png" />
+    <None Include="Resources\FaceWithSteamFromNoseWindows.png" />
+    <None Include="Resources\FaceWithSteamFromNoseTwitter.png" />
+    <None Include="Resources\FaceWithSteamFromNoseSamsung.png" />
+    <None Include="Resources\FaceWithSteamFromNoseJoyPixels.png" />
+    <None Include="Resources\FaceWithSteamFromNoseGoogle.png" />
+    <None Include="Resources\FaceWithSteamFromNoseFacebook.png" />
+    <None Include="Resources\FaceWithSteamFromNoseApple.png" />
+    <None Include="Resources\AngryFaceWithHornsWindows.png" />
+    <None Include="Resources\AngryFaceWithHornsTwitter.png" />
+    <None Include="Resources\AngryFaceWithHornsSamsung.png" />
+    <None Include="Resources\AngryFaceWithHornsJoyPixels.png" />
+    <None Include="Resources\AngryFaceWithHornsGoogle.png" />
+    <None Include="Resources\AngryFaceWithHornsFacebook.png" />
+    <None Include="Resources\AngryFaceWithHornsApple.png" />
+    <None Include="Resources\AngryFaceWindows.png" />
+    <None Include="Resources\AngryFaceTwitter.png" />
+    <None Include="Resources\AngryFaceSamsung.png" />
+    <None Include="Resources\AngryFaceJoyPixels.png" />
+    <None Include="Resources\AngryFaceGoogle.png" />
+    <None Include="Resources\AngryFaceFacebook.png" />
+    <None Include="Resources\AngryFaceApple.png" />
+    <None Include="Resources\SmilingFaceWithHornsWindows.png" />
     <None Include="Resources\fatcow_bin.png" />
     <None Include="Resources\fugue_bin.png" />
     <None Include="Resources\YawningFaceTwitter.png" />
