@@ -221,6 +221,13 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap SquintingFaceWithTongueGmail {
+            get {
+                object obj = ResourceManager.GetObject("SquintingFaceWithTongueGmail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap SquintingFaceWithTongueGoogle {
             get {
                 object obj = ResourceManager.GetObject("SquintingFaceWithTongueGoogle", resourceCulture);
@@ -238,6 +245,13 @@ namespace EmojiLib {
         internal static System.Drawing.Bitmap SquintingFaceWithTongueSamsung {
             get {
                 object obj = ResourceManager.GetObject("SquintingFaceWithTongueSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SquintingFaceWithTongueSoftbank {
+            get {
+                object obj = ResourceManager.GetObject("SquintingFaceWithTongueSoftbank", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +277,23 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap WinkingFaceWithTongueDocomo {
+            get {
+                object obj = ResourceManager.GetObject("WinkingFaceWithTongueDocomo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap WinkingFaceWithTongueFacebook {
             get {
                 object obj = ResourceManager.GetObject("WinkingFaceWithTongueFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap WinkingFaceWithTongueGmail {
+            get {
+                object obj = ResourceManager.GetObject("WinkingFaceWithTongueGmail", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -284,9 +312,23 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap WinkingFaceWithTongueKddi {
+            get {
+                object obj = ResourceManager.GetObject("WinkingFaceWithTongueKddi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap WinkingFaceWithTongueSamsung {
             get {
                 object obj = ResourceManager.GetObject("WinkingFaceWithTongueSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap WinkingFaceWithTongueSoftbank {
+            get {
+                object obj = ResourceManager.GetObject("WinkingFaceWithTongueSoftbank", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

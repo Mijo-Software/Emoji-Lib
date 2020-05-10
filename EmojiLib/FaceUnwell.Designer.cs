@@ -116,9 +116,23 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap DizzyFaceDocomo {
+            get {
+                object obj = ResourceManager.GetObject("DizzyFaceDocomo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap DizzyFaceFacebook {
             get {
                 object obj = ResourceManager.GetObject("DizzyFaceFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap DizzyFaceGmail {
+            get {
+                object obj = ResourceManager.GetObject("DizzyFaceGmail", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,6 +147,13 @@ namespace EmojiLib {
         internal static System.Drawing.Bitmap DizzyFaceJoyPixels {
             get {
                 object obj = ResourceManager.GetObject("DizzyFaceJoyPixels", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap DizzyFaceKddi {
+            get {
+                object obj = ResourceManager.GetObject("DizzyFaceKddi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -319,6 +340,13 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap FaceWithMedicalMaskGmail {
+            get {
+                object obj = ResourceManager.GetObject("FaceWithMedicalMaskGmail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap FaceWithMedicalMaskGoogle {
             get {
                 object obj = ResourceManager.GetObject("FaceWithMedicalMaskGoogle", resourceCulture);
@@ -333,9 +361,23 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap FaceWithMedicalMaskKddi {
+            get {
+                object obj = ResourceManager.GetObject("FaceWithMedicalMaskKddi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap FaceWithMedicalMaskSamsung {
             get {
                 object obj = ResourceManager.GetObject("FaceWithMedicalMaskSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap FaceWithMedicalMaskSoftbank {
+            get {
+                object obj = ResourceManager.GetObject("FaceWithMedicalMaskSoftbank", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

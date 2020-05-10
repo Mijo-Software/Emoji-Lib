@@ -121,8 +121,14 @@
   <data name="AngryFaceApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\AngryFaceApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="AngryFaceDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngryFaceDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="AngryFaceFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\AngryFaceFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AngryFaceGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngryFaceGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AngryFaceGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\AngryFaceGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,8 +136,14 @@
   <data name="AngryFaceJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\AngryFaceJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="AngryFaceKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngryFaceKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="AngryFaceSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\AngryFaceSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AngryFaceSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngryFaceSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AngryFaceTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\AngryFaceTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,14 +157,23 @@
   <data name="AngryFaceWithHornsFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\AngryFaceWithHornsFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="AngryFaceWithHornsGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngryFaceWithHornsGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="AngryFaceWithHornsGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\AngryFaceWithHornsGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AngryFaceWithHornsJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\AngryFaceWithHornsJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="AngryFaceWithHornsKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngryFaceWithHornsKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="AngryFaceWithHornsSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\AngryFaceWithHornsSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AngryFaceWithHornsSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngryFaceWithHornsSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AngryFaceWithHornsTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\AngryFaceWithHornsTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,11 +187,17 @@
   <data name="FaceWithSteamFromNoseFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\FaceWithSteamFromNoseFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FaceWithSteamFromNoseGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithSteamFromNoseGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="FaceWithSteamFromNoseGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\FaceWithSteamFromNoseGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FaceWithSteamFromNoseJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\FaceWithSteamFromNoseJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FaceWithSteamFromNoseKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\FaceWithSteamFromNoseKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FaceWithSteamFromNoseSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\FaceWithSteamFromNoseSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,8 +232,14 @@
   <data name="PoutingFaceApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PoutingFaceApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PoutingFaceDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PoutingFaceDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PoutingFaceFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PoutingFaceFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoutingFaceGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PoutingFaceGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PoutingFaceGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PoutingFaceGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,8 +247,14 @@
   <data name="PoutingFaceJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PoutingFaceJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PoutingFaceKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PoutingFaceKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PoutingFaceSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PoutingFaceSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoutingFaceSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PoutingFaceSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PoutingFaceTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PoutingFaceTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,14 +289,23 @@
   <data name="SkullFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\SkullFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SkullGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SkullGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SkullGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\SkullGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SkullJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\SkullJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SkullKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SkullKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SkullSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\SkullSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkullSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SkullSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SkullTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\SkullTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

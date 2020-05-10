@@ -116,9 +116,23 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap PensiveFaceDocomo {
+            get {
+                object obj = ResourceManager.GetObject("PensiveFaceDocomo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap PensiveFaceFacebook {
             get {
                 object obj = ResourceManager.GetObject("PensiveFaceFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap PensiveFaceGmail {
+            get {
+                object obj = ResourceManager.GetObject("PensiveFaceGmail", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -137,9 +151,23 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap PensiveFaceKddi {
+            get {
+                object obj = ResourceManager.GetObject("PensiveFaceKddi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap PensiveFaceSamsung {
             get {
                 object obj = ResourceManager.GetObject("PensiveFaceSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap PensiveFaceSoftbank {
+            get {
+                object obj = ResourceManager.GetObject("PensiveFaceSoftbank", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -207,6 +235,34 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap RrelievedFaceDocomo {
+            get {
+                object obj = ResourceManager.GetObject("RrelievedFaceDocomo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap RrelievedFaceGmail {
+            get {
+                object obj = ResourceManager.GetObject("RrelievedFaceGmail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap RrelievedFaceKddi {
+            get {
+                object obj = ResourceManager.GetObject("RrelievedFaceKddi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap RrelievedFaceSoftbank {
+            get {
+                object obj = ResourceManager.GetObject("RrelievedFaceSoftbank", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap SleepingFaceApple {
             get {
                 object obj = ResourceManager.GetObject("SleepingFaceApple", resourceCulture);
@@ -270,6 +326,13 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap SleepyFaceGmail {
+            get {
+                object obj = ResourceManager.GetObject("SleepyFaceGmail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap SleepyFaceGoogle {
             get {
                 object obj = ResourceManager.GetObject("SleepyFaceGoogle", resourceCulture);
@@ -284,9 +347,23 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap SleepyFaceKddi {
+            get {
+                object obj = ResourceManager.GetObject("SleepyFaceKddi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap SleepyFaceSamsung {
             get {
                 object obj = ResourceManager.GetObject("SleepyFaceSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap SleepyFaceSoftbank {
+            get {
+                object obj = ResourceManager.GetObject("SleepyFaceSoftbank", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

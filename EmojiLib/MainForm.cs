@@ -157,7 +157,7 @@ namespace EmojiLib
 
 		#endregion
 
-		private void ShowEmojiInfo(string code, string shortName, string group, string subGroup, object tag, Image appleVersion, Image googleVersion, Image facebookVersion, Image windowsVersion, Image twitterVersion, Image joypixelsVersion, Image samsungVersion)
+		private void ShowEmojiInfo(string code, string shortName, string group, string subGroup, object tag, Image appleVersion, Image googleVersion, Image facebookVersion, Image windowsVersion, Image twitterVersion, Image joypixelsVersion, Image samsungVersion, Image gmailVersion, Image docomoVersion, Image kddiVersion, Image softbankVersion)
 		{
 			EmojiInfoForm emojiInfo = new EmojiInfoForm();
 			emojiInfo.SetCode(code);
@@ -171,6 +171,10 @@ namespace EmojiLib
 			emojiInfo.SetTwitterImageVersion(twitterVersion);
 			emojiInfo.SetJoyPixelsImageVersion(joypixelsVersion);
 			emojiInfo.SetSamsungImageVersion(samsungVersion);
+			emojiInfo.SetGmailImageVersion(gmailVersion);
+			emojiInfo.SetDocomoImageVersion(docomoVersion);
+			emojiInfo.SetKddiImageVersion(kddiVersion);
+			emojiInfo.SetSoftbankImageVersion(softbankVersion);
 			emojiInfo.ShowDialog();
 		}
 
@@ -491,7 +495,8 @@ namespace EmojiLib
 					FaceSmiling.GrinningFaceWindows,
 					FaceSmiling.GrinningFaceTwitter,
 					FaceSmiling.GrinningFaceJoyPixels,
-					FaceSmiling.GrinningFaceSamsung);
+					FaceSmiling.GrinningFaceSamsung,
+					FaceSmiling.GrinningFaceGmail, null, null, null);
 			}
 			else
 			{
@@ -516,7 +521,11 @@ namespace EmojiLib
 					FaceSmiling.GrinningFaceWithBigEyesWindows,
 					FaceSmiling.GrinningFaceWithBigEyesTwitter,
 					FaceSmiling.GrinningFaceWithBigEyesJoyPixels,
-					FaceSmiling.GrinningFaceWithBigEyesSamsung);
+					FaceSmiling.GrinningFaceWithBigEyesSamsung,
+					FaceSmiling.GrinningFaceWithBigEyesGmail,
+					FaceSmiling.GrinningFaceWithBigEyesDocomo,
+					FaceSmiling.GrinningFaceWithBigEyesKddi,
+					FaceSmiling.GrinningFaceWithBigEyesSoftbank);
 			}
 			else
 			{
@@ -541,13 +550,15 @@ namespace EmojiLib
 					FaceSmiling.GrinningFaceWithSmilingEyesWindows,
 					FaceSmiling.GrinningFaceWithSmilingEyesTwitter,
 					FaceSmiling.GrinningFaceWithSmilingEyesJoyPixels,
-					FaceSmiling.GrinningFaceWithSmilingEyesSamsung);
+					FaceSmiling.GrinningFaceWithSmilingEyesSamsung,
+					FaceSmiling.GrinningFaceWithSmilingEyesGmail,
+					null, null,
+					FaceSmiling.GrinningFaceWithSmilingEyesSoftbank);
 			}
 			else
 			{
 				SomethingWentWrong();
 			}
-
 		}
 
 		private void ButtonBeamingFaceWithSmilingEyes_Click(object sender, EventArgs e)

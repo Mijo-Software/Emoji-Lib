@@ -172,6 +172,13 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap SmilingFaceWithSunglassesGmail {
+            get {
+                object obj = ResourceManager.GetObject("SmilingFaceWithSunglassesGmail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap SmilingFaceWithSunglassesGoogle {
             get {
                 object obj = ResourceManager.GetObject("SmilingFaceWithSunglassesGoogle", resourceCulture);
