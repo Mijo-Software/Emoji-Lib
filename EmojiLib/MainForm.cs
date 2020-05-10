@@ -424,6 +424,14 @@ namespace EmojiLib
 							case "buttonWearyFace": newButton.Click += new System.EventHandler(ButtonWearyFace_Click); break;
 							case "buttonTiredFace": newButton.Click += new System.EventHandler(ButtonTiredFace_Click); break;
 							case "buttonYawningFace": newButton.Click += new System.EventHandler(ButtonYawningFace_Click); break;
+							case "buttonFaceWithSteamFromNose": newButton.Click += new System.EventHandler(ButtonFaceWithSteamFromNose_Click); break;
+							case "buttonPoutingFace": newButton.Click += new System.EventHandler(ButtonPoutingFace_Click); break;
+							case "buttonAngryFace": newButton.Click += new System.EventHandler(ButtonAngryFace_Click); break;
+							case "buttonFaceWithSymbolsOnMouth": newButton.Click += new System.EventHandler(ButtonFaceWithSymbolsOnMouth_Click); break;
+							case "buttonSmilingFaceWithHorns": newButton.Click += new System.EventHandler(ButtonSmilingFaceWithHorns_Click); break;
+							case "buttonAngryFaceWithHorns": newButton.Click += new System.EventHandler(ButtonAngryFaceWithHorns_Click); break;
+							case "buttonSkull": newButton.Click += new System.EventHandler(ButtonSkull_Click); break;
+							case "buttonSkullAndCrossbones": newButton.Click += new System.EventHandler(ButtonSkullAndCrossbones_Click); break;
 							default: newButton.Click += new System.EventHandler(Button_Click); break;
 						}
 						buttons.Capacity = capacity;
@@ -2660,6 +2668,206 @@ namespace EmojiLib
 					FaceConcerned.YawningFaceTwitter,
 					FaceConcerned.YawningFaceJoyPixels,
 					FaceConcerned.YawningFaceSamsung);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonFaceWithSteamFromNose_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonFaceWithSteamFromNose.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F624", buttonFaceWithSteamFromNose.AccessibleName,
+					Resources.smileysAndEmotion, Resources.faceNegative,
+					buttonFaceWithSteamFromNose.Tag,
+					FaceNegative.FaceWithSteamFromNoseApple,
+					FaceNegative.FaceWithSteamFromNoseGoogle,
+					FaceNegative.FaceWithSteamFromNoseFacebook,
+					FaceNegative.FaceWithSteamFromNoseWindows,
+					FaceNegative.FaceWithSteamFromNoseTwitter,
+					FaceNegative.FaceWithSteamFromNoseJoyPixels,
+					FaceNegative.FaceWithSteamFromNoseSamsung);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonPoutingFace_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonPoutingFace.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F621", buttonPoutingFace.AccessibleName,
+					Resources.smileysAndEmotion, Resources.faceNegative,
+					buttonPoutingFace.Tag,
+					FaceNegative.PoutingFaceApple,
+					FaceNegative.PoutingFaceGoogle,
+					FaceNegative.PoutingFaceFacebook,
+					FaceNegative.PoutingFaceWindows,
+					FaceNegative.PoutingFaceTwitter,
+					FaceNegative.PoutingFaceJoyPixels,
+					FaceNegative.PoutingFaceSamsung);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonAngryFace_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonAngryFace.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F620", buttonAngryFace.AccessibleName,
+					Resources.smileysAndEmotion, Resources.faceNegative,
+					buttonAngryFace.Tag,
+					FaceNegative.AngryFaceApple,
+					FaceNegative.AngryFaceGoogle,
+					FaceNegative.AngryFaceFacebook,
+					FaceNegative.AngryFaceWindows,
+					FaceNegative.AngryFaceTwitter,
+					FaceNegative.AngryFaceJoyPixels,
+					FaceNegative.AngryFaceSamsung);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonFaceWithSymbolsOnMouth_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonFaceWithSymbolsOnMouth.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F92C", buttonFaceWithSymbolsOnMouth.AccessibleName,
+					Resources.smileysAndEmotion, Resources.faceNegative,
+					buttonFaceWithSymbolsOnMouth.Tag,
+					FaceNegative.FaceWithSymbolsOnMouthApple,
+					FaceNegative.FaceWithSymbolsOnMouthGoogle,
+					FaceNegative.FaceWithSymbolsOnMouthFacebook,
+					FaceNegative.FaceWithSymbolsOnMouthWindows,
+					FaceNegative.FaceWithSymbolsOnMouthTwitter,
+					FaceNegative.FaceWithSymbolsOnMouthJoyPixels,
+					FaceNegative.FaceWithSymbolsOnMouthSamsung);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonSmilingFaceWithHorns_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonSmilingFaceWithHorns.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F608", buttonSmilingFaceWithHorns.AccessibleName,
+					Resources.smileysAndEmotion, Resources.faceNegative,
+					buttonSmilingFaceWithHorns.Tag,
+					FaceNegative.SmilingFaceWithHornsApple,
+					FaceNegative.SmilingFaceWithHornsGoogle,
+					FaceNegative.SmilingFaceWithHornsFacebook,
+					FaceNegative.SmilingFaceWithHornsWindows,
+					FaceNegative.SmilingFaceWithHornsTwitter,
+					FaceNegative.SmilingFaceWithHornsJoyPixels,
+					FaceNegative.SmilingFaceWithHornsSamsung);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonAngryFaceWithHorns_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonAngryFaceWithHorns.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F47F", buttonAngryFaceWithHorns.AccessibleName,
+					Resources.smileysAndEmotion, Resources.faceNegative,
+					buttonAngryFaceWithHorns.Tag,
+					FaceNegative.AngryFaceWithHornsApple,
+					FaceNegative.AngryFaceWithHornsGoogle,
+					FaceNegative.AngryFaceWithHornsFacebook,
+					FaceNegative.AngryFaceWithHornsWindows,
+					FaceNegative.AngryFaceWithHornsTwitter,
+					FaceNegative.AngryFaceWithHornsJoyPixels,
+					FaceNegative.AngryFaceWithHornsSamsung);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonSkull_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonSkull.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F480", buttonSkull.AccessibleName,
+					Resources.smileysAndEmotion, Resources.faceNegative,
+					buttonSkull.Tag,
+					FaceNegative.SkullApple,
+					FaceNegative.SkullGoogle,
+					FaceNegative.SkullFacebook,
+					FaceNegative.SkullWindows,
+					FaceNegative.SkullTwitter,
+					FaceNegative.SkullJoyPixels,
+					FaceNegative.SkullSamsung);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonSkullAndCrossbones_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonSkullAndCrossbones.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F971", buttonSkullAndCrossbones.AccessibleName,
+					Resources.smileysAndEmotion, Resources.faceNegative,
+					buttonSkullAndCrossbones.Tag,
+					FaceNegative.SkullAndCrossbonesApple,
+					FaceNegative.SkullAndCrossbonesGoogle,
+					FaceNegative.SkullAndCrossbonesFacebook,
+					FaceNegative.SkullAndCrossbonesWindows,
+					FaceNegative.SkullAndCrossbonesTwitter,
+					FaceNegative.SkullAndCrossbonesJoyPixels,
+					FaceNegative.SkullAndCrossbonesSamsung);
 			}
 			else
 			{
