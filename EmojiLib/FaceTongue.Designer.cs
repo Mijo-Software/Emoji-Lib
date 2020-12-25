@@ -67,9 +67,23 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap FaceSavoringFoodDocomo {
+            get {
+                object obj = ResourceManager.GetObject("FaceSavoringFoodDocomo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap FaceSavoringFoodFacebook {
             get {
                 object obj = ResourceManager.GetObject("FaceSavoringFoodFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap FaceSavoringFoodGmail {
+            get {
+                object obj = ResourceManager.GetObject("FaceSavoringFoodGmail", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

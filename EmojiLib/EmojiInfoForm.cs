@@ -270,9 +270,9 @@ namespace EmojiLib
 		{
 			if (pictureBoxApple.Image != null)
 			{
-				if (saveFileDialog.ShowDialog() == DialogResult.OK)
+				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxApple.Image.Save(saveFileDialog.FileName);
+					pictureBoxApple.Image.Save(saveFileDialogAsPng.FileName);
 				}
 			}
 		}
@@ -281,9 +281,9 @@ namespace EmojiLib
 		{
 			if (pictureBoxGoogle.Image != null)
 			{
-				if (saveFileDialog.ShowDialog() == DialogResult.OK)
+				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxGoogle.Image.Save(saveFileDialog.FileName);
+					pictureBoxGoogle.Image.Save(saveFileDialogAsPng.FileName);
 				}
 			}
 		}
@@ -292,9 +292,9 @@ namespace EmojiLib
 		{
 			if (pictureBoxFacebook.Image != null)
 			{
-				if (saveFileDialog.ShowDialog() == DialogResult.OK)
+				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxFacebook.Image.Save(saveFileDialog.FileName);
+					pictureBoxFacebook.Image.Save(saveFileDialogAsPng.FileName);
 				}
 			}
 		}
@@ -303,9 +303,9 @@ namespace EmojiLib
 		{
 			if (pictureBoxWindows.Image != null)
 			{
-				if (saveFileDialog.ShowDialog() == DialogResult.OK)
+				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxWindows.Image.Save(saveFileDialog.FileName);
+					pictureBoxWindows.Image.Save(saveFileDialogAsPng.FileName);
 				}
 			}
 		}
@@ -314,9 +314,9 @@ namespace EmojiLib
 		{
 			if (pictureBoxTwitter.Image != null)
 			{
-				if (saveFileDialog.ShowDialog() == DialogResult.OK)
+				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxTwitter.Image.Save(saveFileDialog.FileName);
+					pictureBoxTwitter.Image.Save(saveFileDialogAsPng.FileName);
 				}
 			}
 		}
@@ -325,9 +325,9 @@ namespace EmojiLib
 		{
 			if (pictureBoxJoyPixels.Image != null)
 			{
-				if (saveFileDialog.ShowDialog() == DialogResult.OK)
+				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxJoyPixels.Image.Save(saveFileDialog.FileName);
+					pictureBoxJoyPixels.Image.Save(saveFileDialogAsPng.FileName);
 				}
 			}
 		}
@@ -336,9 +336,9 @@ namespace EmojiLib
 		{
 			if (pictureBoxSamsung.Image != null)
 			{
-				if (saveFileDialog.ShowDialog() == DialogResult.OK)
+				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxSamsung.Image.Save(saveFileDialog.FileName);
+					pictureBoxSamsung.Image.Save(saveFileDialogAsPng.FileName);
 				}
 			}
 		}
@@ -347,9 +347,9 @@ namespace EmojiLib
 		{
 			if (pictureBoxGmail.Image != null)
 			{
-				if (saveFileDialog.ShowDialog() == DialogResult.OK)
+				if (saveFileDialogAsGif.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxGmail.Image.Save(saveFileDialog.FileName);
+					pictureBoxGmail.Image.Save(saveFileDialogAsGif.FileName);
 				}
 			}
 		}
@@ -358,9 +358,9 @@ namespace EmojiLib
 		{
 			if (pictureBoxDocomo.Image != null)
 			{
-				if (saveFileDialog.ShowDialog() == DialogResult.OK)
+				if (saveFileDialogAsGif.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxDocomo.Image.Save(saveFileDialog.FileName);
+					pictureBoxDocomo.Image.Save(saveFileDialogAsGif.FileName);
 				}
 			}
 		}
@@ -369,9 +369,9 @@ namespace EmojiLib
 		{
 			if (pictureBoxKddi.Image != null)
 			{
-				if (saveFileDialog.ShowDialog() == DialogResult.OK)
+				if (saveFileDialogAsGif.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxKddi.Image.Save(saveFileDialog.FileName);
+					pictureBoxKddi.Image.Save(saveFileDialogAsGif.FileName);
 				}
 			}
 		}
@@ -380,9 +380,9 @@ namespace EmojiLib
 		{
 			if (pictureBoxSoftbank.Image != null)
 			{
-				if (saveFileDialog.ShowDialog() == DialogResult.OK)
+				if (saveFileDialogAsGif.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxSoftbank.Image.Save(saveFileDialog.FileName);
+					pictureBoxSoftbank.Image.Save(saveFileDialogAsGif.FileName);
 				}
 			}
 		}

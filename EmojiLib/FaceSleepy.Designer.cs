@@ -193,9 +193,23 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap RelievedFaceDocomo {
+            get {
+                object obj = ResourceManager.GetObject("RelievedFaceDocomo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap RelievedFaceFacebook {
             get {
                 object obj = ResourceManager.GetObject("RelievedFaceFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap RelievedFaceGmail {
+            get {
+                object obj = ResourceManager.GetObject("RelievedFaceGmail", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -214,9 +228,23 @@ namespace EmojiLib {
             }
         }
         
+        internal static System.Drawing.Bitmap RelievedFaceKddi {
+            get {
+                object obj = ResourceManager.GetObject("RelievedFaceKddi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap RelievedFaceSamsung {
             get {
                 object obj = ResourceManager.GetObject("RelievedFaceSamsung", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap RelievedFaceSoftbank {
+            get {
+                object obj = ResourceManager.GetObject("RelievedFaceSoftbank", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -480,13 +480,6 @@ namespace EmojiLib {
             }
         }
         
-        internal static System.Drawing.Bitmap GrinningSquintingFaceApple1 {
-            get {
-                object obj = ResourceManager.GetObject("GrinningSquintingFaceApple1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
         internal static System.Drawing.Bitmap GrinningSquintingFaceDocomo {
             get {
                 object obj = ResourceManager.GetObject("GrinningSquintingFaceDocomo", resourceCulture);
@@ -497,6 +490,13 @@ namespace EmojiLib {
         internal static System.Drawing.Bitmap GrinningSquintingFaceFacebook {
             get {
                 object obj = ResourceManager.GetObject("GrinningSquintingFaceFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GrinningSquintingFaceGmail {
+            get {
+                object obj = ResourceManager.GetObject("GrinningSquintingFaceGmail", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

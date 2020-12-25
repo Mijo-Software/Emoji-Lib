@@ -578,7 +578,11 @@ namespace EmojiLib
 					FaceSmiling.BeamingFaceWithSmilingEyesWindows,
 					FaceSmiling.BeamingFaceWithSmilingEyesTwitter,
 					FaceSmiling.BeamingFaceWithSmilingEyesJoyPixels,
-					FaceSmiling.BeamingFaceWithSmilingEyesSamsung);
+					FaceSmiling.BeamingFaceWithSmilingEyesSamsung,
+					FaceSmiling.BeamingFaceWithSmilingEyesGmail,
+					FaceSmiling.BeamingFaceWithSmilingEyesDocomo,
+					FaceSmiling.BeamingFaceWithSmilingEyesKddi,
+					FaceSmiling.BeamingFaceWithSmilingEyesSoftbank);
 			}
 			else
 			{
@@ -603,7 +607,11 @@ namespace EmojiLib
 					FaceSmiling.GrinningSquintingFaceWindows,
 					FaceSmiling.GrinningSquintingFaceTwitter,
 					FaceSmiling.GrinningSquintingFaceJoyPixels,
-					FaceSmiling.GrinningSquintingFaceSamsung);
+					FaceSmiling.GrinningSquintingFaceSamsung,
+					FaceSmiling.GrinningSquintingFaceGmail,
+					FaceSmiling.GrinningSquintingFaceDocomo,
+					null,
+					null);
 			}
 			else
 			{
@@ -628,7 +636,11 @@ namespace EmojiLib
 					FaceSmiling.GrinningFaceWithSweatWindows,
 					FaceSmiling.GrinningFaceWithSweatTwitter,
 					FaceSmiling.GrinningFaceWithSweatJoyPixels,
-					FaceSmiling.GrinningFaceWithSweatSamsung);
+					FaceSmiling.GrinningFaceWithSweatSamsung,
+					FaceSmiling.GrinningFaceWithSweatGmail,
+					FaceSmiling.GrinningFaceWithSweatDocomo,
+					null,
+					null);
 			}
 			else
 			{
@@ -653,7 +665,11 @@ namespace EmojiLib
 					FaceSmiling.RollingOnTheFloorLaughingWindows,
 					FaceSmiling.RollingOnTheFloorLaughingTwitter,
 					FaceSmiling.RollingOnTheFloorLaughingJoyPixels,
-					FaceSmiling.RollingOnTheFloorLaughingSamsung);
+					FaceSmiling.RollingOnTheFloorLaughingSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -678,7 +694,11 @@ namespace EmojiLib
 					FaceSmiling.FaceWithTearsOfJoyWindows,
 					FaceSmiling.FaceWithTearsOfJoyTwitter,
 					FaceSmiling.FaceWithTearsOfJoyJoyPixels,
-					FaceSmiling.FaceWithTearsOfJoySamsung);
+					FaceSmiling.FaceWithTearsOfJoySamsung,
+					FaceSmiling.FaceWithTearsOfJoyGmail,
+					null,
+					FaceSmiling.FaceWithTearsOfJoyKddi,
+					FaceSmiling.FaceWithTearsOfJoySoftbank);
 			}
 			else
 			{
@@ -703,7 +723,11 @@ namespace EmojiLib
 					FaceSmiling.SlightlySmilingFaceWindows,
 					FaceSmiling.SlightlySmilingFaceTwitter,
 					FaceSmiling.SlightlySmilingFaceJoyPixels,
-					FaceSmiling.SlightlySmilingFaceSamsung);
+					FaceSmiling.SlightlySmilingFaceSamsung,
+					FaceSmiling.SlightlySmilingFaceGmail,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -728,7 +752,11 @@ namespace EmojiLib
 					FaceSmiling.UpsideDownFaceWindows,
 					FaceSmiling.UpsideDownFaceTwitter,
 					FaceSmiling.UpsideDownFaceJoyPixels,
-					FaceSmiling.UpsideDownFaceSamsung);
+					FaceSmiling.UpsideDownFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -753,7 +781,11 @@ namespace EmojiLib
 					FaceSmiling.WinkingFaceWindows,
 					FaceSmiling.WinkingFaceTwitter,
 					FaceSmiling.WinkingFaceJoyPixels,
-					FaceSmiling.WinkingFaceSamsung);
+					FaceSmiling.WinkingFaceSamsung,
+					FaceSmiling.WinkingFaceGmail,
+					FaceSmiling.WinkingFaceDocomo,
+					FaceSmiling.WinkingFaceKddi,
+					FaceSmiling.WinkingFaceSoftbank);
 			}
 			else
 			{
@@ -778,7 +810,11 @@ namespace EmojiLib
 					FaceSmiling.SmilingFaceWithSmilingEyesWindows,
 					FaceSmiling.SmilingFaceWithSmilingEyesTwitter,
 					FaceSmiling.SmilingFaceWithSmilingEyesJoyPixels,
-					FaceSmiling.SmilingFaceWithSmilingEyesSamsung);
+					FaceSmiling.SmilingFaceWithSmilingEyesSamsung,
+					FaceSmiling.SmilingFaceWithSmilingEyesGmail,
+					null,
+					FaceSmiling.SmilingFaceWithSmilingEyesKddi,
+					FaceSmiling.SmilingFaceWithSmilingEyesSoftbank);
 			}
 			else
 			{
@@ -803,7 +839,11 @@ namespace EmojiLib
 					FaceSmiling.SmilingFaceWithHaloWindows,
 					FaceSmiling.SmilingFaceWithHaloTwitter,
 					FaceSmiling.SmilingFaceWithHaloJoyPixels,
-					FaceSmiling.SmilingFaceWithHaloSamsung);
+					FaceSmiling.SmilingFaceWithHaloSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -828,7 +868,11 @@ namespace EmojiLib
 					FaceAffection.SmilingFaceWithHeartsWindows,
 					FaceAffection.SmilingFaceWithHeartsTwitter,
 					FaceAffection.SmilingFaceWithHeartsJoyPixels,
-					FaceAffection.SmilingFaceWithHeartsSamsung);
+					FaceAffection.SmilingFaceWithHeartsSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -853,7 +897,11 @@ namespace EmojiLib
 					FaceAffection.SmilingFaceWithHeartEyesWindows,
 					FaceAffection.SmilingFaceWithHeartEyesTwitter,
 					FaceAffection.SmilingFaceWithHeartEyesJoyPixels,
-					FaceAffection.SmilingFaceWithHeartEyesSamsung);
+					FaceAffection.SmilingFaceWithHeartEyesSamsung,
+					FaceAffection.SmilingFaceWithHeartEyesGmail,
+					FaceAffection.SmilingFaceWithHeartEyesDocomo,
+					FaceAffection.SmilingFaceWithHeartEyesKddi,
+					FaceAffection.SmilingFaceWithHeartEyesSoftbank);
 			}
 			else
 			{
@@ -878,7 +926,11 @@ namespace EmojiLib
 					FaceAffection.StarStruckWindows,
 					FaceAffection.StarStruckTwitter,
 					FaceAffection.StarStruckJoyPixels,
-					FaceAffection.StarStruckSamsung);
+					FaceAffection.StarStruckSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -903,7 +955,11 @@ namespace EmojiLib
 					FaceAffection.FaceBlowingAKissWindows,
 					FaceAffection.FaceBlowingAKissTwitter,
 					FaceAffection.FaceBlowingAKissJoyPixels,
-					FaceAffection.FaceBlowingAKissSamsung);
+					FaceAffection.FaceBlowingAKissSamsung,
+					FaceAffection.FaceBlowingAKissGmail,
+					null,
+					FaceAffection.FaceBlowingAKissKddi,
+					FaceAffection.FaceBlowingAKissSoftbank);
 			}
 			else
 			{
@@ -928,7 +984,11 @@ namespace EmojiLib
 					FaceAffection.KissingFaceWindows,
 					FaceAffection.KissingFaceTwitter,
 					FaceAffection.KissingFaceJoyPixels,
-					FaceAffection.KissingFaceSamsung);
+					FaceAffection.KissingFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -953,7 +1013,11 @@ namespace EmojiLib
 					FaceAffection.SmilingFaceWindows,
 					FaceAffection.SmilingFaceTwitter,
 					FaceAffection.SmilingFaceJoyPixels,
-					FaceAffection.SmilingFaceSamsung);
+					FaceAffection.SmilingFaceSamsung,
+					FaceAffection.SmilingFaceGmail,
+					null,
+					FaceAffection.SmilingFaceKddi,
+					FaceAffection.SmilingFaceSoftbank);
 			}
 			else
 			{
@@ -978,7 +1042,11 @@ namespace EmojiLib
 					FaceAffection.KissingFaceWithClosedEyesWindows,
 					FaceAffection.KissingFaceWithClosedEyesTwitter,
 					FaceAffection.KissingFaceWithClosedEyesJoyPixels,
-					FaceAffection.KissingFaceWithClosedEyesSamsung);
+					FaceAffection.KissingFaceWithClosedEyesSamsung,
+					FaceAffection.KissingFaceWithClosedEyesGmail,
+					null,
+					FaceAffection.KissingFaceWithClosedEyesKddi,
+					FaceAffection.KissingFaceWithClosedEyesSoftbank);
 			}
 			else
 			{
@@ -1003,7 +1071,11 @@ namespace EmojiLib
 					FaceAffection.KissingFaceWithSmilingEyesWindows,
 					FaceAffection.KissingFaceWithSmilingEyesTwitter,
 					FaceAffection.KissingFaceWithSmilingEyesJoyPixels,
-					FaceAffection.KissingFaceWithSmilingEyesSamsung);
+					FaceAffection.KissingFaceWithSmilingEyesSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1028,6 +1100,10 @@ namespace EmojiLib
 					null,
 					null,
 					FaceAffection.SmilingFaceWithTearJoyPixels,
+					null,
+					null,
+					null,
+					null,
 					null);
 			}
 			else
@@ -1053,7 +1129,11 @@ namespace EmojiLib
 					FaceTongue.FaceSavoringFoodWindows,
 					FaceTongue.FaceSavoringFoodTwitter,
 					FaceTongue.FaceSavoringFoodJoyPixels,
-					FaceTongue.FaceSavoringFoodSamsung);
+					FaceTongue.FaceSavoringFoodSamsung,
+					FaceTongue.FaceSavoringFoodGmail,
+					FaceTongue.FaceSavoringFoodDocomo,
+					null,
+					null);
 			}
 			else
 			{
@@ -1078,7 +1158,11 @@ namespace EmojiLib
 					FaceTongue.FaceWithTongueWindows,
 					FaceTongue.FaceWithTongueTwitter,
 					FaceTongue.FaceWithTongueJoyPixels,
-					FaceTongue.FaceWithTongueSamsung);
+					FaceTongue.FaceWithTongueSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1103,7 +1187,11 @@ namespace EmojiLib
 					FaceTongue.WinkingFaceWithTongueWindows,
 					FaceTongue.WinkingFaceWithTongueTwitter,
 					FaceTongue.WinkingFaceWithTongueJoyPixels,
-					FaceTongue.WinkingFaceWithTongueSamsung);
+					FaceTongue.WinkingFaceWithTongueSamsung,
+					FaceTongue.WinkingFaceWithTongueGmail,
+					FaceTongue.WinkingFaceWithTongueDocomo,
+					FaceTongue.WinkingFaceWithTongueKddi,
+					FaceTongue.WinkingFaceWithTongueSoftbank);
 			}
 			else
 			{
@@ -1128,7 +1216,11 @@ namespace EmojiLib
 					FaceTongue.ZanyFaceWindows,
 					FaceTongue.ZanyFaceTwitter,
 					FaceTongue.ZanyFaceJoyPixels,
-					FaceTongue.ZanyFaceSamsung);
+					FaceTongue.ZanyFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1153,7 +1245,11 @@ namespace EmojiLib
 					FaceTongue.SquintingFaceWithTongueWindows,
 					FaceTongue.SquintingFaceWithTongueTwitter,
 					FaceTongue.SquintingFaceWithTongueJoyPixels,
-					FaceTongue.SquintingFaceWithTongueSamsung);
+					FaceTongue.SquintingFaceWithTongueSamsung,
+					FaceTongue.SquintingFaceWithTongueGmail,
+					null,
+					null,
+					FaceTongue.SquintingFaceWithTongueSoftbank);
 			}
 			else
 			{
@@ -1178,7 +1274,11 @@ namespace EmojiLib
 					FaceTongue.MoneyMouthFaceWindows,
 					FaceTongue.MoneyMouthFaceTwitter,
 					FaceTongue.MoneyMouthFaceJoyPixels,
-					FaceTongue.MoneyMouthFaceSamsung);
+					FaceTongue.MoneyMouthFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1203,7 +1303,11 @@ namespace EmojiLib
 					FaceHand.HuggingFaceWindows,
 					FaceHand.HuggingFaceTwitter,
 					FaceHand.HuggingFaceJoyPixels,
-					FaceHand.HuggingFaceSamsung);
+					FaceHand.HuggingFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1228,7 +1332,11 @@ namespace EmojiLib
 					FaceHand.FaceWithHandOverMouthWindows,
 					FaceHand.FaceWithHandOverMouthTwitter,
 					FaceHand.FaceWithHandOverMouthJoyPixels,
-					FaceHand.FaceWithHandOverMouthSamsung);
+					FaceHand.FaceWithHandOverMouthSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1253,7 +1361,11 @@ namespace EmojiLib
 					FaceHand.ShushingFaceWindows,
 					FaceHand.ShushingFaceTwitter,
 					FaceHand.ShushingFaceJoyPixels,
-					FaceHand.ShushingFaceSamsung);
+					FaceHand.ShushingFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1278,7 +1390,11 @@ namespace EmojiLib
 					FaceHand.ThinkingFaceWindows,
 					FaceHand.ThinkingFaceTwitter,
 					FaceHand.ThinkingFaceJoyPixels,
-					FaceHand.ThinkingFaceSamsung);
+					FaceHand.ThinkingFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1303,7 +1419,11 @@ namespace EmojiLib
 					FaceNeutralSkeptical.ZipperMouthFaceWindows,
 					FaceNeutralSkeptical.ZipperMouthFaceTwitter,
 					FaceNeutralSkeptical.ZipperMouthFaceJoyPixels,
-					FaceNeutralSkeptical.ZipperMouthFaceSamsung);
+					FaceNeutralSkeptical.ZipperMouthFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1328,7 +1448,11 @@ namespace EmojiLib
 					FaceNeutralSkeptical.FaceWithRaisedEyebrowWindows,
 					FaceNeutralSkeptical.FaceWithRaisedEyebrowTwitter,
 					FaceNeutralSkeptical.FaceWithRaisedEyebrowJoyPixels,
-					FaceNeutralSkeptical.FaceWithRaisedEyebrowSamsung);
+					FaceNeutralSkeptical.FaceWithRaisedEyebrowSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1353,7 +1477,11 @@ namespace EmojiLib
 					FaceNeutralSkeptical.NeutralFaceWindows,
 					FaceNeutralSkeptical.NeutralFaceTwitter,
 					FaceNeutralSkeptical.NeutralFaceJoyPixels,
-					FaceNeutralSkeptical.NeutralFaceSamsung);
+					FaceNeutralSkeptical.NeutralFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1378,7 +1506,11 @@ namespace EmojiLib
 					FaceNeutralSkeptical.ExpressionlessFaceWindows,
 					FaceNeutralSkeptical.ExpressionlessFaceTwitter,
 					FaceNeutralSkeptical.ExpressionlessFaceJoyPixels,
-					FaceNeutralSkeptical.ExpressionlessFaceSamsung);
+					FaceNeutralSkeptical.ExpressionlessFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1403,7 +1535,11 @@ namespace EmojiLib
 					FaceNeutralSkeptical.FaceWithoutMouthWindows,
 					FaceNeutralSkeptical.FaceWithoutMouthTwitter,
 					FaceNeutralSkeptical.FaceWithoutMouthJoyPixels,
-					FaceNeutralSkeptical.FaceWithoutMouthSamsung);
+					FaceNeutralSkeptical.FaceWithoutMouthSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1428,7 +1564,11 @@ namespace EmojiLib
 					FaceNeutralSkeptical.SmirkingFaceWindows,
 					FaceNeutralSkeptical.SmirkingFaceTwitter,
 					FaceNeutralSkeptical.SmirkingFaceJoyPixels,
-					FaceNeutralSkeptical.SmirkingFaceSamsung);
+					FaceNeutralSkeptical.SmirkingFaceSamsung,
+					FaceNeutralSkeptical.SmirkingFaceGmail,
+					FaceNeutralSkeptical.SmirkingFaceDocomo,
+					FaceNeutralSkeptical.SmirkingFaceKddi,
+					FaceNeutralSkeptical.SmirkingFaceSoftbank);
 			}
 			else
 			{
@@ -1453,7 +1593,11 @@ namespace EmojiLib
 					FaceNeutralSkeptical.UnamusedFaceWindows,
 					FaceNeutralSkeptical.UnamusedFaceTwitter,
 					FaceNeutralSkeptical.UnamusedFaceJoyPixels,
-					FaceNeutralSkeptical.UnamusedFaceSamsung);
+					FaceNeutralSkeptical.UnamusedFaceSamsung,
+					FaceNeutralSkeptical.UnamusedFaceGmail,
+					FaceNeutralSkeptical.UnamusedFaceDocomo,
+					FaceNeutralSkeptical.UnamusedFaceKddi,
+					FaceNeutralSkeptical.UnamusedFaceSoftbank);
 			}
 			else
 			{
@@ -1478,7 +1622,11 @@ namespace EmojiLib
 					FaceNeutralSkeptical.FaceWithRollingEyesWindows,
 					FaceNeutralSkeptical.FaceWithRollingEyesTwitter,
 					FaceNeutralSkeptical.FaceWithRollingEyesJoyPixels,
-					FaceNeutralSkeptical.FaceWithRollingEyesSamsung);
+					FaceNeutralSkeptical.FaceWithRollingEyesSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1503,7 +1651,11 @@ namespace EmojiLib
 					FaceNeutralSkeptical.GrimacingFaceWindows,
 					FaceNeutralSkeptical.GrimacingFaceTwitter,
 					FaceNeutralSkeptical.GrimacingFaceJoyPixels,
-					FaceNeutralSkeptical.GrimacingFaceSamsung);
+					FaceNeutralSkeptical.GrimacingFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1528,7 +1680,11 @@ namespace EmojiLib
 					FaceNeutralSkeptical.LyingFaceWindows,
 					FaceNeutralSkeptical.LyingFaceTwitter,
 					FaceNeutralSkeptical.LyingFaceJoyPixels,
-					FaceNeutralSkeptical.LyingFaceSamsung);
+					FaceNeutralSkeptical.LyingFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1553,7 +1709,11 @@ namespace EmojiLib
 					FaceSleepy.RelievedFaceWindows,
 					FaceSleepy.RelievedFaceTwitter,
 					FaceSleepy.RelievedFaceJoyPixels,
-					FaceSleepy.RelievedFaceSamsung);
+					FaceSleepy.RelievedFaceSamsung,
+					FaceSleepy.RelievedFaceGmail,
+					FaceSleepy.RelievedFaceDocomo,
+					FaceSleepy.RelievedFaceKddi,
+					FaceSleepy.RelievedFaceSoftbank);
 			}
 			else
 			{
@@ -1578,7 +1738,11 @@ namespace EmojiLib
 					FaceSleepy.PensiveFaceWindows,
 					FaceSleepy.PensiveFaceTwitter,
 					FaceSleepy.PensiveFaceJoyPixels,
-					FaceSleepy.PensiveFaceSamsung);
+					FaceSleepy.PensiveFaceSamsung,
+					FaceSleepy.PensiveFaceGmail,
+					FaceSleepy.PensiveFaceDocomo,
+					FaceSleepy.PensiveFaceKddi,
+					FaceSleepy.PensiveFaceSoftbank);
 			}
 			else
 			{
@@ -1603,7 +1767,11 @@ namespace EmojiLib
 					FaceSleepy.SleepyFaceWindows,
 					FaceSleepy.SleepyFaceTwitter,
 					FaceSleepy.SleepyFaceJoyPixels,
-					FaceSleepy.SleepyFaceSamsung);
+					FaceSleepy.SleepyFaceSamsung,
+					FaceSleepy.SleepyFaceGmail,
+					null,
+					FaceSleepy.SleepyFaceKddi,
+					FaceSleepy.SleepyFaceSoftbank);
 			}
 			else
 			{
@@ -1628,7 +1796,11 @@ namespace EmojiLib
 					FaceSleepy.DroolingFaceWindows,
 					FaceSleepy.DroolingFaceTwitter,
 					FaceSleepy.DroolingFaceJoyPixels,
-					FaceSleepy.DroolingFaceSamsung);
+					FaceSleepy.DroolingFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1653,7 +1825,11 @@ namespace EmojiLib
 					FaceSleepy.SleepingFaceWindows,
 					FaceSleepy.SleepingFaceTwitter,
 					FaceSleepy.SleepingFaceJoyPixels,
-					FaceSleepy.SleepingFaceSamsung);
+					FaceSleepy.SleepingFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1678,7 +1854,11 @@ namespace EmojiLib
 					FaceUnwell.FaceWithMedicalMaskWindows,
 					FaceUnwell.FaceWithMedicalMaskTwitter,
 					FaceUnwell.FaceWithMedicalMaskJoyPixels,
-					FaceUnwell.FaceWithMedicalMaskSamsung);
+					FaceUnwell.FaceWithMedicalMaskSamsung,
+					FaceUnwell.FaceWithMedicalMaskGmail,
+					null,
+					FaceUnwell.FaceWithMedicalMaskKddi,
+					FaceUnwell.FaceWithMedicalMaskSoftbank);
 			}
 			else
 			{
@@ -1703,7 +1883,11 @@ namespace EmojiLib
 					FaceUnwell.FaceWithThermometerWindows,
 					FaceUnwell.FaceWithThermometerTwitter,
 					FaceUnwell.FaceWithThermometerJoyPixels,
-					FaceUnwell.FaceWithThermometerSamsung);
+					FaceUnwell.FaceWithThermometerSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1728,7 +1912,11 @@ namespace EmojiLib
 					FaceUnwell.FaceWithHeadBandageWindows,
 					FaceUnwell.FaceWithHeadBandageTwitter,
 					FaceUnwell.FaceWithHeadBandageJoyPixels,
-					FaceUnwell.FaceWithHeadBandageSamsung);
+					FaceUnwell.FaceWithHeadBandageSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1753,7 +1941,11 @@ namespace EmojiLib
 					FaceUnwell.NauseatedFaceWindows,
 					FaceUnwell.NauseatedFaceTwitter,
 					FaceUnwell.NauseatedFaceJoyPixels,
-					FaceUnwell.NauseatedFaceSamsung);
+					FaceUnwell.NauseatedFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1778,7 +1970,11 @@ namespace EmojiLib
 					FaceUnwell.FaceVomitingWindows,
 					FaceUnwell.FaceVomitingTwitter,
 					FaceUnwell.FaceVomitingJoyPixels,
-					FaceUnwell.FaceVomitingSamsung);
+					FaceUnwell.FaceVomitingSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1803,7 +1999,11 @@ namespace EmojiLib
 					FaceUnwell.SneezingFaceWindows,
 					FaceUnwell.SneezingFaceTwitter,
 					FaceUnwell.SneezingFaceJoyPixels,
-					FaceUnwell.SneezingFaceSamsung);
+					FaceUnwell.SneezingFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1828,7 +2028,11 @@ namespace EmojiLib
 					FaceUnwell.HotFaceWindows,
 					FaceUnwell.HotFaceTwitter,
 					FaceUnwell.HotFaceJoyPixels,
-					FaceUnwell.HotFaceSamsung);
+					FaceUnwell.HotFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1853,7 +2057,11 @@ namespace EmojiLib
 					FaceUnwell.ColdFaceWindows,
 					FaceUnwell.ColdFaceTwitter,
 					FaceUnwell.ColdFaceJoyPixels,
-					FaceUnwell.ColdFaceSamsung);
+					FaceUnwell.ColdFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1878,7 +2086,11 @@ namespace EmojiLib
 					FaceUnwell.WoozyFaceWindows,
 					FaceUnwell.WoozyFaceTwitter,
 					FaceUnwell.WoozyFaceJoyPixels,
-					FaceUnwell.WoozyFaceSamsung);
+					FaceUnwell.WoozyFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1903,7 +2115,11 @@ namespace EmojiLib
 					FaceUnwell.DizzyFaceWindows,
 					FaceUnwell.DizzyFaceTwitter,
 					FaceUnwell.DizzyFaceJoyPixels,
-					FaceUnwell.DizzyFaceSamsung);
+					FaceUnwell.DizzyFaceSamsung,
+					FaceUnwell.DizzyFaceGmail,
+					FaceUnwell.DizzyFaceDocomo,
+					FaceUnwell.DizzyFaceKddi,
+					null);
 			}
 			else
 			{
@@ -1928,7 +2144,11 @@ namespace EmojiLib
 					FaceUnwell.ExplodingHeadWindows,
 					FaceUnwell.ExplodingHeadTwitter,
 					FaceUnwell.ExplodingHeadJoyPixels,
-					FaceUnwell.ExplodingHeadSamsung);
+					FaceUnwell.ExplodingHeadSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1953,7 +2173,11 @@ namespace EmojiLib
 					FaceHat.CowboyHatFaceWindows,
 					FaceHat.CowboyHatFaceTwitter,
 					FaceHat.CowboyHatFaceJoyPixels,
-					FaceHat.CowboyHatFaceSamsung);
+					FaceHat.CowboyHatFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -1978,7 +2202,11 @@ namespace EmojiLib
 					FaceHat.PartyingFaceWindows,
 					FaceHat.PartyingFaceTwitter,
 					FaceHat.PartyingFaceJoyPixels,
-					FaceHat.PartyingFaceSamsung);
+					FaceHat.PartyingFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -2003,6 +2231,10 @@ namespace EmojiLib
 					null,
 					null,
 					FaceHat.DisguisedFaceJoyPixels,
+					null,
+					null,
+					null,
+					null,
 					null);
 			}
 			else
@@ -2028,7 +2260,11 @@ namespace EmojiLib
 					FaceGlasses.SmilingFaceWithSunglassesWindows,
 					FaceGlasses.SmilingFaceWithSunglassesTwitter,
 					FaceGlasses.SmilingFaceWithSunglassesJoyPixels,
-					FaceGlasses.SmilingFaceWithSunglassesSamsung);
+					FaceGlasses.SmilingFaceWithSunglassesSamsung,
+					FaceGlasses.SmilingFaceWithSunglassesGmail,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -2053,7 +2289,11 @@ namespace EmojiLib
 					FaceGlasses.NerdFaceWindows,
 					FaceGlasses.NerdFaceTwitter,
 					FaceGlasses.NerdFaceJoyPixels,
-					FaceGlasses.NerdFaceSamsung);
+					FaceGlasses.NerdFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -2078,7 +2318,11 @@ namespace EmojiLib
 					FaceGlasses.FaceWithMonocleWindows,
 					FaceGlasses.FaceWithMonocleTwitter,
 					FaceGlasses.FaceWithMonocleJoyPixels,
-					FaceGlasses.FaceWithMonocleSamsung);
+					FaceGlasses.FaceWithMonocleSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -2103,7 +2347,11 @@ namespace EmojiLib
 					FaceConcerned.ConfusedFaceWindows,
 					FaceConcerned.ConfusedFaceTwitter,
 					FaceConcerned.ConfusedFaceJoyPixels,
-					FaceConcerned.ConfusedFaceSamsung);
+					FaceConcerned.ConfusedFaceSamsung,
+					FaceConcerned.ConfusedFaceGmail,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -2128,7 +2376,11 @@ namespace EmojiLib
 					FaceConcerned.WorriedFaceWindows,
 					FaceConcerned.WorriedFaceTwitter,
 					FaceConcerned.WorriedFaceJoyPixels,
-					FaceConcerned.WorriedFaceSamsung);
+					FaceConcerned.WorriedFaceSamsung,
+					FaceConcerned.WorriedFaceGmail,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -2153,7 +2405,11 @@ namespace EmojiLib
 					FaceConcerned.SlightlyFrowningFaceWindows,
 					FaceConcerned.SlightlyFrowningFaceTwitter,
 					FaceConcerned.SlightlyFrowningFaceJoyPixels,
-					FaceConcerned.SlightlyFrowningFaceSamsung);
+					FaceConcerned.SlightlyFrowningFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -2178,7 +2434,11 @@ namespace EmojiLib
 					FaceConcerned.FrowningFaceWindows,
 					FaceConcerned.FrowningFaceTwitter,
 					FaceConcerned.FrowningFaceJoyPixels,
-					FaceConcerned.FrowningFaceSamsung);
+					FaceConcerned.FrowningFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -2203,7 +2463,11 @@ namespace EmojiLib
 					FaceConcerned.FaceWithOpenMouthWindows,
 					FaceConcerned.FaceWithOpenMouthTwitter,
 					FaceConcerned.FaceWithOpenMouthJoyPixels,
-					FaceConcerned.FaceWithOpenMouthSamsung);
+					FaceConcerned.FaceWithOpenMouthSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -2228,7 +2492,11 @@ namespace EmojiLib
 					FaceConcerned.HushedFaceWindows,
 					FaceConcerned.HushedFaceTwitter,
 					FaceConcerned.HushedFaceJoyPixels,
-					FaceConcerned.HushedFaceSamsung);
+					FaceConcerned.HushedFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -2253,7 +2521,11 @@ namespace EmojiLib
 					FaceConcerned.AstonishedFaceWindows,
 					FaceConcerned.AstonishedFaceTwitter,
 					FaceConcerned.AstonishedFaceJoyPixels,
-					FaceConcerned.AstonishedFaceSamsung);
+					FaceConcerned.AstonishedFaceSamsung,
+					FaceConcerned.AstonishedFaceGmail,
+					null,
+					FaceConcerned.AstonishedFaceKddi,
+					FaceConcerned.AstonishedFaceSoftbank);
 			}
 			else
 			{
@@ -2278,7 +2550,11 @@ namespace EmojiLib
 					FaceConcerned.FlushedFaceWindows,
 					FaceConcerned.FlushedFaceTwitter,
 					FaceConcerned.FlushedFaceJoyPixels,
-					FaceConcerned.FlushedFaceSamsung);
+					FaceConcerned.FlushedFaceSamsung,
+					FaceConcerned.FlushedFaceGmail,
+					null,
+					FaceConcerned.FlushedFaceKddi,
+					FaceConcerned.FlushedFaceSoftbank);
 			}
 			else
 			{
@@ -2303,7 +2579,11 @@ namespace EmojiLib
 					FaceConcerned.PleadingFaceWindows,
 					FaceConcerned.PleadingFaceTwitter,
 					FaceConcerned.PleadingFaceJoyPixels,
-					FaceConcerned.PleadingFaceSamsung);
+					FaceConcerned.PleadingFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -2328,7 +2608,11 @@ namespace EmojiLib
 					FaceConcerned.FrowningFaceWithOpenMouthWindows,
 					FaceConcerned.FrowningFaceWithOpenMouthTwitter,
 					FaceConcerned.FrowningFaceWithOpenMouthJoyPixels,
-					FaceConcerned.FrowningFaceWithOpenMouthSamsung);
+					FaceConcerned.FrowningFaceWithOpenMouthSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -2353,7 +2637,11 @@ namespace EmojiLib
 					FaceConcerned.AnguishedFaceWindows,
 					FaceConcerned.AnguishedFaceTwitter,
 					FaceConcerned.AnguishedFaceJoyPixels,
-					FaceConcerned.AnguishedFaceSamsung);
+					FaceConcerned.AnguishedFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -2378,7 +2666,11 @@ namespace EmojiLib
 					FaceConcerned.FearfulFaceWindows,
 					FaceConcerned.FearfulFaceTwitter,
 					FaceConcerned.FearfulFaceJoyPixels,
-					FaceConcerned.FearfulFaceSamsung);
+					FaceConcerned.FearfulFaceSamsung,
+					FaceConcerned.FearfulFaceGmail,
+					null,
+					FaceConcerned.FearfulFaceKddi,
+					FaceConcerned.FearfulFaceSoftbank);
 			}
 			else
 			{
@@ -2403,7 +2695,11 @@ namespace EmojiLib
 					FaceConcerned.AnxiousFaceWithSweatWindows,
 					FaceConcerned.AnxiousFaceWithSweatTwitter,
 					FaceConcerned.AnxiousFaceWithSweatJoyPixels,
-					FaceConcerned.AnxiousFaceWithSweatSamsung);
+					FaceConcerned.AnxiousFaceWithSweatSamsung,
+					FaceConcerned.AnxiousFaceWithSweatGmail,
+					null,
+					FaceConcerned.AnxiousFaceWithSweatKddi,
+					FaceConcerned.AnxiousFaceWithSweatSoftbank);
 			}
 			else
 			{
@@ -2428,7 +2724,11 @@ namespace EmojiLib
 					FaceConcerned.SadButRelievedFaceWindows,
 					FaceConcerned.SadButRelievedFaceTwitter,
 					FaceConcerned.SadButRelievedFaceJoyPixels,
-					FaceConcerned.SadButRelievedFaceSamsung);
+					FaceConcerned.SadButRelievedFaceSamsung,
+					FaceConcerned.SadButRelievedFaceGmail,
+					null,
+					null,
+					FaceConcerned.SadButRelievedFaceSoftbank);
 			}
 			else
 			{
@@ -2453,7 +2753,11 @@ namespace EmojiLib
 					FaceConcerned.CryingFaceWindows,
 					FaceConcerned.CryingFaceTwitter,
 					FaceConcerned.CryingFaceJoyPixels,
-					FaceConcerned.CryingFaceSamsung);
+					FaceConcerned.CryingFaceSamsung,
+					FaceConcerned.CryingFaceGmail,
+					FaceConcerned.CryingFaceDocomo,
+					FaceConcerned.CryingFaceKddi,
+					FaceConcerned.CryingFaceSoftbank);
 			}
 			else
 			{
@@ -2478,7 +2782,11 @@ namespace EmojiLib
 					FaceConcerned.LoudlyCryingFaceWindows,
 					FaceConcerned.LoudlyCryingFaceTwitter,
 					FaceConcerned.LoudlyCryingFaceJoyPixels,
-					FaceConcerned.LoudlyCryingFaceSamsung);
+					FaceConcerned.LoudlyCryingFaceSamsung,
+					FaceConcerned.LoudlyCryingFaceGmail,
+					FaceConcerned.LoudlyCryingFaceDocomo,
+					FaceConcerned.LoudlyCryingFaceKddi,
+					FaceConcerned.LoudlyCryingFaceSoftbank);
 			}
 			else
 			{
@@ -2503,7 +2811,11 @@ namespace EmojiLib
 					FaceConcerned.FaceScreamingInFearWindows,
 					FaceConcerned.FaceScreamingInFearTwitter,
 					FaceConcerned.FaceScreamingInFearJoyPixels,
-					FaceConcerned.FaceScreamingInFearSamsung);
+					FaceConcerned.FaceScreamingInFearSamsung,
+					FaceConcerned.FaceScreamingInFearGmail,
+					FaceConcerned.FaceScreamingInFearDocomo,
+					FaceConcerned.FaceScreamingInFearKddi,
+					FaceConcerned.FaceScreamingInFearSoftbank);
 			}
 			else
 			{
@@ -2528,7 +2840,11 @@ namespace EmojiLib
 					FaceConcerned.ConfoundedFaceWindows,
 					FaceConcerned.ConfoundedFaceTwitter,
 					FaceConcerned.ConfoundedFaceJoyPixels,
-					FaceConcerned.ConfoundedFaceSamsung);
+					FaceConcerned.ConfoundedFaceSamsung,
+					FaceConcerned.ConfoundedFaceGmail,
+					FaceConcerned.ConfoundedFaceDocomo,
+					FaceConcerned.ConfoundedFaceKddi,
+					FaceConcerned.ConfoundedFaceSoftbank);
 			}
 			else
 			{
@@ -2553,7 +2869,11 @@ namespace EmojiLib
 					FaceConcerned.PerseveringFaceWindows,
 					FaceConcerned.PerseveringFaceTwitter,
 					FaceConcerned.PerseveringFaceJoyPixels,
-					FaceConcerned.PerseveringFaceSamsung);
+					FaceConcerned.PerseveringFaceSamsung,
+					FaceConcerned.PerseveringFaceGmail,
+					FaceConcerned.PerseveringFaceDocomo,
+					FaceConcerned.PerseveringFaceKddi,
+					FaceConcerned.PerseveringFaceSoftbank);
 			}
 			else
 			{
@@ -2578,7 +2898,11 @@ namespace EmojiLib
 					FaceConcerned.DisappointedFaceWindows,
 					FaceConcerned.DisappointedFaceTwitter,
 					FaceConcerned.DisappointedFaceJoyPixels,
-					FaceConcerned.DisappointedFaceSamsung);
+					FaceConcerned.DisappointedFaceSamsung,
+					FaceConcerned.DisappointedFaceGmail,
+					FaceConcerned.DisappointedFaceDocomo,
+					null,
+					FaceConcerned.DisappointedFaceSoftbank);
 			}
 			else
 			{
@@ -2603,7 +2927,11 @@ namespace EmojiLib
 					FaceConcerned.DowncastFaceWithSweatWindows,
 					FaceConcerned.DowncastFaceWithSweatTwitter,
 					FaceConcerned.DowncastFaceWithSweatJoyPixels,
-					FaceConcerned.DowncastFaceWithSweatSamsung);
+					FaceConcerned.DowncastFaceWithSweatSamsung,
+					FaceConcerned.DowncastFaceWithSweatGmail,
+					FaceConcerned.DowncastFaceWithSweatDocomo,
+					FaceConcerned.DowncastFaceWithSweatKddi,
+					FaceConcerned.DowncastFaceWithSweatSoftbank);
 			}
 			else
 			{
@@ -2628,7 +2956,11 @@ namespace EmojiLib
 					FaceConcerned.WearyFaceWindows,
 					FaceConcerned.WearyFaceTwitter,
 					FaceConcerned.WearyFaceJoyPixels,
-					FaceConcerned.WearyFaceSamsung);
+					FaceConcerned.WearyFaceSamsung,
+					FaceConcerned.WearyFaceGmail,
+					null,
+					FaceConcerned.WearyFaceKddi,
+					null);
 			}
 			else
 			{
@@ -2653,7 +2985,11 @@ namespace EmojiLib
 					FaceConcerned.TiredFaceWindows,
 					FaceConcerned.TiredFaceTwitter,
 					FaceConcerned.TiredFaceJoyPixels,
-					FaceConcerned.TiredFaceSamsung);
+					FaceConcerned.TiredFaceSamsung,
+					FaceConcerned.TiredFaceGmail,
+					null,
+					FaceConcerned.TiredFaceKddi,
+					null);
 			}
 			else
 			{
@@ -2678,7 +3014,11 @@ namespace EmojiLib
 					FaceConcerned.YawningFaceWindows,
 					FaceConcerned.YawningFaceTwitter,
 					FaceConcerned.YawningFaceJoyPixels,
-					FaceConcerned.YawningFaceSamsung);
+					FaceConcerned.YawningFaceSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -2703,7 +3043,11 @@ namespace EmojiLib
 					FaceNegative.FaceWithSteamFromNoseWindows,
 					FaceNegative.FaceWithSteamFromNoseTwitter,
 					FaceNegative.FaceWithSteamFromNoseJoyPixels,
-					FaceNegative.FaceWithSteamFromNoseSamsung);
+					FaceNegative.FaceWithSteamFromNoseSamsung,
+					FaceNegative.FaceWithSteamFromNoseGmail,
+					null,
+					FaceNegative.FaceWithSteamFromNoseKddi,
+					null);
 			}
 			else
 			{
@@ -2728,7 +3072,11 @@ namespace EmojiLib
 					FaceNegative.PoutingFaceWindows,
 					FaceNegative.PoutingFaceTwitter,
 					FaceNegative.PoutingFaceJoyPixels,
-					FaceNegative.PoutingFaceSamsung);
+					FaceNegative.PoutingFaceSamsung,
+					FaceNegative.PoutingFaceGmail,
+					FaceNegative.PoutingFaceDocomo,
+					FaceNegative.PoutingFaceKddi,
+					FaceNegative.PoutingFaceSoftbank);
 			}
 			else
 			{
@@ -2753,7 +3101,11 @@ namespace EmojiLib
 					FaceNegative.AngryFaceWindows,
 					FaceNegative.AngryFaceTwitter,
 					FaceNegative.AngryFaceJoyPixels,
-					FaceNegative.AngryFaceSamsung);
+					FaceNegative.AngryFaceSamsung,
+					FaceNegative.AngryFaceGmail,
+					FaceNegative.AngryFaceDocomo,
+					FaceNegative.AngryFaceKddi,
+					FaceNegative.AngryFaceSoftbank);
 			}
 			else
 			{
@@ -2778,7 +3130,11 @@ namespace EmojiLib
 					FaceNegative.FaceWithSymbolsOnMouthWindows,
 					FaceNegative.FaceWithSymbolsOnMouthTwitter,
 					FaceNegative.FaceWithSymbolsOnMouthJoyPixels,
-					FaceNegative.FaceWithSymbolsOnMouthSamsung);
+					FaceNegative.FaceWithSymbolsOnMouthSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -2803,7 +3159,11 @@ namespace EmojiLib
 					FaceNegative.SmilingFaceWithHornsWindows,
 					FaceNegative.SmilingFaceWithHornsTwitter,
 					FaceNegative.SmilingFaceWithHornsJoyPixels,
-					FaceNegative.SmilingFaceWithHornsSamsung);
+					FaceNegative.SmilingFaceWithHornsSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{
@@ -2828,7 +3188,11 @@ namespace EmojiLib
 					FaceNegative.AngryFaceWithHornsWindows,
 					FaceNegative.AngryFaceWithHornsTwitter,
 					FaceNegative.AngryFaceWithHornsJoyPixels,
-					FaceNegative.AngryFaceWithHornsSamsung);
+					FaceNegative.AngryFaceWithHornsSamsung,
+					FaceNegative.AngryFaceWithHornsGmail,
+					null,
+					FaceNegative.AngryFaceWithHornsKddi,
+					FaceNegative.AngryFaceWithHornsSoftbank);
 			}
 			else
 			{
@@ -2853,7 +3217,11 @@ namespace EmojiLib
 					FaceNegative.SkullWindows,
 					FaceNegative.SkullTwitter,
 					FaceNegative.SkullJoyPixels,
-					FaceNegative.SkullSamsung);
+					FaceNegative.SkullSamsung,
+					FaceNegative.AngryFaceWithHornsGmail,
+					null,
+					FaceNegative.AngryFaceWithHornsKddi,
+					FaceNegative.AngryFaceWithHornsSoftbank);
 			}
 			else
 			{
@@ -2878,7 +3246,11 @@ namespace EmojiLib
 					FaceNegative.SkullAndCrossbonesWindows,
 					FaceNegative.SkullAndCrossbonesTwitter,
 					FaceNegative.SkullAndCrossbonesJoyPixels,
-					FaceNegative.SkullAndCrossbonesSamsung);
+					FaceNegative.SkullAndCrossbonesSamsung,
+					null,
+					null,
+					null,
+					null);
 			}
 			else
 			{

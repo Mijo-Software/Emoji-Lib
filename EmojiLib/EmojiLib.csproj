@@ -223,6 +223,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="emoji-lib.ico" />
+    <None Include="Resources\RelievedFaceKddi.gif" />
+    <None Include="Resources\RelievedFaceGmail.gif" />
+    <None Include="Resources\RelievedFaceDocomo.gif" />
+    <None Include="Resources\RelievedFaceSoftbank.gif" />
+    <None Include="Resources\FaceSavoringFoodDocomo.gif" />
+    <None Include="Resources\FaceSavoringFoodGmail.gif" />
+    <None Include="Resources\GrinningSquintingFaceGmail.gif" />
     <None Include="Resources\SkullKddi.gif" />
     <None Include="Resources\SkullGmail.gif" />
     <None Include="Resources\PoutingFaceSoftbank.gif" />
@@ -339,7 +346,6 @@
     <None Include="Resources\SmilingFaceWithSmilingEyesGmail.gif" />
     <None Include="Resources\SlightlySmilingFaceGmail.gif" />
     <None Include="Resources\GrinningSquintingFaceDocomo.gif" />
-    <None Include="Resources\GrinningSquintingFaceApple.gif" />
     <None Include="Resources\GrinningFaceWithSweatGmail.gif" />
     <None Include="Resources\GrinningFaceWithSweatDocomo.gif" />
     <None Include="Resources\GrinningFaceWithSmilingEyesSoftbank.gif" />
