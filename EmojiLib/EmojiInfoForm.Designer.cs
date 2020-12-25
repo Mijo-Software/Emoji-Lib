@@ -63,7 +63,8 @@
 			this.pictureBoxGoogle = new System.Windows.Forms.PictureBox();
 			this.groupBoxMetadata = new System.Windows.Forms.GroupBox();
 			this.groupBoxImageVersions = new System.Windows.Forms.GroupBox();
-			this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
+			this.saveFileDialogAsPng = new System.Windows.Forms.SaveFileDialog();
+			this.saveFileDialogAsGif = new System.Windows.Forms.SaveFileDialog();
 			this.tableLayoutPanelMetadata.SuspendLayout();
 			this.tableLayoutPanelImageVersions.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBoxSoftbank)).BeginInit();
@@ -527,11 +528,17 @@
 			this.groupBoxImageVersions.TabStop = false;
 			this.groupBoxImageVersions.Text = "&Image version";
 			// 
-			// saveFileDialog
+			// saveFileDialogAsPng
 			// 
-			this.saveFileDialog.DefaultExt = "png";
-			this.saveFileDialog.Filter = "PNG|*.png";
-			this.saveFileDialog.SupportMultiDottedExtensions = true;
+			this.saveFileDialogAsPng.DefaultExt = "png";
+			this.saveFileDialogAsPng.Filter = "png|*.png";
+			this.saveFileDialogAsPng.SupportMultiDottedExtensions = true;
+			// 
+			// saveFileDialogAsGif
+			// 
+			this.saveFileDialogAsGif.DefaultExt = "gif";
+			this.saveFileDialogAsGif.Filter = "gif|*.gif";
+			this.saveFileDialogAsGif.SupportMultiDottedExtensions = true;
 			// 
 			// EmojiInfoForm
 			// 
@@ -595,7 +602,7 @@
 		private System.Windows.Forms.TableLayoutPanel tableLayoutPanelImageVersions;
 		private System.Windows.Forms.GroupBox groupBoxMetadata;
 		private System.Windows.Forms.GroupBox groupBoxImageVersions;
-		private System.Windows.Forms.SaveFileDialog saveFileDialog;
+		private System.Windows.Forms.SaveFileDialog saveFileDialogAsPng;
 		private System.Windows.Forms.Label labelGroup;
 		private System.Windows.Forms.Label labelGroupDesc;
 		private System.Windows.Forms.Label labelSubGroup;
@@ -608,5 +615,6 @@
 		private System.Windows.Forms.Label labelKddiVersion;
 		private System.Windows.Forms.Label labelDocomoVersion;
 		private System.Windows.Forms.Label labelGmailVersion;
+		private System.Windows.Forms.SaveFileDialog saveFileDialogAsGif;
 	}
 }
