@@ -444,6 +444,19 @@ namespace EmojiLib
 							case "buttonAlien": newButton.Click += new System.EventHandler(ButtonAlien_Click); break;
 							case "buttonAlienMonster": newButton.Click += new System.EventHandler(ButtonAlienMonster_Click); break;
 							case "buttonRobot": newButton.Click += new System.EventHandler(ButtonRobot_Click); break;
+							case "buttonGrinningCat": newButton.Click += new System.EventHandler(ButtonGrinningCat_Click); break;
+							case "button": newButton.Click += new System.EventHandler(ButtonGrinningCatWithSmilingEyes_Click); break;
+							case "buttonGrinningCatWithSmilingEyes": newButton.Click += new System.EventHandler(Button_Click); break;
+							case "buttonCatWithTearsOfJoy": newButton.Click += new System.EventHandler(ButtonCatWithTearsOfJoy_Click); break;
+							case "buttonSmilingCatWithHeartEyes": newButton.Click += new System.EventHandler(ButtonSmilingCatWithHeartEyes_Click); break;
+							case "buttonCatWithWrySmile": newButton.Click += new System.EventHandler(ButtonCatWithWrySmile_Click); break;
+							case "buttonKissingCat": newButton.Click += new System.EventHandler(ButtonKissingCat_Click); break;
+							case "buttonWearyCat": newButton.Click += new System.EventHandler(ButtonWearyCat_Click); break;
+							case "buttonCryingCat": newButton.Click += new System.EventHandler(ButtonCryingCat_Click); break;
+							case "buttonPoutingCat": newButton.Click += new System.EventHandler(ButtonPoutingCat_Click); break;
+							case "buttonSeeNoEvilMonkey": newButton.Click += new System.EventHandler(ButtonSeeNoEvilMonkey_Click); break;
+							case "buttonHearNoEvilMonkey": newButton.Click += new System.EventHandler(ButtonHearNoEvilMonkey_Click); break;
+							case "buttonSpeakNoEvilMonkey": newButton.Click += new System.EventHandler(ButtonSpeakNoEvilMonkey_Click); break;
 							default: newButton.Click += new System.EventHandler(Button_Click); break;
 						}
 						buttons.Capacity = capacity;
@@ -3490,6 +3503,354 @@ namespace EmojiLib
 					null,
 					null,
 					null,
+					null);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonGrinningCat_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonGrinningCat.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F63A", buttonGrinningCat.AccessibleName,
+					Resources.smileysAndEmotion, Resources.catFace,
+					buttonGrinningCat.Tag,
+					CatFace.GrinningCatApple,
+					CatFace.GrinningCatGoogle,
+					CatFace.GrinningCatFacebook,
+					CatFace.GrinningCatWindows,
+					CatFace.GrinningCatTwitter,
+					CatFace.GrinningCatJoyPixels,
+					CatFace.GrinningCatSamsung,
+					CatFace.GrinningCatGmail,
+					null,
+					CatFace.GrinningCatKddi,
+					null);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonGrinningCatWithSmilingEyes_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonGrinningCatWithSmilingEyes.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F638", buttonGrinningCatWithSmilingEyes.AccessibleName,
+					Resources.smileysAndEmotion, Resources.catFace,
+					buttonGrinningCatWithSmilingEyes.Tag,
+					CatFace.GrinningCatWithSmilingEyesApple,
+					CatFace.GrinningCatWithSmilingEyesGoogle,
+					CatFace.GrinningCatWithSmilingEyesFacebook,
+					CatFace.GrinningCatWithSmilingEyesWindows,
+					CatFace.GrinningCatWithSmilingEyesTwitter,
+					CatFace.GrinningCatWithSmilingEyesJoyPixels,
+					CatFace.GrinningCatWithSmilingEyesSamsung,
+					CatFace.GrinningCatWithSmilingEyesGmail,
+					null,
+					CatFace.GrinningCatWithSmilingEyesKddi,
+					null);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonCatWithTearsOfJoy_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonCatWithTearsOfJoy.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F639", buttonCatWithTearsOfJoy.AccessibleName,
+					Resources.smileysAndEmotion, Resources.catFace,
+					buttonCatWithTearsOfJoy.Tag,
+					CatFace.CatWithTearsOfJoyApple,
+					CatFace.CatWithTearsOfJoyGoogle,
+					CatFace.CatWithTearsOfJoyFacebook,
+					CatFace.CatWithTearsOfJoyWindows,
+					CatFace.CatWithTearsOfJoyTwitter,
+					CatFace.CatWithTearsOfJoyJoyPixels,
+					CatFace.CatWithTearsOfJoySamsung,
+					CatFace.CatWithTearsOfJoyGmail,
+					null,
+					CatFace.CatWithTearsOfJoyKddi,
+					null);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonSmilingCatWithHeartEyes_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonSmilingCatWithHeartEyes.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F63B", buttonSmilingCatWithHeartEyes.AccessibleName,
+					Resources.smileysAndEmotion, Resources.catFace,
+					buttonSmilingCatWithHeartEyes.Tag,
+					CatFace.SmilingCatWithHeartEyesApple,
+					CatFace.SmilingCatWithHeartEyesGoogle,
+					CatFace.SmilingCatWithHeartEyesFacebook,
+					CatFace.SmilingCatWithHeartEyesWindows,
+					CatFace.SmilingCatWithHeartEyesTwitter,
+					CatFace.SmilingCatWithHeartEyesJoyPixels,
+					CatFace.SmilingCatWithHeartEyesSamsung,
+					CatFace.SmilingCatWithHeartEyesGmail,
+					null,
+					CatFace.SmilingCatWithHeartEyesKddi,
+					null);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonCatWithWrySmile_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonCatWithWrySmile.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F63C", buttonCatWithWrySmile.AccessibleName,
+					Resources.smileysAndEmotion, Resources.catFace,
+					buttonCatWithWrySmile.Tag,
+					CatFace.CatWithWrySmileApple,
+					CatFace.CatWithWrySmileGoogle,
+					CatFace.CatWithWrySmileFacebook,
+					CatFace.CatWithWrySmileWindows,
+					CatFace.CatWithWrySmileTwitter,
+					CatFace.CatWithWrySmileJoyPixels,
+					CatFace.CatWithWrySmileSamsung,
+					CatFace.CatWithWrySmileGmail,
+					null,
+					CatFace.CatWithWrySmileKddi,
+					null);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonKissingCat_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonKissingCat.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F63D", buttonKissingCat.AccessibleName,
+					Resources.smileysAndEmotion, Resources.catFace,
+					buttonKissingCat.Tag,
+					CatFace.KissingCatApple,
+					CatFace.KissingCatGoogle,
+					CatFace.KissingCatFacebook,
+					CatFace.KissingCatWindows,
+					CatFace.KissingCatTwitter,
+					CatFace.KissingCatJoyPixels,
+					CatFace.KissingCatSamsung,
+					CatFace.KissingCatGmail,
+					null,
+					CatFace.KissingCatKddi,
+					null);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonWearyCat_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonWearyCat.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F640", buttonWearyCat.AccessibleName,
+					Resources.smileysAndEmotion, Resources.catFace,
+					buttonWearyCat.Tag,
+					CatFace.WearyCatApple,
+					CatFace.WearyCatGoogle,
+					CatFace.WearyCatFacebook,
+					CatFace.WearyCatWindows,
+					CatFace.WearyCatTwitter,
+					CatFace.WearyCatJoyPixels,
+					CatFace.WearyCatSamsung,
+					CatFace.WearyCatGmail,
+					null,
+					CatFace.WearyCatKddi,
+					null);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonCryingCat_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonCryingCat.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F63F", buttonCryingCat.AccessibleName,
+					Resources.smileysAndEmotion, Resources.catFace,
+					buttonCryingCat.Tag,
+					CatFace.CryingCatApple,
+					CatFace.CryingCatGoogle,
+					CatFace.CryingCatFacebook,
+					CatFace.CryingCatWindows,
+					CatFace.CryingCatTwitter,
+					CatFace.CryingCatJoyPixels,
+					CatFace.CryingCatSamsung,
+					CatFace.CryingCatGmail,
+					null,
+					CatFace.CryingCatKddi,
+					null);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonPoutingCat_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonPoutingCat.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F63E", buttonPoutingCat.AccessibleName,
+					Resources.smileysAndEmotion, Resources.catFace,
+					buttonPoutingCat.Tag,
+					CatFace.PoutingCatApple,
+					CatFace.PoutingCatGoogle,
+					CatFace.PoutingCatFacebook,
+					CatFace.PoutingCatWindows,
+					CatFace.PoutingCatTwitter,
+					CatFace.PoutingCatJoyPixels,
+					CatFace.PoutingCatSamsung,
+					CatFace.PoutingCatGmail,
+					null,
+					CatFace.PoutingCatKddi,
+					null);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonSeeNoEvilMonkey_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonSeeNoEvilMonkey.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F648", buttonSeeNoEvilMonkey.AccessibleName,
+					Resources.smileysAndEmotion, Resources.monkeyFace,
+					buttonSeeNoEvilMonkey.Tag,
+					MonkeyFace.SeeNoEvilMonkeyApple,
+					MonkeyFace.SeeNoEvilMonkeyGoogle,
+					MonkeyFace.SeeNoEvilMonkeyFacebook,
+					MonkeyFace.SeeNoEvilMonkeyWindows,
+					MonkeyFace.SeeNoEvilMonkeyTwitter,
+					MonkeyFace.SeeNoEvilMonkeyJoyPixels,
+					MonkeyFace.SeeNoEvilMonkeySamsung,
+					MonkeyFace.SeeNoEvilMonkeyGmail,
+					null,
+					MonkeyFace.SeeNoEvilMonkeyKddi,
+					null);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonHearNoEvilMonkey_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonHearNoEvilMonkey.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F649", buttonHearNoEvilMonkey.AccessibleName,
+					Resources.smileysAndEmotion, Resources.monkeyFace,
+					buttonHearNoEvilMonkey.Tag,
+					MonkeyFace.HearNoEvilMonkeyApple,
+					MonkeyFace.HearNoEvilMonkeyGoogle,
+					MonkeyFace.HearNoEvilMonkeyFacebook,
+					MonkeyFace.HearNoEvilMonkeyWindows,
+					MonkeyFace.HearNoEvilMonkeyTwitter,
+					MonkeyFace.HearNoEvilMonkeyJoyPixels,
+					MonkeyFace.HearNoEvilMonkeySamsung,
+					MonkeyFace.HearNoEvilMonkeyGmail,
+					null,
+					MonkeyFace.HearNoEvilMonkeyKddi,
+					null);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonSpeakNoEvilMonkey_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonSpeakNoEvilMonkey.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F64A", buttonSpeakNoEvilMonkey.AccessibleName,
+					Resources.smileysAndEmotion, Resources.monkeyFace,
+					buttonSpeakNoEvilMonkey.Tag,
+					MonkeyFace.SpeakNoEvilMonkeyApple,
+					MonkeyFace.SpeakNoEvilMonkeyGoogle,
+					MonkeyFace.SpeakNoEvilMonkeyFacebook,
+					MonkeyFace.SpeakNoEvilMonkeyWindows,
+					MonkeyFace.SpeakNoEvilMonkeyTwitter,
+					MonkeyFace.SpeakNoEvilMonkeyJoyPixels,
+					MonkeyFace.SpeakNoEvilMonkeySamsung,
+					MonkeyFace.SpeakNoEvilMonkeyGmail,
+					null,
+					MonkeyFace.SpeakNoEvilMonkeyKddi,
 					null);
 			}
 			else
