@@ -13,6 +13,7 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
     <PublishUrl>http://localhost/EmojiLib/</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
@@ -25,7 +26,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>true</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -88,6 +88,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FaceAffection.resx</DependentUpon>
     </Compile>
+    <Compile Include="CatFace.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CatFace.resx</DependentUpon>
+    </Compile>
     <Compile Include="FaceConcerned.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -112,6 +117,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>FaceHat.resx</DependentUpon>
+    </Compile>
+    <Compile Include="MonkeyFace.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MonkeyFace.resx</DependentUpon>
     </Compile>
     <Compile Include="FaceNegative.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -161,6 +171,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FaceAffection.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="CatFace.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CatFace.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="FaceConcerned.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FaceConcerned.Designer.cs</LastGenOutput>
@@ -180,6 +194,10 @@
     <EmbeddedResource Include="FaceHat.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FaceHat.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonkeyFace.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MonkeyFace.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="FaceNegative.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -232,6 +250,114 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="emoji-lib.ico" />
+    <None Include="Resources\HearNoEvilMonkeyJoyPixels.png" />
+    <None Include="Resources\SpeakNoEvilMonkeyTwitter.png" />
+    <None Include="Resources\SpeakNoEvilMonkeySamsung.png" />
+    <None Include="Resources\SpeakNoEvilMonkeyKddi.gif" />
+    <None Include="Resources\SpeakNoEvilMonkeyJoyPixels.png" />
+    <None Include="Resources\SpeakNoEvilMonkeyGoogle.png" />
+    <None Include="Resources\SpeakNoEvilMonkeyGmail.gif" />
+    <None Include="Resources\SpeakNoEvilMonkeyFacebook.png" />
+    <None Include="Resources\SpeakNoEvilMonkeyApple.png" />
+    <None Include="Resources\SeeNoEvilMonkeyWindows.png" />
+    <None Include="Resources\SeeNoEvilMonkeyTwitter.png" />
+    <None Include="Resources\SeeNoEvilMonkeySamsung.png" />
+    <None Include="Resources\SeeNoEvilMonkeyKddi.gif" />
+    <None Include="Resources\SeeNoEvilMonkeyJoyPixels.png" />
+    <None Include="Resources\SeeNoEvilMonkeyGoogle.png" />
+    <None Include="Resources\SeeNoEvilMonkeyGmail.gif" />
+    <None Include="Resources\SeeNoEvilMonkeyFacebook.png" />
+    <None Include="Resources\SeeNoEvilMonkeyApple.png" />
+    <None Include="Resources\HearNoEvilMonkeyWindows.png" />
+    <None Include="Resources\HearNoEvilMonkeyTwitter.png" />
+    <None Include="Resources\HearNoEvilMonkeySamsung.png" />
+    <None Include="Resources\HearNoEvilMonkeyKddi.gif" />
+    <None Include="Resources\HearNoEvilMonkeyGoogle.png" />
+    <None Include="Resources\HearNoEvilMonkeyGmail.gif" />
+    <None Include="Resources\HearNoEvilMonkeyFacebook.png" />
+    <None Include="Resources\HearNoEvilMonkeyApple.png" />
+    <None Include="Resources\SpeakNoEvilMonkeyWindows.png" />
+    <None Include="Resources\SmilingCatWithHeartEyesGoogle.png" />
+    <None Include="Resources\SmilingCatWithHeartEyesGmail.gif" />
+    <None Include="Resources\SmilingCatWithHeartEyesFacebook.png" />
+    <None Include="Resources\SmilingCatWithHeartEyesApple.png" />
+    <None Include="Resources\PoutingCatWindows.png" />
+    <None Include="Resources\PoutingCatTwitter.png" />
+    <None Include="Resources\PoutingCatSamsung.png" />
+    <None Include="Resources\PoutingCatKddi.gif" />
+    <None Include="Resources\PoutingCatJoyPixels.png" />
+    <None Include="Resources\PoutingCatGoogle.png" />
+    <None Include="Resources\PoutingCatGmail.gif" />
+    <None Include="Resources\PoutingCatFacebook.png" />
+    <None Include="Resources\PoutingCatApple.png" />
+    <None Include="Resources\KissingCatWindows.png" />
+    <None Include="Resources\KissingCatTwitter.png" />
+    <None Include="Resources\KissingCatSamsung.png" />
+    <None Include="Resources\KissingCatKddi.gif" />
+    <None Include="Resources\KissingCatJoyPixels.png" />
+    <None Include="Resources\KissingCatGoogle.png" />
+    <None Include="Resources\KissingCatGmail.gif" />
+    <None Include="Resources\KissingCatFacebook.png" />
+    <None Include="Resources\KissingCatApple.png" />
+    <None Include="Resources\WearyCatWindows.png" />
+    <None Include="Resources\WearyCatTwitter.png" />
+    <None Include="Resources\WearyCatSamsung.png" />
+    <None Include="Resources\WearyCatKddi.gif" />
+    <None Include="Resources\WearyCatJoyPixels.png" />
+    <None Include="Resources\WearyCatGoogle.png" />
+    <None Include="Resources\WearyCatGmail.gif" />
+    <None Include="Resources\WearyCatFacebook.png" />
+    <None Include="Resources\WearyCatApple.png" />
+    <None Include="Resources\SmilingCatWithHeartEyesWindows.png" />
+    <None Include="Resources\SmilingCatWithHeartEyesTwitter.png" />
+    <None Include="Resources\SmilingCatWithHeartEyesSamsung.png" />
+    <None Include="Resources\SmilingCatWithHeartEyesKddi.gif" />
+    <None Include="Resources\SmilingCatWithHeartEyesJoyPixels.png" />
+    <None Include="Resources\GrinningCatWithSmilingEyesTwitter.png" />
+    <None Include="Resources\GrinningCatWithSmilingEyesSamsung.png" />
+    <None Include="Resources\GrinningCatWithSmilingEyesKddi.gif" />
+    <None Include="Resources\GrinningCatWithSmilingEyesJoyPixels.png" />
+    <None Include="Resources\GrinningCatWithSmilingEyesGoogle.png" />
+    <None Include="Resources\GrinningCatWithSmilingEyesGmail.gif" />
+    <None Include="Resources\GrinningCatWithSmilingEyesFacebook.png" />
+    <None Include="Resources\GrinningCatWithSmilingEyesApple.png" />
+    <None Include="Resources\GrinningCatWindows.png" />
+    <None Include="Resources\GrinningCatTwitter.png" />
+    <None Include="Resources\GrinningCatSamsung.png" />
+    <None Include="Resources\GrinningCatKddi.gif" />
+    <None Include="Resources\GrinningCatJoyPixels.png" />
+    <None Include="Resources\GrinningCatGoogle.png" />
+    <None Include="Resources\GrinningCatGmail.gif" />
+    <None Include="Resources\GrinningCatFacebook.png" />
+    <None Include="Resources\GrinningCatApple.png" />
+    <None Include="Resources\GrinningCatWithSmilingEyesWindows.png" />
+    <None Include="Resources\CryingCatApple.png" />
+    <None Include="Resources\CryingCatWindows.png" />
+    <None Include="Resources\CryingCatTwitter.png" />
+    <None Include="Resources\CryingCatSamsung.png" />
+    <None Include="Resources\CryingCatKddi.gif" />
+    <None Include="Resources\CryingCatJoyPixels.png" />
+    <None Include="Resources\CryingCatGoogle.png" />
+    <None Include="Resources\CryingCatGmail.gif" />
+    <None Include="Resources\CryingCatFacebook.png" />
+    <None Include="Resources\CatWithWrySmileSamsung.png" />
+    <None Include="Resources\CatWithWrySmileKddi.gif" />
+    <None Include="Resources\CatWithWrySmileJoyPixels.png" />
+    <None Include="Resources\CatWithWrySmileGoogle.png" />
+    <None Include="Resources\CatWithWrySmileGmail.gif" />
+    <None Include="Resources\CatWithWrySmileFacebook.png" />
+    <None Include="Resources\CatWithWrySmileApple.png" />
+    <None Include="Resources\CatWithTearsOfJoyWindows.png" />
+    <None Include="Resources\CatWithTearsOfJoyTwitter.png" />
+    <None Include="Resources\CatWithTearsOfJoySamsung.png" />
+    <None Include="Resources\CatWithTearsOfJoyKddi.gif" />
+    <None Include="Resources\CatWithTearsOfJoyJoyPixels.png" />
+    <None Include="Resources\CatWithTearsOfJoyGoogle.png" />
+    <None Include="Resources\CatWithTearsOfJoyGmail.gif" />
+    <None Include="Resources\CatWithTearsOfJoyFacebook.png" />
+    <None Include="Resources\CatWithTearsOfJoyApple.png" />
+    <None Include="Resources\CatWithWrySmileWindows.png" />
+    <None Include="Resources\CatWithWrySmileTwitter.png" />
     <None Include="Resources\RobotTwitter.png" />
     <None Include="Resources\RobotSamsung.png" />
     <None Include="Resources\RobotJoyPixels.png" />

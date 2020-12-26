@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CatWithTearsOfJoyApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithTearsOfJoyApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CatWithTearsOfJoyFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithTearsOfJoyFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CatWithTearsOfJoyGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithTearsOfJoyGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CatWithTearsOfJoyGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithTearsOfJoyGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CatWithTearsOfJoyJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithTearsOfJoyJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CatWithTearsOfJoyKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithTearsOfJoyKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CatWithTearsOfJoySamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithTearsOfJoySamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CatWithTearsOfJoyTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithTearsOfJoyTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CatWithTearsOfJoyWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithTearsOfJoyWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CatWithWrySmileApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithWrySmileApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CatWithWrySmileFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithWrySmileFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CatWithWrySmileGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithWrySmileGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CatWithWrySmileGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithWrySmileGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CatWithWrySmileJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithWrySmileJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CatWithWrySmileKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithWrySmileKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CatWithWrySmileSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithWrySmileSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CatWithWrySmileTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithWrySmileTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CatWithWrySmileWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CatWithWrySmileWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CryingCatApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CryingCatApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CryingCatFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CryingCatFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CryingCatGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CryingCatGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CryingCatGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CryingCatGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CryingCatJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CryingCatJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CryingCatKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CryingCatKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CryingCatSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CryingCatSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CryingCatTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CryingCatTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CryingCatWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CryingCatWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatWithSmilingEyesApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatWithSmilingEyesApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatWithSmilingEyesFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatWithSmilingEyesFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatWithSmilingEyesGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatWithSmilingEyesGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatWithSmilingEyesGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatWithSmilingEyesGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatWithSmilingEyesJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatWithSmilingEyesJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatWithSmilingEyesKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatWithSmilingEyesKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatWithSmilingEyesSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatWithSmilingEyesSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatWithSmilingEyesTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatWithSmilingEyesTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrinningCatWithSmilingEyesWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrinningCatWithSmilingEyesWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissingCatApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissingCatApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissingCatFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissingCatFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissingCatGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissingCatGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissingCatGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissingCatGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissingCatJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissingCatJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissingCatKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissingCatKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissingCatSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissingCatSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissingCatTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissingCatTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissingCatWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissingCatWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoutingCatApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PoutingCatApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoutingCatFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PoutingCatFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoutingCatGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PoutingCatGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoutingCatGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PoutingCatGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoutingCatJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PoutingCatJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoutingCatKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PoutingCatKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoutingCatSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PoutingCatSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoutingCatTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PoutingCatTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PoutingCatWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PoutingCatWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmilingCatWithHeartEyesApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SmilingCatWithHeartEyesApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmilingCatWithHeartEyesFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SmilingCatWithHeartEyesFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmilingCatWithHeartEyesGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SmilingCatWithHeartEyesGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmilingCatWithHeartEyesGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SmilingCatWithHeartEyesGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmilingCatWithHeartEyesJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SmilingCatWithHeartEyesJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmilingCatWithHeartEyesKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SmilingCatWithHeartEyesKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmilingCatWithHeartEyesSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SmilingCatWithHeartEyesSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmilingCatWithHeartEyesTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SmilingCatWithHeartEyesTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmilingCatWithHeartEyesWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SmilingCatWithHeartEyesWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WearyCatApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WearyCatApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WearyCatFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WearyCatFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WearyCatGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WearyCatGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WearyCatGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WearyCatGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WearyCatJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WearyCatJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WearyCatKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WearyCatKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WearyCatSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WearyCatSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WearyCatTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WearyCatTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WearyCatWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WearyCatWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

@@ -33,6 +33,29 @@
 			this.tabControlEmojis = new System.Windows.Forms.TabControl();
 			this.tabPageSmileys = new System.Windows.Forms.TabPage();
 			this.flowLayoutPanelSmileys = new System.Windows.Forms.FlowLayoutPanel();
+			this.tabPageSearch = new System.Windows.Forms.TabPage();
+			this.toolStripContainerSearch = new System.Windows.Forms.ToolStripContainer();
+			this.flowLayoutPanelSearchResult = new System.Windows.Forms.FlowLayoutPanel();
+			this.toolStripSearch = new System.Windows.Forms.ToolStrip();
+			this.labelSearchTerm = new System.Windows.Forms.ToolStripLabel();
+			this.textBoxSearch = new System.Windows.Forms.ToolStripTextBox();
+			this.statusStrip = new System.Windows.Forms.StatusStrip();
+			this.labelInformation = new System.Windows.Forms.ToolStripStatusLabel();
+			this.toolStripProgressBar = new System.Windows.Forms.ToolStripProgressBar();
+			this.toolStripContainerMain = new System.Windows.Forms.ToolStripContainer();
+			this.menuStrip = new System.Windows.Forms.MenuStrip();
+			this.toolStripMenuItemFile = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItemGoto = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItemSmileys = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItemSearch = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMain = new System.Windows.Forms.ToolStrip();
+			this.labelWorkMode = new System.Windows.Forms.ToolStripLabel();
+			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+			this.labelEmojiSize = new System.Windows.Forms.ToolStripLabel();
+			this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+			this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+			this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
+			this.labelCopiedStatus = new System.Windows.Forms.ToolStripStatusLabel();
 			this.buttonGrinningFace = new System.Windows.Forms.Button();
 			this.buttonGrinningFaceWithBigEyes = new System.Windows.Forms.Button();
 			this.buttonGrinningFaceWithSmilingEyes = new System.Windows.Forms.Button();
@@ -137,39 +160,28 @@
 			this.buttonAlien = new System.Windows.Forms.Button();
 			this.buttonAlienMonster = new System.Windows.Forms.Button();
 			this.buttonRobot = new System.Windows.Forms.Button();
-			this.tabPageSearch = new System.Windows.Forms.TabPage();
-			this.toolStripContainerSearch = new System.Windows.Forms.ToolStripContainer();
-			this.flowLayoutPanelSearchResult = new System.Windows.Forms.FlowLayoutPanel();
-			this.toolStripSearch = new System.Windows.Forms.ToolStrip();
-			this.labelSearchTerm = new System.Windows.Forms.ToolStripLabel();
-			this.textBoxSearch = new System.Windows.Forms.ToolStripTextBox();
+			this.buttonGrinningCat = new System.Windows.Forms.Button();
+			this.buttonGrinningCatWithSmilingEyes = new System.Windows.Forms.Button();
+			this.buttonCatWithTearsOfJoy = new System.Windows.Forms.Button();
+			this.buttonSmilingCatWithHeartEyes = new System.Windows.Forms.Button();
+			this.buttonCatWithWrySmile = new System.Windows.Forms.Button();
+			this.buttonKissingCat = new System.Windows.Forms.Button();
+			this.buttonWearyCat = new System.Windows.Forms.Button();
+			this.buttonCryingCat = new System.Windows.Forms.Button();
+			this.buttonPoutingCat = new System.Windows.Forms.Button();
+			this.buttonSeeNoEvilMonkey = new System.Windows.Forms.Button();
+			this.buttonHearNoEvilMonkey = new System.Windows.Forms.Button();
+			this.buttonSpeakNoEvilMonkey = new System.Windows.Forms.Button();
 			this.toolStripButtonFind = new System.Windows.Forms.ToolStripButton();
 			this.toolStripButtonClearAll = new System.Windows.Forms.ToolStripButton();
-			this.statusStrip = new System.Windows.Forms.StatusStrip();
-			this.labelInformation = new System.Windows.Forms.ToolStripStatusLabel();
-			this.labelCopiedStatus = new System.Windows.Forms.ToolStripStatusLabel();
-			this.toolStripProgressBar = new System.Windows.Forms.ToolStripProgressBar();
-			this.toolStripContainerMain = new System.Windows.Forms.ToolStripContainer();
-			this.menuStrip = new System.Windows.Forms.MenuStrip();
-			this.toolStripMenuItemFile = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripMenuItemAboutBox = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripMenuItemExit = new System.Windows.Forms.ToolStripMenuItem();
-			this.toolStripMenuItemGoto = new System.Windows.Forms.ToolStripMenuItem();
-			this.toolStripMenuItemSmileys = new System.Windows.Forms.ToolStripMenuItem();
-			this.toolStripMenuItemSearch = new System.Windows.Forms.ToolStripMenuItem();
-			this.toolStripMain = new System.Windows.Forms.ToolStrip();
-			this.labelWorkMode = new System.Windows.Forms.ToolStripLabel();
 			this.buttonPickerMode = new System.Windows.Forms.ToolStripButton();
 			this.buttonLibraryMode = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-			this.labelEmojiSize = new System.Windows.Forms.ToolStripLabel();
 			this.buttonEmojiSize16 = new System.Windows.Forms.ToolStripButton();
 			this.buttonEmojiSize24 = new System.Windows.Forms.ToolStripButton();
 			this.buttonEmojiSize32 = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
 			this.toolStripButtonSearch = new System.Windows.Forms.ToolStripButton();
-			this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-			this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
 			this.tabControlEmojis.SuspendLayout();
 			this.tabPageSmileys.SuspendLayout();
 			this.flowLayoutPanelSmileys.SuspendLayout();
@@ -327,12 +339,297 @@
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonAlien);
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonAlienMonster);
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonRobot);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonGrinningCat);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonGrinningCatWithSmilingEyes);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonCatWithTearsOfJoy);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSmilingCatWithHeartEyes);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonCatWithWrySmile);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonKissingCat);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonWearyCat);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonCryingCat);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonPoutingCat);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSeeNoEvilMonkey);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonHearNoEvilMonkey);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSpeakNoEvilMonkey);
 			this.flowLayoutPanelSmileys.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.flowLayoutPanelSmileys.Location = new System.Drawing.Point(3, 3);
 			this.flowLayoutPanelSmileys.Name = "flowLayoutPanelSmileys";
 			this.flowLayoutPanelSmileys.Size = new System.Drawing.Size(458, 283);
 			this.flowLayoutPanelSmileys.TabIndex = 1;
 			this.flowLayoutPanelSmileys.TabStop = true;
+			// 
+			// tabPageSearch
+			// 
+			this.tabPageSearch.AccessibleDescription = "search";
+			this.tabPageSearch.AccessibleName = "search";
+			this.tabPageSearch.AutoScroll = true;
+			this.tabPageSearch.Controls.Add(this.toolStripContainerSearch);
+			this.tabPageSearch.Location = new System.Drawing.Point(4, 22);
+			this.tabPageSearch.Name = "tabPageSearch";
+			this.tabPageSearch.Size = new System.Drawing.Size(464, 289);
+			this.tabPageSearch.TabIndex = 1;
+			this.tabPageSearch.Text = "Search";
+			this.toolTip.SetToolTip(this.tabPageSearch, "search");
+			this.tabPageSearch.ToolTipText = "search";
+			this.tabPageSearch.UseVisualStyleBackColor = true;
+			this.tabPageSearch.Enter += new System.EventHandler(this.TabPageSearch_Enter);
+			this.tabPageSearch.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.tabPageSearch.MouseEnter += new System.EventHandler(this.TabPageSearch_Enter);
+			this.tabPageSearch.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// toolStripContainerSearch
+			// 
+			// 
+			// toolStripContainerSearch.BottomToolStripPanel
+			// 
+			this.toolStripContainerSearch.BottomToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			// 
+			// toolStripContainerSearch.ContentPanel
+			// 
+			this.toolStripContainerSearch.ContentPanel.Controls.Add(this.flowLayoutPanelSearchResult);
+			this.toolStripContainerSearch.ContentPanel.Size = new System.Drawing.Size(464, 264);
+			this.toolStripContainerSearch.Dock = System.Windows.Forms.DockStyle.Fill;
+			// 
+			// toolStripContainerSearch.LeftToolStripPanel
+			// 
+			this.toolStripContainerSearch.LeftToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripContainerSearch.Location = new System.Drawing.Point(0, 0);
+			this.toolStripContainerSearch.Name = "toolStripContainerSearch";
+			// 
+			// toolStripContainerSearch.RightToolStripPanel
+			// 
+			this.toolStripContainerSearch.RightToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripContainerSearch.Size = new System.Drawing.Size(464, 289);
+			this.toolStripContainerSearch.TabIndex = 3;
+			this.toolStripContainerSearch.Text = "toolStripContainer1";
+			// 
+			// toolStripContainerSearch.TopToolStripPanel
+			// 
+			this.toolStripContainerSearch.TopToolStripPanel.Controls.Add(this.toolStripSearch);
+			this.toolStripContainerSearch.TopToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			// 
+			// flowLayoutPanelSearchResult
+			// 
+			this.flowLayoutPanelSearchResult.AutoScroll = true;
+			this.flowLayoutPanelSearchResult.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.flowLayoutPanelSearchResult.Location = new System.Drawing.Point(0, 0);
+			this.flowLayoutPanelSearchResult.Name = "flowLayoutPanelSearchResult";
+			this.flowLayoutPanelSearchResult.Size = new System.Drawing.Size(464, 264);
+			this.flowLayoutPanelSearchResult.TabIndex = 2;
+			this.flowLayoutPanelSearchResult.TabStop = true;
+			// 
+			// toolStripSearch
+			// 
+			this.toolStripSearch.Dock = System.Windows.Forms.DockStyle.None;
+			this.toolStripSearch.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.labelSearchTerm,
+            this.textBoxSearch,
+            this.toolStripButtonFind,
+            this.toolStripButtonClearAll});
+			this.toolStripSearch.Location = new System.Drawing.Point(0, 0);
+			this.toolStripSearch.Name = "toolStripSearch";
+			this.toolStripSearch.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripSearch.Size = new System.Drawing.Size(464, 25);
+			this.toolStripSearch.Stretch = true;
+			this.toolStripSearch.TabIndex = 0;
+			// 
+			// labelSearchTerm
+			// 
+			this.labelSearchTerm.AutoToolTip = true;
+			this.labelSearchTerm.Name = "labelSearchTerm";
+			this.labelSearchTerm.Size = new System.Drawing.Size(69, 22);
+			this.labelSearchTerm.Text = "Search &term:";
+			this.labelSearchTerm.ToolTipText = "Search term";
+			// 
+			// textBoxSearch
+			// 
+			this.textBoxSearch.AutoToolTip = true;
+			this.textBoxSearch.Name = "textBoxSearch";
+			this.textBoxSearch.Size = new System.Drawing.Size(100, 25);
+			// 
+			// statusStrip
+			// 
+			this.statusStrip.Dock = System.Windows.Forms.DockStyle.None;
+			this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.labelInformation,
+            this.labelCopiedStatus,
+            this.toolStripProgressBar});
+			this.statusStrip.Location = new System.Drawing.Point(0, 0);
+			this.statusStrip.Name = "statusStrip";
+			this.statusStrip.ShowItemToolTips = true;
+			this.statusStrip.Size = new System.Drawing.Size(472, 22);
+			this.statusStrip.TabIndex = 1;
+			this.statusStrip.TabStop = true;
+			this.statusStrip.Text = "statusStrip";
+			// 
+			// labelInformation
+			// 
+			this.labelInformation.AutoToolTip = true;
+			this.labelInformation.Name = "labelInformation";
+			this.labelInformation.Size = new System.Drawing.Size(61, 17);
+			this.labelInformation.Text = "information";
+			// 
+			// toolStripProgressBar
+			// 
+			this.toolStripProgressBar.AutoToolTip = true;
+			this.toolStripProgressBar.MarqueeAnimationSpeed = 25;
+			this.toolStripProgressBar.Name = "toolStripProgressBar";
+			this.toolStripProgressBar.Size = new System.Drawing.Size(100, 16);
+			this.toolStripProgressBar.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
+			this.toolStripProgressBar.ToolTipText = "Loading...";
+			// 
+			// toolStripContainerMain
+			// 
+			// 
+			// toolStripContainerMain.BottomToolStripPanel
+			// 
+			this.toolStripContainerMain.BottomToolStripPanel.Controls.Add(this.statusStrip);
+			this.toolStripContainerMain.BottomToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			// 
+			// toolStripContainerMain.ContentPanel
+			// 
+			this.toolStripContainerMain.ContentPanel.Controls.Add(this.tabControlEmojis);
+			this.toolStripContainerMain.ContentPanel.Size = new System.Drawing.Size(472, 315);
+			this.toolStripContainerMain.Dock = System.Windows.Forms.DockStyle.Fill;
+			// 
+			// toolStripContainerMain.LeftToolStripPanel
+			// 
+			this.toolStripContainerMain.LeftToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripContainerMain.Location = new System.Drawing.Point(0, 0);
+			this.toolStripContainerMain.Name = "toolStripContainerMain";
+			// 
+			// toolStripContainerMain.RightToolStripPanel
+			// 
+			this.toolStripContainerMain.RightToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripContainerMain.Size = new System.Drawing.Size(472, 386);
+			this.toolStripContainerMain.TabIndex = 2;
+			this.toolStripContainerMain.Text = "toolStripContainer";
+			// 
+			// toolStripContainerMain.TopToolStripPanel
+			// 
+			this.toolStripContainerMain.TopToolStripPanel.Controls.Add(this.menuStrip);
+			this.toolStripContainerMain.TopToolStripPanel.Controls.Add(this.toolStripMain);
+			this.toolStripContainerMain.TopToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			// 
+			// menuStrip
+			// 
+			this.menuStrip.Dock = System.Windows.Forms.DockStyle.None;
+			this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItemFile,
+            this.toolStripMenuItemGoto});
+			this.menuStrip.Location = new System.Drawing.Point(0, 0);
+			this.menuStrip.Name = "menuStrip";
+			this.menuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.menuStrip.ShowItemToolTips = true;
+			this.menuStrip.Size = new System.Drawing.Size(472, 24);
+			this.menuStrip.TabIndex = 0;
+			this.menuStrip.Text = "menuStrip";
+			// 
+			// toolStripMenuItemFile
+			// 
+			this.toolStripMenuItemFile.AccessibleDescription = "File";
+			this.toolStripMenuItemFile.AccessibleName = "File";
+			this.toolStripMenuItemFile.AutoToolTip = true;
+			this.toolStripMenuItemFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItemAboutBox,
+            this.toolStripMenuItemExit});
+			this.toolStripMenuItemFile.Name = "toolStripMenuItemFile";
+			this.toolStripMenuItemFile.Size = new System.Drawing.Size(35, 20);
+			this.toolStripMenuItemFile.Text = "&File";
+			// 
+			// toolStripMenuItemGoto
+			// 
+			this.toolStripMenuItemGoto.AccessibleDescription = "Got to";
+			this.toolStripMenuItemGoto.AccessibleName = "Got to";
+			this.toolStripMenuItemGoto.AutoToolTip = true;
+			this.toolStripMenuItemGoto.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItemSmileys,
+            this.toolStripMenuItemSearch});
+			this.toolStripMenuItemGoto.Name = "toolStripMenuItemGoto";
+			this.toolStripMenuItemGoto.Size = new System.Drawing.Size(45, 20);
+			this.toolStripMenuItemGoto.Text = "&Go to";
+			// 
+			// toolStripMenuItemSmileys
+			// 
+			this.toolStripMenuItemSmileys.AccessibleDescription = "smileys & emotion";
+			this.toolStripMenuItemSmileys.AccessibleName = "smileys & emotion";
+			this.toolStripMenuItemSmileys.AutoToolTip = true;
+			this.toolStripMenuItemSmileys.Checked = true;
+			this.toolStripMenuItemSmileys.CheckState = System.Windows.Forms.CheckState.Checked;
+			this.toolStripMenuItemSmileys.Name = "toolStripMenuItemSmileys";
+			this.toolStripMenuItemSmileys.Size = new System.Drawing.Size(160, 22);
+			this.toolStripMenuItemSmileys.Text = "&Smileys && Emotion";
+			this.toolStripMenuItemSmileys.ToolTipText = "Smileys & Emotion";
+			this.toolStripMenuItemSmileys.Click += new System.EventHandler(this.GotoTabSmileys_Click);
+			// 
+			// toolStripMenuItemSearch
+			// 
+			this.toolStripMenuItemSearch.AccessibleDescription = "search";
+			this.toolStripMenuItemSearch.AccessibleName = "search";
+			this.toolStripMenuItemSearch.AutoToolTip = true;
+			this.toolStripMenuItemSearch.Name = "toolStripMenuItemSearch";
+			this.toolStripMenuItemSearch.Size = new System.Drawing.Size(160, 22);
+			this.toolStripMenuItemSearch.Text = "Searc&h";
+			this.toolStripMenuItemSearch.Click += new System.EventHandler(this.GotoTabSearch_Click);
+			// 
+			// toolStripMain
+			// 
+			this.toolStripMain.Dock = System.Windows.Forms.DockStyle.None;
+			this.toolStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.labelWorkMode,
+            this.buttonPickerMode,
+            this.buttonLibraryMode,
+            this.toolStripSeparator1,
+            this.labelEmojiSize,
+            this.buttonEmojiSize16,
+            this.buttonEmojiSize24,
+            this.buttonEmojiSize32,
+            this.toolStripSeparator2,
+            this.toolStripButtonSearch});
+			this.toolStripMain.Location = new System.Drawing.Point(0, 24);
+			this.toolStripMain.Name = "toolStripMain";
+			this.toolStripMain.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripMain.Size = new System.Drawing.Size(472, 25);
+			this.toolStripMain.Stretch = true;
+			this.toolStripMain.TabIndex = 1;
+			this.toolStripMain.TabStop = true;
+			// 
+			// labelWorkMode
+			// 
+			this.labelWorkMode.Name = "labelWorkMode";
+			this.labelWorkMode.Size = new System.Drawing.Size(65, 22);
+			this.labelWorkMode.Text = "Work Mode:";
+			// 
+			// toolStripSeparator1
+			// 
+			this.toolStripSeparator1.Name = "toolStripSeparator1";
+			this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+			// 
+			// labelEmojiSize
+			// 
+			this.labelEmojiSize.Name = "labelEmojiSize";
+			this.labelEmojiSize.Size = new System.Drawing.Size(58, 22);
+			this.labelEmojiSize.Text = "Emoji Size:";
+			// 
+			// toolStripSeparator2
+			// 
+			this.toolStripSeparator2.Name = "toolStripSeparator2";
+			this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+			// 
+			// notifyIcon
+			// 
+			this.notifyIcon.Visible = true;
+			// 
+			// labelCopiedStatus
+			// 
+			this.labelCopiedStatus.AutoToolTip = true;
+			this.labelCopiedStatus.Image = global::EmojiLib.Properties.Resources.fatcow_clipboard_paste;
+			this.labelCopiedStatus.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.labelCopiedStatus.Name = "labelCopiedStatus";
+			this.labelCopiedStatus.Size = new System.Drawing.Size(294, 17);
+			this.labelCopiedStatus.Spring = true;
+			this.labelCopiedStatus.Text = "Copied";
+			this.labelCopiedStatus.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// buttonGrinningFace
 			// 
@@ -2933,94 +3230,305 @@
 			this.buttonRobot.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
 			this.buttonRobot.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
-			// tabPageSearch
+			// buttonGrinningCat
 			// 
-			this.tabPageSearch.AccessibleDescription = "search";
-			this.tabPageSearch.AccessibleName = "search";
-			this.tabPageSearch.AutoScroll = true;
-			this.tabPageSearch.Controls.Add(this.toolStripContainerSearch);
-			this.tabPageSearch.Location = new System.Drawing.Point(4, 22);
-			this.tabPageSearch.Name = "tabPageSearch";
-			this.tabPageSearch.Size = new System.Drawing.Size(464, 289);
-			this.tabPageSearch.TabIndex = 1;
-			this.tabPageSearch.Text = "Search";
-			this.toolTip.SetToolTip(this.tabPageSearch, "search");
-			this.tabPageSearch.ToolTipText = "search";
-			this.tabPageSearch.UseVisualStyleBackColor = true;
-			this.tabPageSearch.Enter += new System.EventHandler(this.TabPageSearch_Enter);
-			this.tabPageSearch.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
-			this.tabPageSearch.MouseEnter += new System.EventHandler(this.TabPageSearch_Enter);
-			this.tabPageSearch.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonGrinningCat.AccessibleDescription = "grinning cat";
+			this.buttonGrinningCat.AccessibleName = "grinning cat";
+			this.buttonGrinningCat.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonGrinningCat.BackgroundImage = global::EmojiLib.CatFace.GrinningCatGoogle;
+			this.buttonGrinningCat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonGrinningCat.FlatAppearance.BorderSize = 0;
+			this.buttonGrinningCat.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonGrinningCat.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonGrinningCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonGrinningCat.Location = new System.Drawing.Point(192, 224);
+			this.buttonGrinningCat.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonGrinningCat.Name = "buttonGrinningCat";
+			this.buttonGrinningCat.Size = new System.Drawing.Size(32, 32);
+			this.buttonGrinningCat.TabIndex = 105;
+			this.buttonGrinningCat.Tag = "😺";
+			this.toolTip.SetToolTip(this.buttonGrinningCat, "grinning cat");
+			this.buttonGrinningCat.UseVisualStyleBackColor = true;
+			this.buttonGrinningCat.Click += new System.EventHandler(this.ButtonGrinningCat_Click);
+			this.buttonGrinningCat.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonGrinningCat.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonGrinningCat.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonGrinningCat.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
-			// toolStripContainerSearch
+			// buttonGrinningCatWithSmilingEyes
 			// 
+			this.buttonGrinningCatWithSmilingEyes.AccessibleDescription = "grinning cat with smiling eyes";
+			this.buttonGrinningCatWithSmilingEyes.AccessibleName = "grinning cat with smiling eyes";
+			this.buttonGrinningCatWithSmilingEyes.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonGrinningCatWithSmilingEyes.BackgroundImage = global::EmojiLib.CatFace.GrinningCatWithSmilingEyesGoogle;
+			this.buttonGrinningCatWithSmilingEyes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonGrinningCatWithSmilingEyes.FlatAppearance.BorderSize = 0;
+			this.buttonGrinningCatWithSmilingEyes.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonGrinningCatWithSmilingEyes.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonGrinningCatWithSmilingEyes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonGrinningCatWithSmilingEyes.Location = new System.Drawing.Point(224, 224);
+			this.buttonGrinningCatWithSmilingEyes.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonGrinningCatWithSmilingEyes.Name = "buttonGrinningCatWithSmilingEyes";
+			this.buttonGrinningCatWithSmilingEyes.Size = new System.Drawing.Size(32, 32);
+			this.buttonGrinningCatWithSmilingEyes.TabIndex = 106;
+			this.buttonGrinningCatWithSmilingEyes.Tag = "😸";
+			this.toolTip.SetToolTip(this.buttonGrinningCatWithSmilingEyes, "grinning cat with smiling eyes");
+			this.buttonGrinningCatWithSmilingEyes.UseVisualStyleBackColor = true;
+			this.buttonGrinningCatWithSmilingEyes.Click += new System.EventHandler(this.ButtonGrinningCatWithSmilingEyes_Click);
+			this.buttonGrinningCatWithSmilingEyes.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonGrinningCatWithSmilingEyes.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonGrinningCatWithSmilingEyes.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonGrinningCatWithSmilingEyes.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
-			// toolStripContainerSearch.BottomToolStripPanel
+			// buttonCatWithTearsOfJoy
 			// 
-			this.toolStripContainerSearch.BottomToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.buttonCatWithTearsOfJoy.AccessibleDescription = "cat with tears of joy";
+			this.buttonCatWithTearsOfJoy.AccessibleName = "cat with tears of joy";
+			this.buttonCatWithTearsOfJoy.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonCatWithTearsOfJoy.BackgroundImage = global::EmojiLib.CatFace.CatWithTearsOfJoyGoogle;
+			this.buttonCatWithTearsOfJoy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonCatWithTearsOfJoy.FlatAppearance.BorderSize = 0;
+			this.buttonCatWithTearsOfJoy.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonCatWithTearsOfJoy.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonCatWithTearsOfJoy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonCatWithTearsOfJoy.Location = new System.Drawing.Point(256, 224);
+			this.buttonCatWithTearsOfJoy.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonCatWithTearsOfJoy.Name = "buttonCatWithTearsOfJoy";
+			this.buttonCatWithTearsOfJoy.Size = new System.Drawing.Size(32, 32);
+			this.buttonCatWithTearsOfJoy.TabIndex = 107;
+			this.buttonCatWithTearsOfJoy.Tag = "😹";
+			this.toolTip.SetToolTip(this.buttonCatWithTearsOfJoy, "cat with tears of joy");
+			this.buttonCatWithTearsOfJoy.UseVisualStyleBackColor = true;
+			this.buttonCatWithTearsOfJoy.Click += new System.EventHandler(this.ButtonCatWithTearsOfJoy_Click);
+			this.buttonCatWithTearsOfJoy.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonCatWithTearsOfJoy.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonCatWithTearsOfJoy.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonCatWithTearsOfJoy.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
-			// toolStripContainerSearch.ContentPanel
+			// buttonSmilingCatWithHeartEyes
 			// 
-			this.toolStripContainerSearch.ContentPanel.Controls.Add(this.flowLayoutPanelSearchResult);
-			this.toolStripContainerSearch.ContentPanel.Size = new System.Drawing.Size(464, 264);
-			this.toolStripContainerSearch.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.buttonSmilingCatWithHeartEyes.AccessibleDescription = "smiling cat with heart-eyes";
+			this.buttonSmilingCatWithHeartEyes.AccessibleName = "smiling cat with heart-eyes";
+			this.buttonSmilingCatWithHeartEyes.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonSmilingCatWithHeartEyes.BackgroundImage = global::EmojiLib.CatFace.SmilingCatWithHeartEyesGoogle;
+			this.buttonSmilingCatWithHeartEyes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonSmilingCatWithHeartEyes.FlatAppearance.BorderSize = 0;
+			this.buttonSmilingCatWithHeartEyes.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonSmilingCatWithHeartEyes.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonSmilingCatWithHeartEyes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonSmilingCatWithHeartEyes.Location = new System.Drawing.Point(288, 224);
+			this.buttonSmilingCatWithHeartEyes.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonSmilingCatWithHeartEyes.Name = "buttonSmilingCatWithHeartEyes";
+			this.buttonSmilingCatWithHeartEyes.Size = new System.Drawing.Size(32, 32);
+			this.buttonSmilingCatWithHeartEyes.TabIndex = 108;
+			this.buttonSmilingCatWithHeartEyes.Tag = "😻";
+			this.toolTip.SetToolTip(this.buttonSmilingCatWithHeartEyes, "smiling cat with heart-eyes");
+			this.buttonSmilingCatWithHeartEyes.UseVisualStyleBackColor = true;
+			this.buttonSmilingCatWithHeartEyes.Click += new System.EventHandler(this.ButtonSmilingCatWithHeartEyes_Click);
+			this.buttonSmilingCatWithHeartEyes.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSmilingCatWithHeartEyes.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonSmilingCatWithHeartEyes.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSmilingCatWithHeartEyes.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
-			// toolStripContainerSearch.LeftToolStripPanel
+			// buttonCatWithWrySmile
 			// 
-			this.toolStripContainerSearch.LeftToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.toolStripContainerSearch.Location = new System.Drawing.Point(0, 0);
-			this.toolStripContainerSearch.Name = "toolStripContainerSearch";
+			this.buttonCatWithWrySmile.AccessibleDescription = "cat with wry smile";
+			this.buttonCatWithWrySmile.AccessibleName = "cat with wry smile";
+			this.buttonCatWithWrySmile.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonCatWithWrySmile.BackgroundImage = global::EmojiLib.CatFace.CatWithWrySmileGoogle;
+			this.buttonCatWithWrySmile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonCatWithWrySmile.FlatAppearance.BorderSize = 0;
+			this.buttonCatWithWrySmile.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonCatWithWrySmile.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonCatWithWrySmile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonCatWithWrySmile.Location = new System.Drawing.Point(320, 224);
+			this.buttonCatWithWrySmile.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonCatWithWrySmile.Name = "buttonCatWithWrySmile";
+			this.buttonCatWithWrySmile.Size = new System.Drawing.Size(32, 32);
+			this.buttonCatWithWrySmile.TabIndex = 109;
+			this.buttonCatWithWrySmile.Tag = "😼";
+			this.toolTip.SetToolTip(this.buttonCatWithWrySmile, "cat with wry smile");
+			this.buttonCatWithWrySmile.UseVisualStyleBackColor = true;
+			this.buttonCatWithWrySmile.Click += new System.EventHandler(this.ButtonCatWithWrySmile_Click);
+			this.buttonCatWithWrySmile.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonCatWithWrySmile.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonCatWithWrySmile.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonCatWithWrySmile.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
-			// toolStripContainerSearch.RightToolStripPanel
+			// buttonKissingCat
 			// 
-			this.toolStripContainerSearch.RightToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.toolStripContainerSearch.Size = new System.Drawing.Size(464, 289);
-			this.toolStripContainerSearch.TabIndex = 3;
-			this.toolStripContainerSearch.Text = "toolStripContainer1";
+			this.buttonKissingCat.AccessibleDescription = "kissing cat";
+			this.buttonKissingCat.AccessibleName = "kissing cat";
+			this.buttonKissingCat.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonKissingCat.BackgroundImage = global::EmojiLib.CatFace.KissingCatGoogle;
+			this.buttonKissingCat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonKissingCat.FlatAppearance.BorderSize = 0;
+			this.buttonKissingCat.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonKissingCat.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonKissingCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonKissingCat.Location = new System.Drawing.Point(352, 224);
+			this.buttonKissingCat.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonKissingCat.Name = "buttonKissingCat";
+			this.buttonKissingCat.Size = new System.Drawing.Size(32, 32);
+			this.buttonKissingCat.TabIndex = 110;
+			this.buttonKissingCat.Tag = "😽";
+			this.toolTip.SetToolTip(this.buttonKissingCat, "kissing cat");
+			this.buttonKissingCat.UseVisualStyleBackColor = true;
+			this.buttonKissingCat.Click += new System.EventHandler(this.ButtonKissingCat_Click);
+			this.buttonKissingCat.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonKissingCat.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonKissingCat.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonKissingCat.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
-			// toolStripContainerSearch.TopToolStripPanel
+			// buttonWearyCat
 			// 
-			this.toolStripContainerSearch.TopToolStripPanel.Controls.Add(this.toolStripSearch);
-			this.toolStripContainerSearch.TopToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.buttonWearyCat.AccessibleDescription = "weary cat";
+			this.buttonWearyCat.AccessibleName = "weary cat";
+			this.buttonWearyCat.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonWearyCat.BackgroundImage = global::EmojiLib.CatFace.WearyCatGoogle;
+			this.buttonWearyCat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonWearyCat.FlatAppearance.BorderSize = 0;
+			this.buttonWearyCat.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonWearyCat.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonWearyCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonWearyCat.Location = new System.Drawing.Point(384, 224);
+			this.buttonWearyCat.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonWearyCat.Name = "buttonWearyCat";
+			this.buttonWearyCat.Size = new System.Drawing.Size(32, 32);
+			this.buttonWearyCat.TabIndex = 111;
+			this.buttonWearyCat.Tag = "🙀";
+			this.toolTip.SetToolTip(this.buttonWearyCat, "weary cat");
+			this.buttonWearyCat.UseVisualStyleBackColor = true;
+			this.buttonWearyCat.Click += new System.EventHandler(this.ButtonWearyCat_Click);
+			this.buttonWearyCat.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonWearyCat.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonWearyCat.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonWearyCat.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
-			// flowLayoutPanelSearchResult
+			// buttonCryingCat
 			// 
-			this.flowLayoutPanelSearchResult.AutoScroll = true;
-			this.flowLayoutPanelSearchResult.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.flowLayoutPanelSearchResult.Location = new System.Drawing.Point(0, 0);
-			this.flowLayoutPanelSearchResult.Name = "flowLayoutPanelSearchResult";
-			this.flowLayoutPanelSearchResult.Size = new System.Drawing.Size(464, 264);
-			this.flowLayoutPanelSearchResult.TabIndex = 2;
-			this.flowLayoutPanelSearchResult.TabStop = true;
+			this.buttonCryingCat.AccessibleDescription = "crying cat";
+			this.buttonCryingCat.AccessibleName = "crying cat";
+			this.buttonCryingCat.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonCryingCat.BackgroundImage = global::EmojiLib.CatFace.CryingCatGoogle;
+			this.buttonCryingCat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonCryingCat.FlatAppearance.BorderSize = 0;
+			this.buttonCryingCat.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonCryingCat.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonCryingCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonCryingCat.Location = new System.Drawing.Point(416, 224);
+			this.buttonCryingCat.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonCryingCat.Name = "buttonCryingCat";
+			this.buttonCryingCat.Size = new System.Drawing.Size(32, 32);
+			this.buttonCryingCat.TabIndex = 112;
+			this.buttonCryingCat.Tag = "😿";
+			this.toolTip.SetToolTip(this.buttonCryingCat, "crying cat");
+			this.buttonCryingCat.UseVisualStyleBackColor = true;
+			this.buttonCryingCat.Click += new System.EventHandler(this.ButtonCryingCat_Click);
+			this.buttonCryingCat.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonCryingCat.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonCryingCat.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonCryingCat.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
-			// toolStripSearch
+			// buttonPoutingCat
 			// 
-			this.toolStripSearch.Dock = System.Windows.Forms.DockStyle.None;
-			this.toolStripSearch.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.labelSearchTerm,
-            this.textBoxSearch,
-            this.toolStripButtonFind,
-            this.toolStripButtonClearAll});
-			this.toolStripSearch.Location = new System.Drawing.Point(0, 0);
-			this.toolStripSearch.Name = "toolStripSearch";
-			this.toolStripSearch.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.toolStripSearch.Size = new System.Drawing.Size(464, 25);
-			this.toolStripSearch.Stretch = true;
-			this.toolStripSearch.TabIndex = 0;
+			this.buttonPoutingCat.AccessibleDescription = "pouting cat";
+			this.buttonPoutingCat.AccessibleName = "pouting cat";
+			this.buttonPoutingCat.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonPoutingCat.BackgroundImage = global::EmojiLib.CatFace.PoutingCatGoogle;
+			this.buttonPoutingCat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonPoutingCat.FlatAppearance.BorderSize = 0;
+			this.buttonPoutingCat.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonPoutingCat.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonPoutingCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonPoutingCat.Location = new System.Drawing.Point(0, 256);
+			this.buttonPoutingCat.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonPoutingCat.Name = "buttonPoutingCat";
+			this.buttonPoutingCat.Size = new System.Drawing.Size(32, 32);
+			this.buttonPoutingCat.TabIndex = 113;
+			this.buttonPoutingCat.Tag = "😾";
+			this.toolTip.SetToolTip(this.buttonPoutingCat, "pouting cat");
+			this.buttonPoutingCat.UseVisualStyleBackColor = true;
+			this.buttonPoutingCat.Click += new System.EventHandler(this.ButtonPoutingCat_Click);
+			this.buttonPoutingCat.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonPoutingCat.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonPoutingCat.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonPoutingCat.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
-			// labelSearchTerm
+			// buttonSeeNoEvilMonkey
 			// 
-			this.labelSearchTerm.AutoToolTip = true;
-			this.labelSearchTerm.Name = "labelSearchTerm";
-			this.labelSearchTerm.Size = new System.Drawing.Size(69, 22);
-			this.labelSearchTerm.Text = "Search &term:";
-			this.labelSearchTerm.ToolTipText = "Search term";
+			this.buttonSeeNoEvilMonkey.AccessibleDescription = "see-no-evil monkey";
+			this.buttonSeeNoEvilMonkey.AccessibleName = "see-no-evil monkey";
+			this.buttonSeeNoEvilMonkey.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonSeeNoEvilMonkey.BackgroundImage = global::EmojiLib.MonkeyFace.SeeNoEvilMonkeyGoogle;
+			this.buttonSeeNoEvilMonkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonSeeNoEvilMonkey.FlatAppearance.BorderSize = 0;
+			this.buttonSeeNoEvilMonkey.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonSeeNoEvilMonkey.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonSeeNoEvilMonkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonSeeNoEvilMonkey.Location = new System.Drawing.Point(32, 256);
+			this.buttonSeeNoEvilMonkey.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonSeeNoEvilMonkey.Name = "buttonSeeNoEvilMonkey";
+			this.buttonSeeNoEvilMonkey.Size = new System.Drawing.Size(32, 32);
+			this.buttonSeeNoEvilMonkey.TabIndex = 114;
+			this.buttonSeeNoEvilMonkey.Tag = "🙈";
+			this.toolTip.SetToolTip(this.buttonSeeNoEvilMonkey, "see-no-evil monkey");
+			this.buttonSeeNoEvilMonkey.UseVisualStyleBackColor = true;
+			this.buttonSeeNoEvilMonkey.Click += new System.EventHandler(this.ButtonSeeNoEvilMonkey_Click);
+			this.buttonSeeNoEvilMonkey.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSeeNoEvilMonkey.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonSeeNoEvilMonkey.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSeeNoEvilMonkey.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
-			// textBoxSearch
+			// buttonHearNoEvilMonkey
 			// 
-			this.textBoxSearch.AutoToolTip = true;
-			this.textBoxSearch.Name = "textBoxSearch";
-			this.textBoxSearch.Size = new System.Drawing.Size(100, 25);
+			this.buttonHearNoEvilMonkey.AccessibleDescription = "hear-no-evil monkey";
+			this.buttonHearNoEvilMonkey.AccessibleName = "hear-no-evil monkey";
+			this.buttonHearNoEvilMonkey.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonHearNoEvilMonkey.BackgroundImage = global::EmojiLib.MonkeyFace.HearNoEvilMonkeyGoogle;
+			this.buttonHearNoEvilMonkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonHearNoEvilMonkey.FlatAppearance.BorderSize = 0;
+			this.buttonHearNoEvilMonkey.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonHearNoEvilMonkey.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonHearNoEvilMonkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonHearNoEvilMonkey.Location = new System.Drawing.Point(64, 256);
+			this.buttonHearNoEvilMonkey.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonHearNoEvilMonkey.Name = "buttonHearNoEvilMonkey";
+			this.buttonHearNoEvilMonkey.Size = new System.Drawing.Size(32, 32);
+			this.buttonHearNoEvilMonkey.TabIndex = 115;
+			this.buttonHearNoEvilMonkey.Tag = "🙉";
+			this.toolTip.SetToolTip(this.buttonHearNoEvilMonkey, "hear-no-evil monkey");
+			this.buttonHearNoEvilMonkey.UseVisualStyleBackColor = true;
+			this.buttonHearNoEvilMonkey.Click += new System.EventHandler(this.ButtonHearNoEvilMonkey_Click);
+			this.buttonHearNoEvilMonkey.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHearNoEvilMonkey.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonHearNoEvilMonkey.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHearNoEvilMonkey.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonSpeakNoEvilMonkey
+			// 
+			this.buttonSpeakNoEvilMonkey.AccessibleDescription = "speak-no-evil monkey";
+			this.buttonSpeakNoEvilMonkey.AccessibleName = "speak-no-evil monkey";
+			this.buttonSpeakNoEvilMonkey.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonSpeakNoEvilMonkey.BackgroundImage = global::EmojiLib.MonkeyFace.SpeakNoEvilMonkeyGoogle;
+			this.buttonSpeakNoEvilMonkey.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonSpeakNoEvilMonkey.FlatAppearance.BorderSize = 0;
+			this.buttonSpeakNoEvilMonkey.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonSpeakNoEvilMonkey.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonSpeakNoEvilMonkey.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonSpeakNoEvilMonkey.Location = new System.Drawing.Point(96, 256);
+			this.buttonSpeakNoEvilMonkey.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonSpeakNoEvilMonkey.Name = "buttonSpeakNoEvilMonkey";
+			this.buttonSpeakNoEvilMonkey.Size = new System.Drawing.Size(32, 32);
+			this.buttonSpeakNoEvilMonkey.TabIndex = 116;
+			this.buttonSpeakNoEvilMonkey.Tag = "🙊";
+			this.toolTip.SetToolTip(this.buttonSpeakNoEvilMonkey, "speak-no-evil monkey");
+			this.buttonSpeakNoEvilMonkey.UseVisualStyleBackColor = true;
+			this.buttonSpeakNoEvilMonkey.Click += new System.EventHandler(this.ButtonSpeakNoEvilMonkey_Click);
+			this.buttonSpeakNoEvilMonkey.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSpeakNoEvilMonkey.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonSpeakNoEvilMonkey.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSpeakNoEvilMonkey.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
 			// toolStripButtonFind
 			// 
@@ -3039,107 +3547,6 @@
 			this.toolStripButtonClearAll.Size = new System.Drawing.Size(65, 22);
 			this.toolStripButtonClearAll.Text = "&Clear all";
 			this.toolStripButtonClearAll.Click += new System.EventHandler(this.ButtonClearAll_Click);
-			// 
-			// statusStrip
-			// 
-			this.statusStrip.Dock = System.Windows.Forms.DockStyle.None;
-			this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.labelInformation,
-            this.labelCopiedStatus,
-            this.toolStripProgressBar});
-			this.statusStrip.Location = new System.Drawing.Point(0, 0);
-			this.statusStrip.Name = "statusStrip";
-			this.statusStrip.ShowItemToolTips = true;
-			this.statusStrip.Size = new System.Drawing.Size(472, 22);
-			this.statusStrip.TabIndex = 1;
-			this.statusStrip.TabStop = true;
-			this.statusStrip.Text = "statusStrip";
-			// 
-			// labelInformation
-			// 
-			this.labelInformation.AutoToolTip = true;
-			this.labelInformation.Name = "labelInformation";
-			this.labelInformation.Size = new System.Drawing.Size(61, 17);
-			this.labelInformation.Text = "information";
-			// 
-			// labelCopiedStatus
-			// 
-			this.labelCopiedStatus.AutoToolTip = true;
-			this.labelCopiedStatus.Image = global::EmojiLib.Properties.Resources.fatcow_clipboard_paste;
-			this.labelCopiedStatus.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.labelCopiedStatus.Name = "labelCopiedStatus";
-			this.labelCopiedStatus.Size = new System.Drawing.Size(294, 17);
-			this.labelCopiedStatus.Spring = true;
-			this.labelCopiedStatus.Text = "Copied";
-			this.labelCopiedStatus.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// toolStripProgressBar
-			// 
-			this.toolStripProgressBar.AutoToolTip = true;
-			this.toolStripProgressBar.MarqueeAnimationSpeed = 25;
-			this.toolStripProgressBar.Name = "toolStripProgressBar";
-			this.toolStripProgressBar.Size = new System.Drawing.Size(100, 16);
-			this.toolStripProgressBar.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
-			this.toolStripProgressBar.ToolTipText = "Loading...";
-			// 
-			// toolStripContainerMain
-			// 
-			// 
-			// toolStripContainerMain.BottomToolStripPanel
-			// 
-			this.toolStripContainerMain.BottomToolStripPanel.Controls.Add(this.statusStrip);
-			this.toolStripContainerMain.BottomToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			// 
-			// toolStripContainerMain.ContentPanel
-			// 
-			this.toolStripContainerMain.ContentPanel.Controls.Add(this.tabControlEmojis);
-			this.toolStripContainerMain.ContentPanel.Size = new System.Drawing.Size(472, 315);
-			this.toolStripContainerMain.Dock = System.Windows.Forms.DockStyle.Fill;
-			// 
-			// toolStripContainerMain.LeftToolStripPanel
-			// 
-			this.toolStripContainerMain.LeftToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.toolStripContainerMain.Location = new System.Drawing.Point(0, 0);
-			this.toolStripContainerMain.Name = "toolStripContainerMain";
-			// 
-			// toolStripContainerMain.RightToolStripPanel
-			// 
-			this.toolStripContainerMain.RightToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.toolStripContainerMain.Size = new System.Drawing.Size(472, 386);
-			this.toolStripContainerMain.TabIndex = 2;
-			this.toolStripContainerMain.Text = "toolStripContainer";
-			// 
-			// toolStripContainerMain.TopToolStripPanel
-			// 
-			this.toolStripContainerMain.TopToolStripPanel.Controls.Add(this.menuStrip);
-			this.toolStripContainerMain.TopToolStripPanel.Controls.Add(this.toolStripMain);
-			this.toolStripContainerMain.TopToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			// 
-			// menuStrip
-			// 
-			this.menuStrip.Dock = System.Windows.Forms.DockStyle.None;
-			this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItemFile,
-            this.toolStripMenuItemGoto});
-			this.menuStrip.Location = new System.Drawing.Point(0, 0);
-			this.menuStrip.Name = "menuStrip";
-			this.menuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.menuStrip.ShowItemToolTips = true;
-			this.menuStrip.Size = new System.Drawing.Size(472, 24);
-			this.menuStrip.TabIndex = 0;
-			this.menuStrip.Text = "menuStrip";
-			// 
-			// toolStripMenuItemFile
-			// 
-			this.toolStripMenuItemFile.AccessibleDescription = "File";
-			this.toolStripMenuItemFile.AccessibleName = "File";
-			this.toolStripMenuItemFile.AutoToolTip = true;
-			this.toolStripMenuItemFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItemAboutBox,
-            this.toolStripMenuItemExit});
-			this.toolStripMenuItemFile.Name = "toolStripMenuItemFile";
-			this.toolStripMenuItemFile.Size = new System.Drawing.Size(35, 20);
-			this.toolStripMenuItemFile.Text = "&File";
 			// 
 			// toolStripMenuItemAboutBox
 			// 
@@ -3162,69 +3569,6 @@
 			this.toolStripMenuItemExit.Text = "&Exit";
 			this.toolStripMenuItemExit.Click += new System.EventHandler(this.Exit_Click);
 			// 
-			// toolStripMenuItemGoto
-			// 
-			this.toolStripMenuItemGoto.AccessibleDescription = "Got to";
-			this.toolStripMenuItemGoto.AccessibleName = "Got to";
-			this.toolStripMenuItemGoto.AutoToolTip = true;
-			this.toolStripMenuItemGoto.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItemSmileys,
-            this.toolStripMenuItemSearch});
-			this.toolStripMenuItemGoto.Name = "toolStripMenuItemGoto";
-			this.toolStripMenuItemGoto.Size = new System.Drawing.Size(45, 20);
-			this.toolStripMenuItemGoto.Text = "&Go to";
-			// 
-			// toolStripMenuItemSmileys
-			// 
-			this.toolStripMenuItemSmileys.AccessibleDescription = "smileys & emotion";
-			this.toolStripMenuItemSmileys.AccessibleName = "smileys & emotion";
-			this.toolStripMenuItemSmileys.AutoToolTip = true;
-			this.toolStripMenuItemSmileys.Checked = true;
-			this.toolStripMenuItemSmileys.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.toolStripMenuItemSmileys.Name = "toolStripMenuItemSmileys";
-			this.toolStripMenuItemSmileys.Size = new System.Drawing.Size(160, 22);
-			this.toolStripMenuItemSmileys.Text = "&Smileys && Emotion";
-			this.toolStripMenuItemSmileys.ToolTipText = "Smileys & Emotion";
-			this.toolStripMenuItemSmileys.Click += new System.EventHandler(this.GotoTabSmileys_Click);
-			// 
-			// toolStripMenuItemSearch
-			// 
-			this.toolStripMenuItemSearch.AccessibleDescription = "search";
-			this.toolStripMenuItemSearch.AccessibleName = "search";
-			this.toolStripMenuItemSearch.AutoToolTip = true;
-			this.toolStripMenuItemSearch.Name = "toolStripMenuItemSearch";
-			this.toolStripMenuItemSearch.Size = new System.Drawing.Size(160, 22);
-			this.toolStripMenuItemSearch.Text = "Searc&h";
-			this.toolStripMenuItemSearch.Click += new System.EventHandler(this.GotoTabSearch_Click);
-			// 
-			// toolStripMain
-			// 
-			this.toolStripMain.Dock = System.Windows.Forms.DockStyle.None;
-			this.toolStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.labelWorkMode,
-            this.buttonPickerMode,
-            this.buttonLibraryMode,
-            this.toolStripSeparator1,
-            this.labelEmojiSize,
-            this.buttonEmojiSize16,
-            this.buttonEmojiSize24,
-            this.buttonEmojiSize32,
-            this.toolStripSeparator2,
-            this.toolStripButtonSearch});
-			this.toolStripMain.Location = new System.Drawing.Point(0, 24);
-			this.toolStripMain.Name = "toolStripMain";
-			this.toolStripMain.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.toolStripMain.Size = new System.Drawing.Size(472, 25);
-			this.toolStripMain.Stretch = true;
-			this.toolStripMain.TabIndex = 1;
-			this.toolStripMain.TabStop = true;
-			// 
-			// labelWorkMode
-			// 
-			this.labelWorkMode.Name = "labelWorkMode";
-			this.labelWorkMode.Size = new System.Drawing.Size(65, 22);
-			this.labelWorkMode.Text = "Work Mode:";
-			// 
 			// buttonPickerMode
 			// 
 			this.buttonPickerMode.Checked = true;
@@ -3246,17 +3590,6 @@
 			this.buttonLibraryMode.Size = new System.Drawing.Size(23, 22);
 			this.buttonLibraryMode.Text = "library mode";
 			this.buttonLibraryMode.Click += new System.EventHandler(this.ButtonSetLibraryMode_Click);
-			// 
-			// toolStripSeparator1
-			// 
-			this.toolStripSeparator1.Name = "toolStripSeparator1";
-			this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-			// 
-			// labelEmojiSize
-			// 
-			this.labelEmojiSize.Name = "labelEmojiSize";
-			this.labelEmojiSize.Size = new System.Drawing.Size(58, 22);
-			this.labelEmojiSize.Text = "Emoji Size:";
 			// 
 			// buttonEmojiSize16
 			// 
@@ -3290,11 +3623,6 @@
 			this.buttonEmojiSize32.Text = "32px";
 			this.buttonEmojiSize32.Click += new System.EventHandler(this.ButtonEmojiSize32_Click);
 			// 
-			// toolStripSeparator2
-			// 
-			this.toolStripSeparator2.Name = "toolStripSeparator2";
-			this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
-			// 
 			// toolStripButtonSearch
 			// 
 			this.toolStripButtonSearch.CheckOnClick = true;
@@ -3304,10 +3632,6 @@
 			this.toolStripButtonSearch.Size = new System.Drawing.Size(60, 22);
 			this.toolStripButtonSearch.Text = "Search";
 			this.toolStripButtonSearch.Click += new System.EventHandler(this.Search_Click);
-			// 
-			// notifyIcon
-			// 
-			this.notifyIcon.Visible = true;
 			// 
 			// MainForm
 			// 
@@ -3492,6 +3816,18 @@
 		private System.Windows.Forms.Button buttonAlien;
 		private System.Windows.Forms.Button buttonAlienMonster;
 		private System.Windows.Forms.Button buttonRobot;
+		private System.Windows.Forms.Button buttonGrinningCat;
+		private System.Windows.Forms.Button buttonGrinningCatWithSmilingEyes;
+		private System.Windows.Forms.Button buttonCatWithTearsOfJoy;
+		private System.Windows.Forms.Button buttonSmilingCatWithHeartEyes;
+		private System.Windows.Forms.Button buttonCatWithWrySmile;
+		private System.Windows.Forms.Button buttonKissingCat;
+		private System.Windows.Forms.Button buttonWearyCat;
+		private System.Windows.Forms.Button buttonCryingCat;
+		private System.Windows.Forms.Button buttonPoutingCat;
+		private System.Windows.Forms.Button buttonSeeNoEvilMonkey;
+		private System.Windows.Forms.Button buttonHearNoEvilMonkey;
+		private System.Windows.Forms.Button buttonSpeakNoEvilMonkey;
 	}
 }
 
