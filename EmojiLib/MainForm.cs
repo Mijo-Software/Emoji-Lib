@@ -436,6 +436,14 @@ namespace EmojiLib
 							case "buttonAngryFaceWithHorns": newButton.Click += new System.EventHandler(ButtonAngryFaceWithHorns_Click); break;
 							case "buttonSkull": newButton.Click += new System.EventHandler(ButtonSkull_Click); break;
 							case "buttonSkullAndCrossbones": newButton.Click += new System.EventHandler(ButtonSkullAndCrossbones_Click); break;
+							case "buttonPileOfPoo": newButton.Click += new System.EventHandler(ButtonPileOfPoo_Click); break;
+							case "buttonClownFace": newButton.Click += new System.EventHandler(ButtonClownFace_Click); break;
+							case "buttonOgre": newButton.Click += new System.EventHandler(ButtonOgre_Click); break;
+							case "buttonGoblin": newButton.Click += new System.EventHandler(ButtonGoblin_Click); break;
+							case "buttonGhost": newButton.Click += new System.EventHandler(ButtonGhost_Click); break;
+							case "buttonAlien": newButton.Click += new System.EventHandler(ButtonAlien_Click); break;
+							case "buttonAlienMonster": newButton.Click += new System.EventHandler(ButtonAlienMonster_Click); break;
+							case "buttonRobot": newButton.Click += new System.EventHandler(ButtonRobot_Click); break;
 							default: newButton.Click += new System.EventHandler(Button_Click); break;
 						}
 						buttons.Capacity = capacity;
@@ -3247,6 +3255,238 @@ namespace EmojiLib
 					FaceNegative.SkullAndCrossbonesTwitter,
 					FaceNegative.SkullAndCrossbonesJoyPixels,
 					FaceNegative.SkullAndCrossbonesSamsung,
+					null,
+					null,
+					null,
+					null);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonPileOfPoo_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonPileOfPoo.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F4A9", buttonPileOfPoo.AccessibleName,
+					Resources.smileysAndEmotion, Resources.faceCostume,
+					buttonPileOfPoo.Tag,
+					FaceCostume.PileOfPooApple,
+					FaceCostume.PileOfPooGoogle,
+					FaceCostume.PileOfPooFacebook,
+					FaceCostume.PileOfPooWindows,
+					FaceCostume.PileOfPooTwitter,
+					FaceCostume.PileOfPooJoyPixels,
+					FaceCostume.PileOfPooSamsung,
+					FaceCostume.PileOfPooGmail,
+					null,
+					FaceCostume.PileOfPooKddi,
+					FaceCostume.PileOfPooSoftbank);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonClownFace_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonClownFace.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F921", buttonClownFace.AccessibleName,
+					Resources.smileysAndEmotion, Resources.faceNegative,
+					buttonClownFace.Tag,
+					FaceCostume.ClownFaceApple,
+					FaceCostume.ClownFaceGoogle,
+					FaceCostume.ClownFaceFacebook,
+					FaceCostume.ClownFaceWindows,
+					FaceCostume.ClownFaceTwitter,
+					FaceCostume.ClownFaceJoyPixels,
+					FaceCostume.ClownFaceSamsung,
+					null,
+					null,
+					null,
+					null);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonOgre_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonOgre.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F479", buttonOgre.AccessibleName,
+					Resources.smileysAndEmotion, Resources.faceNegative,
+					buttonOgre.Tag,
+					FaceCostume.OgreApple,
+					FaceCostume.OgreGoogle,
+					FaceCostume.OgreFacebook,
+					FaceCostume.OgreWindows,
+					FaceCostume.OgreTwitter,
+					FaceCostume.OgreJoyPixels,
+					FaceCostume.OgreSamsung,
+					FaceCostume.OgreGmail,
+					null,
+					FaceCostume.OgreKddi,
+					null);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonGoblin_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonGoblin.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F47A", buttonGoblin.AccessibleName,
+					Resources.smileysAndEmotion, Resources.faceNegative,
+					buttonGoblin.Tag,
+					FaceCostume.GoblinApple,
+					FaceCostume.GoblinGoogle,
+					FaceCostume.GoblinFacebook,
+					FaceCostume.GoblinWindows,
+					FaceCostume.GoblinTwitter,
+					FaceCostume.GoblinJoyPixels,
+					FaceCostume.GoblinSamsung,
+					FaceCostume.GoblinGmail,
+					null,
+					FaceCostume.GoblinKddi,
+					null);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonGhost_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonGhost.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F47B", buttonGhost.AccessibleName,
+					Resources.smileysAndEmotion, Resources.faceNegative,
+					buttonGhost.Tag,
+					FaceCostume.GhostApple,
+					FaceCostume.GhostGoogle,
+					FaceCostume.GhostFacebook,
+					FaceCostume.GhostWindows,
+					FaceCostume.GhostTwitter,
+					FaceCostume.GhostJoyPixels,
+					FaceCostume.GhostSamsung,
+					FaceCostume.GhostGmail,
+					null,
+					FaceCostume.GhostKddi,
+					FaceCostume.GhostSoftbank);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonAlien_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonAlien.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F47D", buttonAlien.AccessibleName,
+					Resources.smileysAndEmotion, Resources.faceNegative,
+					buttonAlien.Tag,
+					FaceCostume.AlienApple,
+					FaceCostume.AlienGoogle,
+					FaceCostume.AlienFacebook,
+					FaceCostume.AlienWindows,
+					FaceCostume.AlienTwitter,
+					FaceCostume.AlienJoyPixels,
+					FaceCostume.AlienSamsung,
+					FaceCostume.AlienGmail,
+					null,
+					FaceCostume.AlienKddi,
+					FaceCostume.AlienSoftbank);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonAlienMonster_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonAlienMonster.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F47E", buttonAlienMonster.AccessibleName,
+					Resources.smileysAndEmotion, Resources.faceNegative,
+					buttonAlienMonster.Tag,
+					FaceCostume.AlienMonsterApple,
+					FaceCostume.AlienMonsterGoogle,
+					FaceCostume.AlienMonsterFacebook,
+					FaceCostume.AlienMonsterWindows,
+					FaceCostume.AlienMonsterTwitter,
+					FaceCostume.AlienMonsterJoyPixels,
+					FaceCostume.AlienMonsterSamsung,
+					FaceCostume.AlienMonsterGmail,
+					null,
+					FaceCostume.AlienMonsterKddi,
+					FaceCostume.AlienMonsterSoftbank);
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
+		}
+
+		private void ButtonRobot_Click(object sender, EventArgs e)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(buttonRobot.Tag.ToString());
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				ShowEmojiInfo("U+1F916", buttonRobot.AccessibleName,
+					Resources.smileysAndEmotion, Resources.faceNegative,
+					buttonRobot.Tag,
+					FaceCostume.RobotApple,
+					FaceCostume.RobotGoogle,
+					FaceCostume.RobotFacebook,
+					FaceCostume.RobotWindows,
+					FaceCostume.RobotTwitter,
+					FaceCostume.RobotJoyPixels,
+					FaceCostume.RobotSamsung,
 					null,
 					null,
 					null,

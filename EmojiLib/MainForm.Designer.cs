@@ -129,6 +129,14 @@
 			this.buttonAngryFaceWithHorns = new System.Windows.Forms.Button();
 			this.buttonSkull = new System.Windows.Forms.Button();
 			this.buttonSkullAndCrossbones = new System.Windows.Forms.Button();
+			this.buttonPileOfPoo = new System.Windows.Forms.Button();
+			this.buttonClownFace = new System.Windows.Forms.Button();
+			this.buttonOgre = new System.Windows.Forms.Button();
+			this.buttonGoblin = new System.Windows.Forms.Button();
+			this.buttonGhost = new System.Windows.Forms.Button();
+			this.buttonAlien = new System.Windows.Forms.Button();
+			this.buttonAlienMonster = new System.Windows.Forms.Button();
+			this.buttonRobot = new System.Windows.Forms.Button();
 			this.tabPageSearch = new System.Windows.Forms.TabPage();
 			this.toolStripContainerSearch = new System.Windows.Forms.ToolStripContainer();
 			this.flowLayoutPanelSearchResult = new System.Windows.Forms.FlowLayoutPanel();
@@ -311,6 +319,14 @@
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonAngryFaceWithHorns);
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSkull);
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSkullAndCrossbones);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonPileOfPoo);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonClownFace);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonOgre);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonGoblin);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonGhost);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonAlien);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonAlienMonster);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonRobot);
 			this.flowLayoutPanelSmileys.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.flowLayoutPanelSmileys.Location = new System.Drawing.Point(3, 3);
 			this.flowLayoutPanelSmileys.Name = "flowLayoutPanelSmileys";
@@ -2717,6 +2733,206 @@
 			this.buttonSkullAndCrossbones.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
 			this.buttonSkullAndCrossbones.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
+			// buttonPileOfPoo
+			// 
+			this.buttonPileOfPoo.AccessibleDescription = "pile of poo";
+			this.buttonPileOfPoo.AccessibleName = "pile of poo";
+			this.buttonPileOfPoo.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonPileOfPoo.BackgroundImage = global::EmojiLib.FaceCostume.PileOfPooGoogle;
+			this.buttonPileOfPoo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonPileOfPoo.FlatAppearance.BorderSize = 0;
+			this.buttonPileOfPoo.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonPileOfPoo.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonPileOfPoo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonPileOfPoo.Location = new System.Drawing.Point(384, 192);
+			this.buttonPileOfPoo.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonPileOfPoo.Name = "buttonPileOfPoo";
+			this.buttonPileOfPoo.Size = new System.Drawing.Size(32, 32);
+			this.buttonPileOfPoo.TabIndex = 97;
+			this.buttonPileOfPoo.Tag = "💩";
+			this.toolTip.SetToolTip(this.buttonPileOfPoo, "pile of poo");
+			this.buttonPileOfPoo.UseVisualStyleBackColor = true;
+			this.buttonPileOfPoo.Click += new System.EventHandler(this.ButtonPileOfPoo_Click);
+			this.buttonPileOfPoo.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonPileOfPoo.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonPileOfPoo.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonPileOfPoo.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonClownFace
+			// 
+			this.buttonClownFace.AccessibleDescription = "clown face";
+			this.buttonClownFace.AccessibleName = "clown face";
+			this.buttonClownFace.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonClownFace.BackgroundImage = global::EmojiLib.FaceCostume.ClownFaceGoogle;
+			this.buttonClownFace.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonClownFace.FlatAppearance.BorderSize = 0;
+			this.buttonClownFace.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonClownFace.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonClownFace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonClownFace.Location = new System.Drawing.Point(416, 192);
+			this.buttonClownFace.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonClownFace.Name = "buttonClownFace";
+			this.buttonClownFace.Size = new System.Drawing.Size(32, 32);
+			this.buttonClownFace.TabIndex = 98;
+			this.buttonClownFace.Tag = "🤡";
+			this.toolTip.SetToolTip(this.buttonClownFace, "clown face");
+			this.buttonClownFace.UseVisualStyleBackColor = true;
+			this.buttonClownFace.Click += new System.EventHandler(this.ButtonClownFace_Click);
+			this.buttonClownFace.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonClownFace.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonClownFace.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonClownFace.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonOgre
+			// 
+			this.buttonOgre.AccessibleDescription = "ogre";
+			this.buttonOgre.AccessibleName = "ogre";
+			this.buttonOgre.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonOgre.BackgroundImage = global::EmojiLib.FaceCostume.OgreGoogle;
+			this.buttonOgre.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonOgre.FlatAppearance.BorderSize = 0;
+			this.buttonOgre.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonOgre.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonOgre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonOgre.Location = new System.Drawing.Point(0, 224);
+			this.buttonOgre.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonOgre.Name = "buttonOgre";
+			this.buttonOgre.Size = new System.Drawing.Size(32, 32);
+			this.buttonOgre.TabIndex = 99;
+			this.buttonOgre.Tag = "👹";
+			this.toolTip.SetToolTip(this.buttonOgre, "ogre");
+			this.buttonOgre.UseVisualStyleBackColor = true;
+			this.buttonOgre.Click += new System.EventHandler(this.ButtonOgre_Click);
+			this.buttonOgre.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonOgre.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonOgre.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonOgre.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonGoblin
+			// 
+			this.buttonGoblin.AccessibleDescription = "goblin";
+			this.buttonGoblin.AccessibleName = "goblin";
+			this.buttonGoblin.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonGoblin.BackgroundImage = global::EmojiLib.FaceCostume.GoblinGoogle;
+			this.buttonGoblin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonGoblin.FlatAppearance.BorderSize = 0;
+			this.buttonGoblin.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonGoblin.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonGoblin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonGoblin.Location = new System.Drawing.Point(32, 224);
+			this.buttonGoblin.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonGoblin.Name = "buttonGoblin";
+			this.buttonGoblin.Size = new System.Drawing.Size(32, 32);
+			this.buttonGoblin.TabIndex = 100;
+			this.buttonGoblin.Tag = "👺";
+			this.toolTip.SetToolTip(this.buttonGoblin, "goblin");
+			this.buttonGoblin.UseVisualStyleBackColor = true;
+			this.buttonGoblin.Click += new System.EventHandler(this.ButtonGoblin_Click);
+			this.buttonGoblin.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonGoblin.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonGoblin.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonGoblin.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonGhost
+			// 
+			this.buttonGhost.AccessibleDescription = "ghost";
+			this.buttonGhost.AccessibleName = "ghost";
+			this.buttonGhost.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonGhost.BackgroundImage = global::EmojiLib.FaceCostume.GhostGoogle;
+			this.buttonGhost.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonGhost.FlatAppearance.BorderSize = 0;
+			this.buttonGhost.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonGhost.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonGhost.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonGhost.Location = new System.Drawing.Point(64, 224);
+			this.buttonGhost.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonGhost.Name = "buttonGhost";
+			this.buttonGhost.Size = new System.Drawing.Size(32, 32);
+			this.buttonGhost.TabIndex = 101;
+			this.buttonGhost.Tag = "👻";
+			this.toolTip.SetToolTip(this.buttonGhost, "ghost");
+			this.buttonGhost.UseVisualStyleBackColor = true;
+			this.buttonGhost.Click += new System.EventHandler(this.ButtonGhost_Click);
+			this.buttonGhost.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonGhost.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonGhost.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonGhost.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonAlien
+			// 
+			this.buttonAlien.AccessibleDescription = "alien";
+			this.buttonAlien.AccessibleName = "alien";
+			this.buttonAlien.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonAlien.BackgroundImage = global::EmojiLib.FaceCostume.AlienGoogle;
+			this.buttonAlien.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonAlien.FlatAppearance.BorderSize = 0;
+			this.buttonAlien.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonAlien.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonAlien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonAlien.Location = new System.Drawing.Point(96, 224);
+			this.buttonAlien.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonAlien.Name = "buttonAlien";
+			this.buttonAlien.Size = new System.Drawing.Size(32, 32);
+			this.buttonAlien.TabIndex = 102;
+			this.buttonAlien.Tag = "👽";
+			this.toolTip.SetToolTip(this.buttonAlien, "alien");
+			this.buttonAlien.UseVisualStyleBackColor = true;
+			this.buttonAlien.Click += new System.EventHandler(this.ButtonAlien_Click);
+			this.buttonAlien.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonAlien.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonAlien.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonAlien.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonAlienMonster
+			// 
+			this.buttonAlienMonster.AccessibleDescription = "alien monster";
+			this.buttonAlienMonster.AccessibleName = "alien monster";
+			this.buttonAlienMonster.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonAlienMonster.BackgroundImage = global::EmojiLib.FaceCostume.AlienMonsterGoogle;
+			this.buttonAlienMonster.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonAlienMonster.FlatAppearance.BorderSize = 0;
+			this.buttonAlienMonster.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonAlienMonster.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonAlienMonster.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonAlienMonster.Location = new System.Drawing.Point(128, 224);
+			this.buttonAlienMonster.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonAlienMonster.Name = "buttonAlienMonster";
+			this.buttonAlienMonster.Size = new System.Drawing.Size(32, 32);
+			this.buttonAlienMonster.TabIndex = 103;
+			this.buttonAlienMonster.Tag = "👾";
+			this.toolTip.SetToolTip(this.buttonAlienMonster, "alien monster");
+			this.buttonAlienMonster.UseVisualStyleBackColor = true;
+			this.buttonAlienMonster.Click += new System.EventHandler(this.ButtonAlienMonster_Click);
+			this.buttonAlienMonster.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonAlienMonster.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonAlienMonster.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonAlienMonster.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// buttonRobot
+			// 
+			this.buttonRobot.AccessibleDescription = "robot";
+			this.buttonRobot.AccessibleName = "robot";
+			this.buttonRobot.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonRobot.BackgroundImage = global::EmojiLib.FaceCostume.RobotGoogle;
+			this.buttonRobot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonRobot.FlatAppearance.BorderSize = 0;
+			this.buttonRobot.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonRobot.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonRobot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonRobot.Location = new System.Drawing.Point(160, 224);
+			this.buttonRobot.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonRobot.Name = "buttonRobot";
+			this.buttonRobot.Size = new System.Drawing.Size(32, 32);
+			this.buttonRobot.TabIndex = 104;
+			this.buttonRobot.Tag = "🤖";
+			this.toolTip.SetToolTip(this.buttonRobot, "robot");
+			this.buttonRobot.UseVisualStyleBackColor = true;
+			this.buttonRobot.Click += new System.EventHandler(this.ButtonRobot_Click);
+			this.buttonRobot.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonRobot.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonRobot.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonRobot.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
 			// tabPageSearch
 			// 
 			this.tabPageSearch.AccessibleDescription = "search";
@@ -3268,6 +3484,14 @@
 		private System.Windows.Forms.Button buttonAngryFaceWithHorns;
 		private System.Windows.Forms.Button buttonSkull;
 		private System.Windows.Forms.Button buttonSkullAndCrossbones;
+		private System.Windows.Forms.Button buttonPileOfPoo;
+		private System.Windows.Forms.Button buttonClownFace;
+		private System.Windows.Forms.Button buttonOgre;
+		private System.Windows.Forms.Button buttonGoblin;
+		private System.Windows.Forms.Button buttonGhost;
+		private System.Windows.Forms.Button buttonAlien;
+		private System.Windows.Forms.Button buttonAlienMonster;
+		private System.Windows.Forms.Button buttonRobot;
 	}
 }
 

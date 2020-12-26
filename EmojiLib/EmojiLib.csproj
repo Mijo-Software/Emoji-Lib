@@ -93,6 +93,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FaceConcerned.resx</DependentUpon>
     </Compile>
+    <Compile Include="FaceCostume.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FaceCostume.resx</DependentUpon>
+    </Compile>
     <Compile Include="FaceGlasses.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -160,6 +165,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FaceConcerned.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="FaceCostume.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FaceCostume.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="FaceGlasses.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>FaceGlasses.Designer.cs</LastGenOutput>
@@ -223,6 +232,78 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="emoji-lib.ico" />
+    <None Include="Resources\RobotTwitter.png" />
+    <None Include="Resources\RobotSamsung.png" />
+    <None Include="Resources\RobotJoyPixels.png" />
+    <None Include="Resources\RobotGoogle.png" />
+    <None Include="Resources\RobotFacebook.png" />
+    <None Include="Resources\RobotApple.png" />
+    <None Include="Resources\PileOfPooWindows.png" />
+    <None Include="Resources\PileOfPooTwitter.png" />
+    <None Include="Resources\PileOfPooSoftbank.gif" />
+    <None Include="Resources\PileOfPooSamsung.png" />
+    <None Include="Resources\PileOfPooKddi.gif" />
+    <None Include="Resources\PileOfPooJoyPixels.png" />
+    <None Include="Resources\PileOfPooGoogle.png" />
+    <None Include="Resources\PileOfPooGmail.gif" />
+    <None Include="Resources\PileOfPooFacebook.png" />
+    <None Include="Resources\PileOfPooApple.png" />
+    <None Include="Resources\OgreWindows.png" />
+    <None Include="Resources\OgreTwitter.png" />
+    <None Include="Resources\OgreSamsung.png" />
+    <None Include="Resources\OgreKddi.gif" />
+    <None Include="Resources\OgreJoyPixels.png" />
+    <None Include="Resources\OgreGoogle.png" />
+    <None Include="Resources\OgreGmail.gif" />
+    <None Include="Resources\OgreFacebook.png" />
+    <None Include="Resources\OgreApple.png" />
+    <None Include="Resources\GoblinWindows.png" />
+    <None Include="Resources\GoblinTwitter.png" />
+    <None Include="Resources\GoblinSamsung.png" />
+    <None Include="Resources\GoblinKddi.gif" />
+    <None Include="Resources\GoblinJoyPixels.png" />
+    <None Include="Resources\GoblinGoogle.png" />
+    <None Include="Resources\GoblinGmail.gif" />
+    <None Include="Resources\GoblinFacebook.png" />
+    <None Include="Resources\GoblinApple.png" />
+    <None Include="Resources\GhostWindows.png" />
+    <None Include="Resources\GhostTwitter.png" />
+    <None Include="Resources\GhostSoftbank.gif" />
+    <None Include="Resources\GhostSamsung.png" />
+    <None Include="Resources\GhostKddi.gif" />
+    <None Include="Resources\GhostJoyPixels.png" />
+    <None Include="Resources\GhostGoogle.png" />
+    <None Include="Resources\GhostGmail.gif" />
+    <None Include="Resources\GhostFacebook.png" />
+    <None Include="Resources\GhostApple.png" />
+    <None Include="Resources\ClownFaceWindows.png" />
+    <None Include="Resources\ClownFaceTwitter.png" />
+    <None Include="Resources\ClownFaceSamsung.png" />
+    <None Include="Resources\ClownFaceJoyPixels.png" />
+    <None Include="Resources\ClownFaceGoogle.png" />
+    <None Include="Resources\ClownFaceFacebook.png" />
+    <None Include="Resources\ClownFaceApple.png" />
+    <None Include="Resources\AlienWindows.png" />
+    <None Include="Resources\AlienTwitter.png" />
+    <None Include="Resources\AlienSoftbank.gif" />
+    <None Include="Resources\AlienSamsung.png" />
+    <None Include="Resources\AlienMonsterWindows.png" />
+    <None Include="Resources\AlienMonsterTwitter.png" />
+    <None Include="Resources\AlienMonsterSoftbank.gif" />
+    <None Include="Resources\AlienMonsterSamsung.png" />
+    <None Include="Resources\AlienMonsterKddi.gif" />
+    <None Include="Resources\AlienMonsterJoyPixels.png" />
+    <None Include="Resources\AlienMonsterGoogle.png" />
+    <None Include="Resources\AlienMonsterGmail.gif" />
+    <None Include="Resources\AlienMonsterFacebook.png" />
+    <None Include="Resources\AlienMonsterApple.png" />
+    <None Include="Resources\AlienKddi.gif" />
+    <None Include="Resources\AlienJoyPixels.png" />
+    <None Include="Resources\AlienGoogle.png" />
+    <None Include="Resources\AlienGmail.gif" />
+    <None Include="Resources\AlienFacebook.png" />
+    <None Include="Resources\AlienApple.png" />
+    <None Include="Resources\RobotWindows.png" />
     <None Include="Resources\RelievedFaceKddi.gif" />
     <None Include="Resources\RelievedFaceGmail.gif" />
     <None Include="Resources\RelievedFaceDocomo.gif" />
