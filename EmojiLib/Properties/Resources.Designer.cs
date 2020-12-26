@@ -61,6 +61,15 @@ namespace EmojiLib.Properties {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die cat-face ähnelt.
+        /// </summary>
+        internal static string catFace {
+            get {
+                return ResourceManager.GetString("catFace", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Error ähnelt.
         /// </summary>
         internal static string errorTitle {
@@ -84,6 +93,15 @@ namespace EmojiLib.Properties {
         internal static string faceConcerned {
             get {
                 return ResourceManager.GetString("faceConcerned", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die face-costume ähnelt.
+        /// </summary>
+        internal static string faceCostume {
+            get {
+                return ResourceManager.GetString("faceCostume", resourceCulture);
             }
         }
         
@@ -256,6 +274,15 @@ namespace EmojiLib.Properties {
             get {
                 object obj = ResourceManager.GetObject("logo_640", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die monkey-face ähnelt.
+        /// </summary>
+        internal static string monkeyFace {
+            get {
+                return ResourceManager.GetString("monkeyFace", resourceCulture);
             }
         }
         
