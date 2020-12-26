@@ -211,4 +211,13 @@
   <data name="warningTitle" xml:space="preserve">
     <value>Warning</value>
   </data>
+  <data name="faceCostume" xml:space="preserve">
+    <value>face-costume</value>
+  </data>
+  <data name="catFace" xml:space="preserve">
+    <value>cat-face</value>
+  </data>
+  <data name="monkeyFace" xml:space="preserve">
+    <value>monkey-face</value>
+  </data>
 </root>
