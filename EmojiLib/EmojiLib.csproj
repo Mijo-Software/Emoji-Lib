@@ -83,6 +83,11 @@
     <Compile Include="EmojiInfoForm.Designer.cs">
       <DependentUpon>EmojiInfoForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Emotion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Emotion.resx</DependentUpon>
+    </Compile>
     <Compile Include="FaceAffection.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -166,6 +171,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EmojiInfoForm.resx">
       <DependentUpon>EmojiInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emotion.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Emotion.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="FaceAffection.resx">
       <Generator>ResXFileCodeGenerator</Generator>

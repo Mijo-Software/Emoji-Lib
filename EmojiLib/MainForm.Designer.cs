@@ -55,6 +55,7 @@
 			this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
 			this.toolTip = new System.Windows.Forms.ToolTip(this.components);
 			this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
+			this.buttonKissMark = new System.Windows.Forms.Button();
 			this.labelCopiedStatus = new System.Windows.Forms.ToolStripStatusLabel();
 			this.buttonGrinningFace = new System.Windows.Forms.Button();
 			this.buttonGrinningFaceWithBigEyes = new System.Windows.Forms.Button();
@@ -182,6 +183,40 @@
 			this.buttonEmojiSize24 = new System.Windows.Forms.ToolStripButton();
 			this.buttonEmojiSize32 = new System.Windows.Forms.ToolStripButton();
 			this.toolStripButtonSearch = new System.Windows.Forms.ToolStripButton();
+			this.buttonLoveLetter = new System.Windows.Forms.Button();
+			this.buttonHeartWithArrow = new System.Windows.Forms.Button();
+			this.buttonHeartWithRibbon = new System.Windows.Forms.Button();
+			this.buttonSparklingHeart = new System.Windows.Forms.Button();
+			this.buttonGrowingHeart = new System.Windows.Forms.Button();
+			this.buttonBeatingHeart = new System.Windows.Forms.Button();
+			this.buttonRevolvingHearts = new System.Windows.Forms.Button();
+			this.buttonTwoHearts = new System.Windows.Forms.Button();
+			this.buttonHeartDecoration = new System.Windows.Forms.Button();
+			this.buttonHeartExclamation = new System.Windows.Forms.Button();
+			this.buttonBrokenHeart = new System.Windows.Forms.Button();
+			this.buttonRedHeart = new System.Windows.Forms.Button();
+			this.buttonOrangeHeart = new System.Windows.Forms.Button();
+			this.buttonYellowHeart = new System.Windows.Forms.Button();
+			this.buttonGreenHeart = new System.Windows.Forms.Button();
+			this.buttonBlueHeart = new System.Windows.Forms.Button();
+			this.buttonPurpleHeart = new System.Windows.Forms.Button();
+			this.buttonBrownHeart = new System.Windows.Forms.Button();
+			this.buttonBlackHeart = new System.Windows.Forms.Button();
+			this.buttonWhiteHeart = new System.Windows.Forms.Button();
+			this.buttonHundredPoints = new System.Windows.Forms.Button();
+			this.buttonAngerSymbol = new System.Windows.Forms.Button();
+			this.buttonCollision = new System.Windows.Forms.Button();
+			this.buttonDizzy = new System.Windows.Forms.Button();
+			this.buttonSweatDroplets = new System.Windows.Forms.Button();
+			this.buttonDashingAway = new System.Windows.Forms.Button();
+			this.buttonHole = new System.Windows.Forms.Button();
+			this.buttonBomb = new System.Windows.Forms.Button();
+			this.buttonSpeechBalloon = new System.Windows.Forms.Button();
+			this.buttonEyeInSpeechBubble = new System.Windows.Forms.Button();
+			this.buttonLeftSpeechBubble = new System.Windows.Forms.Button();
+			this.buttonRightAngerBubble = new System.Windows.Forms.Button();
+			this.buttonThoughtBalloon = new System.Windows.Forms.Button();
+			this.buttonZzz = new System.Windows.Forms.Button();
 			this.tabControlEmojis.SuspendLayout();
 			this.tabPageSmileys.SuspendLayout();
 			this.flowLayoutPanelSmileys.SuspendLayout();
@@ -351,6 +386,41 @@
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSeeNoEvilMonkey);
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonHearNoEvilMonkey);
 			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSpeakNoEvilMonkey);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonKissMark);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonLoveLetter);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonHeartWithArrow);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonHeartWithRibbon);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSparklingHeart);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonGrowingHeart);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonBeatingHeart);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonRevolvingHearts);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonTwoHearts);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonHeartDecoration);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonHeartExclamation);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonBrokenHeart);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonRedHeart);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonOrangeHeart);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonYellowHeart);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonGreenHeart);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonBlueHeart);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonPurpleHeart);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonBrownHeart);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonBlackHeart);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonWhiteHeart);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonHundredPoints);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonAngerSymbol);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonCollision);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonDizzy);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSweatDroplets);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonDashingAway);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonHole);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonBomb);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonSpeechBalloon);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonEyeInSpeechBubble);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonLeftSpeechBubble);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonRightAngerBubble);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonThoughtBalloon);
+			this.flowLayoutPanelSmileys.Controls.Add(this.buttonZzz);
 			this.flowLayoutPanelSmileys.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.flowLayoutPanelSmileys.Location = new System.Drawing.Point(3, 3);
 			this.flowLayoutPanelSmileys.Name = "flowLayoutPanelSmileys";
@@ -437,13 +507,14 @@
 			// 
 			this.labelSearchTerm.AutoToolTip = true;
 			this.labelSearchTerm.Name = "labelSearchTerm";
-			this.labelSearchTerm.Size = new System.Drawing.Size(69, 22);
+			this.labelSearchTerm.Size = new System.Drawing.Size(73, 22);
 			this.labelSearchTerm.Text = "Search &term:";
 			this.labelSearchTerm.ToolTipText = "Search term";
 			// 
 			// textBoxSearch
 			// 
 			this.textBoxSearch.AutoToolTip = true;
+			this.textBoxSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
 			this.textBoxSearch.Name = "textBoxSearch";
 			this.textBoxSearch.Size = new System.Drawing.Size(100, 25);
 			// 
@@ -466,7 +537,7 @@
 			// 
 			this.labelInformation.AutoToolTip = true;
 			this.labelInformation.Name = "labelInformation";
-			this.labelInformation.Size = new System.Drawing.Size(61, 17);
+			this.labelInformation.Size = new System.Drawing.Size(70, 17);
 			this.labelInformation.Text = "information";
 			// 
 			// toolStripProgressBar
@@ -534,7 +605,7 @@
             this.toolStripMenuItemAboutBox,
             this.toolStripMenuItemExit});
 			this.toolStripMenuItemFile.Name = "toolStripMenuItemFile";
-			this.toolStripMenuItemFile.Size = new System.Drawing.Size(35, 20);
+			this.toolStripMenuItemFile.Size = new System.Drawing.Size(37, 20);
 			this.toolStripMenuItemFile.Text = "&File";
 			// 
 			// toolStripMenuItemGoto
@@ -546,7 +617,7 @@
             this.toolStripMenuItemSmileys,
             this.toolStripMenuItemSearch});
 			this.toolStripMenuItemGoto.Name = "toolStripMenuItemGoto";
-			this.toolStripMenuItemGoto.Size = new System.Drawing.Size(45, 20);
+			this.toolStripMenuItemGoto.Size = new System.Drawing.Size(48, 20);
 			this.toolStripMenuItemGoto.Text = "&Go to";
 			// 
 			// toolStripMenuItemSmileys
@@ -557,7 +628,7 @@
 			this.toolStripMenuItemSmileys.Checked = true;
 			this.toolStripMenuItemSmileys.CheckState = System.Windows.Forms.CheckState.Checked;
 			this.toolStripMenuItemSmileys.Name = "toolStripMenuItemSmileys";
-			this.toolStripMenuItemSmileys.Size = new System.Drawing.Size(160, 22);
+			this.toolStripMenuItemSmileys.Size = new System.Drawing.Size(175, 22);
 			this.toolStripMenuItemSmileys.Text = "&Smileys && Emotion";
 			this.toolStripMenuItemSmileys.ToolTipText = "Smileys & Emotion";
 			this.toolStripMenuItemSmileys.Click += new System.EventHandler(this.GotoTabSmileys_Click);
@@ -568,7 +639,7 @@
 			this.toolStripMenuItemSearch.AccessibleName = "search";
 			this.toolStripMenuItemSearch.AutoToolTip = true;
 			this.toolStripMenuItemSearch.Name = "toolStripMenuItemSearch";
-			this.toolStripMenuItemSearch.Size = new System.Drawing.Size(160, 22);
+			this.toolStripMenuItemSearch.Size = new System.Drawing.Size(175, 22);
 			this.toolStripMenuItemSearch.Text = "Searc&h";
 			this.toolStripMenuItemSearch.Click += new System.EventHandler(this.GotoTabSearch_Click);
 			// 
@@ -597,7 +668,7 @@
 			// labelWorkMode
 			// 
 			this.labelWorkMode.Name = "labelWorkMode";
-			this.labelWorkMode.Size = new System.Drawing.Size(65, 22);
+			this.labelWorkMode.Size = new System.Drawing.Size(72, 22);
 			this.labelWorkMode.Text = "Work Mode:";
 			// 
 			// toolStripSeparator1
@@ -608,7 +679,7 @@
 			// labelEmojiSize
 			// 
 			this.labelEmojiSize.Name = "labelEmojiSize";
-			this.labelEmojiSize.Size = new System.Drawing.Size(58, 22);
+			this.labelEmojiSize.Size = new System.Drawing.Size(63, 22);
 			this.labelEmojiSize.Text = "Emoji Size:";
 			// 
 			// toolStripSeparator2
@@ -620,13 +691,38 @@
 			// 
 			this.notifyIcon.Visible = true;
 			// 
+			// buttonKissMark
+			// 
+			this.buttonKissMark.AccessibleDescription = "kiss mark";
+			this.buttonKissMark.AccessibleName = "kiss mark";
+			this.buttonKissMark.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonKissMark.BackgroundImage = global::EmojiLib.Emotion.KissMarkGoogle;
+			this.buttonKissMark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonKissMark.FlatAppearance.BorderSize = 0;
+			this.buttonKissMark.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonKissMark.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonKissMark.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonKissMark.Location = new System.Drawing.Point(128, 256);
+			this.buttonKissMark.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonKissMark.Name = "buttonKissMark";
+			this.buttonKissMark.Size = new System.Drawing.Size(32, 32);
+			this.buttonKissMark.TabIndex = 117;
+			this.buttonKissMark.Tag = "💋";
+			this.toolTip.SetToolTip(this.buttonKissMark, "kiss mark");
+			this.buttonKissMark.UseVisualStyleBackColor = true;
+			this.buttonKissMark.Click += new System.EventHandler(this.ButtonKissMark_Click);
+			this.buttonKissMark.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonKissMark.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonKissMark.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonKissMark.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
 			// labelCopiedStatus
 			// 
 			this.labelCopiedStatus.AutoToolTip = true;
 			this.labelCopiedStatus.Image = global::EmojiLib.Properties.Resources.fatcow_clipboard_paste;
 			this.labelCopiedStatus.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
 			this.labelCopiedStatus.Name = "labelCopiedStatus";
-			this.labelCopiedStatus.Size = new System.Drawing.Size(294, 17);
+			this.labelCopiedStatus.Size = new System.Drawing.Size(285, 17);
 			this.labelCopiedStatus.Spring = true;
 			this.labelCopiedStatus.Text = "Copied";
 			this.labelCopiedStatus.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3535,7 +3631,7 @@
 			this.toolStripButtonFind.Image = global::EmojiLib.Properties.Resources.fatcow_find;
 			this.toolStripButtonFind.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.toolStripButtonFind.Name = "toolStripButtonFind";
-			this.toolStripButtonFind.Size = new System.Drawing.Size(47, 22);
+			this.toolStripButtonFind.Size = new System.Drawing.Size(50, 22);
 			this.toolStripButtonFind.Text = "Fi&nd";
 			this.toolStripButtonFind.Click += new System.EventHandler(this.ButtonSearch_Click);
 			// 
@@ -3544,7 +3640,7 @@
 			this.toolStripButtonClearAll.Image = global::EmojiLib.Properties.Resources.fatcow_bin;
 			this.toolStripButtonClearAll.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.toolStripButtonClearAll.Name = "toolStripButtonClearAll";
-			this.toolStripButtonClearAll.Size = new System.Drawing.Size(65, 22);
+			this.toolStripButtonClearAll.Size = new System.Drawing.Size(69, 22);
 			this.toolStripButtonClearAll.Text = "&Clear all";
 			this.toolStripButtonClearAll.Click += new System.EventHandler(this.ButtonClearAll_Click);
 			// 
@@ -3554,7 +3650,7 @@
 			this.toolStripMenuItemAboutBox.AccessibleName = "About";
 			this.toolStripMenuItemAboutBox.Image = global::EmojiLib.Properties.Resources.fatcow_information;
 			this.toolStripMenuItemAboutBox.Name = "toolStripMenuItemAboutBox";
-			this.toolStripMenuItemAboutBox.Size = new System.Drawing.Size(103, 22);
+			this.toolStripMenuItemAboutBox.Size = new System.Drawing.Size(107, 22);
 			this.toolStripMenuItemAboutBox.Text = "&About";
 			this.toolStripMenuItemAboutBox.Click += new System.EventHandler(this.ShowAboutBox_Click);
 			// 
@@ -3565,7 +3661,7 @@
 			this.toolStripMenuItemExit.AutoToolTip = true;
 			this.toolStripMenuItemExit.Image = global::EmojiLib.Properties.Resources.fatcow_door;
 			this.toolStripMenuItemExit.Name = "toolStripMenuItemExit";
-			this.toolStripMenuItemExit.Size = new System.Drawing.Size(103, 22);
+			this.toolStripMenuItemExit.Size = new System.Drawing.Size(107, 22);
 			this.toolStripMenuItemExit.Text = "&Exit";
 			this.toolStripMenuItemExit.Click += new System.EventHandler(this.Exit_Click);
 			// 
@@ -3597,7 +3693,7 @@
 			this.buttonEmojiSize16.Image = ((System.Drawing.Image)(resources.GetObject("buttonEmojiSize16.Image")));
 			this.buttonEmojiSize16.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.buttonEmojiSize16.Name = "buttonEmojiSize16";
-			this.buttonEmojiSize16.Size = new System.Drawing.Size(35, 22);
+			this.buttonEmojiSize16.Size = new System.Drawing.Size(36, 22);
 			this.buttonEmojiSize16.Text = "16px";
 			this.buttonEmojiSize16.Click += new System.EventHandler(this.ButtonEmojiSize16_Click);
 			// 
@@ -3607,7 +3703,7 @@
 			this.buttonEmojiSize24.Image = ((System.Drawing.Image)(resources.GetObject("buttonEmojiSize24.Image")));
 			this.buttonEmojiSize24.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.buttonEmojiSize24.Name = "buttonEmojiSize24";
-			this.buttonEmojiSize24.Size = new System.Drawing.Size(35, 22);
+			this.buttonEmojiSize24.Size = new System.Drawing.Size(36, 22);
 			this.buttonEmojiSize24.Text = "24px";
 			this.buttonEmojiSize24.Click += new System.EventHandler(this.ButtonEmojiSize24_Click);
 			// 
@@ -3619,7 +3715,7 @@
 			this.buttonEmojiSize32.Image = ((System.Drawing.Image)(resources.GetObject("buttonEmojiSize32.Image")));
 			this.buttonEmojiSize32.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.buttonEmojiSize32.Name = "buttonEmojiSize32";
-			this.buttonEmojiSize32.Size = new System.Drawing.Size(35, 22);
+			this.buttonEmojiSize32.Size = new System.Drawing.Size(36, 22);
 			this.buttonEmojiSize32.Text = "32px";
 			this.buttonEmojiSize32.Click += new System.EventHandler(this.ButtonEmojiSize32_Click);
 			// 
@@ -3629,9 +3725,859 @@
 			this.toolStripButtonSearch.Image = global::EmojiLib.Properties.Resources.fatcow_find;
 			this.toolStripButtonSearch.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.toolStripButtonSearch.Name = "toolStripButtonSearch";
-			this.toolStripButtonSearch.Size = new System.Drawing.Size(60, 22);
+			this.toolStripButtonSearch.Size = new System.Drawing.Size(62, 22);
 			this.toolStripButtonSearch.Text = "Search";
 			this.toolStripButtonSearch.Click += new System.EventHandler(this.Search_Click);
+			// 
+			// buttonLoveLetter
+			// 
+			this.buttonLoveLetter.AccessibleDescription = "love letter";
+			this.buttonLoveLetter.AccessibleName = "love letter";
+			this.buttonLoveLetter.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonLoveLetter.BackgroundImage = global::EmojiLib.Emotion.LoveLetterGoogle;
+			this.buttonLoveLetter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonLoveLetter.FlatAppearance.BorderSize = 0;
+			this.buttonLoveLetter.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonLoveLetter.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonLoveLetter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonLoveLetter.Location = new System.Drawing.Point(160, 256);
+			this.buttonLoveLetter.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonLoveLetter.Name = "buttonLoveLetter";
+			this.buttonLoveLetter.Size = new System.Drawing.Size(32, 32);
+			this.buttonLoveLetter.TabIndex = 118;
+			this.buttonLoveLetter.Tag = "💌";
+			this.toolTip.SetToolTip(this.buttonLoveLetter, "love letter");
+			this.buttonLoveLetter.UseVisualStyleBackColor = true;
+			this.buttonLoveLetter.Click += new System.EventHandler(this.ButtonLoveLetter_Click);
+			this.buttonLoveLetter.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonLoveLetter.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonLoveLetter.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonLoveLetter.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonHeartWithArrow
+			// 
+			this.buttonHeartWithArrow.AccessibleDescription = "heart with arrow";
+			this.buttonHeartWithArrow.AccessibleName = "heart with arrow";
+			this.buttonHeartWithArrow.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonHeartWithArrow.BackgroundImage = global::EmojiLib.Emotion.HeartWithArrowGoogle;
+			this.buttonHeartWithArrow.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonHeartWithArrow.FlatAppearance.BorderSize = 0;
+			this.buttonHeartWithArrow.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonHeartWithArrow.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonHeartWithArrow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonHeartWithArrow.Location = new System.Drawing.Point(192, 256);
+			this.buttonHeartWithArrow.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonHeartWithArrow.Name = "buttonHeartWithArrow";
+			this.buttonHeartWithArrow.Size = new System.Drawing.Size(32, 32);
+			this.buttonHeartWithArrow.TabIndex = 119;
+			this.buttonHeartWithArrow.Tag = "💘";
+			this.toolTip.SetToolTip(this.buttonHeartWithArrow, "heart with arrow");
+			this.buttonHeartWithArrow.UseVisualStyleBackColor = true;
+			this.buttonHeartWithArrow.Click += new System.EventHandler(this.ButtonHeartWithArrow_Click);
+			this.buttonHeartWithArrow.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHeartWithArrow.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonHeartWithArrow.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHeartWithArrow.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonHeartWithRibbon
+			// 
+			this.buttonHeartWithRibbon.AccessibleDescription = "heart with ribbon";
+			this.buttonHeartWithRibbon.AccessibleName = "heart with ribbon";
+			this.buttonHeartWithRibbon.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonHeartWithRibbon.BackgroundImage = global::EmojiLib.Emotion.HeartWithRibbonJoyPixels;
+			this.buttonHeartWithRibbon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonHeartWithRibbon.FlatAppearance.BorderSize = 0;
+			this.buttonHeartWithRibbon.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonHeartWithRibbon.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonHeartWithRibbon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonHeartWithRibbon.Location = new System.Drawing.Point(224, 256);
+			this.buttonHeartWithRibbon.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonHeartWithRibbon.Name = "buttonHeartWithRibbon";
+			this.buttonHeartWithRibbon.Size = new System.Drawing.Size(32, 32);
+			this.buttonHeartWithRibbon.TabIndex = 120;
+			this.buttonHeartWithRibbon.Tag = "💝";
+			this.toolTip.SetToolTip(this.buttonHeartWithRibbon, "heart with ribbon");
+			this.buttonHeartWithRibbon.UseVisualStyleBackColor = true;
+			this.buttonHeartWithRibbon.Click += new System.EventHandler(this.ButtonHeartWithRibbon_Click);
+			this.buttonHeartWithRibbon.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHeartWithRibbon.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonHeartWithRibbon.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHeartWithRibbon.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonSparklingHeart
+			// 
+			this.buttonSparklingHeart.AccessibleDescription = "sparkling heart";
+			this.buttonSparklingHeart.AccessibleName = "sparkling heart";
+			this.buttonSparklingHeart.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonSparklingHeart.BackgroundImage = global::EmojiLib.Emotion.SparklingHeartGoogle;
+			this.buttonSparklingHeart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonSparklingHeart.FlatAppearance.BorderSize = 0;
+			this.buttonSparklingHeart.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonSparklingHeart.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonSparklingHeart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonSparklingHeart.Location = new System.Drawing.Point(256, 256);
+			this.buttonSparklingHeart.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonSparklingHeart.Name = "buttonSparklingHeart";
+			this.buttonSparklingHeart.Size = new System.Drawing.Size(32, 32);
+			this.buttonSparklingHeart.TabIndex = 121;
+			this.buttonSparklingHeart.Tag = "💖";
+			this.toolTip.SetToolTip(this.buttonSparklingHeart, "sparkling heart");
+			this.buttonSparklingHeart.UseVisualStyleBackColor = true;
+			this.buttonSparklingHeart.Click += new System.EventHandler(this.ButtonSparklingHeart_Click);
+			this.buttonSparklingHeart.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSparklingHeart.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonSparklingHeart.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSparklingHeart.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonGrowingHeart
+			// 
+			this.buttonGrowingHeart.AccessibleDescription = "growing heart";
+			this.buttonGrowingHeart.AccessibleName = "growing heart";
+			this.buttonGrowingHeart.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonGrowingHeart.BackgroundImage = global::EmojiLib.Emotion.GrowingHeartGoogle;
+			this.buttonGrowingHeart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonGrowingHeart.FlatAppearance.BorderSize = 0;
+			this.buttonGrowingHeart.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonGrowingHeart.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonGrowingHeart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonGrowingHeart.Location = new System.Drawing.Point(288, 256);
+			this.buttonGrowingHeart.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonGrowingHeart.Name = "buttonGrowingHeart";
+			this.buttonGrowingHeart.Size = new System.Drawing.Size(32, 32);
+			this.buttonGrowingHeart.TabIndex = 122;
+			this.buttonGrowingHeart.Tag = "💗";
+			this.toolTip.SetToolTip(this.buttonGrowingHeart, "growing heart");
+			this.buttonGrowingHeart.UseVisualStyleBackColor = true;
+			this.buttonGrowingHeart.Click += new System.EventHandler(this.ButtonGrowingHeart_Click);
+			this.buttonGrowingHeart.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonGrowingHeart.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonGrowingHeart.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonGrowingHeart.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonBeatingHeart
+			// 
+			this.buttonBeatingHeart.AccessibleDescription = "beating heart";
+			this.buttonBeatingHeart.AccessibleName = "beating heart";
+			this.buttonBeatingHeart.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonBeatingHeart.BackgroundImage = global::EmojiLib.Emotion.BeatingHeartGoogle;
+			this.buttonBeatingHeart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonBeatingHeart.FlatAppearance.BorderSize = 0;
+			this.buttonBeatingHeart.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonBeatingHeart.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonBeatingHeart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonBeatingHeart.Location = new System.Drawing.Point(320, 256);
+			this.buttonBeatingHeart.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonBeatingHeart.Name = "buttonBeatingHeart";
+			this.buttonBeatingHeart.Size = new System.Drawing.Size(32, 32);
+			this.buttonBeatingHeart.TabIndex = 123;
+			this.buttonBeatingHeart.Tag = "💓";
+			this.toolTip.SetToolTip(this.buttonBeatingHeart, "beating heart");
+			this.buttonBeatingHeart.UseVisualStyleBackColor = true;
+			this.buttonBeatingHeart.Click += new System.EventHandler(this.ButtonBeatingHeart_Click);
+			this.buttonBeatingHeart.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonBeatingHeart.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonBeatingHeart.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonBeatingHeart.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonRevolvingHearts
+			// 
+			this.buttonRevolvingHearts.AccessibleDescription = "revolving hearts";
+			this.buttonRevolvingHearts.AccessibleName = "revolving hearts";
+			this.buttonRevolvingHearts.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonRevolvingHearts.BackgroundImage = global::EmojiLib.Emotion.RevolvingHeartsGoogle;
+			this.buttonRevolvingHearts.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonRevolvingHearts.FlatAppearance.BorderSize = 0;
+			this.buttonRevolvingHearts.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonRevolvingHearts.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonRevolvingHearts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonRevolvingHearts.Location = new System.Drawing.Point(352, 256);
+			this.buttonRevolvingHearts.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonRevolvingHearts.Name = "buttonRevolvingHearts";
+			this.buttonRevolvingHearts.Size = new System.Drawing.Size(32, 32);
+			this.buttonRevolvingHearts.TabIndex = 124;
+			this.buttonRevolvingHearts.Tag = "💞";
+			this.toolTip.SetToolTip(this.buttonRevolvingHearts, "revolving hearts");
+			this.buttonRevolvingHearts.UseVisualStyleBackColor = true;
+			this.buttonRevolvingHearts.Click += new System.EventHandler(this.ButtonRevolvingHearts_Click);
+			this.buttonRevolvingHearts.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonRevolvingHearts.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonRevolvingHearts.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonRevolvingHearts.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonTwoHearts
+			// 
+			this.buttonTwoHearts.AccessibleDescription = "two hearts";
+			this.buttonTwoHearts.AccessibleName = "two hearts";
+			this.buttonTwoHearts.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonTwoHearts.BackgroundImage = global::EmojiLib.Emotion.TwoHeartsGoogle;
+			this.buttonTwoHearts.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonTwoHearts.FlatAppearance.BorderSize = 0;
+			this.buttonTwoHearts.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonTwoHearts.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonTwoHearts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonTwoHearts.Location = new System.Drawing.Point(384, 256);
+			this.buttonTwoHearts.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonTwoHearts.Name = "buttonTwoHearts";
+			this.buttonTwoHearts.Size = new System.Drawing.Size(32, 32);
+			this.buttonTwoHearts.TabIndex = 125;
+			this.buttonTwoHearts.Tag = "💕";
+			this.toolTip.SetToolTip(this.buttonTwoHearts, "two hearts");
+			this.buttonTwoHearts.UseVisualStyleBackColor = true;
+			this.buttonTwoHearts.Click += new System.EventHandler(this.ButtonTwoHearts_Click);
+			this.buttonTwoHearts.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonTwoHearts.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonTwoHearts.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonTwoHearts.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonHeartDecoration
+			// 
+			this.buttonHeartDecoration.AccessibleDescription = "heart decoration";
+			this.buttonHeartDecoration.AccessibleName = "heart decoration";
+			this.buttonHeartDecoration.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonHeartDecoration.BackgroundImage = global::EmojiLib.Emotion.HeartDecorationGoogle;
+			this.buttonHeartDecoration.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonHeartDecoration.FlatAppearance.BorderSize = 0;
+			this.buttonHeartDecoration.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonHeartDecoration.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonHeartDecoration.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonHeartDecoration.Location = new System.Drawing.Point(416, 256);
+			this.buttonHeartDecoration.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonHeartDecoration.Name = "buttonHeartDecoration";
+			this.buttonHeartDecoration.Size = new System.Drawing.Size(32, 32);
+			this.buttonHeartDecoration.TabIndex = 126;
+			this.buttonHeartDecoration.Tag = "💟";
+			this.toolTip.SetToolTip(this.buttonHeartDecoration, "heart decoration");
+			this.buttonHeartDecoration.UseVisualStyleBackColor = true;
+			this.buttonHeartDecoration.Click += new System.EventHandler(this.ButtonHeartDecoration_Click);
+			this.buttonHeartDecoration.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHeartDecoration.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonHeartDecoration.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHeartDecoration.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonHeartExclamation
+			// 
+			this.buttonHeartExclamation.AccessibleDescription = "heart exclamation";
+			this.buttonHeartExclamation.AccessibleName = "heart exclamation";
+			this.buttonHeartExclamation.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonHeartExclamation.BackgroundImage = global::EmojiLib.Emotion.HeartExclamationGoogle;
+			this.buttonHeartExclamation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonHeartExclamation.FlatAppearance.BorderSize = 0;
+			this.buttonHeartExclamation.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonHeartExclamation.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonHeartExclamation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonHeartExclamation.Location = new System.Drawing.Point(0, 288);
+			this.buttonHeartExclamation.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonHeartExclamation.Name = "buttonHeartExclamation";
+			this.buttonHeartExclamation.Size = new System.Drawing.Size(32, 32);
+			this.buttonHeartExclamation.TabIndex = 127;
+			this.buttonHeartExclamation.Tag = "❣";
+			this.toolTip.SetToolTip(this.buttonHeartExclamation, "heart exclamation");
+			this.buttonHeartExclamation.UseVisualStyleBackColor = true;
+			this.buttonHeartExclamation.Click += new System.EventHandler(this.ButtonHeartExclamation_Click);
+			this.buttonHeartExclamation.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHeartExclamation.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonHeartExclamation.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHeartExclamation.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonBrokenHeart
+			// 
+			this.buttonBrokenHeart.AccessibleDescription = "broken heart";
+			this.buttonBrokenHeart.AccessibleName = "broken heart";
+			this.buttonBrokenHeart.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonBrokenHeart.BackgroundImage = global::EmojiLib.Emotion.BrokenHeartGoogle;
+			this.buttonBrokenHeart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonBrokenHeart.FlatAppearance.BorderSize = 0;
+			this.buttonBrokenHeart.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonBrokenHeart.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonBrokenHeart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonBrokenHeart.Location = new System.Drawing.Point(32, 288);
+			this.buttonBrokenHeart.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonBrokenHeart.Name = "buttonBrokenHeart";
+			this.buttonBrokenHeart.Size = new System.Drawing.Size(32, 32);
+			this.buttonBrokenHeart.TabIndex = 128;
+			this.buttonBrokenHeart.Tag = "💔";
+			this.toolTip.SetToolTip(this.buttonBrokenHeart, "broken heart");
+			this.buttonBrokenHeart.UseVisualStyleBackColor = true;
+			this.buttonBrokenHeart.Click += new System.EventHandler(this.ButtonBrokenHeart_Click);
+			this.buttonBrokenHeart.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonBrokenHeart.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonBrokenHeart.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonBrokenHeart.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonRedHeart
+			// 
+			this.buttonRedHeart.AccessibleDescription = "red heart";
+			this.buttonRedHeart.AccessibleName = "red heart";
+			this.buttonRedHeart.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonRedHeart.BackgroundImage = global::EmojiLib.Emotion.RedHeartGoogle;
+			this.buttonRedHeart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonRedHeart.FlatAppearance.BorderSize = 0;
+			this.buttonRedHeart.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonRedHeart.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonRedHeart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonRedHeart.Location = new System.Drawing.Point(64, 288);
+			this.buttonRedHeart.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonRedHeart.Name = "buttonRedHeart";
+			this.buttonRedHeart.Size = new System.Drawing.Size(32, 32);
+			this.buttonRedHeart.TabIndex = 129;
+			this.buttonRedHeart.Tag = "❤";
+			this.toolTip.SetToolTip(this.buttonRedHeart, "red heart");
+			this.buttonRedHeart.UseVisualStyleBackColor = true;
+			this.buttonRedHeart.Click += new System.EventHandler(this.ButtonRedHeart_Click);
+			this.buttonRedHeart.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonRedHeart.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonRedHeart.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonRedHeart.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonOrangeHeart
+			// 
+			this.buttonOrangeHeart.AccessibleDescription = "orange heart";
+			this.buttonOrangeHeart.AccessibleName = "orange heart";
+			this.buttonOrangeHeart.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonOrangeHeart.BackgroundImage = global::EmojiLib.Emotion.OrangeHeartGoogle;
+			this.buttonOrangeHeart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonOrangeHeart.FlatAppearance.BorderSize = 0;
+			this.buttonOrangeHeart.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonOrangeHeart.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonOrangeHeart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonOrangeHeart.Location = new System.Drawing.Point(96, 288);
+			this.buttonOrangeHeart.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonOrangeHeart.Name = "buttonOrangeHeart";
+			this.buttonOrangeHeart.Size = new System.Drawing.Size(32, 32);
+			this.buttonOrangeHeart.TabIndex = 130;
+			this.buttonOrangeHeart.Tag = "🧡";
+			this.toolTip.SetToolTip(this.buttonOrangeHeart, "orange heart");
+			this.buttonOrangeHeart.UseVisualStyleBackColor = true;
+			this.buttonOrangeHeart.Click += new System.EventHandler(this.ButtonOrangeHeart_Click);
+			this.buttonOrangeHeart.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonOrangeHeart.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonOrangeHeart.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonOrangeHeart.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonYellowHeart
+			// 
+			this.buttonYellowHeart.AccessibleDescription = "yellow heart";
+			this.buttonYellowHeart.AccessibleName = "yellow heart";
+			this.buttonYellowHeart.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonYellowHeart.BackgroundImage = global::EmojiLib.Emotion.YellowHeartGoogle;
+			this.buttonYellowHeart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonYellowHeart.FlatAppearance.BorderSize = 0;
+			this.buttonYellowHeart.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonYellowHeart.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonYellowHeart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonYellowHeart.Location = new System.Drawing.Point(128, 288);
+			this.buttonYellowHeart.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonYellowHeart.Name = "buttonYellowHeart";
+			this.buttonYellowHeart.Size = new System.Drawing.Size(32, 32);
+			this.buttonYellowHeart.TabIndex = 131;
+			this.buttonYellowHeart.Tag = "💛";
+			this.toolTip.SetToolTip(this.buttonYellowHeart, "yellow heart");
+			this.buttonYellowHeart.UseVisualStyleBackColor = true;
+			this.buttonYellowHeart.Click += new System.EventHandler(this.ButtonYellowHeart_Click);
+			this.buttonYellowHeart.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonYellowHeart.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonYellowHeart.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonYellowHeart.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonGreenHeart
+			// 
+			this.buttonGreenHeart.AccessibleDescription = "green heart";
+			this.buttonGreenHeart.AccessibleName = "green heart";
+			this.buttonGreenHeart.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonGreenHeart.BackgroundImage = global::EmojiLib.Emotion.GreenHeartGoogle;
+			this.buttonGreenHeart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonGreenHeart.FlatAppearance.BorderSize = 0;
+			this.buttonGreenHeart.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonGreenHeart.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonGreenHeart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonGreenHeart.Location = new System.Drawing.Point(160, 288);
+			this.buttonGreenHeart.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonGreenHeart.Name = "buttonGreenHeart";
+			this.buttonGreenHeart.Size = new System.Drawing.Size(32, 32);
+			this.buttonGreenHeart.TabIndex = 132;
+			this.buttonGreenHeart.Tag = "💚";
+			this.toolTip.SetToolTip(this.buttonGreenHeart, "green heart");
+			this.buttonGreenHeart.UseVisualStyleBackColor = true;
+			this.buttonGreenHeart.Click += new System.EventHandler(this.ButtonGreenHeart_Click);
+			this.buttonGreenHeart.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonGreenHeart.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonGreenHeart.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonGreenHeart.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonBlueHeart
+			// 
+			this.buttonBlueHeart.AccessibleDescription = "blue heart";
+			this.buttonBlueHeart.AccessibleName = "blue heart";
+			this.buttonBlueHeart.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonBlueHeart.BackgroundImage = global::EmojiLib.Emotion.BlueHeartGoogle;
+			this.buttonBlueHeart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonBlueHeart.FlatAppearance.BorderSize = 0;
+			this.buttonBlueHeart.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonBlueHeart.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonBlueHeart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonBlueHeart.Location = new System.Drawing.Point(192, 288);
+			this.buttonBlueHeart.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonBlueHeart.Name = "buttonBlueHeart";
+			this.buttonBlueHeart.Size = new System.Drawing.Size(32, 32);
+			this.buttonBlueHeart.TabIndex = 133;
+			this.buttonBlueHeart.Tag = "💙";
+			this.toolTip.SetToolTip(this.buttonBlueHeart, "blue heart");
+			this.buttonBlueHeart.UseVisualStyleBackColor = true;
+			this.buttonBlueHeart.Click += new System.EventHandler(this.ButtonBlueHeart_Click);
+			this.buttonBlueHeart.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonBlueHeart.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonBlueHeart.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonBlueHeart.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonPurpleHeart
+			// 
+			this.buttonPurpleHeart.AccessibleDescription = "purple heart";
+			this.buttonPurpleHeart.AccessibleName = "purple heart";
+			this.buttonPurpleHeart.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonPurpleHeart.BackgroundImage = global::EmojiLib.Emotion.PurpleHeartGoogle;
+			this.buttonPurpleHeart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonPurpleHeart.FlatAppearance.BorderSize = 0;
+			this.buttonPurpleHeart.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonPurpleHeart.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonPurpleHeart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonPurpleHeart.Location = new System.Drawing.Point(224, 288);
+			this.buttonPurpleHeart.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonPurpleHeart.Name = "buttonPurpleHeart";
+			this.buttonPurpleHeart.Size = new System.Drawing.Size(32, 32);
+			this.buttonPurpleHeart.TabIndex = 134;
+			this.buttonPurpleHeart.Tag = "💜";
+			this.toolTip.SetToolTip(this.buttonPurpleHeart, "purple heart");
+			this.buttonPurpleHeart.UseVisualStyleBackColor = true;
+			this.buttonPurpleHeart.Click += new System.EventHandler(this.ButtonPurpleHeart_Click);
+			this.buttonPurpleHeart.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonPurpleHeart.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonPurpleHeart.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonPurpleHeart.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonBrownHeart
+			// 
+			this.buttonBrownHeart.AccessibleDescription = "brown heart";
+			this.buttonBrownHeart.AccessibleName = "brown heart";
+			this.buttonBrownHeart.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonBrownHeart.BackgroundImage = global::EmojiLib.Emotion.BrownHeartGoogle;
+			this.buttonBrownHeart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonBrownHeart.FlatAppearance.BorderSize = 0;
+			this.buttonBrownHeart.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonBrownHeart.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonBrownHeart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonBrownHeart.Location = new System.Drawing.Point(256, 288);
+			this.buttonBrownHeart.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonBrownHeart.Name = "buttonBrownHeart";
+			this.buttonBrownHeart.Size = new System.Drawing.Size(32, 32);
+			this.buttonBrownHeart.TabIndex = 135;
+			this.buttonBrownHeart.Tag = "🤎";
+			this.toolTip.SetToolTip(this.buttonBrownHeart, "brown heart");
+			this.buttonBrownHeart.UseVisualStyleBackColor = true;
+			this.buttonBrownHeart.Click += new System.EventHandler(this.ButtonBrownHeart_Click);
+			this.buttonBrownHeart.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonBrownHeart.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonBrownHeart.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonBrownHeart.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonBlackHeart
+			// 
+			this.buttonBlackHeart.AccessibleDescription = "black heart";
+			this.buttonBlackHeart.AccessibleName = "black heart";
+			this.buttonBlackHeart.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonBlackHeart.BackgroundImage = global::EmojiLib.Emotion.BlackHeartGoogle;
+			this.buttonBlackHeart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonBlackHeart.FlatAppearance.BorderSize = 0;
+			this.buttonBlackHeart.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonBlackHeart.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonBlackHeart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonBlackHeart.Location = new System.Drawing.Point(288, 288);
+			this.buttonBlackHeart.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonBlackHeart.Name = "buttonBlackHeart";
+			this.buttonBlackHeart.Size = new System.Drawing.Size(32, 32);
+			this.buttonBlackHeart.TabIndex = 136;
+			this.buttonBlackHeart.Tag = "🖤";
+			this.toolTip.SetToolTip(this.buttonBlackHeart, "black heart");
+			this.buttonBlackHeart.UseVisualStyleBackColor = true;
+			this.buttonBlackHeart.Click += new System.EventHandler(this.ButtonBlackHeart_Click);
+			this.buttonBlackHeart.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonBlackHeart.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonBlackHeart.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonBlackHeart.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonWhiteHeart
+			// 
+			this.buttonWhiteHeart.AccessibleDescription = "white heart";
+			this.buttonWhiteHeart.AccessibleName = "white heart";
+			this.buttonWhiteHeart.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonWhiteHeart.BackgroundImage = global::EmojiLib.Emotion.WhiteHeartGoogle;
+			this.buttonWhiteHeart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonWhiteHeart.FlatAppearance.BorderSize = 0;
+			this.buttonWhiteHeart.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonWhiteHeart.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonWhiteHeart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonWhiteHeart.Location = new System.Drawing.Point(320, 288);
+			this.buttonWhiteHeart.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonWhiteHeart.Name = "buttonWhiteHeart";
+			this.buttonWhiteHeart.Size = new System.Drawing.Size(32, 32);
+			this.buttonWhiteHeart.TabIndex = 137;
+			this.buttonWhiteHeart.Tag = "🤍";
+			this.toolTip.SetToolTip(this.buttonWhiteHeart, "white heart");
+			this.buttonWhiteHeart.UseVisualStyleBackColor = true;
+			this.buttonWhiteHeart.Click += new System.EventHandler(this.ButtonWhiteHeart_Click);
+			this.buttonWhiteHeart.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonWhiteHeart.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonWhiteHeart.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonWhiteHeart.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonHundredPoints
+			// 
+			this.buttonHundredPoints.AccessibleDescription = "hundred points";
+			this.buttonHundredPoints.AccessibleName = "hundred points";
+			this.buttonHundredPoints.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonHundredPoints.BackgroundImage = global::EmojiLib.Emotion.HundredPointsGoogle;
+			this.buttonHundredPoints.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonHundredPoints.FlatAppearance.BorderSize = 0;
+			this.buttonHundredPoints.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonHundredPoints.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonHundredPoints.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonHundredPoints.Location = new System.Drawing.Point(352, 288);
+			this.buttonHundredPoints.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonHundredPoints.Name = "buttonHundredPoints";
+			this.buttonHundredPoints.Size = new System.Drawing.Size(32, 32);
+			this.buttonHundredPoints.TabIndex = 138;
+			this.buttonHundredPoints.Tag = "💯";
+			this.toolTip.SetToolTip(this.buttonHundredPoints, "hundred points");
+			this.buttonHundredPoints.UseVisualStyleBackColor = true;
+			this.buttonHundredPoints.Click += new System.EventHandler(this.ButtonHundredPoints_Click);
+			this.buttonHundredPoints.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHundredPoints.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonHundredPoints.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHundredPoints.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonAngerSymbol
+			// 
+			this.buttonAngerSymbol.AccessibleDescription = "anger symbol";
+			this.buttonAngerSymbol.AccessibleName = "anger symbol";
+			this.buttonAngerSymbol.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonAngerSymbol.BackgroundImage = global::EmojiLib.Emotion.AngerSymbolGoogle;
+			this.buttonAngerSymbol.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonAngerSymbol.FlatAppearance.BorderSize = 0;
+			this.buttonAngerSymbol.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonAngerSymbol.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonAngerSymbol.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonAngerSymbol.Location = new System.Drawing.Point(384, 288);
+			this.buttonAngerSymbol.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonAngerSymbol.Name = "buttonAngerSymbol";
+			this.buttonAngerSymbol.Size = new System.Drawing.Size(32, 32);
+			this.buttonAngerSymbol.TabIndex = 139;
+			this.buttonAngerSymbol.Tag = "💢";
+			this.toolTip.SetToolTip(this.buttonAngerSymbol, "anger symbol");
+			this.buttonAngerSymbol.UseVisualStyleBackColor = true;
+			this.buttonAngerSymbol.Click += new System.EventHandler(this.ButtonAngerSymbol_Click);
+			this.buttonAngerSymbol.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonAngerSymbol.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonAngerSymbol.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonAngerSymbol.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonCollision
+			// 
+			this.buttonCollision.AccessibleDescription = "collision";
+			this.buttonCollision.AccessibleName = "collision";
+			this.buttonCollision.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonCollision.BackgroundImage = global::EmojiLib.Emotion.CollisionGoogle;
+			this.buttonCollision.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonCollision.FlatAppearance.BorderSize = 0;
+			this.buttonCollision.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonCollision.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonCollision.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonCollision.Location = new System.Drawing.Point(416, 288);
+			this.buttonCollision.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonCollision.Name = "buttonCollision";
+			this.buttonCollision.Size = new System.Drawing.Size(32, 32);
+			this.buttonCollision.TabIndex = 140;
+			this.buttonCollision.Tag = "💥";
+			this.toolTip.SetToolTip(this.buttonCollision, "collision");
+			this.buttonCollision.UseVisualStyleBackColor = true;
+			this.buttonCollision.Click += new System.EventHandler(this.ButtonCollision_Click);
+			this.buttonCollision.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonCollision.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonCollision.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonCollision.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonDizzy
+			// 
+			this.buttonDizzy.AccessibleDescription = "dizzy";
+			this.buttonDizzy.AccessibleName = "dizzy";
+			this.buttonDizzy.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonDizzy.BackgroundImage = global::EmojiLib.Emotion.DizzyGoogle;
+			this.buttonDizzy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonDizzy.FlatAppearance.BorderSize = 0;
+			this.buttonDizzy.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonDizzy.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonDizzy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonDizzy.Location = new System.Drawing.Point(0, 320);
+			this.buttonDizzy.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonDizzy.Name = "buttonDizzy";
+			this.buttonDizzy.Size = new System.Drawing.Size(32, 32);
+			this.buttonDizzy.TabIndex = 141;
+			this.buttonDizzy.Tag = "💫";
+			this.toolTip.SetToolTip(this.buttonDizzy, "dizzy");
+			this.buttonDizzy.UseVisualStyleBackColor = true;
+			this.buttonDizzy.Click += new System.EventHandler(this.ButtonDizzy_Click);
+			this.buttonDizzy.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonDizzy.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonDizzy.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonDizzy.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonSweatDroplets
+			// 
+			this.buttonSweatDroplets.AccessibleDescription = "sweat droplets";
+			this.buttonSweatDroplets.AccessibleName = "sweat droplets";
+			this.buttonSweatDroplets.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonSweatDroplets.BackgroundImage = global::EmojiLib.Emotion.SweatDropletsGoogle;
+			this.buttonSweatDroplets.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonSweatDroplets.FlatAppearance.BorderSize = 0;
+			this.buttonSweatDroplets.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonSweatDroplets.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonSweatDroplets.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonSweatDroplets.Location = new System.Drawing.Point(32, 320);
+			this.buttonSweatDroplets.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonSweatDroplets.Name = "buttonSweatDroplets";
+			this.buttonSweatDroplets.Size = new System.Drawing.Size(32, 32);
+			this.buttonSweatDroplets.TabIndex = 142;
+			this.buttonSweatDroplets.Tag = "💦";
+			this.toolTip.SetToolTip(this.buttonSweatDroplets, "sweat droplets");
+			this.buttonSweatDroplets.UseVisualStyleBackColor = true;
+			this.buttonSweatDroplets.Click += new System.EventHandler(this.ButtonSweatDroplets_Click);
+			this.buttonSweatDroplets.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSweatDroplets.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonSweatDroplets.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSweatDroplets.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonDashingAway
+			// 
+			this.buttonDashingAway.AccessibleDescription = "dashing away";
+			this.buttonDashingAway.AccessibleName = "dashing away";
+			this.buttonDashingAway.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonDashingAway.BackgroundImage = global::EmojiLib.Emotion.DashingAwayGoogle;
+			this.buttonDashingAway.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonDashingAway.FlatAppearance.BorderSize = 0;
+			this.buttonDashingAway.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonDashingAway.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonDashingAway.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonDashingAway.Location = new System.Drawing.Point(64, 320);
+			this.buttonDashingAway.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonDashingAway.Name = "buttonDashingAway";
+			this.buttonDashingAway.Size = new System.Drawing.Size(32, 32);
+			this.buttonDashingAway.TabIndex = 143;
+			this.buttonDashingAway.Tag = "💨";
+			this.toolTip.SetToolTip(this.buttonDashingAway, "dashing away");
+			this.buttonDashingAway.UseVisualStyleBackColor = true;
+			this.buttonDashingAway.Click += new System.EventHandler(this.ButtonDashingAway_Click);
+			this.buttonDashingAway.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonDashingAway.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonDashingAway.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonDashingAway.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonHole
+			// 
+			this.buttonHole.AccessibleDescription = "hole";
+			this.buttonHole.AccessibleName = "hole";
+			this.buttonHole.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonHole.BackgroundImage = global::EmojiLib.Emotion.HoleGoogle;
+			this.buttonHole.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonHole.FlatAppearance.BorderSize = 0;
+			this.buttonHole.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonHole.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonHole.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonHole.Location = new System.Drawing.Point(96, 320);
+			this.buttonHole.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonHole.Name = "buttonHole";
+			this.buttonHole.Size = new System.Drawing.Size(32, 32);
+			this.buttonHole.TabIndex = 144;
+			this.buttonHole.Tag = "🕳";
+			this.toolTip.SetToolTip(this.buttonHole, "hole");
+			this.buttonHole.UseVisualStyleBackColor = true;
+			this.buttonHole.Click += new System.EventHandler(this.ButtonHole_Click);
+			this.buttonHole.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHole.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonHole.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonHole.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonBomb
+			// 
+			this.buttonBomb.AccessibleDescription = "bomb";
+			this.buttonBomb.AccessibleName = "bomb";
+			this.buttonBomb.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonBomb.BackgroundImage = global::EmojiLib.Emotion.BombGoogle;
+			this.buttonBomb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonBomb.FlatAppearance.BorderSize = 0;
+			this.buttonBomb.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonBomb.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonBomb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonBomb.Location = new System.Drawing.Point(128, 320);
+			this.buttonBomb.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonBomb.Name = "buttonBomb";
+			this.buttonBomb.Size = new System.Drawing.Size(32, 32);
+			this.buttonBomb.TabIndex = 145;
+			this.buttonBomb.Tag = "💣";
+			this.toolTip.SetToolTip(this.buttonBomb, "bomb");
+			this.buttonBomb.UseVisualStyleBackColor = true;
+			this.buttonBomb.Click += new System.EventHandler(this.ButtonBomb_Click);
+			this.buttonBomb.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonBomb.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonBomb.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonBomb.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonSpeechBalloon
+			// 
+			this.buttonSpeechBalloon.AccessibleDescription = "speech balloon";
+			this.buttonSpeechBalloon.AccessibleName = "speech balloon";
+			this.buttonSpeechBalloon.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonSpeechBalloon.BackgroundImage = global::EmojiLib.Emotion.SpeechBalloonGoogle;
+			this.buttonSpeechBalloon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonSpeechBalloon.FlatAppearance.BorderSize = 0;
+			this.buttonSpeechBalloon.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonSpeechBalloon.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonSpeechBalloon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonSpeechBalloon.Location = new System.Drawing.Point(160, 320);
+			this.buttonSpeechBalloon.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonSpeechBalloon.Name = "buttonSpeechBalloon";
+			this.buttonSpeechBalloon.Size = new System.Drawing.Size(32, 32);
+			this.buttonSpeechBalloon.TabIndex = 146;
+			this.buttonSpeechBalloon.Tag = "💬";
+			this.toolTip.SetToolTip(this.buttonSpeechBalloon, "speech balloon");
+			this.buttonSpeechBalloon.UseVisualStyleBackColor = true;
+			this.buttonSpeechBalloon.Click += new System.EventHandler(this.ButtonSpeechBalloon_Click);
+			this.buttonSpeechBalloon.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSpeechBalloon.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonSpeechBalloon.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonSpeechBalloon.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonEyeInSpeechBubble
+			// 
+			this.buttonEyeInSpeechBubble.AccessibleDescription = "eye in speech bubble";
+			this.buttonEyeInSpeechBubble.AccessibleName = "eye in speech bubble";
+			this.buttonEyeInSpeechBubble.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonEyeInSpeechBubble.BackgroundImage = global::EmojiLib.Emotion.EyeInSpeechBubbleGoogle;
+			this.buttonEyeInSpeechBubble.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonEyeInSpeechBubble.FlatAppearance.BorderSize = 0;
+			this.buttonEyeInSpeechBubble.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonEyeInSpeechBubble.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonEyeInSpeechBubble.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonEyeInSpeechBubble.Location = new System.Drawing.Point(192, 320);
+			this.buttonEyeInSpeechBubble.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonEyeInSpeechBubble.Name = "buttonEyeInSpeechBubble";
+			this.buttonEyeInSpeechBubble.Size = new System.Drawing.Size(32, 32);
+			this.buttonEyeInSpeechBubble.TabIndex = 147;
+			this.buttonEyeInSpeechBubble.Tag = "👁️‍🗨️";
+			this.toolTip.SetToolTip(this.buttonEyeInSpeechBubble, "eye in speech bubble");
+			this.buttonEyeInSpeechBubble.UseVisualStyleBackColor = true;
+			this.buttonEyeInSpeechBubble.Click += new System.EventHandler(this.ButtonEyeInSpeechBubble_Click);
+			this.buttonEyeInSpeechBubble.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonEyeInSpeechBubble.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonEyeInSpeechBubble.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonEyeInSpeechBubble.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonLeftSpeechBubble
+			// 
+			this.buttonLeftSpeechBubble.AccessibleDescription = "left speech bubble";
+			this.buttonLeftSpeechBubble.AccessibleName = "left speech bubble";
+			this.buttonLeftSpeechBubble.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonLeftSpeechBubble.BackgroundImage = global::EmojiLib.Emotion.LeftSpeechBubbleGoogle;
+			this.buttonLeftSpeechBubble.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonLeftSpeechBubble.FlatAppearance.BorderSize = 0;
+			this.buttonLeftSpeechBubble.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonLeftSpeechBubble.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonLeftSpeechBubble.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonLeftSpeechBubble.Location = new System.Drawing.Point(224, 320);
+			this.buttonLeftSpeechBubble.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonLeftSpeechBubble.Name = "buttonLeftSpeechBubble";
+			this.buttonLeftSpeechBubble.Size = new System.Drawing.Size(32, 32);
+			this.buttonLeftSpeechBubble.TabIndex = 148;
+			this.buttonLeftSpeechBubble.Tag = "🗨";
+			this.toolTip.SetToolTip(this.buttonLeftSpeechBubble, "left speech bubble");
+			this.buttonLeftSpeechBubble.UseVisualStyleBackColor = true;
+			this.buttonLeftSpeechBubble.Click += new System.EventHandler(this.ButtonLeftSpeechBubble_Click);
+			this.buttonLeftSpeechBubble.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonLeftSpeechBubble.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonLeftSpeechBubble.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonLeftSpeechBubble.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonRightAngerBubble
+			// 
+			this.buttonRightAngerBubble.AccessibleDescription = "right anger bubble";
+			this.buttonRightAngerBubble.AccessibleName = "right anger bubble";
+			this.buttonRightAngerBubble.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonRightAngerBubble.BackgroundImage = global::EmojiLib.Emotion.RightAngerBubbleGoogle;
+			this.buttonRightAngerBubble.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonRightAngerBubble.FlatAppearance.BorderSize = 0;
+			this.buttonRightAngerBubble.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonRightAngerBubble.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonRightAngerBubble.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonRightAngerBubble.Location = new System.Drawing.Point(256, 320);
+			this.buttonRightAngerBubble.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonRightAngerBubble.Name = "buttonRightAngerBubble";
+			this.buttonRightAngerBubble.Size = new System.Drawing.Size(32, 32);
+			this.buttonRightAngerBubble.TabIndex = 149;
+			this.buttonRightAngerBubble.Tag = "🗯";
+			this.toolTip.SetToolTip(this.buttonRightAngerBubble, "right anger bubble");
+			this.buttonRightAngerBubble.UseVisualStyleBackColor = true;
+			this.buttonRightAngerBubble.Click += new System.EventHandler(this.ButtonRightAngerBubble_Click);
+			this.buttonRightAngerBubble.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonRightAngerBubble.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonRightAngerBubble.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonRightAngerBubble.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonThoughtBalloon
+			// 
+			this.buttonThoughtBalloon.AccessibleDescription = "thought balloon";
+			this.buttonThoughtBalloon.AccessibleName = "thought balloon";
+			this.buttonThoughtBalloon.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonThoughtBalloon.BackgroundImage = global::EmojiLib.Emotion.ThoughtBalloonGoogle;
+			this.buttonThoughtBalloon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonThoughtBalloon.FlatAppearance.BorderSize = 0;
+			this.buttonThoughtBalloon.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonThoughtBalloon.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonThoughtBalloon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonThoughtBalloon.Location = new System.Drawing.Point(288, 320);
+			this.buttonThoughtBalloon.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonThoughtBalloon.Name = "buttonThoughtBalloon";
+			this.buttonThoughtBalloon.Size = new System.Drawing.Size(32, 32);
+			this.buttonThoughtBalloon.TabIndex = 150;
+			this.buttonThoughtBalloon.Tag = "💭";
+			this.toolTip.SetToolTip(this.buttonThoughtBalloon, "thought balloon");
+			this.buttonThoughtBalloon.UseVisualStyleBackColor = true;
+			this.buttonThoughtBalloon.Click += new System.EventHandler(this.ButtonThoughtBalloon_Click);
+			this.buttonThoughtBalloon.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonThoughtBalloon.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonThoughtBalloon.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonThoughtBalloon.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// buttonZzz
+			// 
+			this.buttonZzz.AccessibleDescription = "zzz";
+			this.buttonZzz.AccessibleName = "zzz";
+			this.buttonZzz.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonZzz.BackgroundImage = global::EmojiLib.Emotion.ZzzGoogle;
+			this.buttonZzz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonZzz.FlatAppearance.BorderSize = 0;
+			this.buttonZzz.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonZzz.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonZzz.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonZzz.Location = new System.Drawing.Point(320, 320);
+			this.buttonZzz.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonZzz.Name = "buttonZzz";
+			this.buttonZzz.Size = new System.Drawing.Size(32, 32);
+			this.buttonZzz.TabIndex = 151;
+			this.buttonZzz.Tag = "💤";
+			this.toolTip.SetToolTip(this.buttonZzz, "zzz");
+			this.buttonZzz.UseVisualStyleBackColor = true;
+			this.buttonZzz.Click += new System.EventHandler(this.ButtonZzz_Click);
+			this.buttonZzz.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonZzz.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonZzz.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonZzz.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
 			// 
 			// MainForm
 			// 
@@ -3828,6 +4774,41 @@
 		private System.Windows.Forms.Button buttonSeeNoEvilMonkey;
 		private System.Windows.Forms.Button buttonHearNoEvilMonkey;
 		private System.Windows.Forms.Button buttonSpeakNoEvilMonkey;
+		private System.Windows.Forms.Button buttonKissMark;
+		private System.Windows.Forms.Button buttonLoveLetter;
+		private System.Windows.Forms.Button buttonHeartWithArrow;
+		private System.Windows.Forms.Button buttonHeartWithRibbon;
+		private System.Windows.Forms.Button buttonSparklingHeart;
+		private System.Windows.Forms.Button buttonGrowingHeart;
+		private System.Windows.Forms.Button buttonBeatingHeart;
+		private System.Windows.Forms.Button buttonRevolvingHearts;
+		private System.Windows.Forms.Button buttonTwoHearts;
+		private System.Windows.Forms.Button buttonHeartDecoration;
+		private System.Windows.Forms.Button buttonHeartExclamation;
+		private System.Windows.Forms.Button buttonBrokenHeart;
+		private System.Windows.Forms.Button buttonRedHeart;
+		private System.Windows.Forms.Button buttonOrangeHeart;
+		private System.Windows.Forms.Button buttonYellowHeart;
+		private System.Windows.Forms.Button buttonGreenHeart;
+		private System.Windows.Forms.Button buttonBlueHeart;
+		private System.Windows.Forms.Button buttonPurpleHeart;
+		private System.Windows.Forms.Button buttonBrownHeart;
+		private System.Windows.Forms.Button buttonBlackHeart;
+		private System.Windows.Forms.Button buttonWhiteHeart;
+		private System.Windows.Forms.Button buttonHundredPoints;
+		private System.Windows.Forms.Button buttonAngerSymbol;
+		private System.Windows.Forms.Button buttonCollision;
+		private System.Windows.Forms.Button buttonDizzy;
+		private System.Windows.Forms.Button buttonSweatDroplets;
+		private System.Windows.Forms.Button buttonDashingAway;
+		private System.Windows.Forms.Button buttonHole;
+		private System.Windows.Forms.Button buttonBomb;
+		private System.Windows.Forms.Button buttonSpeechBalloon;
+		private System.Windows.Forms.Button buttonEyeInSpeechBubble;
+		private System.Windows.Forms.Button buttonLeftSpeechBubble;
+		private System.Windows.Forms.Button buttonRightAngerBubble;
+		private System.Windows.Forms.Button buttonThoughtBalloon;
+		private System.Windows.Forms.Button buttonZzz;
 	}
 }
 

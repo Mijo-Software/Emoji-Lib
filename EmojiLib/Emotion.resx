@@ -1,0 +1,1090 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AngerSymbolApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngerSymbolApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AngerSymbolDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngerSymbolDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AngerSymbolFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngerSymbolFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AngerSymbolGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngerSymbolGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AngerSymbolGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngerSymbolGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AngerSymbolJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngerSymbolJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AngerSymbolKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngerSymbolKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AngerSymbolSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngerSymbolSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AngerSymbolSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngerSymbolSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AngerSymbolTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngerSymbolTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AngerSymbolWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\AngerSymbolWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BeatingHeartApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BeatingHeartApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BeatingHeartDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BeatingHeartDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BeatingHeartFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BeatingHeartFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BeatingHeartGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BeatingHeartGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BeatingHeartGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BeatingHeartGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BeatingHeartJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BeatingHeartJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BeatingHeartKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BeatingHeartKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BeatingHeartSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BeatingHeartSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BeatingHeartSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BeatingHeartSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BeatingHeartTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BeatingHeartTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BeatingHeartWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BeatingHeartWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlackHeartApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BlackHeartApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlackHeartFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BlackHeartFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlackHeartGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BlackHeartGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlackHeartJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BlackHeartJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlackHeartSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BlackHeartSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlackHeartTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BlackHeartTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlackHeartWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BlackHeartWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueHeartApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BlueHeartApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueHeartFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BlueHeartFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueHeartGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BlueHeartGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueHeartGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BlueHeartGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueHeartJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BlueHeartJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueHeartKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BlueHeartKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueHeartSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BlueHeartSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueHeartSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BlueHeartSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueHeartTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BlueHeartTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueHeartWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BlueHeartWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BombApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BombApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BombDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BombDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BombFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BombFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BombGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BombGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BombGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BombGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BombJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BombJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BombKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BombKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BombSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BombSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BombSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BombSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BombTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BombTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BombWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BombWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrokenHeartApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrokenHeartApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrokenHeartDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrokenHeartDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrokenHeartFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrokenHeartFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrokenHeartGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrokenHeartGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrokenHeartGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrokenHeartGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrokenHeartJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrokenHeartJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrokenHeartKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrokenHeartKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrokenHeartSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrokenHeartSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrokenHeartSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrokenHeartSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrokenHeartTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrokenHeartTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrokenHeartWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrokenHeartWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrownHeartApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrownHeartApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrownHeartFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrownHeartFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrownHeartGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrownHeartGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrownHeartJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrownHeartJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrownHeartSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrownHeartSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrownHeartTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrownHeartTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BrownHeartWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\BrownHeartWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollisionApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CollisionApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollisionDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CollisionDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollisionFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CollisionFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollisionGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CollisionGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollisionGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CollisionGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollisionJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CollisionJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollisionKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CollisionKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollisionSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CollisionSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollisionTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CollisionTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CollisionWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CollisionWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DashingAwayApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DashingAwayApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DashingAwayDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DashingAwayDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DashingAwayFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DashingAwayFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DashingAwayGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DashingAwayGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DashingAwayGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DashingAwayGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DashingAwayJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DashingAwayJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DashingAwayKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DashingAwayKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DashingAwaySamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DashingAwaySamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DashingAwaySoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DashingAwaySoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DashingAwayTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DashingAwayTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DashingAwayWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DashingAwayWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DizzyApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DizzyApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DizzyFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DizzyFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DizzyGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DizzyGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DizzyGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DizzyGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DizzyJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DizzyJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DizzyKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DizzyKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DizzySamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DizzySamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DizzyTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DizzyTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DizzyWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\DizzyWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeInSpeechBubbleApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\EyeInSpeechBubbleApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeInSpeechBubbleFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\EyeInSpeechBubbleFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeInSpeechBubbleGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\EyeInSpeechBubbleGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeInSpeechBubbleJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\EyeInSpeechBubbleJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeInSpeechBubbleSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\EyeInSpeechBubbleSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeInSpeechBubbleTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\EyeInSpeechBubbleTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeInSpeechBubbleWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\EyeInSpeechBubbleWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenHeartApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GreenHeartApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenHeartFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GreenHeartFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenHeartGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GreenHeartGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenHeartGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GreenHeartGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenHeartJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GreenHeartJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenHeartKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GreenHeartKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenHeartSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GreenHeartSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenHeartSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GreenHeartSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenHeartTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GreenHeartTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenHeartWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GreenHeartWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrowingHeartApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrowingHeartApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrowingHeartFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrowingHeartFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrowingHeartGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrowingHeartGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrowingHeartGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrowingHeartGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrowingHeartJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrowingHeartJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrowingHeartSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrowingHeartSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrowingHeartSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrowingHeartSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrowingHeartTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrowingHeartTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GrowingHeartWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GrowingHeartWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartDecorationApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartDecorationApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartDecorationFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartDecorationFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartDecorationGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartDecorationGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartDecorationGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartDecorationGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartDecorationJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartDecorationJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartDecorationSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartDecorationSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartDecorationSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartDecorationSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartDecorationTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartDecorationTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartDecorationWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartDecorationWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartExclamationApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartExclamationApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartExclamationFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartExclamationFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartExclamationGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartExclamationGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartExclamationJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartExclamationJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartExclamationSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartExclamationSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartExclamationTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartExclamationTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartExclamationWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartExclamationWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithArrowApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithArrowApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithArrowFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithArrowFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithArrowGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithArrowGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithArrowGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithArrowGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithArrowJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithArrowJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithArrowKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithArrowKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithArrowSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithArrowSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithArrowSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithArrowSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithArrowTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithArrowTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithArrowWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithArrowWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithRibbonApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithRibbonApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithRibbonFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithRibbonFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithRibbonGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithRibbonGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithRibbonGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithRibbonGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithRibbonJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithRibbonJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithRibbonKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithRibbonKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithRibbonSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithRibbonSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithRibbonSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithRibbonSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithRibbonTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithRibbonTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartWithRibbonWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HeartWithRibbonWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HoleApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HoleApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HoleFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HoleFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HoleGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HoleGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HoleJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HoleJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HoleSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HoleSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HoleTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HoleTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HoleWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HoleWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HundredPointsApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HundredPointsApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HundredPointsFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HundredPointsFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HundredPointsGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HundredPointsGmail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HundredPointsGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HundredPointsGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HundredPointsJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HundredPointsJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HundredPointsKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HundredPointsKddi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HundredPointsSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HundredPointsSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HundredPointsTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HundredPointsTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HundredPointsWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\HundredPointsWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissMarkApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissMarkApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissMarkDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissMarkDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissMarkFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissMarkFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissMarkGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissMarkGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissMarkGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissMarkGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissMarkJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissMarkJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissMarkKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissMarkKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissMarkSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissMarkSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissMarkSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissMarkSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissMarkTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissMarkTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KissMarkWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\KissMarkWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSpeechBubbleApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSpeechBubbleApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSpeechBubbleFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSpeechBubbleFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSpeechBubbleGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSpeechBubbleGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSpeechBubbleJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSpeechBubbleJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSpeechBubbleSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSpeechBubbleSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSpeechBubbleTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSpeechBubbleTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSpeechBubbleWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LeftSpeechBubbleWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoveLetterApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LoveLetterApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoveLetterDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LoveLetterDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoveLetterFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LoveLetterFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoveLetterGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LoveLetterGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoveLetterGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LoveLetterGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoveLetterJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LoveLetterJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoveLetterKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LoveLetterKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoveLetterSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LoveLetterSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoveLetterTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LoveLetterTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoveLetterWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LoveLetterWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrangeHeartApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\OrangeHeartApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrangeHeartFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\OrangeHeartFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrangeHeartGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\OrangeHeartGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrangeHeartJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\OrangeHeartJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrangeHeartSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\OrangeHeartSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrangeHeartTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\OrangeHeartTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrangeHeartWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\OrangeHeartWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleHeartApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PurpleHeartApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleHeartFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PurpleHeartFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleHeartGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PurpleHeartGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleHeartGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PurpleHeartGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleHeartJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PurpleHeartJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleHeartKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PurpleHeartKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleHeartSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PurpleHeartSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleHeartSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PurpleHeartSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleHeartTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PurpleHeartTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleHeartWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PurpleHeartWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedHeartApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RedHeartApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedHeartDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RedHeartDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedHeartFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RedHeartFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedHeartGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RedHeartGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedHeartGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RedHeartGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedHeartJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RedHeartJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedHeartKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RedHeartKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedHeartSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RedHeartSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedHeartSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RedHeartSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedHeartTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RedHeartTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RedHeartWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RedHeartWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RevolvingHeartsApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RevolvingHeartsApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RevolvingHeartsFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RevolvingHeartsFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RevolvingHeartsGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RevolvingHeartsGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RevolvingHeartsGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RevolvingHeartsGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RevolvingHeartsJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RevolvingHeartsJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RevolvingHeartsKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RevolvingHeartsKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RevolvingHeartsSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RevolvingHeartsSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RevolvingHeartsTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RevolvingHeartsTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RevolvingHeartsWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RevolvingHeartsWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightAngerBubbleApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightAngerBubbleApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightAngerBubbleFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightAngerBubbleFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightAngerBubbleGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightAngerBubbleGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightAngerBubbleJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightAngerBubbleJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightAngerBubbleSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightAngerBubbleSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightAngerBubbleTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightAngerBubbleTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightAngerBubbleWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\RightAngerBubbleWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SparklingHeartApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SparklingHeartApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SparklingHeartFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SparklingHeartFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SparklingHeartGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SparklingHeartGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SparklingHeartGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SparklingHeartGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SparklingHeartJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SparklingHeartJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SparklingHeartKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SparklingHeartKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SparklingHeartSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SparklingHeartSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SparklingHeartTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SparklingHeartTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SparklingHeartWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SparklingHeartWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpeechBalloonApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SpeechBalloonApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpeechBalloonFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SpeechBalloonFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpeechBalloonGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SpeechBalloonGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpeechBalloonGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SpeechBalloonGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpeechBalloonJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SpeechBalloonJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpeechBalloonKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SpeechBalloonKddi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpeechBalloonKddi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SpeechBalloonKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpeechBalloonSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SpeechBalloonSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpeechBalloonTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SpeechBalloonTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpeechBalloonWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SpeechBalloonWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SweatDropletsApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SweatDropletsApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SweatDropletsDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SweatDropletsDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SweatDropletsFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SweatDropletsFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SweatDropletsGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SweatDropletsGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SweatDropletsGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SweatDropletsGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SweatDropletsJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SweatDropletsJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SweatDropletsKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SweatDropletsKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SweatDropletsSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SweatDropletsSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SweatDropletsSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SweatDropletsSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SweatDropletsTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SweatDropletsTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SweatDropletsWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\SweatDropletsWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThoughtBalloonApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ThoughtBalloonApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThoughtBalloonFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ThoughtBalloonFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThoughtBalloonGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ThoughtBalloonGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThoughtBalloonJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ThoughtBalloonJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThoughtBalloonSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ThoughtBalloonSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThoughtBalloonTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ThoughtBalloonTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThoughtBalloonWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ThoughtBalloonWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TwoHeartsApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TwoHeartsApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TwoHeartsDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TwoHeartsDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TwoHeartsFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TwoHeartsFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TwoHeartsGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TwoHeartsGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TwoHeartsGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TwoHeartsGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TwoHeartsJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TwoHeartsJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TwoHeartsKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TwoHeartsKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TwoHeartsSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TwoHeartsSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TwoHeartsTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TwoHeartsTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TwoHeartsWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TwoHeartsWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteHeartApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WhiteHeartApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteHeartFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WhiteHeartFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteHeartGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WhiteHeartGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteHeartJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WhiteHeartJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteHeartSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WhiteHeartSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteHeartTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WhiteHeartTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhiteHeartWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\WhiteHeartWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowHeartApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\YellowHeartApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowHeartFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\YellowHeartFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowHeartGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\YellowHeartGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowHeartGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\YellowHeartGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowHeartJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\YellowHeartJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowHeartKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\YellowHeartKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowHeartSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\YellowHeartSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowHeartSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\YellowHeartSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowHeartTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\YellowHeartTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YellowHeartWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\YellowHeartWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZzzApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZzzApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZzzDocomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZzzDocomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZzzFacebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZzzFacebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZzzGmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZzzGmail.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZzzGoogle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZzzGoogle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZzzJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZzzJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZzzKddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZzzKddi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZzzSamsung" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZzzSamsung.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZzzSoftbank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZzzSoftbank.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZzzTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZzzTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZzzWindows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ZzzWindows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
