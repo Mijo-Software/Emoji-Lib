@@ -1,105 +1,167 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace EmojiLib
 {
 	public partial class EmojiInfoForm : Form
 	{
-		public void SetTag(object tag)
-		{
-			Tag = tag;
-		}
+		public void SetTag(object tag) => Tag = tag;
 
-		public void SetCode(string code)
-		{
-			labelCodeDesc.Text = code;
-		}
+		public void SetCode(string code) => labelCodeDesc.Text = code;
 
-		public void SetShortName(string name)
-		{
-			labelShortNameDesc.Text = name;
-		}
+		public void SetShortName(string name) => labelShortNameDesc.Text = name;
 
-		public void SetGroup(string group)
-		{
-			labelGroupDesc.Text = group;
-		}
+		public void SetGroup(string group) => labelGroupDesc.Text = group;
 
-		public void SetSubGroup(string subGroup)
-		{
-			labelSubGroupDesc.Text = subGroup;
-		}
+		public void SetSubGroup(string subGroup) => labelSubGroupDesc.Text = subGroup;
 
 		public void SetAppleImageVersion(Image image)
 		{
-			pictureBoxApple.Image = image;
+			if (image == null)
+			{
+				labelAppleVersion.Enabled = false;
+				pictureBoxApple.Enabled = false;
+			}
+			else
+			{
+				pictureBoxApple.Image = image;
+			}
 		}
 
 		public void SetGoogleImageVersion(Image image)
 		{
-			pictureBoxGoogle.Image = image;
+			if (image == null)
+			{
+				labelGoogleVersion.Enabled = false;
+				pictureBoxGoogle.Enabled = false;
+			}
+			else
+			{
+				pictureBoxGoogle.Image = image;
+			}
 		}
 
 		public void SetFacebookImageVersion(Image image)
 		{
-			pictureBoxFacebook.Image = image;
+			if (image == null)
+			{
+				labelFacebookVersion.Enabled = false;
+				pictureBoxFacebook.Enabled = false;
+			}
+			else
+			{
+				pictureBoxFacebook.Image = image;
+			}
 		}
 
 		public void SetWindowsImageVersion(Image image)
 		{
-			pictureBoxWindows.Image = image;
+			if (image == null)
+			{
+				labelWindowsVersion.Enabled = false;
+				pictureBoxWindows.Enabled = false;
+			}
+			else
+			{
+				pictureBoxWindows.Image = image;
+			}
 		}
 
 		public void SetTwitterImageVersion(Image image)
 		{
-			pictureBoxTwitter.Image = image;
+			if (image == null)
+			{
+				labelTwitterVersion.Enabled = false;
+				pictureBoxTwitter.Enabled = false;
+			}
+			else
+			{
+				pictureBoxTwitter.Image = image;
+			}
 		}
 
 		public void SetJoyPixelsImageVersion(Image image)
 		{
-			pictureBoxJoyPixels.Image = image;
+			if (image == null)
+			{
+				labelJoyPixelsVersion.Enabled = false;
+				pictureBoxJoyPixels.Enabled = false;
+			}
+			else
+			{
+				pictureBoxJoyPixels.Image = image;
+			}
 		}
 
 		public void SetSamsungImageVersion(Image image)
 		{
-			pictureBoxSamsung.Image = image;
+			if (image == null)
+			{
+				labelSamsungVersion.Enabled = false;
+				pictureBoxSamsung.Enabled = false;
+			}
+			else
+			{
+				pictureBoxSamsung.Image = image;
+			}
 		}
 
 		public void SetGmailImageVersion(Image image)
 		{
-			pictureBoxGmail.Image = image;
+			if (image == null)
+			{
+				labelGmailVersion.Enabled = false;
+				pictureBoxGmail.Enabled = false;
+			}
+			else
+			{
+				pictureBoxGmail.Image = image;
+			}
 		}
 
 		public void SetDocomoImageVersion(Image image)
 		{
-			pictureBoxDocomo.Image = image;
+			if (pictureBoxDocomo.Image == null)
+			{
+				labelDocomoVersion.Enabled = false;
+				pictureBoxDocomo.Enabled = false;
+			}
+			else
+			{
+				pictureBoxDocomo.Image = image;
+			}
 		}
 
 		public void SetKddiImageVersion(Image image)
 		{
-			pictureBoxKddi.Image = image;
+			if (image == null)
+			{
+				labelKddiVersion.Enabled = false;
+				pictureBoxKddi.Enabled = false;
+			}
+			else
+			{
+				pictureBoxKddi.Image = image;
+			}
 		}
 
 		public void SetSoftbankImageVersion(Image image)
 		{
-			pictureBoxSoftbank.Image = image;
+			if (image == null)
+			{
+				labelSoftbankVersion.Enabled = false;
+				pictureBoxSoftbank.Enabled = false;
+			}
+			else
+			{
+				pictureBoxSoftbank.Image = image;
+			}
 		}
 
-		public EmojiInfoForm()
-		{
-			InitializeComponent();
-		}
+		public EmojiInfoForm() => InitializeComponent();
 
-		private void EmojiInfoForm_Click(object sender, EventArgs e)
-		{
-			Close();
-		}
+		private void EmojiInfoForm_Click(object sender, EventArgs e) => Close();
 
 		private void PictureBoxApple_MouseEnter(object sender, EventArgs e)
 		{
@@ -272,7 +334,7 @@ namespace EmojiLib
 			{
 				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxApple.Image.Save(saveFileDialogAsPng.FileName);
+					pictureBoxApple.Image.Save(filename: saveFileDialogAsPng.FileName);
 				}
 			}
 		}
@@ -283,7 +345,7 @@ namespace EmojiLib
 			{
 				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxGoogle.Image.Save(saveFileDialogAsPng.FileName);
+					pictureBoxGoogle.Image.Save(filename: saveFileDialogAsPng.FileName);
 				}
 			}
 		}
@@ -294,7 +356,7 @@ namespace EmojiLib
 			{
 				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxFacebook.Image.Save(saveFileDialogAsPng.FileName);
+					pictureBoxFacebook.Image.Save(filename: saveFileDialogAsPng.FileName);
 				}
 			}
 		}
@@ -305,7 +367,7 @@ namespace EmojiLib
 			{
 				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxWindows.Image.Save(saveFileDialogAsPng.FileName);
+					pictureBoxWindows.Image.Save(filename: saveFileDialogAsPng.FileName);
 				}
 			}
 		}
@@ -316,7 +378,7 @@ namespace EmojiLib
 			{
 				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxTwitter.Image.Save(saveFileDialogAsPng.FileName);
+					pictureBoxTwitter.Image.Save(filename: saveFileDialogAsPng.FileName);
 				}
 			}
 		}
@@ -327,7 +389,7 @@ namespace EmojiLib
 			{
 				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxJoyPixels.Image.Save(saveFileDialogAsPng.FileName);
+					pictureBoxJoyPixels.Image.Save(filename: saveFileDialogAsPng.FileName);
 				}
 			}
 		}
@@ -338,7 +400,7 @@ namespace EmojiLib
 			{
 				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxSamsung.Image.Save(saveFileDialogAsPng.FileName);
+					pictureBoxSamsung.Image.Save(filename: saveFileDialogAsPng.FileName);
 				}
 			}
 		}
@@ -349,7 +411,7 @@ namespace EmojiLib
 			{
 				if (saveFileDialogAsGif.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxGmail.Image.Save(saveFileDialogAsGif.FileName);
+					pictureBoxGmail.Image.Save(filename: saveFileDialogAsGif.FileName);
 				}
 			}
 		}
@@ -360,7 +422,7 @@ namespace EmojiLib
 			{
 				if (saveFileDialogAsGif.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxDocomo.Image.Save(saveFileDialogAsGif.FileName);
+					pictureBoxDocomo.Image.Save(filename: saveFileDialogAsGif.FileName);
 				}
 			}
 		}
@@ -371,7 +433,7 @@ namespace EmojiLib
 			{
 				if (saveFileDialogAsGif.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxKddi.Image.Save(saveFileDialogAsGif.FileName);
+					pictureBoxKddi.Image.Save(filename: saveFileDialogAsGif.FileName);
 				}
 			}
 		}
@@ -382,7 +444,7 @@ namespace EmojiLib
 			{
 				if (saveFileDialogAsGif.ShowDialog() == DialogResult.OK)
 				{
-					pictureBoxSoftbank.Image.Save(saveFileDialogAsGif.FileName);
+					pictureBoxSoftbank.Image.Save(filename: saveFileDialogAsGif.FileName);
 				}
 			}
 		}

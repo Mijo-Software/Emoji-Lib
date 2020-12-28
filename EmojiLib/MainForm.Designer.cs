@@ -26,6 +26,15 @@
 		/// Erforderliche Methode für die Designerunterstützung.
 		/// Der Inhalt der Methode darf nicht mit dem Code-Editor geändert werden.
 		/// </summary>
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Globalization", "CA1303:Literale nicht als lokalisierte Parameter übergeben", MessageId = "System.Windows.Forms.ToolStripItem.set_AccessibleName(System.String)")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Globalization", "CA1303:Literale nicht als lokalisierte Parameter übergeben", MessageId = "System.Windows.Forms.ToolStripItem.set_AccessibleDescription(System.String)")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Globalization", "CA1303:Literale nicht als lokalisierte Parameter übergeben", MessageId = "System.Windows.Forms.ToolStripItem.set_ToolTipText(System.String)")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Globalization", "CA1303:Literale nicht als lokalisierte Parameter übergeben", MessageId = "System.Windows.Forms.ToolStripItem.set_Text(System.String)")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Globalization", "CA1303:Literale nicht als lokalisierte Parameter übergeben", MessageId = "System.Windows.Forms.TabPage.set_ToolTipText(System.String)")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Globalization", "CA1303:Literale nicht als lokalisierte Parameter übergeben", MessageId = "System.Windows.Forms.ToolTip.SetToolTip(System.Windows.Forms.Control,System.String)")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Globalization", "CA1303:Literale nicht als lokalisierte Parameter übergeben", MessageId = "System.Windows.Forms.Control.set_Text(System.String)")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Globalization", "CA1303:Literale nicht als lokalisierte Parameter übergeben", MessageId = "System.Windows.Forms.Control.set_AccessibleName(System.String)")]
+		[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Globalization", "CA1303:Literale nicht als lokalisierte Parameter übergeben", MessageId = "System.Windows.Forms.Control.set_AccessibleDescription(System.String)")]
 		private void InitializeComponent()
 		{
 			this.components = new System.ComponentModel.Container();
@@ -33,30 +42,6 @@
 			this.tabControlEmojis = new System.Windows.Forms.TabControl();
 			this.tabPageSmileys = new System.Windows.Forms.TabPage();
 			this.flowLayoutPanelSmileys = new System.Windows.Forms.FlowLayoutPanel();
-			this.tabPageSearch = new System.Windows.Forms.TabPage();
-			this.toolStripContainerSearch = new System.Windows.Forms.ToolStripContainer();
-			this.flowLayoutPanelSearchResult = new System.Windows.Forms.FlowLayoutPanel();
-			this.toolStripSearch = new System.Windows.Forms.ToolStrip();
-			this.labelSearchTerm = new System.Windows.Forms.ToolStripLabel();
-			this.textBoxSearch = new System.Windows.Forms.ToolStripTextBox();
-			this.statusStrip = new System.Windows.Forms.StatusStrip();
-			this.labelInformation = new System.Windows.Forms.ToolStripStatusLabel();
-			this.toolStripProgressBar = new System.Windows.Forms.ToolStripProgressBar();
-			this.toolStripContainerMain = new System.Windows.Forms.ToolStripContainer();
-			this.menuStrip = new System.Windows.Forms.MenuStrip();
-			this.toolStripMenuItemFile = new System.Windows.Forms.ToolStripMenuItem();
-			this.toolStripMenuItemGoto = new System.Windows.Forms.ToolStripMenuItem();
-			this.toolStripMenuItemSmileys = new System.Windows.Forms.ToolStripMenuItem();
-			this.toolStripMenuItemSearch = new System.Windows.Forms.ToolStripMenuItem();
-			this.toolStripMain = new System.Windows.Forms.ToolStrip();
-			this.labelWorkMode = new System.Windows.Forms.ToolStripLabel();
-			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-			this.labelEmojiSize = new System.Windows.Forms.ToolStripLabel();
-			this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-			this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-			this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
-			this.buttonKissMark = new System.Windows.Forms.Button();
-			this.labelCopiedStatus = new System.Windows.Forms.ToolStripStatusLabel();
 			this.buttonGrinningFace = new System.Windows.Forms.Button();
 			this.buttonGrinningFaceWithBigEyes = new System.Windows.Forms.Button();
 			this.buttonGrinningFaceWithSmilingEyes = new System.Windows.Forms.Button();
@@ -173,16 +158,7 @@
 			this.buttonSeeNoEvilMonkey = new System.Windows.Forms.Button();
 			this.buttonHearNoEvilMonkey = new System.Windows.Forms.Button();
 			this.buttonSpeakNoEvilMonkey = new System.Windows.Forms.Button();
-			this.toolStripButtonFind = new System.Windows.Forms.ToolStripButton();
-			this.toolStripButtonClearAll = new System.Windows.Forms.ToolStripButton();
-			this.toolStripMenuItemAboutBox = new System.Windows.Forms.ToolStripMenuItem();
-			this.toolStripMenuItemExit = new System.Windows.Forms.ToolStripMenuItem();
-			this.buttonPickerMode = new System.Windows.Forms.ToolStripButton();
-			this.buttonLibraryMode = new System.Windows.Forms.ToolStripButton();
-			this.buttonEmojiSize16 = new System.Windows.Forms.ToolStripButton();
-			this.buttonEmojiSize24 = new System.Windows.Forms.ToolStripButton();
-			this.buttonEmojiSize32 = new System.Windows.Forms.ToolStripButton();
-			this.toolStripButtonSearch = new System.Windows.Forms.ToolStripButton();
+			this.buttonKissMark = new System.Windows.Forms.Button();
 			this.buttonLoveLetter = new System.Windows.Forms.Button();
 			this.buttonHeartWithArrow = new System.Windows.Forms.Button();
 			this.buttonHeartWithRibbon = new System.Windows.Forms.Button();
@@ -217,6 +193,39 @@
 			this.buttonRightAngerBubble = new System.Windows.Forms.Button();
 			this.buttonThoughtBalloon = new System.Windows.Forms.Button();
 			this.buttonZzz = new System.Windows.Forms.Button();
+			this.tabPageSearch = new System.Windows.Forms.TabPage();
+			this.toolStripContainerSearch = new System.Windows.Forms.ToolStripContainer();
+			this.flowLayoutPanelSearchResult = new System.Windows.Forms.FlowLayoutPanel();
+			this.toolStripSearch = new System.Windows.Forms.ToolStrip();
+			this.labelSearchTerm = new System.Windows.Forms.ToolStripLabel();
+			this.textBoxSearch = new System.Windows.Forms.ToolStripTextBox();
+			this.toolStripButtonFind = new System.Windows.Forms.ToolStripButton();
+			this.toolStripButtonClearAll = new System.Windows.Forms.ToolStripButton();
+			this.statusStrip = new System.Windows.Forms.StatusStrip();
+			this.labelInformation = new System.Windows.Forms.ToolStripStatusLabel();
+			this.labelCopiedStatus = new System.Windows.Forms.ToolStripStatusLabel();
+			this.toolStripProgressBar = new System.Windows.Forms.ToolStripProgressBar();
+			this.toolStripContainerMain = new System.Windows.Forms.ToolStripContainer();
+			this.menuStrip = new System.Windows.Forms.MenuStrip();
+			this.toolStripMenuItemFile = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItemAboutBox = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItemExit = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItemGoto = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItemSmileys = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMenuItemSearch = new System.Windows.Forms.ToolStripMenuItem();
+			this.toolStripMain = new System.Windows.Forms.ToolStrip();
+			this.labelWorkMode = new System.Windows.Forms.ToolStripLabel();
+			this.buttonPickerMode = new System.Windows.Forms.ToolStripButton();
+			this.buttonLibraryMode = new System.Windows.Forms.ToolStripButton();
+			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+			this.labelEmojiSize = new System.Windows.Forms.ToolStripLabel();
+			this.buttonEmojiSize16 = new System.Windows.Forms.ToolStripButton();
+			this.buttonEmojiSize24 = new System.Windows.Forms.ToolStripButton();
+			this.buttonEmojiSize32 = new System.Windows.Forms.ToolStripButton();
+			this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+			this.toolStripButtonSearch = new System.Windows.Forms.ToolStripButton();
+			this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+			this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
 			this.tabControlEmojis.SuspendLayout();
 			this.tabPageSmileys.SuspendLayout();
 			this.flowLayoutPanelSmileys.SuspendLayout();
@@ -427,305 +436,6 @@
 			this.flowLayoutPanelSmileys.Size = new System.Drawing.Size(458, 283);
 			this.flowLayoutPanelSmileys.TabIndex = 1;
 			this.flowLayoutPanelSmileys.TabStop = true;
-			// 
-			// tabPageSearch
-			// 
-			this.tabPageSearch.AccessibleDescription = "search";
-			this.tabPageSearch.AccessibleName = "search";
-			this.tabPageSearch.AutoScroll = true;
-			this.tabPageSearch.Controls.Add(this.toolStripContainerSearch);
-			this.tabPageSearch.Location = new System.Drawing.Point(4, 22);
-			this.tabPageSearch.Name = "tabPageSearch";
-			this.tabPageSearch.Size = new System.Drawing.Size(464, 289);
-			this.tabPageSearch.TabIndex = 1;
-			this.tabPageSearch.Text = "Search";
-			this.toolTip.SetToolTip(this.tabPageSearch, "search");
-			this.tabPageSearch.ToolTipText = "search";
-			this.tabPageSearch.UseVisualStyleBackColor = true;
-			this.tabPageSearch.Enter += new System.EventHandler(this.TabPageSearch_Enter);
-			this.tabPageSearch.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
-			this.tabPageSearch.MouseEnter += new System.EventHandler(this.TabPageSearch_Enter);
-			this.tabPageSearch.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
-			// 
-			// toolStripContainerSearch
-			// 
-			// 
-			// toolStripContainerSearch.BottomToolStripPanel
-			// 
-			this.toolStripContainerSearch.BottomToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			// 
-			// toolStripContainerSearch.ContentPanel
-			// 
-			this.toolStripContainerSearch.ContentPanel.Controls.Add(this.flowLayoutPanelSearchResult);
-			this.toolStripContainerSearch.ContentPanel.Size = new System.Drawing.Size(464, 264);
-			this.toolStripContainerSearch.Dock = System.Windows.Forms.DockStyle.Fill;
-			// 
-			// toolStripContainerSearch.LeftToolStripPanel
-			// 
-			this.toolStripContainerSearch.LeftToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.toolStripContainerSearch.Location = new System.Drawing.Point(0, 0);
-			this.toolStripContainerSearch.Name = "toolStripContainerSearch";
-			// 
-			// toolStripContainerSearch.RightToolStripPanel
-			// 
-			this.toolStripContainerSearch.RightToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.toolStripContainerSearch.Size = new System.Drawing.Size(464, 289);
-			this.toolStripContainerSearch.TabIndex = 3;
-			this.toolStripContainerSearch.Text = "toolStripContainer1";
-			// 
-			// toolStripContainerSearch.TopToolStripPanel
-			// 
-			this.toolStripContainerSearch.TopToolStripPanel.Controls.Add(this.toolStripSearch);
-			this.toolStripContainerSearch.TopToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			// 
-			// flowLayoutPanelSearchResult
-			// 
-			this.flowLayoutPanelSearchResult.AutoScroll = true;
-			this.flowLayoutPanelSearchResult.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.flowLayoutPanelSearchResult.Location = new System.Drawing.Point(0, 0);
-			this.flowLayoutPanelSearchResult.Name = "flowLayoutPanelSearchResult";
-			this.flowLayoutPanelSearchResult.Size = new System.Drawing.Size(464, 264);
-			this.flowLayoutPanelSearchResult.TabIndex = 2;
-			this.flowLayoutPanelSearchResult.TabStop = true;
-			// 
-			// toolStripSearch
-			// 
-			this.toolStripSearch.Dock = System.Windows.Forms.DockStyle.None;
-			this.toolStripSearch.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.labelSearchTerm,
-            this.textBoxSearch,
-            this.toolStripButtonFind,
-            this.toolStripButtonClearAll});
-			this.toolStripSearch.Location = new System.Drawing.Point(0, 0);
-			this.toolStripSearch.Name = "toolStripSearch";
-			this.toolStripSearch.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.toolStripSearch.Size = new System.Drawing.Size(464, 25);
-			this.toolStripSearch.Stretch = true;
-			this.toolStripSearch.TabIndex = 0;
-			// 
-			// labelSearchTerm
-			// 
-			this.labelSearchTerm.AutoToolTip = true;
-			this.labelSearchTerm.Name = "labelSearchTerm";
-			this.labelSearchTerm.Size = new System.Drawing.Size(73, 22);
-			this.labelSearchTerm.Text = "Search &term:";
-			this.labelSearchTerm.ToolTipText = "Search term";
-			// 
-			// textBoxSearch
-			// 
-			this.textBoxSearch.AutoToolTip = true;
-			this.textBoxSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
-			this.textBoxSearch.Name = "textBoxSearch";
-			this.textBoxSearch.Size = new System.Drawing.Size(100, 25);
-			// 
-			// statusStrip
-			// 
-			this.statusStrip.Dock = System.Windows.Forms.DockStyle.None;
-			this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.labelInformation,
-            this.labelCopiedStatus,
-            this.toolStripProgressBar});
-			this.statusStrip.Location = new System.Drawing.Point(0, 0);
-			this.statusStrip.Name = "statusStrip";
-			this.statusStrip.ShowItemToolTips = true;
-			this.statusStrip.Size = new System.Drawing.Size(472, 22);
-			this.statusStrip.TabIndex = 1;
-			this.statusStrip.TabStop = true;
-			this.statusStrip.Text = "statusStrip";
-			// 
-			// labelInformation
-			// 
-			this.labelInformation.AutoToolTip = true;
-			this.labelInformation.Name = "labelInformation";
-			this.labelInformation.Size = new System.Drawing.Size(70, 17);
-			this.labelInformation.Text = "information";
-			// 
-			// toolStripProgressBar
-			// 
-			this.toolStripProgressBar.AutoToolTip = true;
-			this.toolStripProgressBar.MarqueeAnimationSpeed = 25;
-			this.toolStripProgressBar.Name = "toolStripProgressBar";
-			this.toolStripProgressBar.Size = new System.Drawing.Size(100, 16);
-			this.toolStripProgressBar.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
-			this.toolStripProgressBar.ToolTipText = "Loading...";
-			// 
-			// toolStripContainerMain
-			// 
-			// 
-			// toolStripContainerMain.BottomToolStripPanel
-			// 
-			this.toolStripContainerMain.BottomToolStripPanel.Controls.Add(this.statusStrip);
-			this.toolStripContainerMain.BottomToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			// 
-			// toolStripContainerMain.ContentPanel
-			// 
-			this.toolStripContainerMain.ContentPanel.Controls.Add(this.tabControlEmojis);
-			this.toolStripContainerMain.ContentPanel.Size = new System.Drawing.Size(472, 315);
-			this.toolStripContainerMain.Dock = System.Windows.Forms.DockStyle.Fill;
-			// 
-			// toolStripContainerMain.LeftToolStripPanel
-			// 
-			this.toolStripContainerMain.LeftToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.toolStripContainerMain.Location = new System.Drawing.Point(0, 0);
-			this.toolStripContainerMain.Name = "toolStripContainerMain";
-			// 
-			// toolStripContainerMain.RightToolStripPanel
-			// 
-			this.toolStripContainerMain.RightToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.toolStripContainerMain.Size = new System.Drawing.Size(472, 386);
-			this.toolStripContainerMain.TabIndex = 2;
-			this.toolStripContainerMain.Text = "toolStripContainer";
-			// 
-			// toolStripContainerMain.TopToolStripPanel
-			// 
-			this.toolStripContainerMain.TopToolStripPanel.Controls.Add(this.menuStrip);
-			this.toolStripContainerMain.TopToolStripPanel.Controls.Add(this.toolStripMain);
-			this.toolStripContainerMain.TopToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			// 
-			// menuStrip
-			// 
-			this.menuStrip.Dock = System.Windows.Forms.DockStyle.None;
-			this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItemFile,
-            this.toolStripMenuItemGoto});
-			this.menuStrip.Location = new System.Drawing.Point(0, 0);
-			this.menuStrip.Name = "menuStrip";
-			this.menuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.menuStrip.ShowItemToolTips = true;
-			this.menuStrip.Size = new System.Drawing.Size(472, 24);
-			this.menuStrip.TabIndex = 0;
-			this.menuStrip.Text = "menuStrip";
-			// 
-			// toolStripMenuItemFile
-			// 
-			this.toolStripMenuItemFile.AccessibleDescription = "File";
-			this.toolStripMenuItemFile.AccessibleName = "File";
-			this.toolStripMenuItemFile.AutoToolTip = true;
-			this.toolStripMenuItemFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItemAboutBox,
-            this.toolStripMenuItemExit});
-			this.toolStripMenuItemFile.Name = "toolStripMenuItemFile";
-			this.toolStripMenuItemFile.Size = new System.Drawing.Size(37, 20);
-			this.toolStripMenuItemFile.Text = "&File";
-			// 
-			// toolStripMenuItemGoto
-			// 
-			this.toolStripMenuItemGoto.AccessibleDescription = "Got to";
-			this.toolStripMenuItemGoto.AccessibleName = "Got to";
-			this.toolStripMenuItemGoto.AutoToolTip = true;
-			this.toolStripMenuItemGoto.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItemSmileys,
-            this.toolStripMenuItemSearch});
-			this.toolStripMenuItemGoto.Name = "toolStripMenuItemGoto";
-			this.toolStripMenuItemGoto.Size = new System.Drawing.Size(48, 20);
-			this.toolStripMenuItemGoto.Text = "&Go to";
-			// 
-			// toolStripMenuItemSmileys
-			// 
-			this.toolStripMenuItemSmileys.AccessibleDescription = "smileys & emotion";
-			this.toolStripMenuItemSmileys.AccessibleName = "smileys & emotion";
-			this.toolStripMenuItemSmileys.AutoToolTip = true;
-			this.toolStripMenuItemSmileys.Checked = true;
-			this.toolStripMenuItemSmileys.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.toolStripMenuItemSmileys.Name = "toolStripMenuItemSmileys";
-			this.toolStripMenuItemSmileys.Size = new System.Drawing.Size(175, 22);
-			this.toolStripMenuItemSmileys.Text = "&Smileys && Emotion";
-			this.toolStripMenuItemSmileys.ToolTipText = "Smileys & Emotion";
-			this.toolStripMenuItemSmileys.Click += new System.EventHandler(this.GotoTabSmileys_Click);
-			// 
-			// toolStripMenuItemSearch
-			// 
-			this.toolStripMenuItemSearch.AccessibleDescription = "search";
-			this.toolStripMenuItemSearch.AccessibleName = "search";
-			this.toolStripMenuItemSearch.AutoToolTip = true;
-			this.toolStripMenuItemSearch.Name = "toolStripMenuItemSearch";
-			this.toolStripMenuItemSearch.Size = new System.Drawing.Size(175, 22);
-			this.toolStripMenuItemSearch.Text = "Searc&h";
-			this.toolStripMenuItemSearch.Click += new System.EventHandler(this.GotoTabSearch_Click);
-			// 
-			// toolStripMain
-			// 
-			this.toolStripMain.Dock = System.Windows.Forms.DockStyle.None;
-			this.toolStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.labelWorkMode,
-            this.buttonPickerMode,
-            this.buttonLibraryMode,
-            this.toolStripSeparator1,
-            this.labelEmojiSize,
-            this.buttonEmojiSize16,
-            this.buttonEmojiSize24,
-            this.buttonEmojiSize32,
-            this.toolStripSeparator2,
-            this.toolStripButtonSearch});
-			this.toolStripMain.Location = new System.Drawing.Point(0, 24);
-			this.toolStripMain.Name = "toolStripMain";
-			this.toolStripMain.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-			this.toolStripMain.Size = new System.Drawing.Size(472, 25);
-			this.toolStripMain.Stretch = true;
-			this.toolStripMain.TabIndex = 1;
-			this.toolStripMain.TabStop = true;
-			// 
-			// labelWorkMode
-			// 
-			this.labelWorkMode.Name = "labelWorkMode";
-			this.labelWorkMode.Size = new System.Drawing.Size(72, 22);
-			this.labelWorkMode.Text = "Work Mode:";
-			// 
-			// toolStripSeparator1
-			// 
-			this.toolStripSeparator1.Name = "toolStripSeparator1";
-			this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-			// 
-			// labelEmojiSize
-			// 
-			this.labelEmojiSize.Name = "labelEmojiSize";
-			this.labelEmojiSize.Size = new System.Drawing.Size(63, 22);
-			this.labelEmojiSize.Text = "Emoji Size:";
-			// 
-			// toolStripSeparator2
-			// 
-			this.toolStripSeparator2.Name = "toolStripSeparator2";
-			this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
-			// 
-			// notifyIcon
-			// 
-			this.notifyIcon.Visible = true;
-			// 
-			// buttonKissMark
-			// 
-			this.buttonKissMark.AccessibleDescription = "kiss mark";
-			this.buttonKissMark.AccessibleName = "kiss mark";
-			this.buttonKissMark.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-			this.buttonKissMark.BackgroundImage = global::EmojiLib.Emotion.KissMarkGoogle;
-			this.buttonKissMark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-			this.buttonKissMark.FlatAppearance.BorderSize = 0;
-			this.buttonKissMark.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
-			this.buttonKissMark.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
-			this.buttonKissMark.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.buttonKissMark.Location = new System.Drawing.Point(128, 256);
-			this.buttonKissMark.Margin = new System.Windows.Forms.Padding(0);
-			this.buttonKissMark.Name = "buttonKissMark";
-			this.buttonKissMark.Size = new System.Drawing.Size(32, 32);
-			this.buttonKissMark.TabIndex = 117;
-			this.buttonKissMark.Tag = "💋";
-			this.toolTip.SetToolTip(this.buttonKissMark, "kiss mark");
-			this.buttonKissMark.UseVisualStyleBackColor = true;
-			this.buttonKissMark.Click += new System.EventHandler(this.ButtonKissMark_Click);
-			this.buttonKissMark.Enter += new System.EventHandler(this.SetStatusbar_Enter);
-			this.buttonKissMark.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
-			this.buttonKissMark.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
-			this.buttonKissMark.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
-			// 
-			// labelCopiedStatus
-			// 
-			this.labelCopiedStatus.AutoToolTip = true;
-			this.labelCopiedStatus.Image = global::EmojiLib.Properties.Resources.fatcow_clipboard_paste;
-			this.labelCopiedStatus.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-			this.labelCopiedStatus.Name = "labelCopiedStatus";
-			this.labelCopiedStatus.Size = new System.Drawing.Size(285, 17);
-			this.labelCopiedStatus.Spring = true;
-			this.labelCopiedStatus.Text = "Copied";
-			this.labelCopiedStatus.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
 			// 
 			// buttonGrinningFace
 			// 
@@ -3626,108 +3336,30 @@
 			this.buttonSpeakNoEvilMonkey.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
 			this.buttonSpeakNoEvilMonkey.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
 			// 
-			// toolStripButtonFind
+			// buttonKissMark
 			// 
-			this.toolStripButtonFind.Image = global::EmojiLib.Properties.Resources.fatcow_find;
-			this.toolStripButtonFind.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.toolStripButtonFind.Name = "toolStripButtonFind";
-			this.toolStripButtonFind.Size = new System.Drawing.Size(50, 22);
-			this.toolStripButtonFind.Text = "Fi&nd";
-			this.toolStripButtonFind.Click += new System.EventHandler(this.ButtonSearch_Click);
-			// 
-			// toolStripButtonClearAll
-			// 
-			this.toolStripButtonClearAll.Image = global::EmojiLib.Properties.Resources.fatcow_bin;
-			this.toolStripButtonClearAll.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.toolStripButtonClearAll.Name = "toolStripButtonClearAll";
-			this.toolStripButtonClearAll.Size = new System.Drawing.Size(69, 22);
-			this.toolStripButtonClearAll.Text = "&Clear all";
-			this.toolStripButtonClearAll.Click += new System.EventHandler(this.ButtonClearAll_Click);
-			// 
-			// toolStripMenuItemAboutBox
-			// 
-			this.toolStripMenuItemAboutBox.AccessibleDescription = "About";
-			this.toolStripMenuItemAboutBox.AccessibleName = "About";
-			this.toolStripMenuItemAboutBox.Image = global::EmojiLib.Properties.Resources.fatcow_information;
-			this.toolStripMenuItemAboutBox.Name = "toolStripMenuItemAboutBox";
-			this.toolStripMenuItemAboutBox.Size = new System.Drawing.Size(107, 22);
-			this.toolStripMenuItemAboutBox.Text = "&About";
-			this.toolStripMenuItemAboutBox.Click += new System.EventHandler(this.ShowAboutBox_Click);
-			// 
-			// toolStripMenuItemExit
-			// 
-			this.toolStripMenuItemExit.AccessibleDescription = "Exit";
-			this.toolStripMenuItemExit.AccessibleName = "Exit";
-			this.toolStripMenuItemExit.AutoToolTip = true;
-			this.toolStripMenuItemExit.Image = global::EmojiLib.Properties.Resources.fatcow_door;
-			this.toolStripMenuItemExit.Name = "toolStripMenuItemExit";
-			this.toolStripMenuItemExit.Size = new System.Drawing.Size(107, 22);
-			this.toolStripMenuItemExit.Text = "&Exit";
-			this.toolStripMenuItemExit.Click += new System.EventHandler(this.Exit_Click);
-			// 
-			// buttonPickerMode
-			// 
-			this.buttonPickerMode.Checked = true;
-			this.buttonPickerMode.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.buttonPickerMode.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.buttonPickerMode.Image = global::EmojiLib.Properties.Resources.fatcow_clipboard_paste;
-			this.buttonPickerMode.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.buttonPickerMode.Name = "buttonPickerMode";
-			this.buttonPickerMode.Size = new System.Drawing.Size(23, 22);
-			this.buttonPickerMode.Text = "picker mode";
-			this.buttonPickerMode.Click += new System.EventHandler(this.ButtonSetPickerMode_Click);
-			// 
-			// buttonLibraryMode
-			// 
-			this.buttonLibraryMode.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.buttonLibraryMode.Image = global::EmojiLib.Properties.Resources.fatcow_book;
-			this.buttonLibraryMode.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.buttonLibraryMode.Name = "buttonLibraryMode";
-			this.buttonLibraryMode.Size = new System.Drawing.Size(23, 22);
-			this.buttonLibraryMode.Text = "library mode";
-			this.buttonLibraryMode.Click += new System.EventHandler(this.ButtonSetLibraryMode_Click);
-			// 
-			// buttonEmojiSize16
-			// 
-			this.buttonEmojiSize16.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-			this.buttonEmojiSize16.Image = ((System.Drawing.Image)(resources.GetObject("buttonEmojiSize16.Image")));
-			this.buttonEmojiSize16.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.buttonEmojiSize16.Name = "buttonEmojiSize16";
-			this.buttonEmojiSize16.Size = new System.Drawing.Size(36, 22);
-			this.buttonEmojiSize16.Text = "16px";
-			this.buttonEmojiSize16.Click += new System.EventHandler(this.ButtonEmojiSize16_Click);
-			// 
-			// buttonEmojiSize24
-			// 
-			this.buttonEmojiSize24.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-			this.buttonEmojiSize24.Image = ((System.Drawing.Image)(resources.GetObject("buttonEmojiSize24.Image")));
-			this.buttonEmojiSize24.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.buttonEmojiSize24.Name = "buttonEmojiSize24";
-			this.buttonEmojiSize24.Size = new System.Drawing.Size(36, 22);
-			this.buttonEmojiSize24.Text = "24px";
-			this.buttonEmojiSize24.Click += new System.EventHandler(this.ButtonEmojiSize24_Click);
-			// 
-			// buttonEmojiSize32
-			// 
-			this.buttonEmojiSize32.Checked = true;
-			this.buttonEmojiSize32.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.buttonEmojiSize32.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-			this.buttonEmojiSize32.Image = ((System.Drawing.Image)(resources.GetObject("buttonEmojiSize32.Image")));
-			this.buttonEmojiSize32.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.buttonEmojiSize32.Name = "buttonEmojiSize32";
-			this.buttonEmojiSize32.Size = new System.Drawing.Size(36, 22);
-			this.buttonEmojiSize32.Text = "32px";
-			this.buttonEmojiSize32.Click += new System.EventHandler(this.ButtonEmojiSize32_Click);
-			// 
-			// toolStripButtonSearch
-			// 
-			this.toolStripButtonSearch.CheckOnClick = true;
-			this.toolStripButtonSearch.Image = global::EmojiLib.Properties.Resources.fatcow_find;
-			this.toolStripButtonSearch.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.toolStripButtonSearch.Name = "toolStripButtonSearch";
-			this.toolStripButtonSearch.Size = new System.Drawing.Size(62, 22);
-			this.toolStripButtonSearch.Text = "Search";
-			this.toolStripButtonSearch.Click += new System.EventHandler(this.Search_Click);
+			this.buttonKissMark.AccessibleDescription = "kiss mark";
+			this.buttonKissMark.AccessibleName = "kiss mark";
+			this.buttonKissMark.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+			this.buttonKissMark.BackgroundImage = global::EmojiLib.Emotion.KissMarkGoogle;
+			this.buttonKissMark.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.buttonKissMark.FlatAppearance.BorderSize = 0;
+			this.buttonKissMark.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+			this.buttonKissMark.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ControlDark;
+			this.buttonKissMark.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.buttonKissMark.Location = new System.Drawing.Point(128, 256);
+			this.buttonKissMark.Margin = new System.Windows.Forms.Padding(0);
+			this.buttonKissMark.Name = "buttonKissMark";
+			this.buttonKissMark.Size = new System.Drawing.Size(32, 32);
+			this.buttonKissMark.TabIndex = 117;
+			this.buttonKissMark.Tag = "💋";
+			this.toolTip.SetToolTip(this.buttonKissMark, "kiss mark");
+			this.buttonKissMark.UseVisualStyleBackColor = true;
+			this.buttonKissMark.Click += new System.EventHandler(this.ButtonKissMark_Click);
+			this.buttonKissMark.Enter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonKissMark.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.buttonKissMark.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
+			this.buttonKissMark.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
 			// 
 			// buttonLoveLetter
 			// 
@@ -4578,6 +4210,383 @@
 			this.buttonZzz.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
 			this.buttonZzz.MouseEnter += new System.EventHandler(this.SetStatusbar_Enter);
 			this.buttonZzz.MouseLeave += new System.EventHandler(this.TabPageSearch_Enter);
+			// 
+			// tabPageSearch
+			// 
+			this.tabPageSearch.AccessibleDescription = "search";
+			this.tabPageSearch.AccessibleName = "search";
+			this.tabPageSearch.AutoScroll = true;
+			this.tabPageSearch.Controls.Add(this.toolStripContainerSearch);
+			this.tabPageSearch.Location = new System.Drawing.Point(4, 22);
+			this.tabPageSearch.Name = "tabPageSearch";
+			this.tabPageSearch.Size = new System.Drawing.Size(464, 289);
+			this.tabPageSearch.TabIndex = 1;
+			this.tabPageSearch.Text = "Search";
+			this.toolTip.SetToolTip(this.tabPageSearch, "search");
+			this.tabPageSearch.ToolTipText = "search";
+			this.tabPageSearch.UseVisualStyleBackColor = true;
+			this.tabPageSearch.Enter += new System.EventHandler(this.TabPageSearch_Enter);
+			this.tabPageSearch.Leave += new System.EventHandler(this.ClearStatusbar_Leave);
+			this.tabPageSearch.MouseEnter += new System.EventHandler(this.TabPageSearch_Enter);
+			this.tabPageSearch.MouseLeave += new System.EventHandler(this.ClearStatusbar_Leave);
+			// 
+			// toolStripContainerSearch
+			// 
+			// 
+			// toolStripContainerSearch.BottomToolStripPanel
+			// 
+			this.toolStripContainerSearch.BottomToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			// 
+			// toolStripContainerSearch.ContentPanel
+			// 
+			this.toolStripContainerSearch.ContentPanel.Controls.Add(this.flowLayoutPanelSearchResult);
+			this.toolStripContainerSearch.ContentPanel.Size = new System.Drawing.Size(464, 264);
+			this.toolStripContainerSearch.Dock = System.Windows.Forms.DockStyle.Fill;
+			// 
+			// toolStripContainerSearch.LeftToolStripPanel
+			// 
+			this.toolStripContainerSearch.LeftToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripContainerSearch.Location = new System.Drawing.Point(0, 0);
+			this.toolStripContainerSearch.Name = "toolStripContainerSearch";
+			// 
+			// toolStripContainerSearch.RightToolStripPanel
+			// 
+			this.toolStripContainerSearch.RightToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripContainerSearch.Size = new System.Drawing.Size(464, 289);
+			this.toolStripContainerSearch.TabIndex = 3;
+			this.toolStripContainerSearch.Text = "toolStripContainer1";
+			// 
+			// toolStripContainerSearch.TopToolStripPanel
+			// 
+			this.toolStripContainerSearch.TopToolStripPanel.Controls.Add(this.toolStripSearch);
+			this.toolStripContainerSearch.TopToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			// 
+			// flowLayoutPanelSearchResult
+			// 
+			this.flowLayoutPanelSearchResult.AutoScroll = true;
+			this.flowLayoutPanelSearchResult.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.flowLayoutPanelSearchResult.Location = new System.Drawing.Point(0, 0);
+			this.flowLayoutPanelSearchResult.Name = "flowLayoutPanelSearchResult";
+			this.flowLayoutPanelSearchResult.Size = new System.Drawing.Size(464, 264);
+			this.flowLayoutPanelSearchResult.TabIndex = 2;
+			this.flowLayoutPanelSearchResult.TabStop = true;
+			// 
+			// toolStripSearch
+			// 
+			this.toolStripSearch.Dock = System.Windows.Forms.DockStyle.None;
+			this.toolStripSearch.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.labelSearchTerm,
+            this.textBoxSearch,
+            this.toolStripButtonFind,
+            this.toolStripButtonClearAll});
+			this.toolStripSearch.Location = new System.Drawing.Point(0, 0);
+			this.toolStripSearch.Name = "toolStripSearch";
+			this.toolStripSearch.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripSearch.Size = new System.Drawing.Size(464, 25);
+			this.toolStripSearch.Stretch = true;
+			this.toolStripSearch.TabIndex = 0;
+			// 
+			// labelSearchTerm
+			// 
+			this.labelSearchTerm.AutoToolTip = true;
+			this.labelSearchTerm.Name = "labelSearchTerm";
+			this.labelSearchTerm.Size = new System.Drawing.Size(73, 22);
+			this.labelSearchTerm.Text = "Search &term:";
+			this.labelSearchTerm.ToolTipText = "Search term";
+			// 
+			// textBoxSearch
+			// 
+			this.textBoxSearch.AutoToolTip = true;
+			this.textBoxSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.textBoxSearch.Name = "textBoxSearch";
+			this.textBoxSearch.Size = new System.Drawing.Size(100, 25);
+			// 
+			// toolStripButtonFind
+			// 
+			this.toolStripButtonFind.Image = global::EmojiLib.Properties.Resources.fatcow_find;
+			this.toolStripButtonFind.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.toolStripButtonFind.Name = "toolStripButtonFind";
+			this.toolStripButtonFind.Size = new System.Drawing.Size(50, 22);
+			this.toolStripButtonFind.Text = "Fi&nd";
+			this.toolStripButtonFind.Click += new System.EventHandler(this.ButtonSearch_Click);
+			// 
+			// toolStripButtonClearAll
+			// 
+			this.toolStripButtonClearAll.Image = global::EmojiLib.Properties.Resources.fatcow_bin;
+			this.toolStripButtonClearAll.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.toolStripButtonClearAll.Name = "toolStripButtonClearAll";
+			this.toolStripButtonClearAll.Size = new System.Drawing.Size(69, 22);
+			this.toolStripButtonClearAll.Text = "&Clear all";
+			this.toolStripButtonClearAll.Click += new System.EventHandler(this.ButtonClearAll_Click);
+			// 
+			// statusStrip
+			// 
+			this.statusStrip.Dock = System.Windows.Forms.DockStyle.None;
+			this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.labelInformation,
+            this.labelCopiedStatus,
+            this.toolStripProgressBar});
+			this.statusStrip.Location = new System.Drawing.Point(0, 0);
+			this.statusStrip.Name = "statusStrip";
+			this.statusStrip.ShowItemToolTips = true;
+			this.statusStrip.Size = new System.Drawing.Size(472, 22);
+			this.statusStrip.TabIndex = 1;
+			this.statusStrip.TabStop = true;
+			this.statusStrip.Text = "statusStrip";
+			// 
+			// labelInformation
+			// 
+			this.labelInformation.AutoToolTip = true;
+			this.labelInformation.Name = "labelInformation";
+			this.labelInformation.Size = new System.Drawing.Size(70, 17);
+			this.labelInformation.Text = "information";
+			// 
+			// labelCopiedStatus
+			// 
+			this.labelCopiedStatus.AutoToolTip = true;
+			this.labelCopiedStatus.Image = global::EmojiLib.Properties.Resources.fatcow_clipboard_paste;
+			this.labelCopiedStatus.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.labelCopiedStatus.Name = "labelCopiedStatus";
+			this.labelCopiedStatus.Size = new System.Drawing.Size(285, 17);
+			this.labelCopiedStatus.Spring = true;
+			this.labelCopiedStatus.Text = "Copied";
+			this.labelCopiedStatus.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+			// 
+			// toolStripProgressBar
+			// 
+			this.toolStripProgressBar.AutoToolTip = true;
+			this.toolStripProgressBar.MarqueeAnimationSpeed = 25;
+			this.toolStripProgressBar.Name = "toolStripProgressBar";
+			this.toolStripProgressBar.Size = new System.Drawing.Size(100, 16);
+			this.toolStripProgressBar.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
+			this.toolStripProgressBar.ToolTipText = "Loading...";
+			// 
+			// toolStripContainerMain
+			// 
+			// 
+			// toolStripContainerMain.BottomToolStripPanel
+			// 
+			this.toolStripContainerMain.BottomToolStripPanel.Controls.Add(this.statusStrip);
+			this.toolStripContainerMain.BottomToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			// 
+			// toolStripContainerMain.ContentPanel
+			// 
+			this.toolStripContainerMain.ContentPanel.Controls.Add(this.tabControlEmojis);
+			this.toolStripContainerMain.ContentPanel.Size = new System.Drawing.Size(472, 315);
+			this.toolStripContainerMain.Dock = System.Windows.Forms.DockStyle.Fill;
+			// 
+			// toolStripContainerMain.LeftToolStripPanel
+			// 
+			this.toolStripContainerMain.LeftToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripContainerMain.Location = new System.Drawing.Point(0, 0);
+			this.toolStripContainerMain.Name = "toolStripContainerMain";
+			// 
+			// toolStripContainerMain.RightToolStripPanel
+			// 
+			this.toolStripContainerMain.RightToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripContainerMain.Size = new System.Drawing.Size(472, 386);
+			this.toolStripContainerMain.TabIndex = 2;
+			this.toolStripContainerMain.Text = "toolStripContainer";
+			// 
+			// toolStripContainerMain.TopToolStripPanel
+			// 
+			this.toolStripContainerMain.TopToolStripPanel.Controls.Add(this.menuStrip);
+			this.toolStripContainerMain.TopToolStripPanel.Controls.Add(this.toolStripMain);
+			this.toolStripContainerMain.TopToolStripPanel.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			// 
+			// menuStrip
+			// 
+			this.menuStrip.Dock = System.Windows.Forms.DockStyle.None;
+			this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItemFile,
+            this.toolStripMenuItemGoto});
+			this.menuStrip.Location = new System.Drawing.Point(0, 0);
+			this.menuStrip.Name = "menuStrip";
+			this.menuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.menuStrip.ShowItemToolTips = true;
+			this.menuStrip.Size = new System.Drawing.Size(472, 24);
+			this.menuStrip.TabIndex = 0;
+			this.menuStrip.Text = "menuStrip";
+			// 
+			// toolStripMenuItemFile
+			// 
+			this.toolStripMenuItemFile.AccessibleDescription = "File";
+			this.toolStripMenuItemFile.AccessibleName = "File";
+			this.toolStripMenuItemFile.AutoToolTip = true;
+			this.toolStripMenuItemFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItemAboutBox,
+            this.toolStripMenuItemExit});
+			this.toolStripMenuItemFile.Name = "toolStripMenuItemFile";
+			this.toolStripMenuItemFile.Size = new System.Drawing.Size(37, 20);
+			this.toolStripMenuItemFile.Text = "&File";
+			// 
+			// toolStripMenuItemAboutBox
+			// 
+			this.toolStripMenuItemAboutBox.AccessibleDescription = "About";
+			this.toolStripMenuItemAboutBox.AccessibleName = "About";
+			this.toolStripMenuItemAboutBox.Image = global::EmojiLib.Properties.Resources.fatcow_information;
+			this.toolStripMenuItemAboutBox.Name = "toolStripMenuItemAboutBox";
+			this.toolStripMenuItemAboutBox.Size = new System.Drawing.Size(107, 22);
+			this.toolStripMenuItemAboutBox.Text = "&About";
+			this.toolStripMenuItemAboutBox.Click += new System.EventHandler(this.ShowAboutBox_Click);
+			// 
+			// toolStripMenuItemExit
+			// 
+			this.toolStripMenuItemExit.AccessibleDescription = "Exit";
+			this.toolStripMenuItemExit.AccessibleName = "Exit";
+			this.toolStripMenuItemExit.AutoToolTip = true;
+			this.toolStripMenuItemExit.Image = global::EmojiLib.Properties.Resources.fatcow_door;
+			this.toolStripMenuItemExit.Name = "toolStripMenuItemExit";
+			this.toolStripMenuItemExit.Size = new System.Drawing.Size(107, 22);
+			this.toolStripMenuItemExit.Text = "&Exit";
+			this.toolStripMenuItemExit.Click += new System.EventHandler(this.Exit_Click);
+			// 
+			// toolStripMenuItemGoto
+			// 
+			this.toolStripMenuItemGoto.AccessibleDescription = "Got to";
+			this.toolStripMenuItemGoto.AccessibleName = "Got to";
+			this.toolStripMenuItemGoto.AutoToolTip = true;
+			this.toolStripMenuItemGoto.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItemSmileys,
+            this.toolStripMenuItemSearch});
+			this.toolStripMenuItemGoto.Name = "toolStripMenuItemGoto";
+			this.toolStripMenuItemGoto.Size = new System.Drawing.Size(48, 20);
+			this.toolStripMenuItemGoto.Text = "&Go to";
+			// 
+			// toolStripMenuItemSmileys
+			// 
+			this.toolStripMenuItemSmileys.AccessibleDescription = "smileys & emotion";
+			this.toolStripMenuItemSmileys.AccessibleName = "smileys & emotion";
+			this.toolStripMenuItemSmileys.AutoToolTip = true;
+			this.toolStripMenuItemSmileys.Checked = true;
+			this.toolStripMenuItemSmileys.CheckState = System.Windows.Forms.CheckState.Checked;
+			this.toolStripMenuItemSmileys.Name = "toolStripMenuItemSmileys";
+			this.toolStripMenuItemSmileys.Size = new System.Drawing.Size(175, 22);
+			this.toolStripMenuItemSmileys.Text = "&Smileys && Emotion";
+			this.toolStripMenuItemSmileys.ToolTipText = "Smileys & Emotion";
+			this.toolStripMenuItemSmileys.Click += new System.EventHandler(this.GotoTabSmileys_Click);
+			// 
+			// toolStripMenuItemSearch
+			// 
+			this.toolStripMenuItemSearch.AccessibleDescription = "search";
+			this.toolStripMenuItemSearch.AccessibleName = "search";
+			this.toolStripMenuItemSearch.AutoToolTip = true;
+			this.toolStripMenuItemSearch.Name = "toolStripMenuItemSearch";
+			this.toolStripMenuItemSearch.Size = new System.Drawing.Size(175, 22);
+			this.toolStripMenuItemSearch.Text = "Searc&h";
+			this.toolStripMenuItemSearch.Click += new System.EventHandler(this.GotoTabSearch_Click);
+			// 
+			// toolStripMain
+			// 
+			this.toolStripMain.Dock = System.Windows.Forms.DockStyle.None;
+			this.toolStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.labelWorkMode,
+            this.buttonPickerMode,
+            this.buttonLibraryMode,
+            this.toolStripSeparator1,
+            this.labelEmojiSize,
+            this.buttonEmojiSize16,
+            this.buttonEmojiSize24,
+            this.buttonEmojiSize32,
+            this.toolStripSeparator2,
+            this.toolStripButtonSearch});
+			this.toolStripMain.Location = new System.Drawing.Point(0, 24);
+			this.toolStripMain.Name = "toolStripMain";
+			this.toolStripMain.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
+			this.toolStripMain.Size = new System.Drawing.Size(472, 25);
+			this.toolStripMain.Stretch = true;
+			this.toolStripMain.TabIndex = 1;
+			this.toolStripMain.TabStop = true;
+			// 
+			// labelWorkMode
+			// 
+			this.labelWorkMode.Name = "labelWorkMode";
+			this.labelWorkMode.Size = new System.Drawing.Size(72, 22);
+			this.labelWorkMode.Text = "Work Mode:";
+			// 
+			// buttonPickerMode
+			// 
+			this.buttonPickerMode.Checked = true;
+			this.buttonPickerMode.CheckState = System.Windows.Forms.CheckState.Checked;
+			this.buttonPickerMode.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonPickerMode.Image = global::EmojiLib.Properties.Resources.fatcow_clipboard_paste;
+			this.buttonPickerMode.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonPickerMode.Name = "buttonPickerMode";
+			this.buttonPickerMode.Size = new System.Drawing.Size(23, 22);
+			this.buttonPickerMode.Text = "picker mode";
+			this.buttonPickerMode.Click += new System.EventHandler(this.ButtonSetPickerMode_Click);
+			// 
+			// buttonLibraryMode
+			// 
+			this.buttonLibraryMode.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+			this.buttonLibraryMode.Image = global::EmojiLib.Properties.Resources.fatcow_book;
+			this.buttonLibraryMode.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonLibraryMode.Name = "buttonLibraryMode";
+			this.buttonLibraryMode.Size = new System.Drawing.Size(23, 22);
+			this.buttonLibraryMode.Text = "library mode";
+			this.buttonLibraryMode.Click += new System.EventHandler(this.ButtonSetLibraryMode_Click);
+			// 
+			// toolStripSeparator1
+			// 
+			this.toolStripSeparator1.Name = "toolStripSeparator1";
+			this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+			// 
+			// labelEmojiSize
+			// 
+			this.labelEmojiSize.Name = "labelEmojiSize";
+			this.labelEmojiSize.Size = new System.Drawing.Size(63, 22);
+			this.labelEmojiSize.Text = "Emoji Size:";
+			// 
+			// buttonEmojiSize16
+			// 
+			this.buttonEmojiSize16.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+			this.buttonEmojiSize16.Image = ((System.Drawing.Image)(resources.GetObject("buttonEmojiSize16.Image")));
+			this.buttonEmojiSize16.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonEmojiSize16.Name = "buttonEmojiSize16";
+			this.buttonEmojiSize16.Size = new System.Drawing.Size(36, 22);
+			this.buttonEmojiSize16.Text = "16px";
+			this.buttonEmojiSize16.Click += new System.EventHandler(this.ButtonEmojiSize16_Click);
+			// 
+			// buttonEmojiSize24
+			// 
+			this.buttonEmojiSize24.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+			this.buttonEmojiSize24.Image = ((System.Drawing.Image)(resources.GetObject("buttonEmojiSize24.Image")));
+			this.buttonEmojiSize24.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonEmojiSize24.Name = "buttonEmojiSize24";
+			this.buttonEmojiSize24.Size = new System.Drawing.Size(36, 22);
+			this.buttonEmojiSize24.Text = "24px";
+			this.buttonEmojiSize24.Click += new System.EventHandler(this.ButtonEmojiSize24_Click);
+			// 
+			// buttonEmojiSize32
+			// 
+			this.buttonEmojiSize32.Checked = true;
+			this.buttonEmojiSize32.CheckState = System.Windows.Forms.CheckState.Checked;
+			this.buttonEmojiSize32.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+			this.buttonEmojiSize32.Image = ((System.Drawing.Image)(resources.GetObject("buttonEmojiSize32.Image")));
+			this.buttonEmojiSize32.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.buttonEmojiSize32.Name = "buttonEmojiSize32";
+			this.buttonEmojiSize32.Size = new System.Drawing.Size(36, 22);
+			this.buttonEmojiSize32.Text = "32px";
+			this.buttonEmojiSize32.Click += new System.EventHandler(this.ButtonEmojiSize32_Click);
+			// 
+			// toolStripSeparator2
+			// 
+			this.toolStripSeparator2.Name = "toolStripSeparator2";
+			this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+			// 
+			// toolStripButtonSearch
+			// 
+			this.toolStripButtonSearch.CheckOnClick = true;
+			this.toolStripButtonSearch.Image = global::EmojiLib.Properties.Resources.fatcow_find;
+			this.toolStripButtonSearch.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.toolStripButtonSearch.Name = "toolStripButtonSearch";
+			this.toolStripButtonSearch.Size = new System.Drawing.Size(62, 22);
+			this.toolStripButtonSearch.Text = "Search";
+			this.toolStripButtonSearch.Click += new System.EventHandler(this.Search_Click);
+			// 
+			// notifyIcon
+			// 
+			this.notifyIcon.Visible = true;
 			// 
 			// MainForm
 			// 
