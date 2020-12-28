@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace EmojiLib
 {
-	partial class AboutBoxForm : Form
+	internal partial class AboutBoxForm : Form
 	{
 		public AboutBoxForm()
 		{
@@ -23,7 +23,7 @@ namespace EmojiLib
 
 		#region Assemblyattributaccessoren
 
-		public string AssemblyTitle
+		public static string AssemblyTitle
 		{
 			get
 			{
@@ -40,7 +40,7 @@ namespace EmojiLib
 			}
 		}
 
-		public string AssemblyVersion
+		public static string AssemblyVersion
 		{
 			get
 			{
@@ -48,7 +48,7 @@ namespace EmojiLib
 			}
 		}
 
-		public string AssemblyDescription
+		public static string AssemblyDescription
 		{
 			get
 			{
@@ -61,7 +61,7 @@ namespace EmojiLib
 			}
 		}
 
-		public string AssemblyProduct
+		public static string AssemblyProduct
 		{
 			get
 			{
@@ -74,7 +74,7 @@ namespace EmojiLib
 			}
 		}
 
-		public string AssemblyCopyright
+		public static string AssemblyCopyright
 		{
 			get
 			{
@@ -87,7 +87,7 @@ namespace EmojiLib
 			}
 		}
 
-		public string AssemblyCompany
+		public static string AssemblyCompany
 		{
 			get
 			{

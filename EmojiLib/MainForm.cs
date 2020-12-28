@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Windows.Forms;
 using EmojiLib.Properties;
 
 namespace EmojiLib
@@ -27,7 +24,7 @@ namespace EmojiLib
 			labelCopiedStatus.Visible = false;
 		}
 
-		private void SomethingWentWrong()
+		private static void SomethingWentWrong()
 		{
 			MessageBox.Show(Resources.somethingWentWrong, Resources.errorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
 		}
@@ -157,25 +154,61 @@ namespace EmojiLib
 
 		#endregion
 
-		private void ShowEmojiInfo(string code, string shortName, string group, string subGroup, object tag, Image appleVersion, Image googleVersion, Image facebookVersion, Image windowsVersion, Image twitterVersion, Image joypixelsVersion, Image samsungVersion, Image gmailVersion, Image docomoVersion, Image kddiVersion, Image softbankVersion)
+		private static void ShowEmojiInfo(string code, string shortName, string group, string subGroup, object tag, Image appleVersion, Image googleVersion, Image facebookVersion, Image windowsVersion, Image twitterVersion, Image joypixelsVersion, Image samsungVersion, Image gmailVersion, Image docomoVersion, Image kddiVersion, Image softbankVersion)
 		{
-			EmojiInfoForm emojiInfo = new EmojiInfoForm();
-			emojiInfo.SetCode(code);
-			emojiInfo.SetShortName(shortName);
-			emojiInfo.SetGroup(group);
-			emojiInfo.SetSubGroup(subGroup);
-			emojiInfo.SetAppleImageVersion(appleVersion);
-			emojiInfo.SetGoogleImageVersion(googleVersion);
-			emojiInfo.SetFacebookImageVersion(facebookVersion);
-			emojiInfo.SetWindowsImageVersion(windowsVersion);
-			emojiInfo.SetTwitterImageVersion(twitterVersion);
-			emojiInfo.SetJoyPixelsImageVersion(joypixelsVersion);
-			emojiInfo.SetSamsungImageVersion(samsungVersion);
-			emojiInfo.SetGmailImageVersion(gmailVersion);
-			emojiInfo.SetDocomoImageVersion(docomoVersion);
-			emojiInfo.SetKddiImageVersion(kddiVersion);
-			emojiInfo.SetSoftbankImageVersion(softbankVersion);
-			emojiInfo.ShowDialog();
+			using (EmojiInfoForm emojiInfo = new EmojiInfoForm())
+			{
+				emojiInfo.SetCode(code);
+				emojiInfo.SetShortName(shortName);
+				emojiInfo.SetGroup(group);
+				emojiInfo.SetSubGroup(subGroup);
+				emojiInfo.SetAppleImageVersion(appleVersion);
+				emojiInfo.SetGoogleImageVersion(googleVersion);
+				emojiInfo.SetFacebookImageVersion(facebookVersion);
+				emojiInfo.SetWindowsImageVersion(windowsVersion);
+				emojiInfo.SetTwitterImageVersion(twitterVersion);
+				emojiInfo.SetJoyPixelsImageVersion(joypixelsVersion);
+				emojiInfo.SetSamsungImageVersion(samsungVersion);
+				emojiInfo.SetGmailImageVersion(gmailVersion);
+				emojiInfo.SetDocomoImageVersion(docomoVersion);
+				emojiInfo.SetKddiImageVersion(kddiVersion);
+				emojiInfo.SetSoftbankImageVersion(softbankVersion);
+				emojiInfo.ShowDialog();
+			}
+		}
+
+		private void ShowEmojiInfo2(Emoji emoji)
+		{
+			if (buttonPickerMode.Checked)
+			{
+				CopyToClipboard(text: emoji.Character);
+			}
+			else if (buttonLibraryMode.Checked)
+			{
+				using (EmojiInfoForm emojiInfo = new EmojiInfoForm())
+				{
+					emojiInfo.SetCode(code: emoji.Unicode);
+					emojiInfo.SetShortName(name: emoji.FullName);
+					emojiInfo.SetGroup(group: emoji.Group);
+					emojiInfo.SetSubGroup(subGroup: emoji.SubGroup);
+					emojiInfo.SetAppleImageVersion(image: emoji.AppleIcon);
+					emojiInfo.SetGoogleImageVersion(image: emoji.GoogleIcon);
+					emojiInfo.SetFacebookImageVersion(image: emoji.FacebookIcon);
+					emojiInfo.SetWindowsImageVersion(image: emoji.WindowsIcon);
+					emojiInfo.SetTwitterImageVersion(image: emoji.TwitterIcon);
+					emojiInfo.SetJoyPixelsImageVersion(image: emoji.JoypixelsIcon);
+					emojiInfo.SetSamsungImageVersion(image: emoji.SamsungIcon);
+					emojiInfo.SetGmailImageVersion(image: emoji.GmailIcon);
+					emojiInfo.SetDocomoImageVersion(image: emoji.DocomoIcon);
+					emojiInfo.SetKddiImageVersion(image: emoji.KddiIcon);
+					emojiInfo.SetSoftbankImageVersion(image: emoji.SoftbankIcon);
+					emojiInfo.ShowDialog();
+				}
+			}
+			else
+			{
+				SomethingWentWrong();
+			}
 		}
 
 		private void SetCopiedToClipboardStatus()
@@ -447,7 +480,6 @@ namespace EmojiLib
 							case "buttonAlienMonster": newButton.Click += ButtonAlienMonster_Click; break;
 							case "buttonRobot": newButton.Click += ButtonRobot_Click; break;
 							case "buttonGrinningCat": newButton.Click += ButtonGrinningCat_Click; break;
-							case "button": newButton.Click += ButtonGrinningCatWithSmilingEyes_Click; break;
 							case "buttonGrinningCatWithSmilingEyes": newButton.Click += Button_Click; break;
 							case "buttonCatWithTearsOfJoy": newButton.Click += ButtonCatWithTearsOfJoy_Click; break;
 							case "buttonSmilingCatWithHeartEyes": newButton.Click += ButtonSmilingCatWithHeartEyes_Click; break;
@@ -493,7 +525,6 @@ namespace EmojiLib
 							case "buttonLeftSpeechBubble": newButton.Click += ButtonLeftSpeechBubble_Click; break;
 							case "buttonRightAngerBubble": newButton.Click += ButtonRightAngerBubble_Click; break;
 							case "buttonThoughtBalloon": newButton.Click += ButtonThoughtBalloon_Click; break;
-							case "buttonZzz": newButton.Click += ButtonZzz_Click; break;
 							default: newButton.Click += Button_Click; break;
 						}
 						buttons.Capacity = capacity;
@@ -536,60 +567,9 @@ namespace EmojiLib
 			CopyToClipboard(button.Tag.ToString());
 		}
 
-		private void ButtonGrinningFace_Click(object sender, EventArgs e)
-		{
-			if (buttonPickerMode.Checked)
-			{
-				CopyToClipboard(buttonGrinningFace.Tag.ToString());
-			}
-			else if (buttonLibraryMode.Checked)
-			{
-				ShowEmojiInfo("U+1F600", buttonGrinningFace.AccessibleName,
-					Resources.smileysAndEmotion, Resources.faceSmiling,
-					buttonGrinningFace.Tag,
-					FaceSmiling.GrinningFaceApple,
-					FaceSmiling.GrinningFaceGoogle,
-					FaceSmiling.GrinningFaceFacebook,
-					FaceSmiling.GrinningFaceWindows,
-					FaceSmiling.GrinningFaceTwitter,
-					FaceSmiling.GrinningFaceJoyPixels,
-					FaceSmiling.GrinningFaceSamsung,
-					FaceSmiling.GrinningFaceGmail, null, null, null);
-			}
-			else
-			{
-				SomethingWentWrong();
-			}
-		}
+		private void ButtonGrinningFace_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.grinningFace);
 
-		private void ButtonGrinningFaceWithBigEyes_Click(object sender, EventArgs e)
-		{
-			if (buttonPickerMode.Checked)
-			{
-				CopyToClipboard(buttonGrinningFaceWithBigEyes.Tag.ToString());
-			}
-			else if (buttonLibraryMode.Checked)
-			{
-				ShowEmojiInfo("U+1F603", buttonGrinningFaceWithBigEyes.AccessibleName,
-					Resources.smileysAndEmotion, Resources.faceSmiling,
-					buttonGrinningFaceWithBigEyes.Tag,
-					FaceSmiling.GrinningFaceWithBigEyesApple,
-					FaceSmiling.GrinningFaceWithBigEyesGoogle,
-					FaceSmiling.GrinningFaceWithBigEyesFacebook,
-					FaceSmiling.GrinningFaceWithBigEyesWindows,
-					FaceSmiling.GrinningFaceWithBigEyesTwitter,
-					FaceSmiling.GrinningFaceWithBigEyesJoyPixels,
-					FaceSmiling.GrinningFaceWithBigEyesSamsung,
-					FaceSmiling.GrinningFaceWithBigEyesGmail,
-					FaceSmiling.GrinningFaceWithBigEyesDocomo,
-					FaceSmiling.GrinningFaceWithBigEyesKddi,
-					FaceSmiling.GrinningFaceWithBigEyesSoftbank);
-			}
-			else
-			{
-				SomethingWentWrong();
-			}
-		}
+		private void ButtonGrinningFaceWithBigEyes_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.grinningFaceWithBigEyes);
 
 		private void ButtonGrinningFaceWithSmilingEyes_Click(object sender, EventArgs e)
 		{
