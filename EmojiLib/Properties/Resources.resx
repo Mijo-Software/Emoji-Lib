@@ -220,4 +220,7 @@
   <data name="monkeyFace" xml:space="preserve">
     <value>monkey-face</value>
   </data>
+  <data name="emotion" xml:space="preserve">
+    <value>emotion</value>
+  </data>
 </root>
