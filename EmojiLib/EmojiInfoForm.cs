@@ -122,7 +122,7 @@ namespace EmojiLib
 
 		public void SetDocomoImageVersion(Image image)
 		{
-			if (pictureBoxDocomo.Image == null)
+			if (image == null)
 			{
 				labelDocomoVersion.Enabled = false;
 				pictureBoxDocomo.Enabled = false;
