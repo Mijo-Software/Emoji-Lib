@@ -405,331 +405,49 @@ namespace EmojiLib
 			}
 		}
 
-		private void ButtonGrinningFace_Click(object sender, EventArgs e)
-		{
-			ShowEmojiInfo2(emoji: EmojiSet.grinningFace);
-		}
+		private void ButtonGrinningFace_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.grinningFace);
 
-		private void ButtonGrinningFaceWithBigEyes_Click(object sender, EventArgs e)
-		{
-			ShowEmojiInfo2(emoji: EmojiSet.grinningFaceWithBigEyes);
-		}
+		private void ButtonGrinningFaceWithBigEyes_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.grinningFaceWithBigEyes);
 
-		private void ButtonGrinningFaceWithSmilingEyes_Click(object sender, EventArgs e)
-		{
-			ShowEmojiInfo2(emoji: EmojiSet.grinningFaceWithSmilingEyes);
-		}
+		private void ButtonGrinningFaceWithSmilingEyes_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.grinningFaceWithSmilingEyes);
 
-		private void ButtonBeamingFaceWithSmilingEyes_Click(object sender, EventArgs e)
-		{
-			ShowEmojiInfo2(emoji: EmojiSet.beamingFaceWithSmilingEyes);
-		}
+		private void ButtonBeamingFaceWithSmilingEyes_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.beamingFaceWithSmilingEyes);
 
-		private void ButtonGrinningSquintingFace_Click(object sender, EventArgs e)
-		{
-			ShowEmojiInfo2(emoji: EmojiSet.grinningSquintingFace);
-		}
+		private void ButtonGrinningSquintingFace_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.grinningSquintingFace);
 
-		private void ButtonGrinningFaceWithSweat_Click(object sender, EventArgs e)
-		{
-			ShowEmojiInfo2(emoji: EmojiSet.grinningFaceWithSweat);
-		}
+		private void ButtonGrinningFaceWithSweat_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.grinningFaceWithSweat);
 
-		private void ButtonRollingOnTheFloorLaughing_Click(object sender, EventArgs e)
-		{
-			ShowEmojiInfo2(emoji: EmojiSet.rollingOnTheFloorLaughing);
-		}
+		private void ButtonRollingOnTheFloorLaughing_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.rollingOnTheFloorLaughing);
 
-		private void ButtonFaceWithTearsOfJoy_Click(object sender, EventArgs e)
-		{
-			ShowEmojiInfo2(emoji: EmojiSet.faceWithTearsOfJoy);
-		}
+		private void ButtonFaceWithTearsOfJoy_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.faceWithTearsOfJoy);
 
-		private void ButtonSlightlySmilingFace_Click(object sender, EventArgs e)
-		{
-			ShowEmojiInfo2(emoji: EmojiSet.slightlySmilingFace);
-		}
+		private void ButtonSlightlySmilingFace_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.slightlySmilingFace);
 
-		private void ButtonUpsideDownFace_Click(object sender, EventArgs e)
-		{
-			ShowEmojiInfo2(emoji: EmojiSet.upsideDownFace);
-		}
+		private void ButtonUpsideDownFace_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.upsideDownFace);
 
-		private void ButtonWinkingFace_Click(object sender, EventArgs e)
-		{
-			ShowEmojiInfo2(emoji: EmojiSet.winkingFace);
-		}
+		private void ButtonWinkingFace_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.winkingFace);
 
-		private void ButtonSmilingFaceWithSmilingEyes_Click(object sender, EventArgs e)
-		{
-			ShowEmojiInfo2(emoji: EmojiSet.smilingFaceWithSmilingEyes);
-		}
+		private void ButtonSmilingFaceWithSmilingEyes_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.smilingFaceWithSmilingEyes);
 
-		private void ButtonSmilingFaceWithHalo_Click(object sender, EventArgs e)
-		{
-			ShowEmojiInfo2(emoji: EmojiSet.smilingFaceWithHalo);
-		}
+		private void ButtonSmilingFaceWithHalo_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.smilingFaceWithHalo);
 
-		private void ButtonSmilingFaceWithHearts_Click(object sender, EventArgs e)
-		{
-			if (buttonPickerMode.Checked)
-			{
-				CopyToClipboard(buttonSmilingFaceWithHearts.Tag.ToString());
-			}
-			else if (buttonLibraryMode.Checked)
-			{
-				ShowEmojiInfo("U+1F970", buttonSmilingFaceWithHearts.AccessibleName,
-					Resources.smileysAndEmotion, Resources.faceAffection,
-					buttonSmilingFaceWithHearts.Tag,
-					FaceAffection.SmilingFaceWithHeartsApple,
-					FaceAffection.SmilingFaceWithHeartsGoogle,
-					FaceAffection.SmilingFaceWithHeartsFacebook,
-					FaceAffection.SmilingFaceWithHeartsWindows,
-					FaceAffection.SmilingFaceWithHeartsTwitter,
-					FaceAffection.SmilingFaceWithHeartsJoyPixels,
-					FaceAffection.SmilingFaceWithHeartsSamsung,
-					null,
-					null,
-					null,
-					null);
-			}
-			else
-			{
-				SomethingWentWrong();
-			}
-		}
+		private void ButtonSmilingFaceWithHearts_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.smilingFaceWithHearts);
 
-		private void ButtonSmilingFaceWithHeartEyes_Click(object sender, EventArgs e)
-		{
-			if (buttonPickerMode.Checked)
-			{
-				CopyToClipboard(buttonSmilingFaceWithHeartEyes.Tag.ToString());
-			}
-			else if (buttonLibraryMode.Checked)
-			{
-				ShowEmojiInfo("U+1F60D", buttonSmilingFaceWithHeartEyes.AccessibleName,
-					Resources.smileysAndEmotion, Resources.faceAffection,
-					buttonSmilingFaceWithHeartEyes.Tag,
-					FaceAffection.SmilingFaceWithHeartEyesApple,
-					FaceAffection.SmilingFaceWithHeartEyesGoogle,
-					FaceAffection.SmilingFaceWithHeartEyesFacebook,
-					FaceAffection.SmilingFaceWithHeartEyesWindows,
-					FaceAffection.SmilingFaceWithHeartEyesTwitter,
-					FaceAffection.SmilingFaceWithHeartEyesJoyPixels,
-					FaceAffection.SmilingFaceWithHeartEyesSamsung,
-					FaceAffection.SmilingFaceWithHeartEyesGmail,
-					FaceAffection.SmilingFaceWithHeartEyesDocomo,
-					FaceAffection.SmilingFaceWithHeartEyesKddi,
-					FaceAffection.SmilingFaceWithHeartEyesSoftbank);
-			}
-			else
-			{
-				SomethingWentWrong();
-			}
-		}
+		private void ButtonSmilingFaceWithHeartEyes_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.smilingFaceWithHeartEyes);
 
-		private void ButtonStarStruck_Click(object sender, EventArgs e)
-		{
-			if (buttonPickerMode.Checked)
-			{
-				CopyToClipboard(buttonStarStruck.Tag.ToString());
-			}
-			else if (buttonLibraryMode.Checked)
-			{
-				ShowEmojiInfo("U+1F929", buttonStarStruck.AccessibleName,
-					Resources.smileysAndEmotion, Resources.faceAffection,
-					buttonStarStruck.Tag,
-					FaceAffection.StarStruckApple,
-					FaceAffection.StarStruckGoogle,
-					FaceAffection.StarStruckFacebook,
-					FaceAffection.StarStruckWindows,
-					FaceAffection.StarStruckTwitter,
-					FaceAffection.StarStruckJoyPixels,
-					FaceAffection.StarStruckSamsung,
-					null,
-					null,
-					null,
-					null);
-			}
-			else
-			{
-				SomethingWentWrong();
-			}
-		}
+		private void ButtonStarStruck_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.starStruck);
 
-		private void ButtonFaceBlowingAKiss_Click(object sender, EventArgs e)
-		{
-			if (buttonPickerMode.Checked)
-			{
-				CopyToClipboard(buttonFaceBlowingAKiss.Tag.ToString());
-			}
-			else if (buttonLibraryMode.Checked)
-			{
-				ShowEmojiInfo("U+1F618", buttonFaceBlowingAKiss.AccessibleName,
-					Resources.smileysAndEmotion, Resources.faceAffection,
-					buttonFaceBlowingAKiss.Tag,
-					FaceAffection.FaceBlowingAKissApple,
-					FaceAffection.FaceBlowingAKissGoogle,
-					FaceAffection.FaceBlowingAKissFacebook,
-					FaceAffection.FaceBlowingAKissWindows,
-					FaceAffection.FaceBlowingAKissTwitter,
-					FaceAffection.FaceBlowingAKissJoyPixels,
-					FaceAffection.FaceBlowingAKissSamsung,
-					FaceAffection.FaceBlowingAKissGmail,
-					null,
-					FaceAffection.FaceBlowingAKissKddi,
-					FaceAffection.FaceBlowingAKissSoftbank);
-			}
-			else
-			{
-				SomethingWentWrong();
-			}
-		}
+		private void ButtonFaceBlowingAKiss_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.faceBlowingAKiss);
 
-		private void ButtonKissingFace_Click(object sender, EventArgs e)
-		{
-			if (buttonPickerMode.Checked)
-			{
-				CopyToClipboard(buttonKissingFace.Tag.ToString());
-			}
-			else if (buttonLibraryMode.Checked)
-			{
-				ShowEmojiInfo("U+1F617", buttonKissingFace.AccessibleName,
-					Resources.smileysAndEmotion, Resources.faceAffection,
-					buttonKissingFace.Tag,
-					FaceAffection.KissingFaceApple,
-					FaceAffection.KissingFaceGoogle,
-					FaceAffection.KissingFaceFacebook,
-					FaceAffection.KissingFaceWindows,
-					FaceAffection.KissingFaceTwitter,
-					FaceAffection.KissingFaceJoyPixels,
-					FaceAffection.KissingFaceSamsung,
-					null,
-					null,
-					null,
-					null);
-			}
-			else
-			{
-				SomethingWentWrong();
-			}
-		}
+		private void ButtonKissingFace_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.kissingFace);
 
-		private void ButtonSmilingFace_Click(object sender, EventArgs e)
-		{
-			if (buttonPickerMode.Checked)
-			{
-				CopyToClipboard(buttonSmilingFace.Tag.ToString());
-			}
-			else if (buttonLibraryMode.Checked)
-			{
-				ShowEmojiInfo("U+263A", buttonSmilingFace.AccessibleName,
-					Resources.smileysAndEmotion, Resources.faceAffection,
-					buttonSmilingFace.Tag,
-					FaceAffection.SmilingFaceApple,
-					FaceAffection.SmilingFaceGoogle,
-					FaceAffection.SmilingFaceFacebook,
-					FaceAffection.SmilingFaceWindows,
-					FaceAffection.SmilingFaceTwitter,
-					FaceAffection.SmilingFaceJoyPixels,
-					FaceAffection.SmilingFaceSamsung,
-					FaceAffection.SmilingFaceGmail,
-					null,
-					FaceAffection.SmilingFaceKddi,
-					FaceAffection.SmilingFaceSoftbank);
-			}
-			else
-			{
-				SomethingWentWrong();
-			}
-		}
+		private void ButtonSmilingFace_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.smilingFace);
 
-		private void ButtonKissingFaceWithClosedEyes_Click(object sender, EventArgs e)
-		{
-			if (buttonPickerMode.Checked)
-			{
-				CopyToClipboard(buttonKissingFaceWithClosedEyes.Tag.ToString());
-			}
-			else if (buttonLibraryMode.Checked)
-			{
-				ShowEmojiInfo("U+1F61A", buttonKissingFaceWithClosedEyes.AccessibleName,
-					Resources.smileysAndEmotion, Resources.faceAffection,
-					buttonKissingFaceWithClosedEyes.Tag,
-					FaceAffection.KissingFaceWithClosedEyesApple,
-					FaceAffection.KissingFaceWithClosedEyesGoogle,
-					FaceAffection.KissingFaceWithClosedEyesFacebook,
-					FaceAffection.KissingFaceWithClosedEyesWindows,
-					FaceAffection.KissingFaceWithClosedEyesTwitter,
-					FaceAffection.KissingFaceWithClosedEyesJoyPixels,
-					FaceAffection.KissingFaceWithClosedEyesSamsung,
-					FaceAffection.KissingFaceWithClosedEyesGmail,
-					null,
-					FaceAffection.KissingFaceWithClosedEyesKddi,
-					FaceAffection.KissingFaceWithClosedEyesSoftbank);
-			}
-			else
-			{
-				SomethingWentWrong();
-			}
-		}
+		private void ButtonKissingFaceWithClosedEyes_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.kissingFaceWithClosedEyes);
 
-		private void ButtonKissingFaceWithSmilingEyes_Click(object sender, EventArgs e)
-		{
-			if (buttonPickerMode.Checked)
-			{
-				CopyToClipboard(buttonKissingFaceWithSmilingEyes.Tag.ToString());
-			}
-			else if (buttonLibraryMode.Checked)
-			{
-				ShowEmojiInfo("U+1F619", buttonKissingFaceWithSmilingEyes.AccessibleName,
-					Resources.smileysAndEmotion, Resources.faceAffection,
-					buttonKissingFaceWithSmilingEyes.Tag,
-					FaceAffection.KissingFaceWithSmilingEyesApple,
-					FaceAffection.KissingFaceWithSmilingEyesGoogle,
-					FaceAffection.KissingFaceWithSmilingEyesFacebook,
-					FaceAffection.KissingFaceWithSmilingEyesWindows,
-					FaceAffection.KissingFaceWithSmilingEyesTwitter,
-					FaceAffection.KissingFaceWithSmilingEyesJoyPixels,
-					FaceAffection.KissingFaceWithSmilingEyesSamsung,
-					null,
-					null,
-					null,
-					null);
-			}
-			else
-			{
-				SomethingWentWrong();
-			}
-		}
+		private void ButtonKissingFaceWithSmilingEyes_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.kissingFaceWithSmilingEyes);
 
-		private void ButtonSmilingFaceWithTear_Click(object sender, EventArgs e)
-		{
-			if (buttonPickerMode.Checked)
-			{
-				CopyToClipboard(buttonSmilingFaceWithTear.Tag.ToString());
-			}
-			else if (buttonLibraryMode.Checked)
-			{
-				ShowEmojiInfo("U+1F972", buttonSmilingFaceWithTear.AccessibleName,
-					Resources.smileysAndEmotion, Resources.faceAffection,
-					buttonSmilingFaceWithTear.Tag,
-					null,
-					FaceAffection.SmilingFaceWithTearGoogle,
-					null,
-					null,
-					null,
-					FaceAffection.SmilingFaceWithTearJoyPixels,
-					null,
-					null,
-					null,
-					null,
-					null);
-			}
-			else
-			{
-				SomethingWentWrong();
-			}
-		}
+		private void ButtonSmilingFaceWithTear_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.smilingFaceWithTear);
 
 		private void ButtonFaceSavoringFood_Click(object sender, EventArgs e)
 		{

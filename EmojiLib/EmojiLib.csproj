@@ -104,6 +104,7 @@
     <Compile Include="AboutBoxForm.Designer.cs">
       <DependentUpon>AboutBoxForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AssemblyInfo.cs" />
     <Compile Include="EmojiInfoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -290,6 +291,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="emoji-lib.ico" />
+    <None Include="Resources\SmilingFaceWithTearTwitter.png" />
     <None Include="Resources\HearNoEvilMonkeyJoyPixels.png" />
     <None Include="Resources\SpeakNoEvilMonkeyTwitter.png" />
     <None Include="Resources\SpeakNoEvilMonkeySamsung.png" />
