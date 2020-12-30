@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using EmojiLib.Properties;
@@ -26,7 +28,7 @@ namespace EmojiLib
 
 		private static void SomethingWentWrong()
 		{
-			MessageBox.Show(Resources.somethingWentWrong, Resources.errorTitle, MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
+			MessageBox.Show(text: Resources.somethingWentWrong, caption: Resources.errorTitle, buttons: MessageBoxButtons.OK, icon: MessageBoxIcon.Error, defaultButton: MessageBoxDefaultButton.Button1);
 		}
 
 		private void SetStatusbar(string text)
@@ -45,83 +47,83 @@ namespace EmojiLib
 		{
 			if (sender is TextBox textBox)
 			{
-				SetStatusbar(text: (textBox).AccessibleDescription);
+				SetStatusbar(text: textBox.AccessibleDescription);
 			}
 			else if (sender is Button button)
 			{
-				SetStatusbar(text: (button).AccessibleDescription);
+				SetStatusbar(text: button.AccessibleDescription);
 			}
 			else if (sender is RadioButton radioButton)
 			{
-				SetStatusbar(text: (radioButton).AccessibleDescription);
+				SetStatusbar(text: radioButton.AccessibleDescription);
 			}
 			else if (sender is CheckBox checkBox)
 			{
-				SetStatusbar(text: (checkBox).AccessibleDescription);
+				SetStatusbar(text: checkBox.AccessibleDescription);
 			}
 			else if (sender is DateTimePicker dateTimePicker)
 			{
-				SetStatusbar(text: (dateTimePicker).AccessibleDescription);
+				SetStatusbar(text: dateTimePicker.AccessibleDescription);
 			}
 			else if (sender is Label label)
 			{
-				SetStatusbar(text: (label).AccessibleDescription);
+				SetStatusbar(text: label.AccessibleDescription);
 			}
 			else if (sender is PictureBox pictureBox)
 			{
-				SetStatusbar(text: (pictureBox).AccessibleDescription);
+				SetStatusbar(text: pictureBox.AccessibleDescription);
 			}
 			else if (sender is ToolStripButton toolStripButton)
 			{
-				SetStatusbar(text: (toolStripButton).AccessibleDescription);
+				SetStatusbar(text: toolStripButton.AccessibleDescription);
 			}
 			else if (sender is ToolStripMenuItem toolStripMenuItem)
 			{
-				SetStatusbar(text: (toolStripMenuItem).AccessibleDescription);
+				SetStatusbar(text: toolStripMenuItem.AccessibleDescription);
 			}
 			else if (sender is ToolStripLabel toolStripLabel)
 			{
-				SetStatusbar(text: (toolStripLabel).AccessibleDescription);
+				SetStatusbar(text: toolStripLabel.AccessibleDescription);
 			}
 			else if (sender is ToolStripComboBox toolStripComboBox)
 			{
-				SetStatusbar(text: (toolStripComboBox).AccessibleDescription);
+				SetStatusbar(text: toolStripComboBox.AccessibleDescription);
 			}
 			else if (sender is ToolStripDropDown toolStripDropDown)
 			{
-				SetStatusbar(text: (toolStripDropDown).AccessibleDescription);
+				SetStatusbar(text: toolStripDropDown.AccessibleDescription);
 			}
 			else if (sender is ToolStripDropDownButton toolStripDropDownButton)
 			{
-				SetStatusbar(text: (toolStripDropDownButton).AccessibleDescription);
+				SetStatusbar(text: toolStripDropDownButton.AccessibleDescription);
 			}
 			else if (sender is ToolStripDropDownItem toolStripDropDownItem)
 			{
-				SetStatusbar(text: (toolStripDropDownItem).AccessibleDescription);
+				SetStatusbar(text: toolStripDropDownItem.AccessibleDescription);
 			}
 			else if (sender is ToolStripDropDownMenu toolStripDropDownMenu)
 			{
-				SetStatusbar(text: (toolStripDropDownMenu).AccessibleDescription);
+				SetStatusbar(text: toolStripDropDownMenu.AccessibleDescription);
 			}
 			else if (sender is ToolStripProgressBar toolStripProgressBar2)
 			{
-				SetStatusbar(text: (toolStripProgressBar2).AccessibleDescription);
+				SetStatusbar(text: toolStripProgressBar2.AccessibleDescription);
 			}
 			else if (sender is ToolStripSplitButton toolStripSplitButton)
 			{
-				SetStatusbar(text: (toolStripSplitButton).AccessibleDescription);
+				SetStatusbar(text: toolStripSplitButton.AccessibleDescription);
 			}
 			else if (sender is ToolStripSeparator toolStripSeparator)
 			{
-				SetStatusbar(text: (toolStripSeparator).AccessibleDescription);
+				SetStatusbar(text: toolStripSeparator.AccessibleDescription);
 			}
 			else if (sender is ToolStripStatusLabel toolStripStatusLabel)
 			{
-				SetStatusbar(text: (toolStripStatusLabel).AccessibleDescription);
+				SetStatusbar(text: toolStripStatusLabel.AccessibleDescription);
 			}
 			else if (sender is ToolStripTextBox toolStripTextBox)
 			{
-				SetStatusbar(text: (toolStripTextBox).AccessibleDescription);
+				SetStatusbar(text: toolStripTextBox.AccessibleDescription);
 			}
 		}
 
@@ -158,21 +160,21 @@ namespace EmojiLib
 		{
 			using (EmojiInfoForm emojiInfo = new EmojiInfoForm())
 			{
-				emojiInfo.SetCode(code);
-				emojiInfo.SetShortName(shortName);
-				emojiInfo.SetGroup(group);
-				emojiInfo.SetSubGroup(subGroup);
-				emojiInfo.SetAppleImageVersion(appleVersion);
-				emojiInfo.SetGoogleImageVersion(googleVersion);
-				emojiInfo.SetFacebookImageVersion(facebookVersion);
-				emojiInfo.SetWindowsImageVersion(windowsVersion);
-				emojiInfo.SetTwitterImageVersion(twitterVersion);
-				emojiInfo.SetJoyPixelsImageVersion(joypixelsVersion);
-				emojiInfo.SetSamsungImageVersion(samsungVersion);
-				emojiInfo.SetGmailImageVersion(gmailVersion);
-				emojiInfo.SetDocomoImageVersion(docomoVersion);
-				emojiInfo.SetKddiImageVersion(kddiVersion);
-				emojiInfo.SetSoftbankImageVersion(softbankVersion);
+				emojiInfo.SetUnicode(code: code);
+				emojiInfo.SetFullName(name: shortName);
+				emojiInfo.SetGroup(group: group);
+				emojiInfo.SetSubGroup(subGroup: subGroup);
+				emojiInfo.SetAppleImage(image: appleVersion);
+				emojiInfo.SetGoogleImage(image: googleVersion);
+				emojiInfo.SetFacebookImage(image: facebookVersion);
+				emojiInfo.SetWindowsImage(image: windowsVersion);
+				emojiInfo.SetTwitterImage(image: twitterVersion);
+				emojiInfo.SetJoyPixelsImage(image: joypixelsVersion);
+				emojiInfo.SetSamsungImage(image: samsungVersion);
+				emojiInfo.SetGmailImage(image: gmailVersion);
+				emojiInfo.SetDocomoImage(image: docomoVersion);
+				emojiInfo.SetKddiImage(image: kddiVersion);
+				emojiInfo.SetSoftbankImage(image: softbankVersion);
 				emojiInfo.ShowDialog();
 			}
 		}
@@ -187,21 +189,21 @@ namespace EmojiLib
 			{
 				using (EmojiInfoForm emojiInfo = new EmojiInfoForm())
 				{
-					emojiInfo.SetCode(code: emoji.Unicode);
-					emojiInfo.SetShortName(name: emoji.FullName);
+					emojiInfo.SetUnicode(code: emoji.Unicode);
+					emojiInfo.SetFullName(name: emoji.FullName);
 					emojiInfo.SetGroup(group: emoji.Group);
 					emojiInfo.SetSubGroup(subGroup: emoji.SubGroup);
-					emojiInfo.SetAppleImageVersion(image: emoji.AppleIcon);
-					emojiInfo.SetGoogleImageVersion(image: emoji.GoogleIcon);
-					emojiInfo.SetFacebookImageVersion(image: emoji.FacebookIcon);
-					emojiInfo.SetWindowsImageVersion(image: emoji.WindowsIcon);
-					emojiInfo.SetTwitterImageVersion(image: emoji.TwitterIcon);
-					emojiInfo.SetJoyPixelsImageVersion(image: emoji.JoypixelsIcon);
-					emojiInfo.SetSamsungImageVersion(image: emoji.SamsungIcon);
-					emojiInfo.SetGmailImageVersion(image: emoji.GmailIcon);
-					emojiInfo.SetDocomoImageVersion(image: emoji.DocomoIcon);
-					emojiInfo.SetKddiImageVersion(image: emoji.KddiIcon);
-					emojiInfo.SetSoftbankImageVersion(image: emoji.SoftbankIcon);
+					emojiInfo.SetAppleImage(image: emoji.AppleIcon);
+					emojiInfo.SetGoogleImage(image: emoji.GoogleIcon);
+					emojiInfo.SetFacebookImage(image: emoji.FacebookIcon);
+					emojiInfo.SetWindowsImage(image: emoji.WindowsIcon);
+					emojiInfo.SetTwitterImage(image: emoji.TwitterIcon);
+					emojiInfo.SetJoyPixelsImage(image: emoji.JoypixelsIcon);
+					emojiInfo.SetSamsungImage(image: emoji.SamsungIcon);
+					emojiInfo.SetGmailImage(image: emoji.GmailIcon);
+					emojiInfo.SetDocomoImage(image: emoji.DocomoIcon);
+					emojiInfo.SetKddiImage(image: emoji.KddiIcon);
+					emojiInfo.SetSoftbankImage(image: emoji.SoftbankIcon);
 					emojiInfo.ShowDialog();
 				}
 			}
@@ -218,24 +220,40 @@ namespace EmojiLib
 
 		private void CopyToClipboard(string text)
 		{
-			if (!string.IsNullOrEmpty(text))
+			if (!string.IsNullOrEmpty(value: text))
 			{
 				try
 				{
-					Clipboard.SetText(text);
+					Clipboard.SetText(text: text);
 					SetCopiedToClipboardStatus();
 				}
 				catch (ExternalException exception)
 				{
-					MessageBox.Show(exception.Message);
+					MessageBox.Show(text: exception.Message, caption: Resources.warningTitle, buttons: MessageBoxButtons.OK, icon: MessageBoxIcon.Warning, defaultButton: MessageBoxDefaultButton.Button1);
 				}
 			}
 		}
 
+		private void SetButtonSizeInTabs(int width, int height)
+		{
+			toolStripProgressBar.Visible = true;
+			foreach (Button button in flowLayoutPanelSmileys.Controls.OfType<Button>())
+			{
+				button.Size = new Size(width: width, height: height);
+			}
+			foreach (Button button in flowLayoutPanelSearchResult.Controls.OfType<Button>())
+			{
+				button.Size = new Size(width: width, height: height);
+			}
+			toolStripProgressBar.Visible = false;
+		}
+
 		private void ShowAboutBox_Click(object sender, EventArgs e)
 		{
-			AboutBoxForm formAboutBox = new AboutBoxForm();
-			formAboutBox.ShowDialog();
+			using (AboutBoxForm formAboutBox = new AboutBoxForm())
+			{
+				formAboutBox.ShowDialog();
+			}
 		}
 
 		private void Exit_Click(object sender, EventArgs e)
@@ -286,67 +304,40 @@ namespace EmojiLib
 
 		private void ButtonEmojiSize16_Click(object sender, EventArgs e)
 		{
-			toolStripProgressBar.Visible = true;
 			buttonEmojiSize16.Checked = true;
 			buttonEmojiSize24.Checked = false;
 			buttonEmojiSize32.Checked = false;
-			foreach (var button in flowLayoutPanelSmileys.Controls.OfType<Button>())
-			{
-				button.Size = new Size(16, 16);
-			}
-			foreach (var button in flowLayoutPanelSearchResult.Controls.OfType<Button>())
-			{
-				button.Size = new Size(16, 16);
-			}
-			toolStripProgressBar.Visible = false;
+			SetButtonSizeInTabs(width: 16, height: 16);
 		}
 
 		private void ButtonEmojiSize24_Click(object sender, EventArgs e)
 		{
-			toolStripProgressBar.Visible = true;
 			buttonEmojiSize16.Checked = false;
 			buttonEmojiSize24.Checked = true;
 			buttonEmojiSize32.Checked = false;
-			foreach (var button in flowLayoutPanelSmileys.Controls.OfType<Button>())
-			{
-				button.Size = new Size(24, 24);
-			}
-			foreach (var button in flowLayoutPanelSearchResult.Controls.OfType<Button>())
-			{
-				button.Size = new Size(24, 24);
-			}
-			toolStripProgressBar.Visible = false;
+			SetButtonSizeInTabs(width: 24, height: 24);
 		}
 
 		private void ButtonEmojiSize32_Click(object sender, EventArgs e)
 		{
-			toolStripProgressBar.Visible = true;
 			buttonEmojiSize16.Checked = false;
 			buttonEmojiSize24.Checked = false;
 			buttonEmojiSize32.Checked = true;
-			foreach (var button in flowLayoutPanelSmileys.Controls.OfType<Button>())
-			{
-				button.Size = new Size(32, 32);
-			}
-			foreach (var button in flowLayoutPanelSearchResult.Controls.OfType<Button>())
-			{
-				button.Size = new Size(32, 32);
-			}
-			toolStripProgressBar.Visible = false;
+			SetButtonSizeInTabs(width: 32, height: 32);
 		}
 
 		private void ButtonSearch_Click(object sender, EventArgs e)
 		{
 			toolStripProgressBar.Visible = true;
 			toolStripButtonClearAll.Visible = false;
-			if (!string.IsNullOrWhiteSpace(textBoxSearch.Text.ToLower()))
+			if (!string.IsNullOrWhiteSpace(value: textBoxSearch.Text.ToUpperInvariant()))
 			{
 				flowLayoutPanelSearchResult.Controls.Clear();
 				List<Button> buttons = new List<Button>();
 				int capacity = 0;
-				foreach (var button in flowLayoutPanelSmileys.Controls.OfType<Button>())
+				foreach (Button button in flowLayoutPanelSmileys.Controls.OfType<Button>())
 				{
-					if (button.AccessibleDescription.Contains(textBoxSearch.Text))
+					if (button.AccessibleDescription.Contains(value: textBoxSearch.Text))
 					{
 						capacity++;
 						Button newButton = new Button
@@ -355,201 +346,46 @@ namespace EmojiLib
 							AccessibleName = button.AccessibleName,
 							AccessibleRole = button.AccessibleRole,
 							BackgroundImage = button.BackgroundImage,
-							BackgroundImageLayout = button.BackgroundImageLayout
+							BackgroundImageLayout = button.BackgroundImageLayout,
+							FlatStyle = button.FlatStyle,
+							Margin = button.Margin,
+							Name = button.Name,
+							Size = button.Size,
+							Tag = button.Tag,
+							Text = button.Text,
+							UseVisualStyleBackColor = button.UseVisualStyleBackColor
 						};
 						newButton.FlatAppearance.BorderSize = button.FlatAppearance.BorderSize;
 						newButton.FlatAppearance.CheckedBackColor = button.FlatAppearance.CheckedBackColor;
 						newButton.FlatAppearance.MouseDownBackColor = button.FlatAppearance.MouseDownBackColor;
-						newButton.FlatStyle = button.FlatStyle;
-						newButton.Margin = button.Margin;
-						newButton.Name = button.Name;
-						newButton.Size = button.Size;
-						newButton.Tag = button.Tag;
-						newButton.Text = button.Text;
-						toolTip.SetToolTip(newButton, button.AccessibleDescription);
-						newButton.UseVisualStyleBackColor = button.UseVisualStyleBackColor;
-						newButton.Click += Button_Click;
-						newButton.Enter += SetStatusbar_Enter;
-						newButton.Leave += ClearStatusbar_Leave;
-						newButton.MouseEnter += SetStatusbar_Enter;
-						newButton.MouseLeave += ClearStatusbar_Leave;
-						switch (newButton.Name)
-						{
-							case "buttonGrinningFace": newButton.Click += ButtonGrinningFace_Click; break;
-							case "buttonGrinningFaceWithBigEyes": newButton.Click += ButtonGrinningFaceWithBigEyes_Click; break;
-							case "buttonGrinningFaceWithSmilingEyes": newButton.Click += ButtonGrinningFaceWithSmilingEyes_Click; break;
-							case "buttonBeamingFaceWithSmilingEyes": newButton.Click += ButtonBeamingFaceWithSmilingEyes_Click; break;
-							case "buttonGrinningSquintingFace": newButton.Click += ButtonGrinningSquintingFace_Click; break;
-							case "buttonGrinningFaceWithSweat": newButton.Click += ButtonGrinningFaceWithSweat_Click; break;
-							case "buttonRollingOnTheFloorLaughing": newButton.Click += ButtonRollingOnTheFloorLaughing_Click; break;
-							case "buttonFaceWithTearsOfJoy": newButton.Click += ButtonFaceWithTearsOfJoy_Click; break;
-							case "buttonSlightlySmilingFace": newButton.Click += ButtonSlightlySmilingFace_Click; break;
-							case "buttonUpsideDownFace": newButton.Click += ButtonUpsideDownFace_Click; break;
-							case "buttonWinkingFace": newButton.Click += ButtonWinkingFace_Click; break;
-							case "buttonSmilingFaceWithSmilingEyes": newButton.Click += ButtonGrinningFace_Click; break;
-							case "buttonSmilingFaceWithHalo": newButton.Click += ButtonSmilingFaceWithHalo_Click; break;
-							case "buttonSmilingFaceWithHearts": newButton.Click += ButtonSmilingFaceWithHearts_Click; break;
-							case "buttonSmilingFaceWithHeartEyes": newButton.Click += ButtonSmilingFaceWithHeartEyes_Click; break;
-							case "buttonStarStruck": newButton.Click += ButtonStarStruck_Click; break;
-							case "buttonFaceBlowingAKiss": newButton.Click += ButtonFaceBlowingAKiss_Click; break;
-							case "buttonKissingFace": newButton.Click += ButtonKissingFace_Click; break;
-							case "buttonSmilingFaceFace": newButton.Click += ButtonSmilingFace_Click; break;
-							case "buttonKissingFaceWithClosedEyes": newButton.Click += ButtonKissingFaceWithClosedEyes_Click; break;
-							case "buttonKissingFaceWithSmilingEyes": newButton.Click += ButtonKissingFaceWithSmilingEyes_Click; break;
-							case "buttonSmilingFaceWithTear": newButton.Click += ButtonSmilingFaceWithTear_Click; break;
-							case "buttonFaceSavoringFood": newButton.Click += ButtonFaceSavoringFood_Click; break;
-							case "buttonFaceWithTongue": newButton.Click += ButtonFaceWithTongue_Click; break;
-							case "buttonWinkingFaceWithTongue": newButton.Click += ButtonWinkingFaceWithTongue_Click; break;
-							case "buttonZanyFace": newButton.Click += ButtonZanyFace_Click; break;
-							case "buttonSquintingFaceWithTongue": newButton.Click += ButtonSquintingFaceWithTongue_Click; break;
-							case "buttonMoneyMouthFace": newButton.Click += ButtonMoneyMouthFace_Click; break;
-							case "buttonHuggingFace": newButton.Click += ButtonHuggingFace_Click; break;
-							case "buttonFaceWithHandOverMouth": newButton.Click += ButtonFaceWithHandOverMouth_Click; break;
-							case "buttonShushingFace": newButton.Click += ButtonShushingFace_Click; break;
-							case "buttonThinkingFace": newButton.Click += ButtonThinkingFace_Click; break;
-							case "buttonZipperMouthFace": newButton.Click += ButtonZipperMouthFace_Click; break;
-							case "buttonFaceWithRaisedEyebrow": newButton.Click += ButtonFaceWithRaisedEyebrow_Click; break;
-							case "buttonNeutralFace": newButton.Click += ButtonNeutralFace_Click; break;
-							case "buttonExpressionlessFace": newButton.Click += ButtonExpressionlessFace_Click; break;
-							case "buttonFaceWithoutMouth": newButton.Click += ButtonFaceWithoutMouth_Click; break;
-							case "buttonSmirkingFace": newButton.Click += ButtonSmirkingFace_Click; break;
-							case "buttonUnamusedFace": newButton.Click += ButtonUnamusedFace_Click; break;
-							case "buttonFaceWithRollingEyes": newButton.Click += ButtonFaceWithRollingEyes_Click; break;
-							case "buttonGrimacingFace": newButton.Click += ButtonGrimacingFace_Click; break;
-							case "buttonLyingFace": newButton.Click += ButtonLyingFace_Click; break;
-							case "buttonRelievedFace": newButton.Click += ButtonRelievedFace_Click; break;
-							case "buttonPensiveFace": newButton.Click += ButtonPensiveFace_Click; break;
-							case "buttonSleepyFace": newButton.Click += ButtonSleepyFace_Click; break;
-							case "buttonDroolingFace": newButton.Click += ButtonDroolingFace_Click; break;
-							case "buttonSleepingFace": newButton.Click += ButtonSleepingFace_Click; break;
-							case "buttonFaceWithMedicalMask": newButton.Click += ButtonFaceWithMedicalMask_Click; break;
-							case "buttonFaceWithThermometer": newButton.Click += ButtonFaceWithThermometer_Click; break;
-							case "buttonFaceWithHeadBandage": newButton.Click += ButtonFaceWithHeadBandage_Click; break;
-							case "buttonNauseatedFace": newButton.Click += ButtonNauseatedFace_Click; break;
-							case "buttonFaceVomiting": newButton.Click += ButtonFaceVomiting_Click; break;
-							case "buttonSneezingFace": newButton.Click += ButtonSneezingFace_Click; break;
-							case "buttonHotFace": newButton.Click += ButtonHotFace_Click; break;
-							case "buttonColdFace": newButton.Click += ButtonColdFace_Click; break;
-							case "buttonWoozyFace": newButton.Click += ButtonWoozyFace_Click; break;
-							case "buttonDizzyFace": newButton.Click += ButtonDizzyFace_Click; break;
-							case "buttonExplodingHead": newButton.Click += ButtonExplodingHead_Click; break;
-							case "buttonCowboyHatFace": newButton.Click += ButtonCowboyHatFace_Click; break;
-							case "buttonPartyingFace": newButton.Click += ButtonPartyingFace_Click; break;
-							case "buttonDisguisedFace": newButton.Click += ButtonDisguisedFace_Click; break;
-							case "buttonSmilingFaceWithSunglasses": newButton.Click += ButtonSmilingFaceWithSunglasses_Click; break;
-							case "buttonNerdFace": newButton.Click += ButtonNerdFace_Click; break;
-							case "buttonFaceWithMonocle": newButton.Click += ButtonFaceWithMonocle_Click; break;
-							case "buttonConfusedFace": newButton.Click += ButtonConfusedFace_Click; break;
-							case "buttonWorriedFace": newButton.Click += ButtonWorriedFace_Click; break;
-							case "buttonSlightlyFrowningFace": newButton.Click += ButtonSlightlyFrowningFace_Click; break;
-							case "buttonFrowningFace": newButton.Click += ButtonFrowningFace_Click; break;
-							case "buttonFaceWithOpenMouth": newButton.Click += ButtonFaceWithOpenMouth_Click; break;
-							case "buttonHushedFace": newButton.Click += ButtonHushedFace_Click; break;
-							case "buttonAstonishedFace": newButton.Click += ButtonAstonishedFace_Click; break;
-							case "buttonFlushedFace": newButton.Click += ButtonFlushedFace_Click; break;
-							case "buttonPleadingFace": newButton.Click += ButtonPleadingFace_Click; break;
-							case "buttonFrowningFaceWithOpenMouth": newButton.Click += ButtonFrowningFaceWithOpenMouth_Click; break;
-							case "buttonAnguishedFace": newButton.Click += ButtonAnguishedFace_Click; break;
-							case "buttonFearfulFace": newButton.Click += ButtonFearfulFace_Click; break;
-							case "buttonAnxiousFaceWithSweat": newButton.Click += ButtonAnxiousFaceWithSweat_Click; break;
-							case "buttonSadButRelievedFace": newButton.Click += ButtonSadButRelievedFace_Click; break;
-							case "buttonCryingFace": newButton.Click += ButtonCryingFace_Click; break;
-							case "buttonLoudlyCryingFace": newButton.Click += ButtonLoudlyCryingFace_Click; break;
-							case "buttonFaceScreamingInFear": newButton.Click += ButtonFaceScreamingInFear_Click; break;
-							case "buttonConfoundedFace": newButton.Click += ButtonConfoundedFace_Click; break;
-							case "buttonPerseveringFace": newButton.Click += ButtonPerseveringFace_Click; break;
-							case "buttonDisappointedFace": newButton.Click += ButtonDisappointedFace_Click; break;
-							case "buttonDowncastFaceWithSweat": newButton.Click += ButtonGrinningFace_Click; break;
-							case "buttonWearyFace": newButton.Click += ButtonWearyFace_Click; break;
-							case "buttonTiredFace": newButton.Click += ButtonTiredFace_Click; break;
-							case "buttonYawningFace": newButton.Click += ButtonYawningFace_Click; break;
-							case "buttonFaceWithSteamFromNose": newButton.Click += ButtonFaceWithSteamFromNose_Click; break;
-							case "buttonPoutingFace": newButton.Click += ButtonPoutingFace_Click; break;
-							case "buttonAngryFace": newButton.Click += ButtonAngryFace_Click; break;
-							case "buttonFaceWithSymbolsOnMouth": newButton.Click += ButtonFaceWithSymbolsOnMouth_Click; break;
-							case "buttonSmilingFaceWithHorns": newButton.Click += ButtonSmilingFaceWithHorns_Click; break;
-							case "buttonAngryFaceWithHorns": newButton.Click += ButtonAngryFaceWithHorns_Click; break;
-							case "buttonSkull": newButton.Click += ButtonSkull_Click; break;
-							case "buttonSkullAndCrossbones": newButton.Click += ButtonSkullAndCrossbones_Click; break;
-							case "buttonPileOfPoo": newButton.Click += ButtonPileOfPoo_Click; break;
-							case "buttonClownFace": newButton.Click += ButtonClownFace_Click; break;
-							case "buttonOgre": newButton.Click += ButtonOgre_Click; break;
-							case "buttonGoblin": newButton.Click += ButtonGoblin_Click; break;
-							case "buttonGhost": newButton.Click += ButtonGhost_Click; break;
-							case "buttonAlien": newButton.Click += ButtonAlien_Click; break;
-							case "buttonAlienMonster": newButton.Click += ButtonAlienMonster_Click; break;
-							case "buttonRobot": newButton.Click += ButtonRobot_Click; break;
-							case "buttonGrinningCat": newButton.Click += ButtonGrinningCat_Click; break;
-							case "buttonGrinningCatWithSmilingEyes": newButton.Click += Button_Click; break;
-							case "buttonCatWithTearsOfJoy": newButton.Click += ButtonCatWithTearsOfJoy_Click; break;
-							case "buttonSmilingCatWithHeartEyes": newButton.Click += ButtonSmilingCatWithHeartEyes_Click; break;
-							case "buttonCatWithWrySmile": newButton.Click += ButtonCatWithWrySmile_Click; break;
-							case "buttonKissingCat": newButton.Click += ButtonKissingCat_Click; break;
-							case "buttonWearyCat": newButton.Click += ButtonWearyCat_Click; break;
-							case "buttonCryingCat": newButton.Click += ButtonCryingCat_Click; break;
-							case "buttonPoutingCat": newButton.Click += ButtonPoutingCat_Click; break;
-							case "buttonSeeNoEvilMonkey": newButton.Click += ButtonSeeNoEvilMonkey_Click; break;
-							case "buttonHearNoEvilMonkey": newButton.Click += ButtonHearNoEvilMonkey_Click; break;
-							case "buttonSpeakNoEvilMonkey": newButton.Click += ButtonSpeakNoEvilMonkey_Click; break;
-							case "buttonKissMark": newButton.Click += ButtonKissMark_Click; break;
-							case "buttonLoveLetter": newButton.Click += ButtonLoveLetter_Click; break;
-							case "buttonHeartWithArrow": newButton.Click += ButtonHeartWithArrow_Click; break;
-							case "buttonHeartWithRibbon": newButton.Click += ButtonHeartWithRibbon_Click; break;
-							case "buttonSparklingHeart": newButton.Click += ButtonSparklingHeart_Click; break;
-							case "buttonGrowingHeart": newButton.Click += ButtonGrowingHeart_Click; break;
-							case "buttonBeatingHeart": newButton.Click += ButtonBeatingHeart_Click; break;
-							case "buttonRevolvingHearts": newButton.Click += ButtonRevolvingHearts_Click; break;
-							case "buttonTwoHearts": newButton.Click += ButtonTwoHearts_Click; break;
-							case "buttonHeartDecoration": newButton.Click += ButtonHeartDecoration_Click; break;
-							case "buttonHeartExclamation": newButton.Click += ButtonHeartExclamation_Click; break;
-							case "buttonBrokenHeart": newButton.Click += ButtonBrokenHeart_Click; break;
-							case "buttonRedHeart": newButton.Click += ButtonRedHeart_Click; break;
-							case "buttonOrangeHeart": newButton.Click += ButtonOrangeHeart_Click; break;
-							case "buttonYellowHeart": newButton.Click += ButtonYellowHeart_Click; break;
-							case "buttonGreenHeart": newButton.Click += ButtonGreenHeart_Click; break;
-							case "buttonBlueHeart": newButton.Click += ButtonBlueHeart_Click; break;
-							case "buttonPurpleHeart": newButton.Click += ButtonPurpleHeart_Click; break;
-							case "buttonBrownHeart": newButton.Click += ButtonBrownHeart_Click; break;
-							case "buttonBlackHeart": newButton.Click += ButtonBlackHeart_Click; break;
-							case "buttonWhiteHeart": newButton.Click += ButtonWhiteHeart_Click; break;
-							case "buttonHundredPoints": newButton.Click += ButtonHundredPoints_Click; break;
-							case "buttonAngerSymbol": newButton.Click += ButtonAngerSymbol_Click; break;
-							case "buttonCollision": newButton.Click += ButtonCollision_Click; break;
-							case "buttonDizzy": newButton.Click += ButtonDizzy_Click; break;
-							case "buttonSweatDroplets": newButton.Click += ButtonSweatDroplets_Click; break;
-							case "buttonDashingAway": newButton.Click += ButtonDashingAway_Click; break;
-							case "buttonHole": newButton.Click += ButtonHole_Click; break;
-							case "buttonBomb": newButton.Click += ButtonBomb_Click; break;
-							case "buttonSpeechBalloon": newButton.Click += ButtonSpeechBalloon_Click; break;
-							case "buttonEyeInSpeechBubble": newButton.Click += ButtonEyeInSpeechBubble_Click; break;
-							case "buttonLeftSpeechBubble": newButton.Click += ButtonLeftSpeechBubble_Click; break;
-							case "buttonRightAngerBubble": newButton.Click += ButtonRightAngerBubble_Click; break;
-							case "buttonThoughtBalloon": newButton.Click += ButtonThoughtBalloon_Click; break;
-							default: newButton.Click += Button_Click; break;
-						}
+						toolTip.SetToolTip(control: newButton, caption: button.AccessibleDescription);
+						//To clone all events of any WinForms control
+						FieldInfo eventsField = typeof(System.ComponentModel.Component).GetField(name: "events", bindingAttr: BindingFlags.NonPublic | BindingFlags.Instance);
+						object eventHandlerList = eventsField.GetValue(obj: button);
+						eventsField.SetValue(obj: newButton, value: eventHandlerList);
 						buttons.Capacity = capacity;
-						buttons.Add(newButton);
+						buttons.Add(item: newButton);
 					}
 				}
 				if (capacity > 0)
 				{
 					for (int i = 0; i < buttons.Capacity; i++)
 					{
-						flowLayoutPanelSearchResult.Controls.Add(buttons[i]);
+						flowLayoutPanelSearchResult.Controls.Add(value: buttons[index: i]);
 					}
 				}
 				else
 				{
 					toolStripProgressBar.Visible = false;
 					toolStripButtonClearAll.Visible = true;
-					MessageBox.Show(Resources.nothingFound, Resources.warningTitle, MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
+					MessageBox.Show(text: Resources.nothingFound, caption: Resources.warningTitle, buttons: MessageBoxButtons.OK, icon: MessageBoxIcon.Warning, defaultButton: MessageBoxDefaultButton.Button1);
 				}
 			}
 			else
 			{
 				toolStripProgressBar.Visible = false;
 				toolStripButtonClearAll.Visible = true;
-				MessageBox.Show(Resources.pleaseEnterASearchTerm, Resources.warningTitle, MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
+				MessageBox.Show(text: Resources.pleaseEnterASearchTerm, caption: Resources.warningTitle, buttons: MessageBoxButtons.OK, icon: MessageBoxIcon.Warning, defaultButton: MessageBoxDefaultButton.Button1);
 			}
 			toolStripProgressBar.Visible = false;
 			toolStripButtonClearAll.Visible = true;
@@ -563,35 +399,76 @@ namespace EmojiLib
 
 		private void Button_Click(object sender, EventArgs e)
 		{
-			Button button = sender as Button;
-			CopyToClipboard(button.Tag.ToString());
+			using (Button button = sender as Button)
+			{
+				CopyToClipboard(text: button.Tag.ToString());
+			}
 		}
 
-		private void ButtonGrinningFace_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.grinningFace);
+		private void ButtonGrinningFace_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo2(emoji: EmojiSet.grinningFace);
+		}
 
-		private void ButtonGrinningFaceWithBigEyes_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.grinningFaceWithBigEyes);
+		private void ButtonGrinningFaceWithBigEyes_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo2(emoji: EmojiSet.grinningFaceWithBigEyes);
+		}
 
-		private void ButtonGrinningFaceWithSmilingEyes_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.grinningFaceWithSmilingEyes);
+		private void ButtonGrinningFaceWithSmilingEyes_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo2(emoji: EmojiSet.grinningFaceWithSmilingEyes);
+		}
 
-		private void ButtonBeamingFaceWithSmilingEyes_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.beamingFaceWithSmilingEyes);
+		private void ButtonBeamingFaceWithSmilingEyes_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo2(emoji: EmojiSet.beamingFaceWithSmilingEyes);
+		}
 
-		private void ButtonGrinningSquintingFace_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.grinningSquintingFace);
+		private void ButtonGrinningSquintingFace_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo2(emoji: EmojiSet.grinningSquintingFace);
+		}
 
-		private void ButtonGrinningFaceWithSweat_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.grinningFaceWithSweat);
+		private void ButtonGrinningFaceWithSweat_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo2(emoji: EmojiSet.grinningFaceWithSweat);
+		}
 
-		private void ButtonRollingOnTheFloorLaughing_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.rollingOnTheFloorLaughing);
+		private void ButtonRollingOnTheFloorLaughing_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo2(emoji: EmojiSet.rollingOnTheFloorLaughing);
+		}
 
-		private void ButtonFaceWithTearsOfJoy_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.faceWithTearsOfJoy);
+		private void ButtonFaceWithTearsOfJoy_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo2(emoji: EmojiSet.faceWithTearsOfJoy);
+		}
 
-		private void ButtonSlightlySmilingFace_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.slightlySmilingFace);
+		private void ButtonSlightlySmilingFace_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo2(emoji: EmojiSet.slightlySmilingFace);
+		}
 
-		private void ButtonUpsideDownFace_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.upsideDownFace);
+		private void ButtonUpsideDownFace_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo2(emoji: EmojiSet.upsideDownFace);
+		}
 
-		private void ButtonWinkingFace_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.winkingFace);
+		private void ButtonWinkingFace_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo2(emoji: EmojiSet.winkingFace);
+		}
 
-		private void ButtonSmilingFaceWithSmilingEyes_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.smilingFaceWithSmilingEyes);
+		private void ButtonSmilingFaceWithSmilingEyes_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo2(emoji: EmojiSet.smilingFaceWithSmilingEyes);
+		}
 
-		private void ButtonSmilingFaceWithHalo_Click(object sender, EventArgs e) => ShowEmojiInfo2(emoji: EmojiSet.smilingFaceWithHalo);
+		private void ButtonSmilingFaceWithHalo_Click(object sender, EventArgs e)
+		{
+			ShowEmojiInfo2(emoji: EmojiSet.smilingFaceWithHalo);
+		}
 
 		private void ButtonSmilingFaceWithHearts_Click(object sender, EventArgs e)
 		{

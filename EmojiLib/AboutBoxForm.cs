@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Linq;
+﻿using System.IO;
 using System.Reflection;
 using System.Windows.Forms;
 
@@ -13,12 +9,12 @@ namespace EmojiLib
 		public AboutBoxForm()
 		{
 			InitializeComponent();
-			this.Text = String.Format("Info über {0}", AssemblyTitle);
-			this.labelProductName.Text = AssemblyProduct;
-			this.labelVersion.Text = String.Format("Version {0}", AssemblyVersion);
-			this.labelCopyright.Text = AssemblyCopyright;
-			this.labelCompanyName.Text = AssemblyCompany;
-			this.textBoxDescription.Text = AssemblyDescription;
+			Text = $"Info über {AssemblyTitle}";
+			labelProductName.Text = AssemblyProduct;
+			labelVersion.Text = $"Version {AssemblyVersion}";
+			labelCopyright.Text = AssemblyCopyright;
+			labelCompanyName.Text = AssemblyCompany;
+			textBoxDescription.Text = AssemblyDescription;
 		}
 
 		#region Assemblyattributaccessoren
@@ -27,37 +23,31 @@ namespace EmojiLib
 		{
 			get
 			{
-				object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyTitleAttribute), false);
+				object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(attributeType: typeof(AssemblyTitleAttribute), inherit: false);
 				if (attributes.Length > 0)
 				{
-					AssemblyTitleAttribute titleAttribute = (AssemblyTitleAttribute)attributes[0];
-					if (titleAttribute.Title != "")
+					AssemblyTitleAttribute titleAttribute = attributes[0] as AssemblyTitleAttribute;
+					if (!string.IsNullOrEmpty(value: titleAttribute.Title))
 					{
 						return titleAttribute.Title;
 					}
 				}
-				return System.IO.Path.GetFileNameWithoutExtension(Assembly.GetExecutingAssembly().CodeBase);
+				return Path.GetFileNameWithoutExtension(path: Assembly.GetExecutingAssembly().CodeBase);
 			}
 		}
 
-		public static string AssemblyVersion
-		{
-			get
-			{
-				return Assembly.GetExecutingAssembly().GetName().Version.ToString();
-			}
-		}
+		public static string AssemblyVersion => Assembly.GetExecutingAssembly().GetName().Version.ToString();
 
 		public static string AssemblyDescription
 		{
 			get
 			{
-				object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyDescriptionAttribute), false);
+				object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(attributeType: typeof(AssemblyDescriptionAttribute), inherit: false);
 				if (attributes.Length == 0)
 				{
 					return "";
 				}
-				return ((AssemblyDescriptionAttribute)attributes[0]).Description;
+				return (attributes[0] as AssemblyDescriptionAttribute)?.Description;
 			}
 		}
 
@@ -65,12 +55,12 @@ namespace EmojiLib
 		{
 			get
 			{
-				object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyProductAttribute), false);
+				object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(attributeType: typeof(AssemblyProductAttribute), inherit: false);
 				if (attributes.Length == 0)
 				{
 					return "";
 				}
-				return ((AssemblyProductAttribute)attributes[0]).Product;
+				return (attributes[0] as AssemblyProductAttribute)?.Product;
 			}
 		}
 
@@ -78,12 +68,12 @@ namespace EmojiLib
 		{
 			get
 			{
-				object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyCopyrightAttribute), false);
+				object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(attributeType: typeof(AssemblyCopyrightAttribute), inherit: false);
 				if (attributes.Length == 0)
 				{
 					return "";
 				}
-				return ((AssemblyCopyrightAttribute)attributes[0]).Copyright;
+				return (attributes[0] as AssemblyCopyrightAttribute)?.Copyright;
 			}
 		}
 
@@ -91,12 +81,12 @@ namespace EmojiLib
 		{
 			get
 			{
-				object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyCompanyAttribute), false);
+				object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(attributeType: typeof(AssemblyCompanyAttribute), inherit: false);
 				if (attributes.Length == 0)
 				{
 					return "";
 				}
-				return ((AssemblyCompanyAttribute)attributes[0]).Company;
+				return (attributes[0] as AssemblyCompanyAttribute)?.Company;
 			}
 		}
 		#endregion

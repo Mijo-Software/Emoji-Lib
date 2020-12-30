@@ -4347,7 +4347,7 @@
 			this.labelCopiedStatus.Image = global::EmojiLib.Properties.Resources.fatcow_clipboard_paste;
 			this.labelCopiedStatus.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
 			this.labelCopiedStatus.Name = "labelCopiedStatus";
-			this.labelCopiedStatus.Size = new System.Drawing.Size(285, 17);
+			this.labelCopiedStatus.Size = new System.Drawing.Size(254, 17);
 			this.labelCopiedStatus.Spring = true;
 			this.labelCopiedStatus.Text = "Copied";
 			this.labelCopiedStatus.TextAlign = System.Drawing.ContentAlignment.MiddleRight;

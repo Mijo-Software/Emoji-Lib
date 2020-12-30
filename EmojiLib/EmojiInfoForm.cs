@@ -8,15 +8,15 @@ namespace EmojiLib
 	{
 		public void SetTag(object tag) => Tag = tag;
 
-		public void SetCode(string code) => labelCodeDesc.Text = code;
+		public void SetUnicode(string code) => labelCodeDesc.Text = code;
 
-		public void SetShortName(string name) => labelShortNameDesc.Text = name;
+		public void SetFullName(string name) => labelShortNameDesc.Text = name;
 
 		public void SetGroup(string group) => labelGroupDesc.Text = group;
 
 		public void SetSubGroup(string subGroup) => labelSubGroupDesc.Text = subGroup;
 
-		public void SetAppleImageVersion(Image image)
+		public void SetAppleImage(Image image)
 		{
 			if (image == null)
 			{
@@ -29,7 +29,7 @@ namespace EmojiLib
 			}
 		}
 
-		public void SetGoogleImageVersion(Image image)
+		public void SetGoogleImage(Image image)
 		{
 			if (image == null)
 			{
@@ -42,7 +42,7 @@ namespace EmojiLib
 			}
 		}
 
-		public void SetFacebookImageVersion(Image image)
+		public void SetFacebookImage(Image image)
 		{
 			if (image == null)
 			{
@@ -55,7 +55,7 @@ namespace EmojiLib
 			}
 		}
 
-		public void SetWindowsImageVersion(Image image)
+		public void SetWindowsImage(Image image)
 		{
 			if (image == null)
 			{
@@ -68,7 +68,7 @@ namespace EmojiLib
 			}
 		}
 
-		public void SetTwitterImageVersion(Image image)
+		public void SetTwitterImage(Image image)
 		{
 			if (image == null)
 			{
@@ -81,7 +81,7 @@ namespace EmojiLib
 			}
 		}
 
-		public void SetJoyPixelsImageVersion(Image image)
+		public void SetJoyPixelsImage(Image image)
 		{
 			if (image == null)
 			{
@@ -94,7 +94,7 @@ namespace EmojiLib
 			}
 		}
 
-		public void SetSamsungImageVersion(Image image)
+		public void SetSamsungImage(Image image)
 		{
 			if (image == null)
 			{
@@ -107,7 +107,7 @@ namespace EmojiLib
 			}
 		}
 
-		public void SetGmailImageVersion(Image image)
+		public void SetGmailImage(Image image)
 		{
 			if (image == null)
 			{
@@ -120,7 +120,7 @@ namespace EmojiLib
 			}
 		}
 
-		public void SetDocomoImageVersion(Image image)
+		public void SetDocomoImage(Image image)
 		{
 			if (image == null)
 			{
@@ -133,7 +133,7 @@ namespace EmojiLib
 			}
 		}
 
-		public void SetKddiImageVersion(Image image)
+		public void SetKddiImage(Image image)
 		{
 			if (image == null)
 			{
@@ -146,7 +146,7 @@ namespace EmojiLib
 			}
 		}
 
-		public void SetSoftbankImageVersion(Image image)
+		public void SetSoftbankImage(Image image)
 		{
 			if (image == null)
 			{
@@ -330,122 +330,89 @@ namespace EmojiLib
 
 		private void PictureBoxApple_Click(object sender, EventArgs e)
 		{
-			if (pictureBoxApple.Image != null)
+			if (pictureBoxApple.Image != null && saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 			{
-				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
-				{
-					pictureBoxApple.Image.Save(filename: saveFileDialogAsPng.FileName);
-				}
+				pictureBoxApple.Image.Save(filename: saveFileDialogAsPng.FileName);
 			}
 		}
 
 		private void PictureBoxGoogle_Click(object sender, EventArgs e)
 		{
-			if (pictureBoxGoogle.Image != null)
+			if (pictureBoxGoogle.Image != null && saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 			{
-				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
-				{
-					pictureBoxGoogle.Image.Save(filename: saveFileDialogAsPng.FileName);
-				}
+				pictureBoxGoogle.Image.Save(filename: saveFileDialogAsPng.FileName);
 			}
 		}
 
 		private void PictureBoxFacebook_Click(object sender, EventArgs e)
 		{
-			if (pictureBoxFacebook.Image != null)
+			if (pictureBoxFacebook.Image != null && saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 			{
-				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
-				{
-					pictureBoxFacebook.Image.Save(filename: saveFileDialogAsPng.FileName);
-				}
+				pictureBoxFacebook.Image.Save(filename: saveFileDialogAsPng.FileName);
 			}
 		}
 
 		private void PictureBoxWindows_Click(object sender, EventArgs e)
 		{
-			if (pictureBoxWindows.Image != null)
+			if (pictureBoxWindows.Image != null && saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 			{
-				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
-				{
-					pictureBoxWindows.Image.Save(filename: saveFileDialogAsPng.FileName);
-				}
+				pictureBoxWindows.Image.Save(filename: saveFileDialogAsPng.FileName);
 			}
 		}
 
 		private void PictureBoxTwitter_Click(object sender, EventArgs e)
 		{
-			if (pictureBoxTwitter.Image != null)
+			if (pictureBoxTwitter.Image != null && saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 			{
-				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
-				{
-					pictureBoxTwitter.Image.Save(filename: saveFileDialogAsPng.FileName);
-				}
+				pictureBoxTwitter.Image.Save(filename: saveFileDialogAsPng.FileName);
 			}
 		}
 
 		private void PictureBoxJoyPixels_Click(object sender, EventArgs e)
 		{
-			if (pictureBoxJoyPixels.Image != null)
+			if (pictureBoxJoyPixels.Image != null && saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 			{
-				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
-				{
-					pictureBoxJoyPixels.Image.Save(filename: saveFileDialogAsPng.FileName);
-				}
+				pictureBoxJoyPixels.Image.Save(filename: saveFileDialogAsPng.FileName);
 			}
 		}
 
 		private void PictureBoxSamsung_Click(object sender, EventArgs e)
 		{
-			if (pictureBoxSamsung.Image != null)
+			if (pictureBoxSamsung.Image != null && saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
 			{
-				if (saveFileDialogAsPng.ShowDialog() == DialogResult.OK)
-				{
-					pictureBoxSamsung.Image.Save(filename: saveFileDialogAsPng.FileName);
-				}
+				pictureBoxSamsung.Image.Save(filename: saveFileDialogAsPng.FileName);
 			}
 		}
 
 		private void PictureBoxGmail_Click(object sender, EventArgs e)
 		{
-			if (pictureBoxGmail.Image != null)
+			if (pictureBoxGmail.Image != null && saveFileDialogAsGif.ShowDialog() == DialogResult.OK)
 			{
-				if (saveFileDialogAsGif.ShowDialog() == DialogResult.OK)
-				{
-					pictureBoxGmail.Image.Save(filename: saveFileDialogAsGif.FileName);
-				}
+				pictureBoxGmail.Image.Save(filename: saveFileDialogAsGif.FileName);
 			}
 		}
 
 		private void PictureBoxDocomo_Click(object sender, EventArgs e)
 		{
-			if (pictureBoxDocomo.Image != null)
+			if (pictureBoxDocomo.Image != null && saveFileDialogAsGif.ShowDialog() == DialogResult.OK)
 			{
-				if (saveFileDialogAsGif.ShowDialog() == DialogResult.OK)
-				{
-					pictureBoxDocomo.Image.Save(filename: saveFileDialogAsGif.FileName);
-				}
+				pictureBoxDocomo.Image.Save(filename: saveFileDialogAsGif.FileName);
 			}
 		}
 
 		private void PictureBoxKddi_Click(object sender, EventArgs e)
 		{
-			if (pictureBoxKddi.Image != null)
+			if (pictureBoxKddi.Image != null && saveFileDialogAsGif.ShowDialog() == DialogResult.OK)
 			{
-				if (saveFileDialogAsGif.ShowDialog() == DialogResult.OK)
-				{
-					pictureBoxKddi.Image.Save(filename: saveFileDialogAsGif.FileName);
-				}
+				pictureBoxKddi.Image.Save(filename: saveFileDialogAsGif.FileName);
 			}
 		}
 
 		private void PictureBoxSoftbank_Click(object sender, EventArgs e)
 		{
-			if (pictureBoxSoftbank.Image != null)
+			if (pictureBoxSoftbank.Image != null && saveFileDialogAsGif.ShowDialog() == DialogResult.OK)
 			{
-				if (saveFileDialogAsGif.ShowDialog() == DialogResult.OK)
-				{
-					pictureBoxSoftbank.Image.Save(filename: saveFileDialogAsGif.FileName);
-				}
+				pictureBoxSoftbank.Image.Save(filename: saveFileDialogAsGif.FileName);
 			}
 		}
 	}
