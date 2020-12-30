@@ -310,6 +310,9 @@
   <data name="SmilingFaceWithTearJoyPixels" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\SmilingFaceWithTearJoyPixels.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SmilingFaceWithTearTwitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\smilingFaceWithTearTwitter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="StarStruckApple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\StarStruckApple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
